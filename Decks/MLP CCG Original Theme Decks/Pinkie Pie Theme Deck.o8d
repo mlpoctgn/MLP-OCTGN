@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="65656467-b709-43b2-a5c6-80c2f216adf9">
+  <section name="Friends" shared="False">
+    <card qty="2" id="7b846d4a-b904-481a-9e51-2a321cf9a097">Big Top</card>
+    <card qty="2" id="ed4b8833-5d8e-4434-8d4b-def5837e5fee">Apple Brown Betty</card>
+    <card qty="3" id="c11de2e1-d83b-45b5-9d14-555ec552e6e6">Berry Dreams</card>
+    <card qty="2" id="62237676-b22e-4b14-8ebb-2f6fa3ce46df">Dance Fever</card>
+    <card qty="2" id="c470fd94-4e06-4508-aa07-3e42d3b194f9">Flitter</card>
+    <card qty="2" id="870fafc3-f161-4dd6-b5d1-0c145f724837">Ol' Salt</card>
+    <card qty="2" id="4c00ffdb-29fb-4fa2-8e04-301f8f5b8e70">Hoity Toity</card>
+    <card qty="2" id="77d5d1db-da82-4284-82ef-246392b44044">Pearly Stitch</card>
+    <card qty="2" id="28fe67de-d8d6-47de-8f41-b4a8f772fe71">Noteworthy</card>
+    <card qty="2" id="9cebb3dc-54af-4dde-a792-61f1a95c2ed2">Rising Star</card>
+    <card qty="2" id="2dfb36bc-a296-42b2-ba23-c9bb32a3c24b">Royal Riff</card>
+    <card qty="3" id="ea6d0440-e9de-4889-a578-3f094b136e3d">Sugar Twist</card>
+    <card qty="2" id="d1d1e799-c57b-4da7-8154-81b0b82edb16">High Spirits</card>
+  </section>
+  <section name="Resources" shared="False">
+    <card qty="2" id="848903c9-c9d0-4dad-91cb-33ac881ed06a">Ridiculous Outfit</card>
+    <card qty="1" id="14a57245-9d28-494d-aac1-9bfdd4087088">Rubber Chicken</card>
+    <card qty="2" id="fcacdfb0-159b-4e5f-8ada-d6938710fb5c">The Ponyville Express</card>
+    <card qty="2" id="89490f6f-6eaf-45b4-916b-01d800d20ff4">Marvelous Chapeau</card>
+  </section>
+  <section name="Events" shared="False">
+    <card qty="3" id="d919632e-5123-4aef-a624-fe2adf7b6367">Getting Hooves Dirty</card>
+    <card qty="1" id="7ecd8cef-96a3-446f-bcd5-bfc0e5dc4eb2">Downright Dangerous</card>
+    <card qty="1" id="b9ca3f45-6db8-431a-9b7b-63e04a9b0f63">Here's Your Invitation!</card>
+    <card qty="1" id="4a6b51eb-9301-4423-87a3-8d99cedc7589">Creme de la Creme</card>
+  </section>
+  <section name="Troublemakers" shared="False">
+    <card qty="2" id="ac0753a2-f8f8-45f4-b8fb-86cdd394ed8e">Purple Parasprite</card>
+    <card qty="2" id="cdfb213b-40b8-477e-b34f-fcfa41b6fc70">Flim</card>
+  </section>
+  <section name="Problems" shared="False">
+    <card qty="2" id="faacdbeb-fb15-4466-a24b-68059d3cfa26">Special Delivery!</card>
+    <card qty="2" id="9cc29e98-4536-4faf-a8a9-571ec8fce754">Maybes are for Babies</card>
+    <card qty="1" id="7d20e6f5-9bb5-45a9-b9a4-add7e1046080">Adventures in Foalsitting</card>
+    <card qty="2" id="5d7b0bfd-7c07-45ba-a0a0-a96234597054">My Pinkie Sense is Tingling</card>
+    <card qty="2" id="94e8ffa0-badc-4546-a8ba-300ab8145748">Emergency Dress Order</card>
+    <card qty="1" id="bb32975a-83f3-48fa-9414-829e0a137ae6">I Can Fix it!</card>
+  </section>
+  <section name="Mane Character" shared="False">
+    <card qty="1" id="7a6d06b9-e09e-4c73-930b-0b62a36b4588">Pinkie Pie</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>

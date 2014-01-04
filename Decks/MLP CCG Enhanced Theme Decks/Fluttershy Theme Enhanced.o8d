@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="65656467-b709-43b2-a5c6-80c2f216adf9">
+  <section name="Mane Character" shared="False">
+    <card qty="1" id="935e02bc-b14d-4a49-ae4d-375f567fb3ac">Fluttershy</card>
+  </section>
+  <section name="Friends" shared="False">
+    <card qty="3" id="1c0a77ea-95dc-4ab1-90d1-9a182930df23">Blue Jay</card>
+    <card qty="3" id="ca44c784-bac3-42af-aad0-5036fd83a2d5">Amethyst Star</card>
+    <card qty="3" id="6003a6a8-f078-464b-a80b-ee65c3b128a4">Forest Owl</card>
+    <card qty="2" id="398e0a29-722f-4258-9173-87264a59de2b">Opalescence</card>
+    <card qty="2" id="12af9430-0785-4e63-8070-d16b66777c65">Granny Smith</card>
+    <card qty="3" id="8eb51ca3-631a-44a4-be8b-184786c27da9">Igneous Rock</card>
+    <card qty="2" id="0b47601c-cd7e-46d4-b8c5-041d1539d7b5">Drill Bit</card>
+    <card qty="3" id="892c1777-8992-4c37-ad29-11aac71565ea">Red Gala</card>
+    <card qty="3" id="10f58c29-07e0-41d6-b231-8a6ab96edc17">Cherry Jubilee</card>
+    <card qty="2" id="53d8fd18-6407-4dee-94b1-61a00cf8de68">Fluttershy</card>
+  </section>
+  <section name="Resources" shared="False">
+    <card qty="1" id="b305a0b7-0f18-4595-9f43-0154414492ff">Critter Cuisine</card>
+    <card qty="2" id="02ca992e-9e58-4127-a94e-eb838bc0a7c1">Too Much Pie</card>
+    <card qty="3" id="1fa2d8be-1d5e-4bf0-ab97-7b559b395266">Too Many Bandages</card>
+  </section>
+  <section name="Events" shared="False">
+    <card qty="2" id="79cb7097-33b9-4dfe-841e-f6c87e3d6787">Nurture With Knowledge</card>
+    <card qty="1" id="a7607786-d6cc-4bad-9df1-70161b888fe2">Yay!</card>
+    <card qty="3" id="230b4174-38f5-485b-b34a-8bb23bbeaafe">Critter Cavalry</card>
+    <card qty="1" id="cf5187b9-e5ff-4ee1-bebc-74c31d441df1">The Horror! The Horror!</card>
+  </section>
+  <section name="Troublemakers" shared="False">
+    <card qty="3" id="31b24d0c-564a-4b5c-90a4-723177ac123f">Yellow Parasprite</card>
+    <card qty="1" id="3f5daace-d085-41fd-b2fa-1a1dff8bbd51">Timberwolf</card>
+    <card qty="2" id="89739781-96a8-4d21-a765-6225bd611248">Wild Manticore</card>
+  </section>
+  <section name="Problems" shared="False">
+    <card qty="2" id="1b6d137a-5bfe-4a2d-9ab8-29bc48d8c8a6">Bunny Breakout</card>
+    <card qty="2" id="3d2872f9-bb34-45bd-92d7-a6100d9ebe34">A Thorn in His Paw</card>
+    <card qty="2" id="ee137bc6-c5af-498e-9366-306ac7aecec6">Save Sweet Apple Acres</card>
+    <card qty="2" id="3fb34bed-b5c2-463e-9712-dc53045e4aa3">Runaway Cart</card>
+    <card qty="2" id="ef908e82-b9be-4ee5-9ace-0f4fad5ae2a7">This Way, Little Ones</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>

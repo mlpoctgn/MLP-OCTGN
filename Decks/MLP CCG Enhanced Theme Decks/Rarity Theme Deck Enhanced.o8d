@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="65656467-b709-43b2-a5c6-80c2f216adf9">
+  <section name="Mane Character" shared="False">
+    <card qty="1" id="10e394e3-6437-49bb-b836-ab20f49c92b7">Rarity</card>
+  </section>
+  <section name="Friends" shared="False">
+    <card qty="2" id="b16e88dc-676c-4ef2-9ef7-3852791ef374">Holly Dash</card>
+    <card qty="2" id="eb8df8fc-d7a5-410c-9e3f-d914bf73e3d3">Jetstream</card>
+    <card qty="2" id="4a60748b-bb70-416a-979a-973f98095b44">Finish Line</card>
+    <card qty="3" id="3b4aa10e-9174-4ce6-a51e-b0fa46ed6d45">Emerald Green</card>
+    <card qty="2" id="2c6b5504-2d2a-4963-8785-94f950d4d030">Pegasus Royal Guard</card>
+    <card qty="3" id="a4d82a6e-85ad-4b3f-b8c2-16a6cee6522a">Sweetie Sunrise</card>
+    <card qty="2" id="6b0dac67-8fe0-441d-b4cf-02700addcf9f">Vidala Swoon</card>
+    <card qty="2" id="2dfb36bc-a296-42b2-ba23-c9bb32a3c24b">Royal Riff</card>
+    <card qty="3" id="ea6d0440-e9de-4889-a578-3f094b136e3d">Sugar Twist</card>
+    <card qty="3" id="9cebb3dc-54af-4dde-a792-61f1a95c2ed2">Rising Star</card>
+    <card qty="2" id="10e394e3-6437-49bb-b836-ab20f49c92b7">Rarity</card>
+  </section>
+  <section name="Resources" shared="False">
+    <card qty="3" id="e9cdf5cd-af69-44d8-b352-efb81842820d">Tangled Coiffure</card>
+    <card qty="2" id="c0624277-9e0e-40a7-84f2-c2ef3982c931">Two Bits</card>
+  </section>
+  <section name="Events" shared="False">
+    <card qty="2" id="85fa9221-a2cf-4c3c-8de1-87ec17e96f19">A Touch of Refinement</card>
+    <card qty="1" id="4a6b51eb-9301-4423-87a3-8d99cedc7589">Creme de la Creme</card>
+    <card qty="3" id="913c1c74-25b4-442f-ae59-c71a7e3f76e6">Stand Still!</card>
+    <card qty="2" id="8b61579e-d4eb-4f23-a04d-74b751c4b6b7">What Went Wrong?</card>
+  </section>
+  <section name="Troublemakers" shared="False">
+    <card qty="3" id="31b24d0c-564a-4b5c-90a4-723177ac123f">Yellow Parasprite</card>
+    <card qty="1" id="3f5daace-d085-41fd-b2fa-1a1dff8bbd51">Timberwolf</card>
+    <card qty="2" id="89739781-96a8-4d21-a765-6225bd611248">Wild Manticore</card>
+  </section>
+  <section name="Problems" shared="False">
+    <card qty="2" id="5b1ca583-1239-4b31-93f2-2546b9c8c810">Cloudbursting</card>
+    <card qty="2" id="94e8ffa0-badc-4546-a8ba-300ab8145748">Emergency Dress Order</card>
+    <card qty="2" id="bb32975a-83f3-48fa-9414-829e0a137ae6">I Can Fix it!</card>
+    <card qty="2" id="1209a4e5-860f-4b37-8786-12abb00c5e6d">Who is Gabby Gums?</card>
+    <card qty="2" id="8c840c09-2570-4f22-890c-5223f55beb42">Clearing Gloomy Skies</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>

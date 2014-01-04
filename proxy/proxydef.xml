@@ -1,0 +1,971 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<templates>
+	
+	<blocks>
+		<!-- Dummy blocks used if a template section only looks for conditionals -->
+		<block type="overlay" id="dummyOverlay" src="proxy/proxyImages/dummy.png">
+			<location x="0" y="0" /> 
+		</block>
+		<block type="text" id="dummyText">
+			<location x="0" y="0" />
+			<text color="#FFFFFF" size="0" />
+			<border color="#FFFFFF" size="0" />
+		</block>
+		<block type="text" id="default">
+			<location x="10" y="25" />
+			<text color="#000000" size="30" />
+		</block>	
+		
+		<!-- Element overlay for card power -->
+		
+		<block type="overlay" id="powerLoyalty" src="proxy/proxyImages/generalIcons/Loyalty_Power.png">
+			<location x="330" y="28" />
+		</block>
+		
+		<block type="overlay" id="requiredPowerLoyalty" src="proxy/proxyImages/generalIcons/Loyalty_Power.png">
+			<location x="33" y="155" />
+		</block>
+		
+		<block type="overlay" id="powerKindness" src="proxy/proxyImages/generalIcons/Kindness_Power.png">
+			<location x="330" y="28" />
+		</block>
+		
+		<block type="overlay" id="requiredPowerKindness" src="proxy/proxyImages/generalIcons/Kindness_Power.png">
+			<location x="33" y="155" />
+		</block>
+		
+		<block type="overlay" id="powerMagic" src="proxy/proxyImages/generalIcons/Magic_Power.png">
+			<location x="330" y="28" />
+		</block>
+		
+		<block type="overlay" id="requiredPowerMagic" src="proxy/proxyImages/generalIcons/Magic_Power.png">
+			<location x="33" y="155" />
+		</block>
+			
+		<block type="overlay" id="powerGenerosity" src="proxy/proxyImages/generalIcons/Generosity_Power.png">
+			<location x="330" y="28" />
+		</block>
+		
+		<block type="overlay" id="requiredPowerGenerosity" src="proxy/proxyImages/generalIcons/Generosity_Power.png">
+			<location x="33" y="155" />
+		</block>	
+		
+		<block type="overlay" id="powerHonesty" src="proxy/proxyImages/generalIcons/Honesty_Power.png">
+			<location x="330" y="28" />
+		</block>
+		
+		<block type="overlay" id="requiredPowerHonesty" src="proxy/proxyImages/generalIcons/Honesty_Power.png">
+			<location x="33" y="155" />
+		</block>	
+		
+		<block type="overlay" id="powerLaughter" src="proxy/proxyImages/generalIcons/Laughter_Power.png">
+			<location x="330" y="28" />
+		</block>
+		
+		<block type="overlay" id="requiredPowerLaughter" src="proxy/proxyImages/generalIcons/Laughter_Power.png">
+			<location x="33" y="155" />
+		</block>	
+		
+		<block type="text" id="cardName">
+			<location x="90" y="25" />
+			<text color="#FFFFFF" size="20" font="fonts/name.ttf" />
+		</block>
+		<block type="text" id="cardSubname">
+			<location x="90" y="50" />
+			<text color="#FFFFFF" size="16" font="fonts/name.ttf" />
+		</block>
+		
+		<block type="text" id="cardPower">
+			<location x="330" y="30" />
+			<text color="#000000" size="30" font="fonts/text.ttf" />
+		</block>
+		
+		<block type="text" id="cardCost">
+			<location x="38" y="115" />
+			<text color="#000000" size="20" font="fonts/name.ttf" />
+		</block>
+		
+		<block type="text" id="cardRequiredPower">
+			<location x="37" y="162" />
+			<text color="#000000" size="20" font="fonts/name.ttf" />
+		</block>
+
+		<!-- Overlays for Events and Resources -->
+		
+		<block type="text" id="eventCardName">
+			<location x="90" y="33" />
+			<text color="#FFFFFF" size="20" font="fonts/name.ttf" />
+		</block>
+		
+		<block type="text" id="eventCardPower">
+			<location x="345" y="32" />
+			<text color="#FFFFFF" size="30" font="fonts/text.ttf" />
+		</block>
+		
+		<block type="text" id="troublemakerBonus">
+			<location x="45" y="300" />
+			<text color="#000000" size="25" font="fonts/traits.ttf" />
+		</block>
+
+		<!-- Overlays for racial icons -->
+		<block type="overlay" id="raceUnicorn" src="proxy/proxyImages/raceIcons/Unicorn_Icon.png">
+			<location x="63" y="300" />
+		</block>
+		<block type="overlay" id="racePegasus" src="proxy/proxyImages/raceIcons/Pegasus_Icon.png">
+			<location x="63" y="300" />
+		</block>
+		<block type="overlay" id="raceEarthPony" src="proxy/proxyImages/raceIcons/EarthPony_Icon.png">
+			<location x="63" y="300" />
+		</block>
+		<block type="overlay" id="raceCritter" src="proxy/proxyImages/raceIcons/Critter_Icon.png">
+			<location x="63" y="300" />
+		</block>
+		<block type="overlay" id="raceAlicorn" src="proxy/proxyImages/raceIcons/Alicorn_Icon.png">
+			<location x="63" y="300" />
+		</block>		
+		
+		<block type="text" id="cardType">
+			<location x="150" y="300" />
+			<text color="#000000" size="20" font="fonts/name.ttf" />
+		</block>
+		
+		<block type="text" id="cardTraits">
+			<location x="150" y="325" />
+			<text color="#000000" size="20" font="fonts/traits.ttf" />
+			<wordwrap height="34" width="270" />
+		</block>
+
+		<block type="text" id="cardKeywords">
+			<location x="75" y="360" />
+			<text color="#000000" size="18" font="fonts/name.ttf" />
+			<wordwrap height="34" width="270" />
+		</block>
+		
+		<block type="text" id="cardText">
+			<location x="75" y="400" />
+			<text color="#000000" size="18" font="fonts/text.ttf" />
+			<wordwrap height="200" width="270" />
+		</block>
+		
+		
+		<!-- Problem specific blocks -->
+		<block type="overlay" id="problemElement1Kindness" src="proxy/proxyImages/generalIcons/Kindness_Power.png">
+			<location x="215" y="348" />
+		</block>
+		
+		<block type="overlay" id="problemElement2Kindness" src="proxy/proxyImages/generalIcons/Kindness_Power.png">
+			<location x="315" y="348" />
+		</block>
+		
+		<block type="overlay" id="problemElement1Magic" src="proxy/proxyImages/generalIcons/Magic_Power.png">
+			<location x="215" y="348" />
+		</block>
+		
+		<block type="overlay" id="problemElement2Magic" src="proxy/proxyImages/generalIcons/Magic_Power.png">
+			<location x="315" y="348" />
+		</block>
+
+		<block type="overlay" id="problemElement1Loyalty" src="proxy/proxyImages/generalIcons/Loyalty_Power.png">
+			<location x="215" y="348" />
+		</block>
+		
+		<block type="overlay" id="problemElement2Loyalty" src="proxy/proxyImages/generalIcons/Loyalty_Power.png">
+			<location x="315" y="348" />
+		</block>
+		
+		<block type="overlay" id="problemElement1Laughter" src="proxy/proxyImages/generalIcons/Laughter_Power.png">
+			<location x="215" y="348" />
+		</block>
+		
+		<block type="overlay" id="problemElement2Laughter" src="proxy/proxyImages/generalIcons/Laughter_Power.png">
+			<location x="315" y="348" />
+		</block>
+		
+		<block type="overlay" id="problemElement1Generosity" src="proxy/proxyImages/generalIcons/Generosity_Power.png">
+			<location x="215" y="348" />
+		</block>
+		
+		<block type="overlay" id="problemElement2Generosity" src="proxy/proxyImages/generalIcons/Generosity_Power.png">
+			<location x="315" y="348" />
+		</block>
+		
+		<block type="overlay" id="problemElement1Honesty" src="proxy/proxyImages/generalIcons/Honesty_Power.png">
+			<location x="215" y="348" />
+		</block>
+		
+		<block type="overlay" id="problemElement2Honesty" src="proxy/proxyImages/generalIcons/Honesty_Power.png">
+			<location x="315" y="348" />
+		</block>		
+		
+		<block type="overlay" id="problemElement1Not" src="proxy/proxyImages/generalIcons/Problem_Not.png">
+				<location x="240" y="348" />
+		</block>
+		
+		<block type="overlay" id="problemElement2Not" src="proxy/proxyImages/generalIcons/Problem_Not.png">
+				<location x= "340" y="348" />
+		</block>
+		
+		<!-- Opponent Problem Blocks -->
+
+		<block type="overlay" id="problemOpponent_4" src="proxy/proxyImages/generalIcons/Problem_Opponent_4.png">
+				<location x="260" y="32" />
+		</block>		
+
+		<block type="overlay" id="problemOpponent_5" src="proxy/proxyImages/generalIcons/Problem_Opponent_5.png">
+				<location x="260" y="32" />
+		</block>		
+
+		<block type="overlay" id="problemOpponent_6" src="proxy/proxyImages/generalIcons/Problem_Opponent_6.png">
+				<location x="260" y="32" />
+		</block>		
+
+		<block type="overlay" id="problemOpponent_7" src="proxy/proxyImages/generalIcons/Problem_Opponent_7.png">
+				<location x="260" y="32" />
+		</block>		
+
+		<block type="overlay" id="problemOpponent_8" src="proxy/proxyImages/generalIcons/Problem_Opponent_8.png">
+				<location x="260" y="32" />
+		</block>		
+
+		<block type="overlay" id="problemOpponent_9" src="proxy/proxyImages/generalIcons/Problem_Opponent_9.png">
+				<location x="260" y="32" />
+		</block>		
+
+		
+		<block type="text" id="problemBonus">
+			<location x="510" y="218" />
+			<text color="#222222" size="25" font="fonts/traits.ttf" />
+		</block>
+		<block type="text" id="problemElement1Power">
+			<location x="220" y="355" />
+			<text color="#000000" size="20" font="fonts/text.ttf" />
+		</block>
+		<block type="text" id="problemElement2Power">
+			<location x="320" y="355" />
+			<text color="#000000" size="20" font="fonts/text.ttf" />
+		</block>
+		<block type="text" id="problemCardTitle">
+			<location x="150" y="225" />
+			<text color="#FFFFFF" size="25" font="fonts/name.ttf" />
+		</block>
+		
+		<block type="text" id="problemCardKeywords">
+			<location x="100" y="258" />
+			<text color="#000000" size="14" font="fonts/traits.ttf" />
+			<wordwrap height="380" width="574" />
+		</block>
+		
+		<block type="text" id="problemCardText">
+			<location x="100" y="272" />
+			<text color="#000000" size="18" font="fonts/text.ttf" />
+			<wordwrap height="200" width="400" />
+		</block>
+		
+	</blocks>
+	
+	<!-- Default template -->
+	<template src="proxy/proxyImages/unknownCard.jpg" default="True">
+		<matches>
+			<match name="dummy" value="dummy" />
+		</matches>
+		<overlayblocks>
+			<link block="dummyOverlay" />
+		</overlayblocks>
+		<textblocks>
+			<link block="default">
+				<property name="Name" />
+			</link>
+			<link block="dummyText" />
+		</textblocks>
+	</template>
+	
+	<!-- Event Card template -->
+	<template src="proxy/proxyImages/cardTemplates/Event_Template.png" default="False">
+		<matches>
+		<match name="Type" value="Event" />
+		</matches>
+
+		<overlayblocks>
+
+		<conditional>
+			<if property="PlayRequiredElement" contains="Loyalty">
+				<link block="requiredPowerLoyalty" /> 
+			</if>
+		</conditional>
+
+		<conditional>
+			<if property="PlayRequiredElement" contains="Kindness">
+				<link block="requiredPowerKindness" /> 
+			</if>
+		</conditional>			
+
+		<conditional>
+			<if property="PlayRequiredElement" contains="Magic">
+				<link block="requiredPowerMagic" /> 
+			</if>
+		</conditional>
+		
+		<conditional>
+			<if property="PlayRequiredElement" contains="Generosity">
+				<link block="requiredPowerGenerosity" /> 
+			</if>
+		</conditional>
+
+		<conditional>
+			<if property="PlayRequiredElement" contains="Honesty">
+				<link block="requiredPowerHonesty" /> 
+			</if>
+		</conditional>
+
+		<conditional>
+			<if property="PlayRequiredElement" contains="Laughter">
+				<link block="requiredPowerLaughter" /> 
+			</if>
+		</conditional>		
+
+		<link block="dummyOverlay" />
+		</overlayblocks>
+
+		<textblocks>
+
+		<link block="cardCost">
+			<property name="Cost" />
+		</link>
+
+		<conditional>
+			<if property="PlayRequiredPower" value="">
+				<link block="dummyOverlay" /> 
+			</if>
+			<else>
+				<link block="cardRequiredPower">
+					<property name="PlayRequiredPower" />
+				</link> 
+			</else>
+		</conditional>
+
+
+		<link block="eventCardPower">
+			<property name="Power" />
+		</link>
+
+		<link block="cardType">
+			<property name="Type" />
+		</link>
+
+		<link block="cardTraits">
+			<property name="Traits" />
+		</link>
+
+		<link block="cardKeywords">
+			<property name="Keywords" />
+		</link>		
+
+		<link block="eventCardName">
+			<property name="Name" />
+		</link>
+
+		<link block="cardText">
+			<property name="Text" />
+		</link>
+	</textblocks>
+	</template>
+	
+	<!-- Resource Card template -->
+	<template src="proxy/proxyImages/cardTemplates/Resource_Template.png" default="False">
+	<matches>
+		<match name="Type" value="Resource" />
+	</matches>
+
+	<overlayblocks>
+
+		<conditional>
+			<if property="PlayRequiredElement" contains="Loyalty">
+				<link block="requiredPowerLoyalty" /> 
+			</if>
+		</conditional>
+
+		<conditional>
+			<if property="PlayRequiredElement" contains="Kindness">
+				<link block="requiredPowerKindness" /> 
+			</if>
+		</conditional>			
+
+		<conditional>
+			<if property="PlayRequiredElement" contains="Magic">
+				<link block="requiredPowerMagic" /> 
+			</if>
+		</conditional>
+		
+		<conditional>
+			<if property="PlayRequiredElement" contains="Generosity">
+				<link block="requiredPowerGenerosity" /> 
+			</if>
+		</conditional>
+
+		<conditional>
+			<if property="PlayRequiredElement" contains="Honesty">
+				<link block="requiredPowerHonesty" /> 
+			</if>
+		</conditional>
+
+		<conditional>
+			<if property="PlayRequiredElement" contains="Laughter">
+				<link block="requiredPowerLaughter" /> 
+			</if>
+		</conditional>		
+
+		<link block="dummyOverlay" />
+	</overlayblocks>
+
+	<textblocks>
+
+		<link block="cardCost">
+			<property name="Cost" />
+		</link>
+
+		<conditional>
+			<if property="PlayRequiredPower" value="">
+				<link block="dummyOverlay" /> 
+			</if>
+			<else>
+				<link block="cardRequiredPower">
+					<property name="PlayRequiredPower" />
+				</link> 
+			</else>
+		</conditional>
+
+
+		<link block="eventCardPower">
+			<property name="Power" />
+		</link>
+
+		<link block="cardType">
+			<property name="Type" />
+		</link>
+
+		<link block="cardTraits">
+			<property name="Traits" />
+		</link>
+
+		<link block="cardKeywords">
+			<property name="Keywords" />
+		</link>
+
+		<link block="eventCardName">
+			<property name="Name" />
+		</link>
+
+		<link block="cardText">
+			<property name="Text" />
+		</link>
+	</textblocks>
+	</template>
+	
+	<!-- Mane Character Card template -->
+	<template src="proxy/proxyImages/cardTemplates/ManeCharacter_Template.png" default="False">
+		<matches>
+			<match name="Type" value="Mane Character" />
+		</matches>
+		
+		<overlayblocks>
+		<conditional>
+			<if property="Element" contains="Generosity">
+				<link block="powerGenerosity" /> </if>
+		</conditional>
+		<conditional>
+			<if property="Element" contains="Kindness">
+				<link block="powerKindness" /> </if>
+		</conditional>
+		<conditional>
+			<if property="Element" contains="Honesty">
+				<link block="powerHonesty" /> </if>
+		</conditional>
+		<conditional>
+			<if property="Element" contains="Magic">
+				<link block="powerMagic" /> </if>
+		</conditional>
+		<conditional>
+			<if property="Element" contains="Laughter">
+				<link block="powerLaughter" /> </if>
+		</conditional>
+		<conditional>
+			<if property="Element" contains="Loyalty">
+				<link block="powerLoyalty" /> </if>
+		</conditional>
+			
+		<conditional>
+			<if property="Traits" contains="Unicorn">
+			<link block="raceUnicorn" /> </if>
+		</conditional>	
+		<conditional>
+			<if property="Traits" contains="Pegasus">
+			<link block="racePegasus" /> </if>
+		</conditional>
+		<conditional>
+			<if property="Traits" contains="Earth">
+			<link block="raceEarthPony" /> </if>
+		</conditional>
+		<conditional>
+			<if property="Traits" contains="Critter">
+			<link block="raceCritter" /> </if>
+		</conditional>
+		<conditional>
+			<if property="Traits" contains="Alicorn">
+			<link block="raceAlicorn" /> </if>
+		</conditional>		
+			<link block="dummyOverlay" />
+		</overlayblocks>
+		
+		<textblocks>		
+			<link block="cardName">
+				<property name="Name" />
+			</link>
+			
+			<link block="cardSubname">
+				<property name="Subname" />
+			</link>
+			
+			<link block="cardPower">
+				<property name="Power" />
+			</link>
+			<link block="cardType">
+				<property name="Type" />
+			</link>
+						
+			<link block="cardTraits">
+				<property name="Traits" />
+			</link>
+
+			<link block="cardKeywords">
+				<property name="Keywords" />
+			</link>
+			<link block="cardText">
+				<property name="Text" />
+			</link>
+		</textblocks>
+	</template>
+
+	<!-- Mane Character Boosted Card template -->
+	<template src="proxy/proxyImages/cardTemplates/ManeCharacterBoosted_Template.png" default="False">
+		<matches>
+			<match name="Type" value="Mane Character Boosted" />
+		</matches>
+		
+		<overlayblocks>
+		<conditional>
+			<if property="Element" contains="Generosity">
+				<link block="powerGenerosity" /> </if>
+		</conditional>
+		<conditional>
+			<if property="Element" contains="Kindness">
+				<link block="powerKindness" /> </if>
+		</conditional>
+		<conditional>
+			<if property="Element" contains="Honesty">
+				<link block="powerHonesty" /> </if>
+		</conditional>
+		<conditional>
+			<if property="Element" contains="Magic">
+				<link block="powerMagic" /> </if>
+		</conditional>
+		<conditional>
+			<if property="Element" contains="Laughter">
+				<link block="powerLaughter" /> </if>
+		</conditional>
+		<conditional>
+			<if property="Element" contains="Loyalty">
+				<link block="powerLoyalty" /> </if>
+		</conditional>
+			
+		<conditional>
+			<if property="Traits" contains="Unicorn">
+			<link block="raceUnicorn" /> </if>
+		</conditional>	
+		<conditional>
+			<if property="Traits" contains="Pegasus">
+			<link block="racePegasus" /> </if>
+		</conditional>
+		<conditional>
+			<if property="Traits" contains="Earth">
+			<link block="raceEarthPony" /> </if>
+		</conditional>
+		<conditional>
+			<if property="Traits" contains="Critter">
+			<link block="raceCritter" /> </if>
+		</conditional>
+		<conditional>
+			<if property="Traits" contains="Alicorn">
+			<link block="raceAlicorn" /> </if>
+		</conditional>		
+			<link block="dummyOverlay" />
+		</overlayblocks>
+		
+		<textblocks>		
+			<link block="cardName">
+				<property name="Name" />
+			</link>
+			
+			<link block="cardSubname">
+				<property name="Subname" />
+			</link>
+			
+			<link block="cardPower">
+				<property name="Power" />
+			</link>
+			<link block="cardType">
+				<property name="Type" />
+			</link>
+						
+			<link block="cardTraits">
+				<property name="Traits" />
+			</link>
+
+			<link block="cardKeywords">
+				<property name="Keywords" />
+			</link>
+			<link block="cardText">
+				<property name="Text" />
+			</link>
+		</textblocks>
+	</template>
+
+	<!-- Friend Card template -->
+	<template src="proxy/proxyImages/cardTemplates/Friend_Template.png" default="False">
+		<matches>
+			<match name="Type" value="Friend" />
+		</matches>
+		
+		<overlayblocks>
+			
+		<!-- Element power selection -->
+		<conditional>
+			<if property="Element" contains="Generosity">
+				<link block="powerGenerosity" /> </if>
+		</conditional>
+		<conditional>
+			<if property="Element" contains="Kindness">
+				<link block="powerKindness" /> </if>
+		</conditional>
+		<conditional>
+			<if property="Element" contains="Honesty">
+				<link block="powerHonesty" /> </if>
+		</conditional>
+		<conditional>
+			<if property="Element" contains="Magic">
+				<link block="powerMagic" /> </if>
+		</conditional>
+		<conditional>
+			<if property="Element" contains="Laughter">
+				<link block="powerLaughter" /> </if>
+		</conditional>
+		<conditional>
+			<if property="Element" contains="Loyalty">
+				<link block="powerLoyalty" /> </if>
+		</conditional>
+
+		<!-- Race icon selection -->
+		<conditional>
+			<if property="Traits" contains="Unicorn">
+			<link block="raceUnicorn" /> </if>
+		</conditional>	
+		<conditional>
+			<if property="Traits" contains="Pegasus">
+			<link block="racePegasus" /> </if>
+		</conditional>
+		<conditional>
+			<if property="Traits" contains="Earth">
+			<link block="raceEarthPony" /> </if>
+		</conditional>
+		<conditional>
+			<if property="Traits" contains="Critter">
+			<link block="raceCritter" /> </if>
+		</conditional>
+		<conditional>
+			<if property="Traits" contains="Alicorn">
+			<link block="raceAlicorn" /> </if>
+		</conditional>		
+			
+		<!-- Required Element Selection -->
+		<conditional>
+			<if property="PlayRequiredElement" contains="Loyalty">
+				<link block="requiredPowerLoyalty" /> 
+			</if>
+		</conditional>
+
+		<conditional>
+			<if property="PlayRequiredElement" contains="Kindness">
+				<link block="requiredPowerKindness" /> 
+			</if>
+		</conditional>			
+
+		<conditional>
+			<if property="PlayRequiredElement" contains="Magic">
+				<link block="requiredPowerMagic" /> 
+			</if>
+		</conditional>
+		
+		<conditional>
+			<if property="PlayRequiredElement" contains="Generosity">
+				<link block="requiredPowerGenerosity" /> 
+			</if>
+		</conditional>
+
+		<conditional>
+			<if property="PlayRequiredElement" contains="Honesty">
+				<link block="requiredPowerHonesty" /> 
+			</if>
+		</conditional>
+
+		<conditional>
+			<if property="PlayRequiredElement" contains="Laughter">
+				<link block="requiredPowerLaughter" /> 
+			</if>
+		</conditional>		
+			
+		<link block="dummyOverlay" />
+		</overlayblocks>
+		
+		<textblocks>
+
+			<link block="cardCost">
+				<property name="Cost" />
+			</link>
+			
+			<conditional>
+				<if property="PlayRequiredPower" value="">
+					<link block="dummyOverlay" /> 
+				</if>
+				<elseif property="PlayRequiredPower" value="0">
+					<link block="dummyOverlay" /> 
+				</elseif>
+				<else>
+					<link block="cardRequiredPower">
+						<property name="PlayRequiredPower" />
+					</link> 
+				</else>
+			</conditional>
+				
+		
+			<link block="cardPower">
+				<property name="Power" />
+			</link>
+			
+			<link block="cardType">
+				<property name="Type" />
+			</link>
+			
+			<link block="cardTraits">
+				<property name="Traits" />
+			</link>
+			
+			<link block="cardName">
+				<property name="Name" />
+			</link>
+			
+			<link block="cardSubname">
+				<property name="Subname" />
+			</link>
+			
+			<link block="cardKeywords">
+				<property name="Keywords" />
+			</link>
+			<link block="cardText">
+				<property name="Text" />
+			</link>
+		</textblocks>
+	</template>
+	
+	<!-- Troublemaker Card template -->
+	<template src="proxy/proxyImages/cardTemplates/Troublemaker_Template.png" default="False">
+	<matches>
+		<match name="Type" value="Troublemaker" />
+	</matches>
+
+	<overlayblocks>
+		<link block="dummyOverlay" />
+	</overlayblocks>
+
+	<textblocks>
+
+		<link block="eventCardPower">
+			<property name="Power" />
+		</link>
+
+		<link block="cardType">
+			<property name="Type" />
+		</link>
+
+		<link block="cardTraits">
+			<property name="Traits" />
+		</link>
+
+		<link block="cardKeywords">
+			<property name="Keywords" />
+		</link>
+
+		<link block="eventCardName">
+			<property name="Name" />
+		</link>
+
+		<link block="cardText">
+			<property name="Text" />
+		</link>
+		
+		<link block="troublemakerBonus">
+			<property name="ProblemBonus" />
+		</link>
+	</textblocks>
+</template>
+	
+	<!--Problem Card template -->
+	<template src="proxy/proxyImages/cardTemplates/Problem_Template.png" default="False">
+		<matches>
+			<match name="Type" value="Problem" />
+		</matches>
+		<overlayblocks>
+			<conditional>
+				<if property="ProblemOpponentPower" value="4">
+					<link block="problemOpponent_4" /> 
+				</if>
+			</conditional>			
+			<conditional>
+				<if property="ProblemOpponentPower" value="5">
+					<link block="problemOpponent_5" /> 
+				</if>
+			</conditional>		
+			<conditional>
+				<if property="ProblemOpponentPower" value="6">
+					<link block="problemOpponent_6" /> 
+				</if>
+			</conditional>	
+			<conditional>
+				<if property="ProblemOpponentPower" value="7">
+					<link block="problemOpponent_7" /> 
+				</if>
+			</conditional>	
+			<conditional>
+				<if property="ProblemOpponentPower" value="8">
+					<link block="problemOpponent_8" /> 
+				</if>
+			</conditional>	
+			<conditional>
+				<if property="ProblemOpponentPower" value="9">
+					<link block="problemOpponent_9" /> 
+				</if>
+			</conditional>				
+			
+			<conditional>
+				<if property="ProblemPlayerElement1" contains="Kindness">
+					<link block="problemElement1Kindness" /> 
+				</if>
+			</conditional>					
+			
+			<conditional>
+				<if property="ProblemPlayerElement2" contains="Kindness">
+					<link block="problemElement2Kindness" /> 
+				</if>
+			</conditional>		
+			
+			
+			<conditional>
+				<if property="ProblemPlayerElement1" contains="Magic">
+					<link block="problemElement1Magic" /> 
+				</if>
+			</conditional>					
+			
+			<conditional>
+				<if property="ProblemPlayerElement2" contains="Magic">
+					<link block="problemElement2Magic" /> 
+				</if>
+			</conditional>	
+
+			
+			<conditional>
+				<if property="ProblemPlayerElement1" contains="Loyalty">
+					<link block="problemElement1Loyalty" /> 
+				</if>
+			</conditional>					
+			
+			<conditional>
+				<if property="ProblemPlayerElement2" contains="Loyalty">
+					<link block="problemElement2Loyalty" /> 
+				</if>
+			</conditional>	
+
+			
+			<conditional>
+				<if property="ProblemPlayerElement1" contains="Honesty">
+					<link block="problemElement1Honesty" /> 
+				</if>
+			</conditional>					
+			
+			<conditional>
+				<if property="ProblemPlayerElement2" contains="Honesty">
+					<link block="problemElement2Honesty" /> 
+				</if>
+			</conditional>	
+
+			
+			<conditional>
+				<if property="ProblemPlayerElement1" contains="Generosity">
+					<link block="problemElement1Generosity" /> 
+				</if>
+			</conditional>					
+			
+			<conditional>
+				<if property="ProblemPlayerElement2" contains="Generosity">
+					<link block="problemElement2Generosity" /> 
+				</if>
+			</conditional>	
+
+			
+			<conditional>
+				<if property="ProblemPlayerElement1" contains="Laughter">
+					<link block="problemElement1Laughter" /> 
+				</if>
+			</conditional>					
+			
+			<conditional>
+				<if property="ProblemPlayerElement2" contains="Laughter">
+					<link block="problemElement2Laughter" /> 
+				</if>
+			</conditional>				
+		
+			<conditional>
+				<if property="ProblemPlayerElement1" contains="Not">
+					<link block="problemElement1Not" /> 
+				</if>
+			</conditional>							
+		
+			<conditional>
+				<if property="ProblemPlayerElement2" contains="Not">
+					<link block="problemElement2Not" /> 
+				</if>
+			</conditional>								
+		</overlayblocks>
+		
+		<textblocks>
+			<link block="problemBonus">
+				<property name="ProblemBonus" />
+			</link> 
+			
+			<link block="problemElement1Power">
+				<property name="ProblemPlayerElement1Power" />
+			</link>
+			<link block="problemElement2Power">
+				<property name="ProblemPlayerElement2Power" />
+			</link>
+			<link block="problemCardTitle">
+				<property name="Name" />
+			</link>
+			<link block="problemCardKeywords">
+				<property name="Keywords" />
+			</link>
+			<link block="problemCardText">
+				<property name="Text" />
+			</link>
+			
+		</textblocks>
+	</template>
+							
+</templates>

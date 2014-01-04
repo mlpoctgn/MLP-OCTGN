@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<game name="My Little Pony - CCG" 
+	id="65656467-b709-43b2-a5c6-80c2f216adf9" 
+	octgnVersion="3.1.0.0" 
+	version="2.1.0.1" 
+	markersize="16"
+	tags="My Little Pony MLP CCG" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	description="My Little Pony CCG for two players.
+	&#xD;&#xD;Set in the magical land of Equestria, two players compete to see who can form the best teams and solve the most problems."
+	authors="Gabby Gums" 
+	iconurl="http://i.imgur.com/yb30u50.jpg" 
+	setsurl="http://octgn.gamersjudgement.com/wordpress/mlpccg" 
+	gameurl="http://octgn.gamersjudgement.com/wordpress/mlpccg">
+
+	<scripts>
+		<script src="scripts/actions.py" />
+		<script src="scripts/events.py" />
+	</scripts>
+	
+   	<events>
+	       <event name="OnTableLoad" action="chkTwoSided" />
+   	</events>
+	
+	<fonts>
+	</fonts>
+
+	<proxygen definitionsrc="proxy/proxydef.xml">
+	</proxygen>
+	
+	<documents>
+	</documents>
+	
+	<globalvariables>
+		<globalvariable name="FirstTurn" value="True" />
+		<globalvariable name="TurnStarted" value="False" />
+	</globalvariables>
+	
+	<card back="cards/back.png" front="cards/front.png" width="63" height="88">
+		<property name="Number" type="String" />
+		<property name="Element" type="String" />
+		<property name="Type" type="String" />
+		<property name="Subname" type="String" />
+		<property name="Text" type="String" />
+		<property name="Traits" type="String" />
+		<property name="Keywords" type="String" />
+		<property name="Cost" type="String" />
+		<property name="PlayRequiredElement" type="String" />
+		<property name="PlayRequiredPower" type="String" />
+		<property name="Power" type="String" />
+		<property name="ProblemBonus" type="String" />
+		<property name="ProblemOpponentPower" type="String" />
+		<property name="ProblemPlayerElement1" type="String" />
+		<property name="ProblemPlayerElement1Power" type="String" />
+		<property name="ProblemPlayerElement2" type="String" />
+		<property name="ProblemPlayerElement2Power" type="String" />
+		<property name="Rarity" type="String" />
+	</card>
+	
+	<table name="Table" visibility="undefined" ordered="False" width="960" height="540" background="background/background.jpg" backgroundStyle="uniformToFill">
+		<groupaction menu="Game Setup." shortcut="F12" execute="setup" />
+
+		<groupactions menu="Special Abilities">
+			<groupaction menu="Inspired - Look" shortcut="ALT+I" execute="inspiredPeek" />
+			<groupaction menu="Inspired - Move" shortcut="ALT+SHIFT+I" execute="inspiredMove" />
+		</groupactions>
+
+		<groupactions menu="Card actions">
+			<groupaction menu="Clear Faceoff Cards" shortcut="ALT+C" execute="clearFaceoff" />	
+			<groupaction menu="Ready All Cards" shortcut="F8" execute="readyAll" />
+			<groupaction menu="Scoop All Cards" shortcut="ALT+S" execute="scoop" />
+		</groupactions>
+		
+		<groupactions menu="Turn Structure">
+			<groupaction menu="Start Turn." shortcut="F1" execute="turnStart" />
+			<groupaction menu="Troublemaker Phase" shortcut="F2" execute="turnTroublemaker" />
+			<groupaction menu="Main Phase" shortcut="F3" execute="turnMain" />
+			<groupaction menu="Score Phase" shortcut="F4" execute="turnScore" />
+			<groupaction menu="End Turn." shortcut="F5" execute="turnDone" />
+			<groupaction menu="Response" shortcut="F6" execute="holdOn" />
+		</groupactions>
+		
+		<groupactions menu="Coins/Dice">
+			<groupaction menu="Flip a Coin" shortcut="ALT+F" execute="flipCoin" />
+			<groupaction menu="Roll a 6-sided" shortcut="ALT+6" execute="sixSided" />
+		</groupactions>
+		
+		<groupactions menu="Counters">
+			<groupaction menu="Gain Point" shortcut="CTRL+R" execute="gainPoint" />
+			<groupaction menu="Subtract Point" shortcut="CTRL+E" execute="losePoint" />
+			<groupaction menu="Gain Action" shortcut="CTRL+W" execute="gainAction" />
+			<groupaction menu="Subtract Action" shortcut="CTRL+Q" execute="loseAction" />
+		</groupactions>
+		
+		<cardaction menu="Exhaust/Ready" shortcut="F7" default="True" execute="exhaust" />
+		<cardaction menu="Flip Card" shortcut="F9" execute="flipcard" />
+		
+		<cardactions menu="Markers">
+			<cardaction menu="Add Marker" shortcut="CTRL+1" execute="addAction" />
+			<cardaction menu="Sub Marker" shortcut="CTRL+SHIFT+1" execute="subAction" />
+		</cardactions>
+	
+	</table>
+	
+	<player summary=" Points: {#Points} / Action Tokens: {#Actions}">
+		<counter name="Points" default="0" icon="counters/Points.png"  />
+		<counter name="Actions" default="0" icon="counters/Action_Marker.png" />
+		
+		<hand name="Hand" visibility="me" ordered="False" width="63" height="88" icon="groups/hand.png">            
+			<groupaction menu="Random Discard" shortcut="ALT+D" execute="randomDiscard" />
+			<groupaction menu="Random Discard Many" shortcut="ALT+SHIFT+D" execute="discardMany" />
+			<groupaction menu="Take a Mulligan" shortcut="CTRL+M" execute="mulligan" />
+		</hand>
+
+		<group name="Deck" visibility="none" width="63" height="88" icon="groups/deck.png">
+			<groupaction menu="Faceoff Flip" shortcut="F10" execute="faceoffFlip" />				
+			<groupaction menu="Shuffle" shortcut="CTRL+S" execute="shuffle" />
+			<groupaction menu="Draw" shortcut="CTRL+D" default="True" execute="draw" />
+			<groupaction menu="Draw Many" shortcut="CTRL+SHIFT+D" execute="drawMany" />
+			<groupaction menu="Discard Many From Top" execute="discardManyFromTop" />
+		</group>
+
+		<group name="Problem Deck" visibility="none" width="63" height="88" icon="groups/problem.png">
+			<groupaction menu="Shuffle" shortcut="CTRL+P" execute="shuffle" />
+		</group>
+
+		<group name="Discard Pile" visibility="all" width="63" height="88" icon="groups/discard.png"> 
+			<groupaction menu="Reshuffle into Deck" execute="reshuffle" />
+			<groupaction menu="Move One Random to Hand" execute="moveOneRandom" />
+		</group>
+		
+		<group name="Banished Pile" visibility="all" width="63" height="88" icon="groups/banished.png">      
+		</group>
+
+	</player>
+	
+	<deck>
+		<section name="Mane Character" group="Hand" />
+		<section name="Friends" group="Deck" />
+		<section name="Resources" group="Deck" />
+		<section name="Events" group="Deck" />
+		<section name="Troublemakers" group="Deck" />
+		<section name="Problems" group="Problem Deck" />
+	</deck>
+	
+</game>

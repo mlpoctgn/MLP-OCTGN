@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="65656467-b709-43b2-a5c6-80c2f216adf9">
+  <section name="Mane Character" shared="False">
+    <card qty="1" id="e0ded2bf-41fe-4a02-bf7a-f269c5895840">Twilight Sparkle</card>
+  </section>
+  <section name="Friends" shared="False">
+    <card qty="2" id="931e27f3-02a9-44d6-941c-64662e1290a8">Lady Justice</card>
+    <card qty="3" id="648ac353-332d-45e4-9e3f-0503da86f030">Mint Jewelup</card>
+    <card qty="3" id="0814999a-9f07-4227-bb73-49b245826b07">Blue Moon</card>
+    <card qty="2" id="2a3eb827-36a0-48de-b336-ef31d2a12b0d">Mayor Mare</card>
+    <card qty="3" id="10f58c29-07e0-41d6-b231-8a6ab96edc17">Cherry Jubilee</card>
+    <card qty="2" id="12af9430-0785-4e63-8070-d16b66777c65">Granny Smith</card>
+    <card qty="2" id="8eb51ca3-631a-44a4-be8b-184786c27da9">Igneous Rock</card>
+    <card qty="3" id="892c1777-8992-4c37-ad29-11aac71565ea">Red Gala</card>
+    <card qty="2" id="0b47601c-cd7e-46d4-b8c5-041d1539d7b5">Drill Bit</card>
+    <card qty="2" id="13f34928-2ea5-4e76-9e8a-bde67b7d3fb3">Twilight Sparkle</card>
+    <card qty="1" id="0b979623-7d40-4ca3-833c-656c4488ac49">Applejack</card>
+  </section>
+  <section name="Resources" shared="False">
+    <card qty="3" id="02ca992e-9e58-4127-a94e-eb838bc0a7c1">Too Much Pie</card>
+    <card qty="3" id="94420450-73a9-4ed2-820a-083e410eed1a">Tricksy Hat</card>
+  </section>
+  <section name="Events" shared="False">
+    <card qty="1" id="771cfb89-5312-4d2f-9231-a723c1a93bc4">A Bully and a Beast</card>
+    <card qty="2" id="64ba211b-fd3d-4da5-b2d0-bf006cae5ce6">Double-check the Checklist</card>
+    <card qty="1" id="c86d6b85-1f6a-4bfe-8858-e10b55e475b7">Duck and Cover</card>
+    <card qty="2" id="56cbe593-79e4-4171-843d-84a9d7f8e589">Watch in Awe</card>
+    <card qty="2" id="cf2d8b0e-98b7-4a2e-914c-076dd4e4d723">Spike, Take a Letter</card>
+  </section>
+  <section name="Troublemakers" shared="False">
+    <card qty="2" id="ac0753a2-f8f8-45f4-b8fb-86cdd394ed8e">Purple Parasprite</card>
+    <card qty="2" id="31b24d0c-564a-4b5c-90a4-723177ac123f">Yellow Parasprite</card>
+    <card qty="2" id="89739781-96a8-4d21-a765-6225bd611248">Wild Manticore</card>
+  </section>
+  <section name="Problems" shared="False">
+    <card qty="2" id="73e86ebf-7b32-4376-9a56-e915c7551506">It's Alive</card>
+    <card qty="2" id="3fb34bed-b5c2-463e-9712-dc53045e4aa3">Runaway Cart</card>
+    <card qty="2" id="0760b742-8342-45fa-9e9b-d8f59a462a65">Avalanche!</card>
+    <card qty="2" id="3f36b4eb-93c7-4171-b224-6c9c2b8bf294">I Need Answers</card>
+    <card qty="2" id="a1bf6f5e-24aa-4859-be65-c6c71b3a4b7e">Ponyville in a Bottle</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>

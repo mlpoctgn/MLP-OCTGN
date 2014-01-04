@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="65656467-b709-43b2-a5c6-80c2f216adf9">
+  <section name="Mane Character" shared="False">
+    <card qty="1" id="935e02bc-b14d-4a49-ae4d-375f567fb3ac">Fluttershy</card>
+  </section>
+  <section name="Friends" shared="False">
+    <card qty="2" id="b9ae30a0-7ed0-439e-8e59-a1c6be28ef8b">Hummingway</card>
+    <card qty="2" id="1c0a77ea-95dc-4ab1-90d1-9a182930df23">Blue Jay</card>
+    <card qty="2" id="ca44c784-bac3-42af-aad0-5036fd83a2d5">Amethyst Star</card>
+    <card qty="2" id="b8a568c7-b045-4322-a484-3802ebdfffab">House Mouse</card>
+    <card qty="2" id="6003a6a8-f078-464b-a80b-ee65c3b128a4">Forest Owl</card>
+    <card qty="2" id="398e0a29-722f-4258-9173-87264a59de2b">Opalescence</card>
+    <card qty="2" id="da738623-5739-43c8-beeb-3014d7b835a6">Winona</card>
+    <card qty="2" id="ad066572-9e76-4b8e-836f-0f461b96ba0f">Apple Cobbler</card>
+    <card qty="2" id="733d5c75-d276-4224-b5c6-9551a4001979">Auntie Applesauce</card>
+    <card qty="2" id="12af9430-0785-4e63-8070-d16b66777c65">Granny Smith</card>
+    <card qty="3" id="8eb51ca3-631a-44a4-be8b-184786c27da9">Igneous Rock</card>
+    <card qty="2" id="0b47601c-cd7e-46d4-b8c5-041d1539d7b5">Drill Bit</card>
+    <card qty="3" id="892c1777-8992-4c37-ad29-11aac71565ea">Red Gala</card>
+  </section>
+  <section name="Resources" shared="False">
+    <card qty="2" id="054beabb-9a23-4ad9-bbf9-46691397fa03">Hard Hat</card>
+    <card qty="1" id="b305a0b7-0f18-4595-9f43-0154414492ff">Critter Cuisine</card>
+    <card qty="2" id="02ca992e-9e58-4127-a94e-eb838bc0a7c1">Too Much Pie</card>
+    <card qty="2" id="1fa2d8be-1d5e-4bf0-ab97-7b559b395266">Too Many Bandages</card>
+  </section>
+  <section name="Events" shared="False">
+    <card qty="3" id="8a98e8f9-f337-4c61-8131-7eabd1939486">Sweet and Kind</card>
+    <card qty="1" id="c86d6b85-1f6a-4bfe-8858-e10b55e475b7">Duck and Cover</card>
+    <card qty="1" id="79cb7097-33b9-4dfe-841e-f6c87e3d6787">Nurture With Knowledge</card>
+    <card qty="1" id="a7607786-d6cc-4bad-9df1-70161b888fe2">Yay!</card>
+  </section>
+  <section name="Troublemakers" shared="False">
+    <card qty="2" id="31b24d0c-564a-4b5c-90a4-723177ac123f">Yellow Parasprite</card>
+    <card qty="2" id="3f5daace-d085-41fd-b2fa-1a1dff8bbd51">Timberwolf</card>
+  </section>
+  <section name="Problems" shared="False">
+    <card qty="2" id="1b6d137a-5bfe-4a2d-9ab8-29bc48d8c8a6">Bunny Breakout</card>
+    <card qty="1" id="3d2872f9-bb34-45bd-92d7-a6100d9ebe34">A Thorn in His Paw</card>
+    <card qty="2" id="66a13ad4-c7e1-40ab-9d08-4e1d288467d0">Monster of a Minotaur</card>
+    <card qty="2" id="ee137bc6-c5af-498e-9366-306ac7aecec6">Save Sweet Apple Acres</card>
+    <card qty="2" id="3fb34bed-b5c2-463e-9712-dc53045e4aa3">Runaway Cart</card>
+    <card qty="1" id="d4e04055-1a0b-41c3-b539-19c21e9eaeef">Hungry Hungry Caterpillars</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>
