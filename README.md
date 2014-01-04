@@ -1,7 +1,7 @@
 MLP-OCTGN
 =========
 
-My Little Pony CCG game definition for OCTGN3 source code
+My Little Pony CCG game definition for OCTGN3 source code.
 
 This is the github repository for the OCTGN3 MLPL game definition source code from http://www.octgngames.com/mlpccg
 
