@@ -1731,7 +1731,7 @@
    <property name="Subname" value="Warbler" />
    <property name="Power" value="2" />
    <property name="Cost" value="2" />
-   <property name="PlayRequiredPower" value="0" />
+   <property name="PlayRequiredPower" value="" />
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="Critter" />
    <property name="Keywords" value="" />
@@ -1811,7 +1811,7 @@
    <property name="Subname" value="Novice Assistant" />
    <property name="Power" value="0" />
    <property name="Cost" value="1" />
-   <property name="PlayRequiredPower" value="0" />
+   <property name="PlayRequiredPower" value="" />
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="Critter" />
    <property name="Keywords" value="" />
@@ -1831,7 +1831,7 @@
    <property name="Subname" value="Little Pipsqueak" />
    <property name="Power" value="1" />
    <property name="Cost" value="1" />
-   <property name="PlayRequiredPower" value="0" />
+   <property name="PlayRequiredPower" value="" />
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="Critter" />
    <property name="Keywords" value="" />
@@ -1951,7 +1951,7 @@
    <property name="Subname" value="Curtain Shredder" />
    <property name="Power" value="1" />
    <property name="Cost" value="2" />
-   <property name="PlayRequiredPower" value="0" />
+   <property name="PlayRequiredPower" value="" />
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="Critter" />
    <property name="Keywords" value="" />
@@ -1991,7 +1991,7 @@
    <property name="Subname" value="On the Scent" />
    <property name="Power" value="1" />
    <property name="Cost" value="1" />
-   <property name="PlayRequiredPower" value="0" />
+   <property name="PlayRequiredPower" value="" />
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="Critter" />
    <property name="Keywords" value="" />

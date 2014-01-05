@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set name="Promos" id="37ce607f-fae7-4389-8874-50087d056abf" gameId="65656467-b709-43b2-a5c6-80c2f216adf9" gameVersion="3.1.0.0" version="3.0">
+ <markers>
+ </markers>
+ <cards>
+  <card id="9f258468-001f-4f8b-a81b-25183397fb59" name="Rainbow Dash">
+   <property name="Number" value="PF1" />
+   <property name="Type" value="Friend" />
+   <property name="Element" value="Loyalty" />
+   <property name="Subname" value="To the Rescue" />
+   <property name="Power" value="3" />
+   <property name="Cost" value="4" />
+   <property name="PlayRequiredPower" value="2" />
+   <property name="PlayRequiredElement" value="Loyalty" />
+   <property name="Traits" value="Pegasus" />
+   <property name="Keywords" value="Swift" />
+   <property name="Text" value="After a faceoff involving this card, you may put one of the cards you flipped for the faceoff into your hand." />
+   <property name="ProblemBonus" value="" />
+   <property name="ProblemOpponentPower" value="" />
+   <property name="ProblemPlayerElement1" value="" />
+   <property name="ProblemPlayerElement1Power" value="" />
+   <property name="ProblemPlayerElement2" value="" />
+   <property name="ProblemPlayerElement2Power" value="" />
+   <property name="Rarity" value="P" />
+  </card>
+  <card id="afaadba4-cd09-4dc4-ac4a-f47b482b7e9d" name="Twilight Sparkle">
+   <property name="Number" value="PF4" />
+   <property name="Type" value="Friend" />
+   <property name="Element" value="Magic" />
+   <property name="Subname" value="Research Student" />
+   <property name="Power" value="1" />
+   <property name="Cost" value="2" />
+   <property name="PlayRequiredPower" value="2" />
+   <property name="PlayRequiredElement" value="Magic" />
+   <property name="Traits" value="Unicorn" />
+   <property name="Keywords" value="Studious" />
+   <property name="Text" value="When you confront this card's Problem, you may move this card home to gain 1." />
+   <property name="ProblemBonus" value="" />
+   <property name="ProblemOpponentPower" value="" />
+   <property name="ProblemPlayerElement1" value="" />
+   <property name="ProblemPlayerElement1Power" value="" />
+   <property name="ProblemPlayerElement2" value="" />
+   <property name="ProblemPlayerElement2Power" value="" />
+   <property name="Rarity" value="P" />
+  </card>
+ </cards>
+</set>
