@@ -964,7 +964,7 @@
    <property name="ProblemPlayerElement2Power" value="" />
    <property name="Rarity" value="C" />
   </card>
-  <card id="58c52f1a-0263-4415-81cb-77544343de7a" name="Goldergrape">
+  <card id="58c52f1a-0263-4415-81cb-77544343de7a" name="Goldengrape">
    <property name="Number" value="043" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Laughter" />
@@ -4295,7 +4295,7 @@
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="Asset" />
    <property name="Keywords" value="Play to your home." />
-   <property name="Text" value="Faceoff Reaction: When you win a faceoff, you mnay dismiss this card to gain 4." />
+   <property name="Text" value="Faceoff Reaction: When you win a faceoff, you may dismiss this card to gain 4." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />

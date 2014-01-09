@@ -3,7 +3,7 @@
 <game name="My Little Pony - CCG" 
 	id="65656467-b709-43b2-a5c6-80c2f216adf9" 
 	octgnVersion="3.1.0.0" 
-	version="2.1.0.2" 
+	version="2.1.0.4" 
 	markersize="16"
 	tags="My Little Pony MLP CCG" 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
@@ -62,8 +62,7 @@
 		<groupaction menu="Game Setup." shortcut="F12" execute="setup" />
 
 		<groupactions menu="Special Abilities">
-			<groupaction menu="Inspired - Look" shortcut="ALT+I" execute="inspiredPeek" />
-			<groupaction menu="Inspired - Move" shortcut="ALT+SHIFT+I" execute="inspiredMove" />
+			<groupaction menu="Inspired" shortcut="ALT+I" execute="inspired" />
 		</groupactions>
 
 		<groupactions menu="Card actions">

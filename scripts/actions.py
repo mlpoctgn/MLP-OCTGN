@@ -1,3 +1,5 @@
+import re
+
 #---------------------------------------------------------------------------
 # Constants
 #---------------------------------------------------------------------------
@@ -27,21 +29,106 @@ def sixSided(group, x = 0, y = 0):
 	n = rnd(1,6)
 	notify("{} rolls a {} on a 6-sided die.".format(me, n))
 
-def inspiredPeek(card, x = 0, y = 0):
-	if len(players) == 1: return
-	choice = confirm("Do you want to activate Inspired to see the top card of your opponent's deck?")
-	if choice == True:
-		card = players[1].Deck.top()
-		card.peek()
-		whisper("Use Alt+Shift+I if you want to move this card to the bottom of their deck.")
+def inspired(targetgroup, x = 0, y = 0, count = None):
+    mute()
+    if len(players) == 1:
+    	notify("There must be more than 1 player to use Inspired.")
+    	return
+    
+    group = players[1].Deck
+    	
+    inspiredCount = sum(1 for card in table if card.controller == me and re.search(r'Inspired', card.Keywords))
+    
+    if count == None:
+        count = askInteger("Look at how many cards?", inspiredCount)
+    if count == None or count == 0:
+        return
+    
+    notify("{} uses Inspired to look at the top {} cards of {}'s deck.".format(me, count, players[1]))
+    
+    topCards = group.top(count)
+
+    buttons = []  ## This list stores all the card objects for manipulations.
+    for c in topCards:
+        c.peek()  ## Reveal the cards to python
+        buttons.append(c)
+       
+    topList = []  ## This will store the cards selected for the top of the pile
+    bottomList = []  ## For cards going to the bottom of the pile
+    rnd(1,2)  ## allow the peeked card's properties to load
+    loop = 'BOTTOM'  ## Start with choosing cards to put on bottom
+           
+    while loop != None:
+        desc = "Select a card to place on {}:\n\n{}\n///////DECK///////\n{}".format(
+                loop,
+                '\n'.join([c.Name for c in topList]),
+                '\n'.join([c.Name for c in bottomList]))
+	if loop == 'TOP':
+		num = askChoice(desc, [c.Type + ": " + c.Name + " " + c.Subname for c in buttons], customButtons = ["Select BOTTOM","Leave Rest on BOTTOM","Reset"])
+		if num == -1:
+			loop = 'BOTTOM'         
+		elif num == -2:
+			while len(buttons) > 0:
+				card = buttons.pop()
+				bottomList.append(card)
+		elif num == -3:
+			topList = []
+			bottomList = []
+			buttons = []
+			for c in group.top(count):
+				c.peek()
+				buttons.append(c)
+		elif num > 0:
+			card = buttons.pop(num - 1)
+			topList.insert(0, card)
+	else:
+		num = askChoice(desc, [c.Type + ": " + c.Name + " " + c.Subname for c in buttons], customButtons = ["Select TOP","Leave Rest on TOP","Reset"])
+		if num == -1:
+			loop = 'TOP'
+		elif num == -2:
+			while len(buttons) > 0:
+				card = buttons.pop()
+				topList.insert(0, card)
+		elif num == -3:
+			topList = []
+			bottomList = []
+			buttons = []
+			for c in group.top(count):
+				c.peek()
+				buttons.append(c)
+		elif num > 0:
+			card = buttons.pop(num - 1)
+			bottomList.append(card)
+	if len(buttons) == 0: ##  End the loop
+		loop = None
+	if num == None:  ## closing the dialog window will cancel the ability, not moving any cards, but peek status will stay on.
+		return
+    topList.reverse()  ## Gotta flip topList so the moveTo's go in the right order
+    for c in topList:
+        c.moveTo(group)
+    for c in bottomList:
+        c.moveToBottom(group)
+    for c in group:  ## This removes the peek status
+        c.isFaceUp = True
+        c.isFaceUp = False
+    notify("{} looked at {} cards and put {} on top and {} on bottom.".format(me, count, len(topList), len(bottomList)))
+
+
+#def inspiredPeek(card, x = 0, y = 0):
+#	if len(players) == 1: return
+#	choice = confirm("Do you want to activate Inspired to see the top card of your opponent's deck?")
+#	if choice == True:
+#		card = players[1].Deck.top()
+#		card.peek()
+#		whisper("Use Alt+Shift+I if you want to move this card to the bottom of their deck.")
 	
-def inspiredMove(card, x = 0, y = 0):
-	if len(players) == 1: return
-	choice = confirm("Are you sure you want to move the top card to bottom of your opponent's deck?")
-	if choice == True:
-		card = players[1].Deck.top()
-		card.moveToBottom(players[1].Deck)
-		notify("{} has used Inspired to move a card to bottom of {}'s deck.".format(me, players[1]))
+#def inspiredMove(card, x = 0, y = 0):
+#	if len(players) == 1: return
+#	choice = confirm("Are you sure you want to move the top card to bottom of your opponent's deck?")
+#	if choice == True:
+#		card = players[1].Deck.top()
+#		card.moveToBottom(players[1].Deck)
+#		notify("{} has used Inspired to move a card to bottom of {}'s deck.".format(me, players[1]))
 
 def clearFaceoff(group, x = 0, y = 0):
 	mute()
