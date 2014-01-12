@@ -43,5 +43,25 @@
    <property name="ProblemPlayerElement2Power" value="" />
    <property name="Rarity" value="P" />
   </card>
+    <card id="1802f9af-ec3f-4393-8150-b5822bf13a4d" name="Applejack">
+     <property name="Number" value="PF2" />
+     <property name="Type" value="Friend" />
+     <property name="Element" value="Honesty" />
+     <property name="Subname" value="Farm Foremare" />
+     <property name="Power" value="3" />
+     <property name="Cost" value="3" />
+     <property name="PlayRequiredPower" value="1" />
+     <property name="PlayRequiredElement" value="Honesty" />
+     <property name="Traits" value="Earth Pony" />
+     <property name="Keywords" value="Stubborn" />
+     <property name="Text" value="When you play this card, you may reveal the top 5 cards of your deck. You may put one revealed Resource into your hand. Put all remaining cards at the bottom of your deck in any order." />
+     <property name="ProblemBonus" value="" />
+     <property name="ProblemOpponentPower" value="" />
+     <property name="ProblemPlayerElement1" value="" />
+     <property name="ProblemPlayerElement1Power" value="" />
+     <property name="ProblemPlayerElement2" value="" />
+     <property name="ProblemPlayerElement2Power" value="" />
+     <property name="Rarity" value="P" />
+  </card>
  </cards>
 </set>

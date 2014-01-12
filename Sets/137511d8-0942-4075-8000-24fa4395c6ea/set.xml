@@ -85,7 +85,7 @@
    </alternate>   
   </card>
   <card id="935e02bc-b14d-4a49-ae4d-375f567fb3ac" name="Fluttershy">
-   <property name="Number" value="003" />
+   <property name="Number" value="006" />
    <property name="Type" value="Mane Character" />
    <property name="Element" value="Kindness" />
    <property name="Subname" value="Beastmaster" />
@@ -104,7 +104,7 @@
    <property name="ProblemPlayerElement2Power" value="" />
    <property name="Rarity" value="F" />
    <alternate name="Fluttershy" type="Mane Character Boosted">
-	   <property name="Number" value="003" />
+	   <property name="Number" value="006" />
 	   <property name="Type" value="Mane Character Boosted" />
 	   <property name="Element" value="Kindness" />
 	   <property name="Subname" value="Beastmaster" />
@@ -205,7 +205,7 @@
 	   </alternate>
   </card>
   <card id="7a6d06b9-e09e-4c73-930b-0b62a36b4588" name="Pinkie Pie">
-   <property name="Number" value="006" />
+   <property name="Number" value="003" />
    <property name="Type" value="Mane Character" />
    <property name="Element" value="Laughter" />
    <property name="Subname" value="Party Animal" />
@@ -224,7 +224,7 @@
    <property name="ProblemPlayerElement2Power" value="" />
    <property name="Rarity" value="F" />
    <alternate name="Pinkie Pie" type="Mane Character Boosted">
-      <property name="Number" value="006" />
+      <property name="Number" value="003" />
       <property name="Type" value="Mane Character Boosted" />
       <property name="Element" value="Laughter" />
       <property name="Subname" value="Party Animal" />
@@ -675,7 +675,7 @@
    <property name="PlayRequiredElement" value="Honesty" />
    <property name="Traits" value="Earth Pony, Elder" />
    <property name="Keywords" value="" />
-   <property name="Text" value="When you play this card, you mahy move a Resource from one Friend to another." />
+   <property name="Text" value="When you play this card, you may move a Resource from one Friend to another." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
