@@ -3135,7 +3135,7 @@
    <property name="PlayRequiredElement" value="Loyalty" />
    <property name="Traits" value="Asset" />
    <property name="Keywords" value="Play to your home." />
-   <property name="Text" value="Main Phase: Dismiss this card to reduce the cost of th enext card you play this turn by 2." />
+   <property name="Text" value="Main Phase: Dismiss this card to reduce the cost of the next card you play this turn by 2." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />

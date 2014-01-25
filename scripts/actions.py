@@ -1,4 +1,5 @@
 import re
+import time
 
 #---------------------------------------------------------------------------
 # Constants
@@ -107,10 +108,13 @@ def inspired(targetgroup, x = 0, y = 0, count = None):
 	topList.reverse()  ## Gotta flip topList so the moveTo's go in the right order
 	
 	originalOwner = group.controller
-
+	
+	update()
+	
 	group.setController(me)
 
 	update()
+	time.sleep(.5)
 
 	for c in topList:
 		c.setController(me)
@@ -137,7 +141,8 @@ def inspired(targetgroup, x = 0, y = 0, count = None):
 		c.isFaceUp = False
 	
 	update()
-
+	time.sleep(.5)
+	
 	group.setController(originalOwner)
 
 	update()
@@ -176,22 +181,29 @@ def clearFaceoff(group, x = 0, y = 0):
 	
 	count = 0
 	for card in FaceoffCards:
-		card.moveToBottom(card.owner.Deck)
-		count += 1
+		if card.owner == me:
+			card.moveToBottom(card.owner.Deck)
+			count += 1
 	
 	if count > 0:
-		notify("Faceoff Cards have been put on the bottoms of their owner's decks.")
+		notify("Faceoff Cards have been put on the bottom of {}'s deck.".format(me))
 
 def readyAll(group, x = 0, y = 0): 
 	mute()
+	doNotify = False
+	
 	myCards = (card for card in table
 				if card.controller == me
-				and card.owner == me)
+				and card.owner == me
+				and card.orientation == Rot90)
 	for card in myCards:
 		if card.isFaceUp:
 			card.orientation &= ~Rot90
 			card.highlight = None
-	notify("{} readies all their cards.".format(me))
+			doNotify = True
+	
+	if doNotify:
+		notify("{} readies all their cards.".format(me))
 
 def turnStart(group, x = 0, y = 0):
 	mute()
@@ -200,8 +212,17 @@ def turnStart(group, x = 0, y = 0):
 	addActions = 0
 	
 	if me.getGlobalVariable("TurnStarted") == "True":
-		whisper("You've already started your turn.")
-		return
+		num = askChoice("It looks like you've already started your turn. If this is incorrect, you can Force Start your turn using the button below.", ["Force Start Turn","Cancel"])
+		if num != 1:
+			return
+			
+	if turnNumber() == 0:
+		num = askChoice("Are you first player?", ["Yes","No"])
+		if num != 1:
+			return
+		me.setActivePlayer()
+		rnd(1,2)
+		update()
 	
 	if me.isActivePlayer:
 		notify("*{} begins Turn {}*".format(me, turnNumber()))
@@ -209,6 +230,8 @@ def turnStart(group, x = 0, y = 0):
 	else:
 		whisper("You can't start the turn when it isn't your turn. If you are just starting a new game, click the green arrow on a player's tab to make him first player.")
 		return
+	
+	readyAll(group, x, y)
 	
 	checkFirstTurn = getGlobalVariable("FirstTurn")
 			
@@ -238,7 +261,7 @@ def turnStart(group, x = 0, y = 0):
 		setGlobalVariable("FirstTurn", "False")
 	else:
 		draw(me.deck)
-
+		
 def turnTroublemaker(group, x = 0, y = 0):
 	mute()
 	if me.isActivePlayer:
@@ -267,7 +290,9 @@ def turnDone(group, x = 0, y = 0):
 	mute()
 	if me.isActivePlayer:
 		me.setGlobalVariable("TurnStarted", "False")
+		update()
 		clearFaceoff(group, x, y)
+		playSound('endturn')
 		if len(players) == 2:
 			players[1].setActivePlayer()
 			notify("*{} is done. It is now {}'s turn.*".format(me, players[1]))
@@ -324,6 +349,48 @@ def setup(group, x = 0, y = 0):
 			card.moveTo(me.piles['Problem Deck'])
 		else: 
 			card.moveTo(me.Deck)
+
+	#
+	#Starting Problem Selection
+	#
+	
+	mute()
+	
+	for c in me.piles['Problem Deck']:
+		c.peek() ## Reveal the cards to python
+
+	rnd(1,2)  ## allow the peeked card's properties to load
+	
+	StartProblems = (card for card in me.piles['Problem Deck'] if re.search(r'Starting Problem.', card.Keywords))
+				
+	buttons = []  ## This list stores all the card objects for manipulations.
+	OldProblem = ""
+	for c in StartProblems:
+		if c.Name != OldProblem:
+			buttons.append(c)
+			OldProblem = c.Name
+	
+	desc = "Select a Starting Problem:"
+	num = askChoice(desc, [c.Name + ": (" + c.ProblemPlayerElement1Power + " " + c.ProblemPlayerElement1 + " / " + c.ProblemPlayerElement2Power + " " + c.ProblemPlayerElement2 + ")" for c in buttons], customButtons = ["Cancel Setup"])
+	if num > 0:
+		SelectedStart = buttons.pop(num - 1)       
+	else: 
+		return	
+	
+	if me.hasInvertedTable():
+		SelectedStart.moveToTable(-193,-45)
+	else:				
+		SelectedStart.moveToTable(130,-43)
+		
+	update()
+			
+	for c in me.piles['Problem Deck']:  ## This removes the peek status
+		c.isFaceUp = True
+		c.isFaceUp = False
+	
+	shuffle(me.piles['Problem Deck'])
+	
+	update()
 	
 	for card in me.hand: 
 		if card.Type == 'Mane Character':
@@ -347,8 +414,6 @@ def setup(group, x = 0, y = 0):
 		notify("{}: Invalid Setup! Must have exactly one copy of a Mane Character in your deck!".format(me))
 		return
 
-	mute()
-
 	shuffle(me.Deck)
 	
 	if len(me.Deck) == 0: return
@@ -362,6 +427,7 @@ def setup(group, x = 0, y = 0):
 	notify("{} has set up their side of the table.".format(me))
 
 	setGlobalVariable("FirstTurn", "True")
+	me.setGlobalVariable("TurnStarted", "False")
 		
 	me.counters['Points'].value = 0
 	me.counters['Actions'].value = 0

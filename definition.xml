@@ -3,7 +3,7 @@
 <game name="My Little Pony - CCG" 
 	id="65656467-b709-43b2-a5c6-80c2f216adf9" 
 	octgnVersion="3.1.0.0" 
-	version="2.1.1.0" 
+	version="2.1.2.3" 
 	markersize="16"
 	tags="My Little Pony MLP CCG" 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
@@ -22,6 +22,10 @@
    	<events>
 	       <event name="OnTableLoad" action="chkTwoSided" />
    	</events>
+	
+	<sounds>
+		<sound name="endturn" src="sounds/endturn.mp3"/>
+	</sounds>
 	
 	<fonts>
 	</fonts>
@@ -102,7 +106,7 @@
 	
 	</table>
 	
-	<player summary=" Points: {#Points} / Action Tokens: {#Actions}">
+	<player summary="Hand: {#Hand} / Points: {#Points} / Action Tokens: {#Actions}">
 		<counter name="Points" default="0" icon="counters/Points.png"  />
 		<counter name="Actions" default="0" icon="counters/Action_Marker.png" />
 		
