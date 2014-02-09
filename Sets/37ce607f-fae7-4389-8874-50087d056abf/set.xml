@@ -62,6 +62,27 @@
      <property name="ProblemPlayerElement2" value="" />
      <property name="ProblemPlayerElement2Power" value="" />
      <property name="Rarity" value="P" />
+
+  </card>
+      <card id="4e36a8de-7bab-479a-bff1-fe8f65a29492" name="Pinkie Pie">
+       <property name="Number" value="PF3" />
+       <property name="Type" value="Friend" />
+       <property name="Element" value="Laughter" />
+       <property name="Subname" value="Ear to Ear" />
+       <property name="Power" value="2" />
+       <property name="Cost" value="3" />
+       <property name="PlayRequiredPower" value="2" />
+       <property name="PlayRequiredElement" value="Laughter" />
+       <property name="Traits" value="Earth Pony" />
+       <property name="Keywords" value="Random" />
+       <property name="Text" value="Main Phase: Exhaust this card to draw a card." />
+       <property name="ProblemBonus" value="" />
+       <property name="ProblemOpponentPower" value="" />
+       <property name="ProblemPlayerElement1" value="" />
+       <property name="ProblemPlayerElement1Power" value="" />
+       <property name="ProblemPlayerElement2" value="" />
+       <property name="ProblemPlayerElement2Power" value="" />
+       <property name="Rarity" value="P" /> 
   </card>
  </cards>
 </set>

@@ -30,6 +30,15 @@ def sixSided(group, x = 0, y = 0):
 	n = rnd(1,6)
 	notify("{} rolls a {} on a 6-sided die.".format(me, n))
 
+def xSided(group, x = 0, y = 0):
+	mute()
+	x = askInteger("Roll a die with how many sides?", 20)
+	if x < 1:
+		return
+	
+	n = rnd(1,x)
+	notify("{} rolls a {} on a {}-sided die.".format(me, n, x))
+
 def inspired(targetgroup, x = 0, y = 0, count = None):
 	mute()
 	if len(players) == 1:
@@ -120,17 +129,13 @@ def inspired(targetgroup, x = 0, y = 0, count = None):
 		c.setController(me)
 
 	update()
+	time.sleep(.2)
 
 	for c in topList:
 		c.moveTo(group,0)
 
 	update()
-	
-	for c in topList:
-		c.setController(originalOwner)
-	
-	update()
-	
+		
 	for c in bottomList:
 		c.moveToBottom(group)
 		
@@ -139,6 +144,11 @@ def inspired(targetgroup, x = 0, y = 0, count = None):
 	for c in group:  ## This removes the peek status
 		c.isFaceUp = True
 		c.isFaceUp = False
+
+	time.sleep(.2)
+
+	for c in topList:
+		c.setController(originalOwner)
 	
 	update()
 	time.sleep(.5)
@@ -150,22 +160,6 @@ def inspired(targetgroup, x = 0, y = 0, count = None):
 	whisper("{}".format(group.controller))
 
 	notify("{} looked at {} cards and put {} on top and {} on bottom.".format(me, count, len(topList), len(bottomList)))
-
-#def inspiredPeek(card, x = 0, y = 0):
-#	if len(players) == 1: return
-#	choice = confirm("Do you want to activate Inspired to see the top card of your opponent's deck?")
-#	if choice == True:
-#		card = players[1].Deck.top()
-#		card.peek()
-#		whisper("Use Alt+Shift+I if you want to move this card to the bottom of their deck.")
-	
-#def inspiredMove(card, x = 0, y = 0):
-#	if len(players) == 1: return
-#	choice = confirm("Are you sure you want to move the top card to bottom of your opponent's deck?")
-#	if choice == True:
-#		card = players[1].Deck.top()
-#		card.moveToBottom(players[1].Deck)
-#		notify("{} has used Inspired to move a card to bottom of {}'s deck.".format(me, players[1]))
 
 def clearFaceoff(group, x = 0, y = 0):
 	mute()
@@ -205,6 +199,29 @@ def readyAll(group, x = 0, y = 0):
 	if doNotify:
 		notify("{} readies all their cards.".format(me))
 
+def peekAll(group, x = 0, y = 0):
+	faceDownCards = (card for card in table if card.controller == me and card.isFaceUp == False)
+	for c in faceDownCards:
+		c.peek()
+
+def nextPhase(group, x = 0, y = 0):
+	update()
+	currentPhase = me.getGlobalVariable("Phase")
+
+	if currentPhase == "Start":
+		turnStart(group, x, y)
+	elif currentPhase == "Ready":
+		turnTroublemaker(group, x, y)
+	elif currentPhase == "Troublemaker":
+		turnMain(group, x, y)
+	elif currentPhase == "Main":
+		turnScore(group, x, y)
+	elif currentPhase == "Score":
+		if not confirm("End your turn?"): return
+		turnDone(group, x, y)
+	else:
+		return
+
 def turnStart(group, x = 0, y = 0):
 	mute()
 	maxPoints = 0
@@ -228,7 +245,7 @@ def turnStart(group, x = 0, y = 0):
 		notify("*{} begins Turn {}*".format(me, turnNumber()))
 		me.setGlobalVariable("TurnStarted", "True")
 	else:
-		whisper("You can't start the turn when it isn't your turn. If you are just starting a new game, click the green arrow on a player's tab to make him first player.")
+		whisper("You can't start the turn when it isn't your turn.")
 		return
 	
 	readyAll(group, x, y)
@@ -261,20 +278,44 @@ def turnStart(group, x = 0, y = 0):
 		setGlobalVariable("FirstTurn", "False")
 	else:
 		draw(me.deck)
+	me.setGlobalVariable("Phase", "Ready")
+	
 		
 def turnTroublemaker(group, x = 0, y = 0):
 	mute()
 	if me.isActivePlayer:
 		clearFaceoff(group, x, y)
 		notify("*{} begins their Troublemaker Phase.*".format(me))
+		
+		peekAll(group, x, y)		
+		rnd(1,2)
+		
+		troublemakerCount = sum(1 for card in table if card.controller == me and card.Type == 'Troublemaker' and card.isFaceUp == False)
+		if troublemakerCount > 0:
+			num = askChoice("You have facedown Troublemakers. Flip them up?", ["Yes","No"])
+			if num == 1:
+				troublemakers = (card for card in table if card.controller == me and card.Type == 'Troublemaker' and card.isFaceUp == False)
+				for c in troublemakers:
+					c.isFaceUp = True			
+		me.setGlobalVariable("Phase", "Troublemaker")
+			
 	else:
-		whisper("You can't set the phase when it isn't your turn.")	
+		whisper("You can't set the phase when it isn't your turn.")
 
 def turnMain(group, x = 0, y = 0):
 	mute()
 	if me.isActivePlayer:
 		clearFaceoff(group, x, y)
+		#Check for Inspired
+		
 		notify("*{} begins their Main Phase.*".format(me))
+		inspiredCount = sum(1 for card in table if card.controller == me and re.search(r'Inspired', card.Keywords))
+		if inspiredCount > 0:
+			num = askChoice("You have {} Inspired on the table. Use Inspired?".format(inspiredCount), ["Yes","No"])
+			if num == 1:
+				inspired(group, x, y)
+		me.setGlobalVariable("Phase", "Main")
+
 	else:
 		whisper("You can't set the phase when it isn't your turn.")	
 
@@ -283,6 +324,7 @@ def turnScore(group, x = 0, y = 0):
 	if me.isActivePlayer:	
 		clearFaceoff(group, x, y)
 		notify("*{} begins their Score Phase.*".format(me))
+		me.setGlobalVariable("Phase", "Score")
 	else:
 		whisper("You can't set the phase when it isn't your turn.")	
 
@@ -297,7 +339,8 @@ def turnDone(group, x = 0, y = 0):
 			players[1].setActivePlayer()
 			notify("*{} is done. It is now {}'s turn.*".format(me, players[1]))
 		else:
-			notify("*{} is done.*".format(me))			
+			notify("*{} is done.*".format(me))
+		me.setGlobalVariable("Phase", "Start")
 	else:
 		whisper("You can't pass the turn when it isn't your turn.")
 
@@ -395,15 +438,15 @@ def setup(group, x = 0, y = 0):
 	for card in me.hand: 
 		if card.Type == 'Mane Character':
 			if me.hasInvertedTable():
-				card.moveToTable(0,-220)
+				card.moveToTable(-28,-220)
 			else:				
-				card.moveToTable(0,130)
+				card.moveToTable(-33,130)
 			ManeCheck = ManeCheck + 1
 		elif card.Type == 'Mane Character Boosted':
 			if me.hasInvertedTable():
-				card.moveToTable(0,-220)
+				card.moveToTable(-28,-220)
 			else:				
-				card.moveToTable(0,130)
+				card.moveToTable(-33,130)
 			card.switchTo()
 			ManeCheck = ManeCheck + 1
 		else:
@@ -428,6 +471,7 @@ def setup(group, x = 0, y = 0):
 
 	setGlobalVariable("FirstTurn", "True")
 	me.setGlobalVariable("TurnStarted", "False")
+	me.setGlobalVariable("Phase", "Start")
 		
 	me.counters['Points'].value = 0
 	me.counters['Actions'].value = 0
@@ -462,23 +506,44 @@ def gainPoint(group, x = 0, y = 0):
 
 def losePoint(group, x = 0, y = 0):
 	me.counters['Points'].value = max(0, me.counters['Points'].value - 1)
-	
-def gainAction(group, x = 0, y = 0):
-	me.counters['Actions'].value = me.counters['Actions'].value + 1
-	
-def loseAction(group, x = 0, y = 0):
-	me.counters['Actions'].value = max(0, me.counters['Actions'].value - 1)
 
+def spendAction(group, x = 0, y = 0):
+	if me.counters['Actions'].value == 0:
+		whisper("You do not have an Action Token to spend.")
+		return
+	me.counters['Actions'].value = me.counters['Actions'].value - 1
+	
+def increaseAction(group, x = 0, y = 0):
+	me.counters['Actions'].value = me.counters['Actions'].value + 1
+		
 #---------------------------------------------------------------------------
 # Table card actions
 #---------------------------------------------------------------------------		
 def exhaust(card, x = 0, y = 0):
     mute()
-    card.orientation ^= Rot90
-    if card.orientation & Rot90 == Rot90:
-        notify('{} exhausts {}.'.format(me, card))
+    
+    if card.Type == "Problem":
+    	if confirm("Replace Problem?"):
+		replaceProblem(card, x, y)    
     else:
-        notify('{} readies {}.'.format(me, card))
+    	card.orientation ^= Rot90
+    	if card.orientation & Rot90 == Rot90:
+		notify('{} exhausts {}.'.format(me, card))
+	else:
+		notify('{} readies {}.'.format(me, card))
+
+def replaceProblem(card, x = 0, y = 0):
+	mute()
+	oldName = card.Name
+	card.moveToBottom(me.piles['Problem Deck'])
+	
+	newProblem = me.piles['Problem Deck'][0]
+	
+	if me.hasInvertedTable():
+		newProblem.moveToTable(-193,-45)
+	else:				
+		newProblem.moveToTable(130,-43)
+	notify("{} moves {} to the bottom of their Problem Deck and Replaces it with {}".format(me,oldName,newProblem.Name))
 
 def flipcard(card, x = 0, y = 0):
     mute()
@@ -569,6 +634,16 @@ def draw(group):
 	group[0].moveTo(me.hand)
 	notify("{} draws a card.".format(me))
 	
+def payDraw(group):
+	mute()
+	if len(group) == 0: return
+	if me.counters['Actions'].value == 0:
+		whisper("You have no action tokens to draw a card with.")
+		return
+	group[0].moveTo(me.hand)
+	spendAction(group, 0, 0)
+	notify("{} pays 1 to draw a card. {} tokens left.".format(me, me.counters['Actions'].value))
+
 def drawRandom(group):
 	mute()
 	
@@ -631,6 +706,9 @@ def moveOneRandom(group):
 	card.moveTo(me.hand)
 	notify("{} randomly moves {} from their {} to their hand.".format(me, card.name, group.name))	
 	
+def faceoffFlipTable(group, x = 0, y = 0):
+	faceoffFlip(me.Deck)
+
 def faceoffFlip(group):
 	mute()
 	global FaceoffColor1

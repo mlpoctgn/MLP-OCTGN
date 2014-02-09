@@ -3,7 +3,7 @@
 <game name="My Little Pony - CCG" 
 	id="65656467-b709-43b2-a5c6-80c2f216adf9" 
 	octgnVersion="3.1.0.0" 
-	version="2.1.3.0" 
+	version="2.1.5.0" 
 	markersize="16"
 	tags="My Little Pony MLP CCG" 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
@@ -24,7 +24,7 @@
    	</events>
 	
 	<sounds>
-		<sound name="endturn" src="sounds/endturn.mp3"/>
+		<sound name="endturn" src="sounds/endturn.wav"/>
 	</sounds>
 	
 	<fonts>
@@ -39,6 +39,7 @@
 	<globalvariables>
 		<globalvariable name="FirstTurn" value="True" />
 		<globalvariable name="TurnStarted" value="False" />
+		<globalvariable name="Phase" value="Start" />
 	</globalvariables>
 	
 	<card back="cards/back.png" front="cards/front.png" width="63" height="88">
@@ -63,47 +64,54 @@
 	</card>
 	
 	<table name="Table" visibility="undefined" ordered="False" width="960" height="540" background="background/background.jpg" backgroundStyle="uniformToFill">
-		<groupaction menu="Game Setup." shortcut="F12" execute="setup" />
+		
+		<groupactions menu="Setup / Phases">
+			<groupaction menu="Game Setup" shortcut="F12" execute="setup" />
+			<groupaction menu="Jump to Start Turn" shortcut="F1" execute="turnStart" />
+			<groupaction menu="Jump to Troublemaker Phase" shortcut="F2" execute="turnTroublemaker" />
+			<groupaction menu="Jump to Main Phase" shortcut="F3" execute="turnMain" />
+			<groupaction menu="Jump to Score Phase" shortcut="F4" execute="turnScore" />
+			<groupaction menu="End Turn" shortcut="F5" execute="turnDone" />
+		</groupactions>
+		
+		<groupaction menu="Next Phase" shortcut="tab" execute="nextPhase" />
+		<groupaction menu="Declare Response" shortcut="F6" execute="holdOn" />
 
 		<groupactions menu="Special Abilities">
 			<groupaction menu="Inspired" shortcut="ALT+I" execute="inspired" />
 		</groupactions>
+		
+		<groupactions menu="Faceoff Actions">
+			<groupaction menu="Faceoff Flip" shortcut="CTRL+F" execute="faceoffFlipTable" />
+			<groupaction menu="Clear Faceoff Cards" shortcut="ALT+C" execute="clearFaceoff" />	
+		</groupactions>
 
 		<groupactions menu="Card actions">
-			<groupaction menu="Clear Faceoff Cards" shortcut="ALT+C" execute="clearFaceoff" />	
 			<groupaction menu="Ready All Cards" shortcut="F8" execute="readyAll" />
 			<groupaction menu="Scoop All Cards" shortcut="ALT+S" execute="scoop" />
-		</groupactions>
-		
-		<groupactions menu="Turn Structure">
-			<groupaction menu="Start Turn." shortcut="F1" execute="turnStart" />
-			<groupaction menu="Troublemaker Phase" shortcut="F2" execute="turnTroublemaker" />
-			<groupaction menu="Main Phase" shortcut="F3" execute="turnMain" />
-			<groupaction menu="Score Phase" shortcut="F4" execute="turnScore" />
-			<groupaction menu="End Turn." shortcut="F5" execute="turnDone" />
-			<groupaction menu="Response" shortcut="F6" execute="holdOn" />
+			<groupaction menu="Peek All Cards" shortcut="CTRL+SHIFT+P" execute="peekAll" />
 		</groupactions>
 		
 		<groupactions menu="Coins/Dice">
 			<groupaction menu="Flip a Coin" shortcut="ALT+F" execute="flipCoin" />
 			<groupaction menu="Roll a 6-sided" shortcut="ALT+6" execute="sixSided" />
+			<groupaction menu="Roll a x-sided" shortcut="ALT+X" execute="xSided" />
 		</groupactions>
 		
-		<groupactions menu="Counters">
-			<groupaction menu="Gain Point" shortcut="CTRL+R" execute="gainPoint" />
-			<groupaction menu="Subtract Point" shortcut="CTRL+E" execute="losePoint" />
-			<groupaction menu="Gain Action" shortcut="CTRL+W" execute="gainAction" />
-			<groupaction menu="Subtract Action" shortcut="CTRL+Q" execute="loseAction" />
+		<groupactions menu="Points/Actions">
+			<groupaction menu="Gain Point" shortcut="CTRL+Q" execute="gainPoint" />
+			<groupaction menu="Subtract Point" shortcut="CTRL+W" execute="losePoint" />
+			<groupaction menu="Spend Action" shortcut="Enter" execute="spendAction" />
+			<groupaction menu="Gain Action" shortcut="CTRL+Enter" execute="increaseAction" />
 		</groupactions>
 		
-		<cardaction menu="Exhaust/Ready" shortcut="F7" default="True" execute="exhaust" />
+		<cardaction menu="Exhaust/Ready/Replace" shortcut="F7" default="True" execute="exhaust" />
 		<cardaction menu="Flip Card" shortcut="F9" execute="flipcard" />
 		
 		<cardactions menu="Markers">
 			<cardaction menu="Add Marker" shortcut="CTRL+1" execute="addAction" />
 			<cardaction menu="Sub Marker" shortcut="CTRL+SHIFT+1" execute="subAction" />
 		</cardactions>
-	
 	</table>
 	
 	<player summary="Hand: {#Hand} / Points: {#Points} / Action Tokens: {#Actions}">
@@ -120,6 +128,7 @@
 			<groupaction menu="Faceoff Flip" shortcut="F10" execute="faceoffFlip" />				
 			<groupaction menu="Shuffle" shortcut="CTRL+S" execute="shuffle" />
 			<groupaction menu="Draw" shortcut="CTRL+D" default="True" execute="draw" />
+			<groupaction menu="Pay 1 and Draw" shortcut="CTRL+A" execute="payDraw" />
 			<groupaction menu="Draw Many" shortcut="CTRL+SHIFT+D" execute="drawMany" />
 			<groupaction menu="Discard Many From Top" execute="discardManyFromTop" />
 		</group>
