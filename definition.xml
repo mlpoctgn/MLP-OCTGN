@@ -3,7 +3,7 @@
 <game name="My Little Pony - CCG" 
 	id="65656467-b709-43b2-a5c6-80c2f216adf9" 
 	octgnVersion="3.1.0.0" 
-	version="2.1.5.0" 
+	version="2.2.0.0" 
 	markersize="16"
 	tags="My Little Pony MLP CCG" 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
@@ -63,7 +63,7 @@
 		<property name="Rarity" type="String" />
 	</card>
 	
-	<table name="Table" visibility="undefined" ordered="False" width="960" height="540" background="background/background.jpg" backgroundStyle="uniformToFill">
+	<table name="Table" visibility="undefined" ordered="False" width="960" height="540" board="background/background.jpg" background="background/background.jpg" backgroundStyle="uniformToFill">
 		
 		<groupactions menu="Setup / Phases">
 			<groupaction menu="Game Setup" shortcut="F12" execute="setup" />
@@ -87,7 +87,7 @@
 		</groupactions>
 
 		<groupactions menu="Card actions">
-			<groupaction menu="Ready All Cards" shortcut="F8" execute="readyAll" />
+			<groupaction menu="Ready All Cards" shortcut="ALT+R" execute="readyAll" />
 			<groupaction menu="Scoop All Cards" shortcut="ALT+S" execute="scoop" />
 			<groupaction menu="Peek All Cards" shortcut="CTRL+SHIFT+P" execute="peekAll" />
 		</groupactions>
@@ -107,6 +107,7 @@
 		
 		<cardaction menu="Exhaust/Ready/Replace" shortcut="F7" default="True" execute="exhaust" />
 		<cardaction menu="Flip Card" shortcut="F9" execute="flipcard" />
+		<cardaction menu="Flag/UnFlag Pumped" shortcut="F8" execute="markPumped" />
 		
 		<cardactions menu="Markers">
 			<cardaction menu="Add Marker" shortcut="CTRL+1" execute="addAction" />

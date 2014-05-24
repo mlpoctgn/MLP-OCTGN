@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <set name="Promos" id="37ce607f-fae7-4389-8874-50087d056abf" gameId="65656467-b709-43b2-a5c6-80c2f216adf9" gameVersion="3.1.0.0" version="3.0">
- <markers>
- </markers>
  <cards>
   <card id="9f258468-001f-4f8b-a81b-25183397fb59" name="Rainbow Dash">
    <property name="Number" value="PF1" />
@@ -15,6 +13,46 @@
    <property name="Traits" value="Pegasus" />
    <property name="Keywords" value="Swift" />
    <property name="Text" value="After a faceoff involving this card, you may put one of the cards you flipped for the faceoff into your hand." />
+   <property name="ProblemBonus" value="" />
+   <property name="ProblemOpponentPower" value="" />
+   <property name="ProblemPlayerElement1" value="" />
+   <property name="ProblemPlayerElement1Power" value="" />
+   <property name="ProblemPlayerElement2" value="" />
+   <property name="ProblemPlayerElement2Power" value="" />
+   <property name="Rarity" value="P" />
+  </card>
+  <card id="1802f9af-ec3f-4393-8150-b5822bf13a4d" name="Applejack">
+   <property name="Number" value="PF2" />
+   <property name="Type" value="Friend" />
+   <property name="Element" value="Honesty" />
+   <property name="Subname" value="Farm Foremare" />
+   <property name="Power" value="3" />
+   <property name="Cost" value="3" />
+   <property name="PlayRequiredPower" value="1" />
+   <property name="PlayRequiredElement" value="Honesty" />
+   <property name="Traits" value="Earth Pony" />
+   <property name="Keywords" value="Stubborn" />
+   <property name="Text" value="When you play this card, you may reveal the top 5 cards of your deck. You may put one revealed Resource into your hand. Put all remaining cards at the bottom of your deck in any order." />
+   <property name="ProblemBonus" value="" />
+   <property name="ProblemOpponentPower" value="" />
+   <property name="ProblemPlayerElement1" value="" />
+   <property name="ProblemPlayerElement1Power" value="" />
+   <property name="ProblemPlayerElement2" value="" />
+   <property name="ProblemPlayerElement2Power" value="" />
+   <property name="Rarity" value="P" />
+  </card>
+  <card id="4e36a8de-7bab-479a-bff1-fe8f65a29492" name="Pinkie Pie">
+   <property name="Number" value="PF3" />
+   <property name="Type" value="Friend" />
+   <property name="Element" value="Laughter" />
+   <property name="Subname" value="Ear to Ear" />
+   <property name="Power" value="2" />
+   <property name="Cost" value="3" />
+   <property name="PlayRequiredPower" value="2" />
+   <property name="PlayRequiredElement" value="Laughter" />
+   <property name="Traits" value="Earth Pony" />
+   <property name="Keywords" value="Random" />
+   <property name="Text" value="Main Phase: Exhaust this card to draw a card." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -43,46 +81,46 @@
    <property name="ProblemPlayerElement2Power" value="" />
    <property name="Rarity" value="P" />
   </card>
-    <card id="1802f9af-ec3f-4393-8150-b5822bf13a4d" name="Applejack">
-     <property name="Number" value="PF2" />
-     <property name="Type" value="Friend" />
-     <property name="Element" value="Honesty" />
-     <property name="Subname" value="Farm Foremare" />
-     <property name="Power" value="3" />
-     <property name="Cost" value="3" />
-     <property name="PlayRequiredPower" value="1" />
-     <property name="PlayRequiredElement" value="Honesty" />
-     <property name="Traits" value="Earth Pony" />
-     <property name="Keywords" value="Stubborn" />
-     <property name="Text" value="When you play this card, you may reveal the top 5 cards of your deck. You may put one revealed Resource into your hand. Put all remaining cards at the bottom of your deck in any order." />
-     <property name="ProblemBonus" value="" />
-     <property name="ProblemOpponentPower" value="" />
-     <property name="ProblemPlayerElement1" value="" />
-     <property name="ProblemPlayerElement1Power" value="" />
-     <property name="ProblemPlayerElement2" value="" />
-     <property name="ProblemPlayerElement2Power" value="" />
-     <property name="Rarity" value="P" />
-
+  <card id="9035cc0d-cf2a-47e0-a482-3aa2cfa0829c" name="Fluttershy">
+   <property name="Number" value="PF6" />
+   <property name="Type" value="Friend" />
+   <property name="Element" value="Kindness" />
+   <property name="Subname" value="Safe Haven" />
+   <property name="Power" value="2" />
+   <property name="Cost" value="3" />
+   <property name="PlayRequiredPower" value="1" />
+   <property name="PlayRequiredElement" value="Kindness" />
+   <property name="Traits" value="Pegasus" />
+   <property name="Keywords" value="Caretaker" />
+   <property name="Text" value="While this card is in your home, your home limit is increased by 2." />
+   <property name="ProblemBonus" value="" />
+   <property name="ProblemOpponentPower" value="" />
+   <property name="ProblemPlayerElement1" value="" />
+   <property name="ProblemPlayerElement1Power" value="" />
+   <property name="ProblemPlayerElement2" value="" />
+   <property name="ProblemPlayerElement2Power" value="" />
+   <property name="Rarity" value="P" />
   </card>
-      <card id="4e36a8de-7bab-479a-bff1-fe8f65a29492" name="Pinkie Pie">
-       <property name="Number" value="PF3" />
-       <property name="Type" value="Friend" />
-       <property name="Element" value="Laughter" />
-       <property name="Subname" value="Ear to Ear" />
-       <property name="Power" value="2" />
-       <property name="Cost" value="3" />
-       <property name="PlayRequiredPower" value="2" />
-       <property name="PlayRequiredElement" value="Laughter" />
-       <property name="Traits" value="Earth Pony" />
-       <property name="Keywords" value="Random" />
-       <property name="Text" value="Main Phase: Exhaust this card to draw a card." />
-       <property name="ProblemBonus" value="" />
-       <property name="ProblemOpponentPower" value="" />
-       <property name="ProblemPlayerElement1" value="" />
-       <property name="ProblemPlayerElement1Power" value="" />
-       <property name="ProblemPlayerElement2" value="" />
-       <property name="ProblemPlayerElement2Power" value="" />
-       <property name="Rarity" value="P" /> 
+  <card id="37ba0893-31d1-43ad-a0f7-f212c1ca46b2" name="Applejack">
+   <property name="Number" value="PF5" />
+   <property name="Type" value="Friend" />
+   <property name="Element" value="Magic" />
+   <property name="Subname" value="Reunion Organizer" />
+   <property name="Power" value="2" />
+   <property name="Cost" value="3" />
+   <property name="PlayRequiredPower" value="1" />
+   <property name="PlayRequiredElement" value="Magic" />
+   <property name="Traits" value="Earth Pony" />
+   <property name="Keywords" value="" />
+   <property name="Text" value="While at a Problem with a [Honesty] Friend, this card has +1 power.
+While at a Problem with Rainbow Dash, this card has +1 [Loyalty]." />
+   <property name="ProblemBonus" value="" />
+   <property name="ProblemOpponentPower" value="" />
+   <property name="ProblemPlayerElement1" value="" />
+   <property name="ProblemPlayerElement1Power" value="" />
+   <property name="ProblemPlayerElement2" value="" />
+   <property name="ProblemPlayerElement2Power" value="" />
+   <property name="Rarity" value="P" />
   </card>
  </cards>
 </set>

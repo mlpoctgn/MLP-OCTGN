@@ -8,6 +8,7 @@ Action = ("Action", "ec99fdcb-ffea-4658-8e8f-5dc06e93f6fd") #The GUID from marke
 GameURL = "http://tinyurl.com/ne3sb8t"
 FaceoffColor1 = "#ff0000"
 FaceoffColor2 = "#0000ff"
+PumpedColor = "#999999"
 #---------------------------------------------------------------------------
 # Globals
 #---------------------------------------------------------------------------
@@ -564,6 +565,16 @@ def flipcard(card, x = 0, y = 0):
     else:
         card.isFaceUp = True
         notify("{} turns {} face up.".format(me, card))
+
+def markPumped(card, x = 0, y = 0):
+	mute()
+	
+	if card.highlight == PumpedColor:
+		card.highlight = None
+		notify("{} Unflags {} as a pump card.".format(me, card))
+	else:
+		card.highlight = PumpedColor
+		notify("{} Flags {} as a pump card.".format(me, card))
 
 def addAction(card, x = 0, y = 0):
 	mute()
