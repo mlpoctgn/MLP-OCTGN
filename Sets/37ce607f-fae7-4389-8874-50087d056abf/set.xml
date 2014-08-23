@@ -2,7 +2,7 @@
 <set name="Promos" id="37ce607f-fae7-4389-8874-50087d056abf" gameId="65656467-b709-43b2-a5c6-80c2f216adf9" gameVersion="3.1.0.0" version="3.0">
  <cards>
   <card id="9f258468-001f-4f8b-a81b-25183397fb59" name="Rainbow Dash">
-   <property name="Number" value="PF1" />
+   <property name="Number" value="prPF1" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Loyalty" />
    <property name="Subname" value="To the Rescue" />
@@ -22,7 +22,7 @@
    <property name="Rarity" value="P" />
   </card>
   <card id="1802f9af-ec3f-4393-8150-b5822bf13a4d" name="Applejack">
-   <property name="Number" value="PF2" />
+   <property name="Number" value="prPF2" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Honesty" />
    <property name="Subname" value="Farm Foremare" />
@@ -42,7 +42,7 @@
    <property name="Rarity" value="P" />
   </card>
   <card id="4e36a8de-7bab-479a-bff1-fe8f65a29492" name="Pinkie Pie">
-   <property name="Number" value="PF3" />
+   <property name="Number" value="prPF3" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Laughter" />
    <property name="Subname" value="Ear to Ear" />
@@ -62,7 +62,7 @@
    <property name="Rarity" value="P" />
   </card>
   <card id="afaadba4-cd09-4dc4-ac4a-f47b482b7e9d" name="Twilight Sparkle">
-   <property name="Number" value="PF4" />
+   <property name="Number" value="prPF4" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Magic" />
    <property name="Subname" value="Research Student" />
@@ -82,7 +82,7 @@
    <property name="Rarity" value="P" />
   </card>
   <card id="9035cc0d-cf2a-47e0-a482-3aa2cfa0829c" name="Fluttershy">
-   <property name="Number" value="PF6" />
+   <property name="Number" value="prPF6" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Kindness" />
    <property name="Subname" value="Safe Haven" />
@@ -102,7 +102,7 @@
    <property name="Rarity" value="P" />
   </card>
   <card id="37ba0893-31d1-43ad-a0f7-f212c1ca46b2" name="Applejack">
-   <property name="Number" value="PF5" />
+   <property name="Number" value="cnPF3" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Magic" />
    <property name="Subname" value="Reunion Organizer" />
@@ -114,6 +114,111 @@
    <property name="Keywords" value="" />
    <property name="Text" value="While at a Problem with a [Honesty] Friend, this card has +1 power.
 While at a Problem with Rainbow Dash, this card has +1 [Loyalty]." />
+   <property name="ProblemBonus" value="" />
+   <property name="ProblemOpponentPower" value="" />
+   <property name="ProblemPlayerElement1" value="" />
+   <property name="ProblemPlayerElement1Power" value="" />
+   <property name="ProblemPlayerElement2" value="" />
+   <property name="ProblemPlayerElement2Power" value="" />
+   <property name="Rarity" value="P" />
+  </card>
+  <card id="2e6bb8b7-e8eb-4c0f-ab77-06306c11f06a" name="Rarity">
+   <property name="Number" value="cnPF5" />
+   <property name="Type" value="Friend" />
+   <property name="Element" value="Kindness" />
+   <property name="Subname" value="Big Sister" />
+   <property name="Power" value="2" />
+   <property name="Cost" value="3" />
+   <property name="PlayRequiredPower" value="1" />
+   <property name="PlayRequiredElement" value="Kindness" />
+   <property name="Traits" value="Unicorn" />
+   <property name="Keywords" value="" />
+   <property name="Text" value="While at a Problem with a [Generosity] Friend, this card has +1 power.
+While at a Problem with Twilight Sparkle, this card has +1 [Magic]." />
+   <property name="ProblemBonus" value="" />
+   <property name="ProblemOpponentPower" value="" />
+   <property name="ProblemPlayerElement1" value="" />
+   <property name="ProblemPlayerElement1Power" value="" />
+   <property name="ProblemPlayerElement2" value="" />
+   <property name="ProblemPlayerElement2Power" value="" />
+   <property name="Rarity" value="P" />
+  </card>
+  <card id="848cdb73-7819-4ee1-ba9f-c3ef55282334" name="Pinkie Pie">
+   <property name="Number" value="cnPF7" />
+   <property name="Type" value="Event" />
+   <property name="Element" value="Honesty" />
+   <property name="Subname" value="Apple Family Member" />
+   <property name="Power" value="2" />
+   <property name="Cost" value="3" />
+   <property name="PlayRequiredPower" value="1" />
+   <property name="PlayRequiredElement" value="Honesty" />
+   <property name="Traits" value="Earth Pony" />
+   <property name="Keywords" value="" />
+   <property name="Text" value="While at a Problem with a [Laughter] Friend, this card has +1 power.
+While at a Problem with Fluttershy, this card has +1 [Kindness]." />
+   <property name="ProblemBonus" value="" />
+   <property name="ProblemOpponentPower" value="" />
+   <property name="ProblemPlayerElement1" value="" />
+   <property name="ProblemPlayerElement1Power" value="" />
+   <property name="ProblemPlayerElement2" value="" />
+   <property name="ProblemPlayerElement2Power" value="" />
+   <property name="Rarity" value="P" />
+  </card>
+  <card id="59b218cd-9b5d-40b7-a5ad-39f75c0bd82f" name="Twilight Sparkle">
+   <property name="Number" value="PF9" />
+   <property name="Type" value="Event" />
+   <property name="Element" value="Laughter" />
+   <property name="Subname" value="Break Dancer" />
+   <property name="Power" value="2" />
+   <property name="Cost" value="3" />
+   <property name="PlayRequiredPower" value="1" />
+   <property name="PlayRequiredElement" value="Laughter" />
+   <property name="Traits" value="Unicorn" />
+   <property name="Keywords" value="" />
+   <property name="Text" value="While at a Problem with a [Magic] Friend, this card has +1 power.
+While at a Problem with Rarity, this card has +1 [Generosity]." />
+   <property name="ProblemBonus" value="" />
+   <property name="ProblemOpponentPower" value="" />
+   <property name="ProblemPlayerElement1" value="" />
+   <property name="ProblemPlayerElement1Power" value="" />
+   <property name="ProblemPlayerElement2" value="" />
+   <property name="ProblemPlayerElement2Power" value="" />
+   <property name="Rarity" value="P" />
+  </card>
+  <card id="96f7bbd2-c413-47a4-914f-e15c4cc3b1f3" name="Fluttershy">
+   <property name="Number" value="PF10" />
+   <property name="Type" value="Event" />
+   <property name="Element" value="Loyalty" />
+   <property name="Subname" value="Rainbow Chaser" />
+   <property name="Power" value="2" />
+   <property name="Cost" value="3" />
+   <property name="PlayRequiredPower" value="1" />
+   <property name="PlayRequiredElement" value="Loyalty" />
+   <property name="Traits" value="Pegasus" />
+   <property name="Keywords" value="" />
+   <property name="Text" value="While at a Problem with a [Kindness] Friend, this card has +1 power.
+While at a Problem with Pinkie Pie, this card has +1 [Laughter]." />
+   <property name="ProblemBonus" value="" />
+   <property name="ProblemOpponentPower" value="" />
+   <property name="ProblemPlayerElement1" value="" />
+   <property name="ProblemPlayerElement1Power" value="" />
+   <property name="ProblemPlayerElement2" value="" />
+   <property name="ProblemPlayerElement2Power" value="" />
+   <property name="Rarity" value="P" />
+  </card>
+  <card id="375c0df4-456b-4f8f-a577-b444bf2db0d7" name="Rainbow Dash">
+   <property name="Number" value="PF11" />
+   <property name="Type" value="Event" />
+   <property name="Element" value="Generosity" />
+   <property name="Subname" value="Dressing in Style" />
+   <property name="Power" value="2" />
+   <property name="Cost" value="3" />
+   <property name="PlayRequiredPower" value="1" />
+   <property name="PlayRequiredElement" value="Generosity" />
+   <property name="Traits" value="Pegasus" />
+   <property name="Keywords" value="" />
+   <property name="Text" value="While at a Problem with a [Loyalty] Friend, this card has +1 power.
+While at a problem with Applejack, this card has +1 [Honesty]." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />

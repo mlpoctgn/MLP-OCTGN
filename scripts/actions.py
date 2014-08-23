@@ -310,7 +310,8 @@ def turnMain(group, x = 0, y = 0):
 		#Check for Inspired
 		
 		notify("*{} begins their Main Phase.*".format(me))
-		inspiredCount = sum(1 for card in table if card.controller == me and re.search(r'Inspired', card.Keywords))
+		
+		inspiredCount = sum(1 for card in table if card.controller == me and re.search(r'Inspired', card.Keywords) and card.highlight == None)
 		if inspiredCount > 0:
 			num = askChoice("You have {} Inspired on the table. Use Inspired?".format(inspiredCount), ["Yes","No"])
 			if num == 1:
@@ -574,6 +575,7 @@ def markPumped(card, x = 0, y = 0):
 		notify("{} Unflags {} as a pump card.".format(me, card))
 	else:
 		card.highlight = PumpedColor
+		card.sendToBack()
 		notify("{} Flags {} as a pump card.".format(me, card))
 
 def addAction(card, x = 0, y = 0):
