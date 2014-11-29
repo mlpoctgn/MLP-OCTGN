@@ -122,8 +122,48 @@ At the end of your turn, if you have a Friend with at least 5 power, turn this c
        <property name="Rarity" value="U" />
    </alternate>
   </card>
+  <card id="b8e20a51-a782-44f9-b07e-45b41e4d3d8c" name="Princess Luna">
+     <property name="Number" value="cn4" />
+     <property name="Type" value="Mane Character" />
+     <property name="Element" value="Magic" />
+     <property name="Subname" value="The Party's Over" />
+     <property name="Power" value="1" />
+     <property name="Cost" value="" />
+     <property name="PlayRequiredPower" value="" />
+     <property name="PlayRequiredElement" value="" />
+     <property name="Traits" value="Alicorn, Royalty" />
+     <property name="Keywords" value="Home Limit 3" />
+     <property name="Text" value="When you win a faceoff involving this card, turn this card over." />
+     <property name="ProblemBonus" value="" />
+     <property name="ProblemOpponentPower" value="" />
+     <property name="ProblemPlayerElement1" value="" />
+     <property name="ProblemPlayerElement1Power" value="" />
+     <property name="ProblemPlayerElement2" value="" />
+     <property name="ProblemPlayerElement2Power" value="" />
+     <property name="Rarity" value="U" />
+       <alternate name="Princess Luna" type="Mane Character Boosted">
+        <property name="Number" value="cn4" />
+        <property name="Type" value="Mane Character Boosted" />
+        <property name="Element" value="Magic" />
+        <property name="Subname" value="The Party's Over" />
+        <property name="Power" value="3" />
+        <property name="Cost" value="" />
+        <property name="PlayRequiredPower" value="" />
+        <property name="PlayRequiredElement" value="" />
+        <property name="Traits" value="Alicorn, Royalty" />
+        <property name="Keywords" value="Home Limit 4" />
+        <property name="Text" value="Opposing characters here have -1 power during Problem faceoffs." />
+        <property name="ProblemBonus" value="" />
+        <property name="ProblemOpponentPower" value="" />
+        <property name="ProblemPlayerElement1" value="" />
+        <property name="ProblemPlayerElement1Power" value="" />
+        <property name="ProblemPlayerElement2" value="" />
+        <property name="ProblemPlayerElement2Power" value="" />
+        <property name="Rarity" value="U" />
+   </alternate>
+  </card>
   <card id="38684cc8-425e-4143-9341-eb7f7b69fb54" name="Princess Luna">
-   <property name="Number" value="cn4" />
+   <property name="Number" value="cnf4" />
    <property name="Type" value="Mane Character" />
    <property name="Element" value="Magic" />
    <property name="Subname" value="Princess of the Night" />
@@ -142,7 +182,7 @@ At the end of your turn, if you have a Friend with at least 5 power, turn this c
    <property name="ProblemPlayerElement2Power" value="" />
    <property name="Rarity" value="U" />
       <alternate name="Princess Luna" type="Mane Character Boosted">
-       <property name="Number" value="cn4" />
+       <property name="Number" value="cnf4" />
        <property name="Type" value="Mane Character Boosted" />
        <property name="Element" value="Magic" />
        <property name="Subname" value="Princess of the Night" />
@@ -282,8 +322,48 @@ At the end of your turn, if you have a Friend with at least 5 power, turn this c
        <property name="Rarity" value="U" />
    </alternate>
   </card>
+  <card id="2c19775b-672c-4fd8-9f2f-8f7da5b996f0" name="Rarity">
+     <property name="Number" value="cn8" />
+     <property name="Type" value="Mane Character" />
+     <property name="Element" value="Generosity" />
+     <property name="Subname" value="Mover and Shaker" />
+     <property name="Power" value="1" />
+     <property name="Cost" value="" />
+     <property name="PlayRequiredPower" value="" />
+     <property name="PlayRequiredElement" value="" />
+     <property name="Traits" value="Unicorn" />
+     <property name="Keywords" value="Home Limit 3" />
+     <property name="Text" value="When you confront this card's Problem with at least 2 other [Generosity] characters, turn this card over." />
+     <property name="ProblemBonus" value="" />
+     <property name="ProblemOpponentPower" value="" />
+     <property name="ProblemPlayerElement1" value="" />
+     <property name="ProblemPlayerElement1Power" value="" />
+     <property name="ProblemPlayerElement2" value="" />
+     <property name="ProblemPlayerElement2Power" value="" />
+     <property name="Rarity" value="U" />
+      <alternate name="Rarity" type="Mane Character Boosted">
+	     <property name="Number" value="cn8" />
+	     <property name="Type" value="Mane Character Boosted" />
+	     <property name="Element" value="Generosity" />
+	     <property name="Subname" value="Mover and Shaker" />
+	     <property name="Power" value="3" />
+	     <property name="Cost" value="" />
+	     <property name="PlayRequiredPower" value="" />
+	     <property name="PlayRequiredElement" value="" />
+	     <property name="Traits" value="Unicorn" />
+	     <property name="Keywords" value="Home Limit 4" />
+	     <property name="Text" value="Your opponent pays +1 to play Events." />
+	     <property name="ProblemBonus" value="" />
+	     <property name="ProblemOpponentPower" value="" />
+	     <property name="ProblemPlayerElement1" value="" />
+	     <property name="ProblemPlayerElement1Power" value="" />
+	     <property name="ProblemPlayerElement2" value="" />
+	     <property name="ProblemPlayerElement2Power" value="" />
+	     <property name="Rarity" value="U" />
+   </alternate>
+  </card>
   <card id="b3004b95-f605-4614-8147-ad9869b0314c" name="Princess Celestia">
-   <property name="Number" value="cn8" />
+   <property name="Number" value="cnf8" />
    <property name="Type" value="Mane Character" />
    <property name="Element" value="Kindness" />
    <property name="Subname" value="Hoof Shaker" />
@@ -302,7 +382,7 @@ At the end of your turn, if you have a Friend with at least 5 power, turn this c
    <property name="ProblemPlayerElement2Power" value="" />
    <property name="Rarity" value="U" />
       <alternate name="Princess Celestia" type="Mane Character Boosted">
-       <property name="Number" value="cn8" />
+       <property name="Number" value="cnf8" />
        <property name="Type" value="Mane Character Boosted" />
        <property name="Element" value="Kindness" />
        <property name="Subname" value="Hoof Shaker" />
@@ -4272,7 +4352,7 @@ Main Phase: Remove 2 Harmony tokens from this card to look at the top 3 cards of
    <property name="Number" value="cn203" />
    <property name="Type" value="Troublemaker" />
    <property name="Element" value="" />
-   <property name="Subname" value="Dream Catcher" />
+   <property name="Subname" value="" />
    <property name="Power" value="6" />
    <property name="Cost" value="" />
    <property name="PlayRequiredPower" value="" />
