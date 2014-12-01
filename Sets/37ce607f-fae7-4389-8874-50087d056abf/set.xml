@@ -145,7 +145,7 @@ While at a Problem with Twilight Sparkle, this card has +1 [Magic]." />
   </card>
   <card id="848cdb73-7819-4ee1-ba9f-c3ef55282334" name="Pinkie Pie">
    <property name="Number" value="cnPF7" />
-   <property name="Type" value="Friend" />
+   <property name="Type" value="Event" />
    <property name="Element" value="Honesty" />
    <property name="Subname" value="Apple Family Member" />
    <property name="Power" value="2" />
@@ -166,7 +166,7 @@ While at a Problem with Fluttershy, this card has +1 [Kindness]." />
   </card>
   <card id="59b218cd-9b5d-40b7-a5ad-39f75c0bd82f" name="Twilight Sparkle">
    <property name="Number" value="PF9" />
-   <property name="Type" value="Friend" />
+   <property name="Type" value="Event" />
    <property name="Element" value="Laughter" />
    <property name="Subname" value="Break Dancer" />
    <property name="Power" value="2" />
@@ -187,7 +187,7 @@ While at a Problem with Rarity, this card has +1 [Generosity]." />
   </card>
   <card id="96f7bbd2-c413-47a4-914f-e15c4cc3b1f3" name="Fluttershy">
    <property name="Number" value="PF10" />
-   <property name="Type" value="Friend" />
+   <property name="Type" value="Event" />
    <property name="Element" value="Loyalty" />
    <property name="Subname" value="Rainbow Chaser" />
    <property name="Power" value="2" />
@@ -208,7 +208,7 @@ While at a Problem with Pinkie Pie, this card has +1 [Laughter]." />
   </card>
   <card id="375c0df4-456b-4f8f-a577-b444bf2db0d7" name="Rainbow Dash">
    <property name="Number" value="PF11" />
-   <property name="Type" value="Friend" />
+   <property name="Type" value="Event" />
    <property name="Element" value="Generosity" />
    <property name="Subname" value="Dressing in Style" />
    <property name="Power" value="2" />
@@ -226,26 +226,6 @@ While at a problem with Applejack, this card has +1 [Honesty]." />
    <property name="ProblemPlayerElement2" value="" />
    <property name="ProblemPlayerElement2Power" value="" />
    <property name="Rarity" value="P" />
-  </card>
-    <card id="949b8865-b84d-40a2-b7d9-110ffea7e46c" name="Dr. Hooves">
-     <property name="Number" value="CGPF4" />
-     <property name="Type" value="Friend" />
-     <property name="Element" value="Loyalty" />
-     <property name="Subname" value="Too Splashy" />
-     <property name="Power" value="2" />
-     <property name="Cost" value="2" />
-     <property name="PlayRequiredPower" value="2" />
-     <property name="PlayRequiredElement" value="Loyalty" />
-     <property name="Traits" value="Earth Pony" />
-     <property name="Keywords" value="" />
-     <property name="Text" value="When you confront this card's Problem, you may draw 2 cards and discard 2 cards." />
-     <property name="ProblemBonus" value="" />
-     <property name="ProblemOpponentPower" value="" />
-     <property name="ProblemPlayerElement1" value="" />
-     <property name="ProblemPlayerElement1Power" value="" />
-     <property name="ProblemPlayerElement2" value="" />
-     <property name="ProblemPlayerElement2Power" value="" />
-     <property name="Rarity" value="P" />
   </card>
  </cards>
 </set>

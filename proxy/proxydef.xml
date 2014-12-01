@@ -16,472 +16,255 @@
 			<text color="#000000" size="30" />
 		</block>	
 		
-		<!-- Overlay for Card Type Backgrounds -->
-		<block type="overlay" id="eventBack" src="proxy/proxyImages/cardTemplates/card-event.png">
-			<location x="0" y="0" />
-		</block>		
-
-		<block type="overlay" id="resourceBack" src="proxy/proxyImages/cardTemplates/card-resource.png">
-			<location x="0" y="0" />
-		</block>		
-
-		<block type="overlay" id="troublemakerBack" src="proxy/proxyImages/cardTemplates/card-troublemaker.png">
-			<location x="0" y="0" />
-		</block>		
-
-		
-		<!-- Overlay for Card Type Symbol -->
-		
-		<block type="overlay" id="typeFriend" src="proxy/proxyImages/cardTemplates/type-friend.png">
-			<location x="33" y="30" />
-		</block>
-		
-		<block type="overlay" id="typeEvent" src="proxy/proxyImages/cardTemplates/type-event.png">
-			<location x="33" y="30" />
-		</block>
-		
-		<block type="overlay" id="typeMane" src="proxy/proxyImages/cardTemplates/type-mane-char.png">
-			<location x="33" y="30" />
-		</block>
-		
-		<block type="overlay" id="typeProblem" src="proxy/proxyImages/cardTemplates/type-problem.png">
-			<location x="33" y="30" />
-		</block>
-		
-		<block type="overlay" id="typeResource" src="proxy/proxyImages/cardTemplates/type-resource.png">
-			<location x="33" y="30" />
-		</block>
-		
-		<!-- Overlay for Mane colors -->
-		<block type="overlay" id="maneLoyalty" src="proxy/proxyImages/cardTemplates/card-mane-char-blue.png">
-			<location x="0" y="0" />
-		</block>
-		
-		<block type="overlay" id="maneKindness" src="proxy/proxyImages/cardTemplates/card-mane-char-yellow.png">
-			<location x="0" y="0" />
-		</block>		
-		
-		<block type="overlay" id="maneMagic" src="proxy/proxyImages/cardTemplates/card-mane-char-purple.png">
-			<location x="0" y="0" />
-		</block>		
-		
-		<block type="overlay" id="maneGenerosity" src="proxy/proxyImages/cardTemplates/card-mane-char-white.png">
-			<location x="0" y="0" />
-		</block>		
-		
-		<block type="overlay" id="maneHonesty" src="proxy/proxyImages/cardTemplates/card-mane-char-orange.png">
-			<location x="0" y="0" />
-		</block>		
-		
-		<block type="overlay" id="maneLaughter" src="proxy/proxyImages/cardTemplates/card-mane-char-pink.png">
-			<location x="0" y="0" />
-		</block>
-		
-		<!-- Overlay for Mane Start/Boosted -->
-		
-		<block type="overlay" id="maneStart" src="proxy/proxyImages/cardTemplates/card-mane-banner-startside.png">
-			<location x="33" y="90" />
-		</block>
-		
-		<block type="overlay" id="maneBoosted" src="proxy/proxyImages/cardTemplates/card-mane-banner-boostedside.png">
-			<location x="33" y="90" />
-		</block>		
-		
-		
-		<!-- Overlay for Friend colors -->
-		<block type="overlay" id="friendLoyalty" src="proxy/proxyImages/cardTemplates/card-friend-blue.png">
-			<location x="0" y="0" />
-		</block>
-	
-		<block type="overlay" id="friendKindness" src="proxy/proxyImages/cardTemplates/card-friend-yellow.png">
-					<location x="0" y="0" />
-		</block>
-
-		<block type="overlay" id="friendMagic" src="proxy/proxyImages/cardTemplates/card-friend-purple.png">
-					<location x="0" y="0" />
-		</block>
-
-		<block type="overlay" id="friendGenerosity" src="proxy/proxyImages/cardTemplates/card-friend-white.png">
-					<location x="0" y="0" />
-		</block>
-
-		<block type="overlay" id="friendHonesty" src="proxy/proxyImages/cardTemplates/card-friend-orange.png">
-					<location x="0" y="0" />
-		</block>
-
-		<block type="overlay" id="friendLaughter" src="proxy/proxyImages/cardTemplates/card-friend-pink.png">
-					<location x="0" y="0" />
-		</block>
-		
 		<!-- Element overlay for card power -->
 		
-		<block type="overlay" id="powerLoyalty" src="proxy/proxyImages/generalIcons/Loyalty_Power_Icon.png">
-			<location x="368" y="37" />
+		<block type="overlay" id="powerLoyalty" src="proxy/proxyImages/generalIcons/Loyalty_Power.png">
+			<location x="330" y="28" />
 		</block>
 		
-		<block type="overlay" id="requiredPowerLoyalty" src="proxy/proxyImages/generalIcons/Loyalty_Power_Icon.png">
-			<location x="33" y="170" />
+		<block type="overlay" id="requiredPowerLoyalty" src="proxy/proxyImages/generalIcons/Loyalty_Power.png">
+			<location x="33" y="155" />
 		</block>
 		
-		<block type="overlay" id="powerKindness" src="proxy/proxyImages/generalIcons/Kindness_Power_Icon.png">
-			<location x="368" y="37" />
+		<block type="overlay" id="powerKindness" src="proxy/proxyImages/generalIcons/Kindness_Power.png">
+			<location x="330" y="28" />
 		</block>
 		
-		<block type="overlay" id="requiredPowerKindness" src="proxy/proxyImages/generalIcons/Kindness_Power_Icon.png">
-			<location x="33" y="170" />
+		<block type="overlay" id="requiredPowerKindness" src="proxy/proxyImages/generalIcons/Kindness_Power.png">
+			<location x="33" y="155" />
 		</block>
 		
-		<block type="overlay" id="powerMagic" src="proxy/proxyImages/generalIcons/Magic_Power_Icon.png">
-			<location x="368" y="37" />
+		<block type="overlay" id="powerMagic" src="proxy/proxyImages/generalIcons/Magic_Power.png">
+			<location x="330" y="28" />
 		</block>
 		
-		<block type="overlay" id="requiredPowerMagic" src="proxy/proxyImages/generalIcons/Magic_Power_Icon.png">
-			<location x="33" y="170" />
+		<block type="overlay" id="requiredPowerMagic" src="proxy/proxyImages/generalIcons/Magic_Power.png">
+			<location x="33" y="155" />
 		</block>
 			
-		<block type="overlay" id="powerGenerosity" src="proxy/proxyImages/generalIcons/Generosity_Power_Icon.png">
-			<location x="368" y="37" />
+		<block type="overlay" id="powerGenerosity" src="proxy/proxyImages/generalIcons/Generosity_Power.png">
+			<location x="330" y="28" />
 		</block>
 		
-		<block type="overlay" id="requiredPowerGenerosity" src="proxy/proxyImages/generalIcons/Generosity_Power_Icon.png">
-			<location x="33" y="170" />
+		<block type="overlay" id="requiredPowerGenerosity" src="proxy/proxyImages/generalIcons/Generosity_Power.png">
+			<location x="33" y="155" />
 		</block>	
 		
-		<block type="overlay" id="powerHonesty" src="proxy/proxyImages/generalIcons/Honesty_Power_Icon.png">
-			<location x="368" y="37" />
+		<block type="overlay" id="powerHonesty" src="proxy/proxyImages/generalIcons/Honesty_Power.png">
+			<location x="330" y="28" />
 		</block>
 		
-		<block type="overlay" id="requiredPowerHonesty" src="proxy/proxyImages/generalIcons/Honesty_Power_Icon.png">
-			<location x="33" y="170" />
+		<block type="overlay" id="requiredPowerHonesty" src="proxy/proxyImages/generalIcons/Honesty_Power.png">
+			<location x="33" y="155" />
 		</block>	
 		
-		<block type="overlay" id="powerLaughter" src="proxy/proxyImages/generalIcons/Laughter_Power_Icon.png">
-			<location x="368" y="37" />
+		<block type="overlay" id="powerLaughter" src="proxy/proxyImages/generalIcons/Laughter_Power.png">
+			<location x="330" y="28" />
 		</block>
 		
-		<block type="overlay" id="requiredPowerLaughter" src="proxy/proxyImages/generalIcons/Laughter_Power_Icon.png">
-			<location x="33" y="170" />
-		</block>
+		<block type="overlay" id="requiredPowerLaughter" src="proxy/proxyImages/generalIcons/Laughter_Power.png">
+			<location x="33" y="155" />
+		</block>	
 		
 		<block type="text" id="cardName">
-			<location x="95" y="32" />
+			<location x="90" y="25" />
 			<text color="#FFFFFF" size="20" font="fonts/name.ttf" />
 		</block>
 		<block type="text" id="cardSubname">
-			<location x="95" y="62" />
+			<location x="90" y="50" />
 			<text color="#FFFFFF" size="16" font="fonts/name.ttf" />
 		</block>
 		
 		<block type="text" id="cardPower">
-			<location x="370" y="38" />
+			<location x="330" y="30" />
 			<text color="#000000" size="30" font="fonts/text.ttf" />
 		</block>
 		
 		<block type="text" id="cardCost">
-			<location x="42" y="126" />
-			<text color="#000000" size="30" font="fonts/name.ttf" />
-		</block>
-		
-		<block type="text" id="cardRequiredPower">
-			<location x="33" y="171" />
-			<text color="#000000" size="30" font="fonts/name.ttf" />
-		</block>
-		
-		<!-- Mane text overlays -->
-		<block type="text" id="maneCardName">
-			<location x="170" y="32" />
-			<text color="#FFFFFF" size="20" font="fonts/name.ttf" />
-		</block>
-		<block type="text" id="maneCardSubname">
-			<location x="170" y="62" />
-			<text color="#FFFFFF" size="16" font="fonts/name.ttf" />
-		</block>		
-
-		<!-- Overlays for Events, Resources, and TMs -->
-		
-		<block type="text" id="eventCardName">
-			<location x="95" y="40" />
+			<location x="38" y="115" />
 			<text color="#000000" size="20" font="fonts/name.ttf" />
 		</block>
 		
-		<block type="text" id="resourceCardName">
-			<location x="95" y="40" />
+		<block type="text" id="cardRequiredPower">
+			<location x="37" y="162" />
+			<text color="#000000" size="20" font="fonts/name.ttf" />
+		</block>
+
+		<!-- Overlays for Events and Resources -->
+		
+		<block type="text" id="eventCardName">
+			<location x="90" y="33" />
 			<text color="#FFFFFF" size="20" font="fonts/name.ttf" />
 		</block>
 		
-		<block type="text" id="troublemakerCardName">
-			<location x="100" y="42" />
-			<text color="#FFFFFF" size="25" font="fonts/name.ttf" />
+		<block type="text" id="eventCardPower">
+			<location x="345" y="32" />
+			<text color="#FFFFFF" size="30" font="fonts/text.ttf" />
 		</block>
 		
-		<block type="text" id="troublemakerCardNameWithSubname">
-			<location x="100" y="38" />
-			<text color="#FFFFFF" size="20" font="fonts/name.ttf" />
-		</block>
-		
-		<block type="text" id="troublemakerCardSubname">
-			<location x="100" y="61" />
-			<text color="#FFFFFF" size="16" font="fonts/name.ttf" />
-		</block>
-
-		<block type="text" id="eventCardType">
-			<location x="190" y="308" />
-			<text color="#000000" size="25" font="fonts/name.ttf" />
-		</block>
-
-		<block type="text" id="resourceCardType">
-			<location x="175" y="308" />
-			<text color="#000000" size="25" font="fonts/name.ttf" />
-		</block>
-
-		<block type="text" id="troublemakerCardType">
-			<location x="150" y="330" />
-			<text color="#FFFFFF" size="25" font="fonts/name.ttf" />
-		</block>
-
-		<block type="text" id="troublemakerCardTraits">
-			<location x="210" y="358" />
-			<text color="#FFFFFF" size="20" font="fonts/traits.ttf" />
-			<wordwrap height="34" width="270" />
-		</block>
-
 		<block type="text" id="troublemakerBonus">
-			<location x="55" y="322" />
+			<location x="45" y="300" />
 			<text color="#000000" size="25" font="fonts/traits.ttf" />
-		</block>
-		
-		
-		<!-- Overlays for Event Power Symbols -->
-		<block type="overlay" id="eventPower0" src="proxy/proxyImages/EventPowerNumbers/outline-0.png">
-			<location x="384" y="45" />
-		</block>
-		<block type="overlay" id="eventPower1" src="proxy/proxyImages/EventPowerNumbers/outline-1.png">
-			<location x="384" y="45" />
-		</block>
-		<block type="overlay" id="eventPower2" src="proxy/proxyImages/EventPowerNumbers/outline-2.png">
-			<location x="384" y="45" />
-		</block>
-		<block type="overlay" id="eventPower3" src="proxy/proxyImages/EventPowerNumbers/outline-3.png">
-			<location x="384" y="45" />
-		</block>
-		<block type="overlay" id="eventPower4" src="proxy/proxyImages/EventPowerNumbers/outline-4.png">
-			<location x="384" y="45" />
-		</block>
-		<block type="overlay" id="eventPower5" src="proxy/proxyImages/EventPowerNumbers/outline-5.png">
-			<location x="384" y="45" />
-		</block>
-		<block type="overlay" id="eventPower6" src="proxy/proxyImages/EventPowerNumbers/outline-6.png">
-			<location x="384" y="45" />
-		</block>
-		<block type="overlay" id="eventPower7" src="proxy/proxyImages/EventPowerNumbers/outline-7.png">
-			<location x="384" y="45" />
-		</block>
-		<block type="overlay" id="eventPower8" src="proxy/proxyImages/EventPowerNumbers/outline-8.png">
-			<location x="384" y="45" />
-		</block>
-		<block type="overlay" id="eventPower9" src="proxy/proxyImages/EventPowerNumbers/outline-9.png">
-			<location x="384" y="45" />
 		</block>
 
 		<!-- Overlays for racial icons -->
-		<block type="overlay" id="raceUnicorn" src="proxy/proxyImages/raceIcons/race-unicorn.png">
-			<location x="100" y="335" />
+		<block type="overlay" id="raceUnicorn" src="proxy/proxyImages/raceIcons/Unicorn_Icon.png">
+			<location x="63" y="300" />
 		</block>
-		<block type="overlay" id="racePegasus" src="proxy/proxyImages/raceIcons/race-pegasus.png">
-			<location x="100" y="335" />
+		<block type="overlay" id="racePegasus" src="proxy/proxyImages/raceIcons/Pegasus_Icon.png">
+			<location x="63" y="300" />
 		</block>
-		<block type="overlay" id="raceEarthPony" src="proxy/proxyImages/raceIcons/race-earthpony.png">
-			<location x="100" y="335" />
+		<block type="overlay" id="raceEarthPony" src="proxy/proxyImages/raceIcons/EarthPony_Icon.png">
+			<location x="63" y="300" />
 		</block>
-		<block type="overlay" id="raceCritter" src="proxy/proxyImages/raceIcons/race-critter.png">
-			<location x="100" y="335" />
+		<block type="overlay" id="raceCritter" src="proxy/proxyImages/raceIcons/Critter_Icon.png">
+			<location x="63" y="300" />
 		</block>
-		<block type="overlay" id="raceAlicorn" src="proxy/proxyImages/raceIcons/race-alicorn.png">
-			<location x="100" y="335" />
+		<block type="overlay" id="raceAlicorn" src="proxy/proxyImages/raceIcons/Alicorn_Icon.png">
+			<location x="63" y="300" />
 		</block>		
-		<block type="overlay" id="raceDragon" src="proxy/proxyImages/raceIcons/race-dragon.png">
-			<location x="100" y="335" />
-		</block>		
+		
+		<block type="text" id="cardType">
+			<location x="150" y="300" />
+			<text color="#000000" size="20" font="fonts/name.ttf" />
+		</block>
 		
 		<block type="text" id="cardTraits">
-			<location x="190" y="352" />
-			<text color="#FFFFFF" size="20" font="fonts/traits.ttf" />
-			<wordwrap height="34" width="270" />
-		</block>
-		
-		<block type="text" id="cardTraitsBlack">
-			<location x="190" y="352" />
+			<location x="150" y="325" />
 			<text color="#000000" size="20" font="fonts/traits.ttf" />
 			<wordwrap height="34" width="270" />
-		</block>		
+		</block>
 
 		<block type="text" id="cardKeywords">
-			<location x="75" y="405" />
+			<location x="75" y="360" />
 			<text color="#000000" size="18" font="fonts/name.ttf" />
-			<wordwrap height="34" width="300" />
+			<wordwrap height="34" width="270" />
 		</block>
 		
 		<block type="text" id="cardText">
-			<location x="75" y="430" />
+			<location x="75" y="400" />
 			<text color="#000000" size="18" font="fonts/text.ttf" />
-			<wordwrap height="200" width="300" />
-		</block>
-		
-		<block type="text" id="cardKeywordsWhite">
-			<location x="75" y="405" />
-			<text color="#FFFFFF" size="18" font="fonts/name.ttf" />
-			<wordwrap height="34" width="300" />
-		</block>
-		
-		<block type="text" id="cardTextWhite">
-			<location x="75" y="430" />
-			<text color="#FFFFFF" size="18" font="fonts/text.ttf" />
 			<wordwrap height="200" width="270" />
-		</block>		
+		</block>
 		
 		
 		<!-- Problem specific blocks -->
-		<block type="overlay" id="problemElement1Kindness" src="proxy/proxyImages/generalIcons/Kindness_Power_Icon.png">
-			<location x="250" y="390" />
+		<block type="overlay" id="problemElement1Kindness" src="proxy/proxyImages/generalIcons/Kindness_Power.png">
+			<location x="215" y="348" />
 		</block>
 		
-		<block type="overlay" id="problemElement2Kindness" src="proxy/proxyImages/generalIcons/Kindness_Power_Icon.png">
-			<location x="350" y="390" />
+		<block type="overlay" id="problemElement2Kindness" src="proxy/proxyImages/generalIcons/Kindness_Power.png">
+			<location x="315" y="348" />
 		</block>
 		
-		<block type="overlay" id="problemElement1Magic" src="proxy/proxyImages/generalIcons/Magic_Power_Icon.png">
-			<location x="250" y="390" />
+		<block type="overlay" id="problemElement1Magic" src="proxy/proxyImages/generalIcons/Magic_Power.png">
+			<location x="215" y="348" />
 		</block>
 		
-		<block type="overlay" id="problemElement2Magic" src="proxy/proxyImages/generalIcons/Magic_Power_Icon.png">
-			<location x="350" y="390" />
+		<block type="overlay" id="problemElement2Magic" src="proxy/proxyImages/generalIcons/Magic_Power.png">
+			<location x="315" y="348" />
 		</block>
 
-		<block type="overlay" id="problemElement1Loyalty" src="proxy/proxyImages/generalIcons/Loyalty_Power_Icon.png">
-			<location x="250" y="390" />
+		<block type="overlay" id="problemElement1Loyalty" src="proxy/proxyImages/generalIcons/Loyalty_Power.png">
+			<location x="215" y="348" />
 		</block>
 		
-		<block type="overlay" id="problemElement2Loyalty" src="proxy/proxyImages/generalIcons/Loyalty_Power_Icon.png">
-			<location x="350" y="390" />
+		<block type="overlay" id="problemElement2Loyalty" src="proxy/proxyImages/generalIcons/Loyalty_Power.png">
+			<location x="315" y="348" />
 		</block>
 		
-		<block type="overlay" id="problemElement1Laughter" src="proxy/proxyImages/generalIcons/Laughter_Power_Icon.png">
-			<location x="250" y="390" />
+		<block type="overlay" id="problemElement1Laughter" src="proxy/proxyImages/generalIcons/Laughter_Power.png">
+			<location x="215" y="348" />
 		</block>
 		
-		<block type="overlay" id="problemElement2Laughter" src="proxy/proxyImages/generalIcons/Laughter_Power_Icon.png">
-			<location x="350" y="390" />
+		<block type="overlay" id="problemElement2Laughter" src="proxy/proxyImages/generalIcons/Laughter_Power.png">
+			<location x="315" y="348" />
 		</block>
 		
-		<block type="overlay" id="problemElement1Generosity" src="proxy/proxyImages/generalIcons/Generosity_Power_Icon.png">
-			<location x="250" y="390" />
+		<block type="overlay" id="problemElement1Generosity" src="proxy/proxyImages/generalIcons/Generosity_Power.png">
+			<location x="215" y="348" />
 		</block>
 		
-		<block type="overlay" id="problemElement2Generosity" src="proxy/proxyImages/generalIcons/Generosity_Power_Icon.png">
-			<location x="350" y="390" />
+		<block type="overlay" id="problemElement2Generosity" src="proxy/proxyImages/generalIcons/Generosity_Power.png">
+			<location x="315" y="348" />
 		</block>
 		
-		<block type="overlay" id="problemElement1Honesty" src="proxy/proxyImages/generalIcons/Honesty_Power_Icon.png">
-			<location x="250" y="390" />
+		<block type="overlay" id="problemElement1Honesty" src="proxy/proxyImages/generalIcons/Honesty_Power.png">
+			<location x="215" y="348" />
 		</block>
 		
-		<block type="overlay" id="problemElement2Honesty" src="proxy/proxyImages/generalIcons/Honesty_Power_Icon.png">
-			<location x="350" y="390" />
+		<block type="overlay" id="problemElement2Honesty" src="proxy/proxyImages/generalIcons/Honesty_Power.png">
+			<location x="315" y="348" />
 		</block>		
 		
-		<block type="overlay" id="problemElement1Not" src="proxy/proxyImages/generalIcons/Problem_Not_Icon.png">
-			<location x="250" y="390" />
+		<block type="overlay" id="problemElement1Not" src="proxy/proxyImages/generalIcons/Problem_Not.png">
+				<location x="240" y="348" />
 		</block>
 		
-		<block type="overlay" id="problemElement2Not" src="proxy/proxyImages/generalIcons/Problem_Not_Icon.png">
-			<location x= "350" y="390" />
+		<block type="overlay" id="problemElement2Not" src="proxy/proxyImages/generalIcons/Problem_Not.png">
+				<location x= "340" y="348" />
 		</block>
-		
-		<!-- Player Wild Problem Blocks -->
-		<block type="overlay" id="problemElementWild" src="proxy/proxyImages/generalIcons/Wild_Power_Icon.png">
-				<location x="275" y="388" />
-		</block>
-		
 		
 		<!-- Opponent Problem Blocks -->
-		<block type="overlay" id="problemOpponent_1" src="proxy/proxyImages/ProblemNumbers/prob-1.png">
-				<location x="315" y="44" />
-		</block>	
 
-		<block type="overlay" id="problemOpponent_2" src="proxy/proxyImages/ProblemNumbers/prob-2.png">
-				<location x="315" y="44" />
-		</block>	
-
-		<block type="overlay" id="problemOpponent_3" src="proxy/proxyImages/ProblemNumbers/prob-3.png">
-				<location x="315" y="44" />
-		</block>	
-
-		<block type="overlay" id="problemOpponent_4" src="proxy/proxyImages/ProblemNumbers/prob-4.png">
-				<location x="315" y="44" />
+		<block type="overlay" id="problemOpponent_4" src="proxy/proxyImages/generalIcons/Problem_Opponent_4.png">
+				<location x="260" y="32" />
 		</block>		
 
-		<block type="overlay" id="problemOpponent_5" src="proxy/proxyImages/ProblemNumbers/prob-5.png">
-				<location x="315" y="44" />
+		<block type="overlay" id="problemOpponent_5" src="proxy/proxyImages/generalIcons/Problem_Opponent_5.png">
+				<location x="260" y="32" />
 		</block>		
 
-		<block type="overlay" id="problemOpponent_6" src="proxy/proxyImages/ProblemNumbers/prob-6.png">
-				<location x="315" y="44" />
+		<block type="overlay" id="problemOpponent_6" src="proxy/proxyImages/generalIcons/Problem_Opponent_6.png">
+				<location x="260" y="32" />
 		</block>		
 
-		<block type="overlay" id="problemOpponent_7" src="proxy/proxyImages/ProblemNumbers/prob-7.png">
-				<location x="315" y="44" />
+		<block type="overlay" id="problemOpponent_7" src="proxy/proxyImages/generalIcons/Problem_Opponent_7.png">
+				<location x="260" y="32" />
 		</block>		
 
-		<block type="overlay" id="problemOpponent_8" src="proxy/proxyImages/ProblemNumbers/prob-8.png">
-				<location x="315" y="44" />
+		<block type="overlay" id="problemOpponent_8" src="proxy/proxyImages/generalIcons/Problem_Opponent_8.png">
+				<location x="260" y="32" />
 		</block>		
 
-		<block type="overlay" id="problemOpponent_9" src="proxy/proxyImages/ProblemNumbers/prob-9.png">
-				<location x="315" y="44" />
+		<block type="overlay" id="problemOpponent_9" src="proxy/proxyImages/generalIcons/Problem_Opponent_9.png">
+				<location x="260" y="32" />
 		</block>		
 
 		
 		<block type="text" id="problemBonus">
-			<location x="554" y="242" />
-			<text color="#222222" size="30" font="fonts/traits.ttf" />
+			<location x="510" y="218" />
+			<text color="#222222" size="25" font="fonts/traits.ttf" />
 		</block>
-		
 		<block type="text" id="problemElement1Power">
-			<location x="252" y="390" />
-			<text color="#000000" size="30" font="fonts/text.ttf" />
+			<location x="220" y="355" />
+			<text color="#000000" size="20" font="fonts/text.ttf" />
 		</block>
-		
 		<block type="text" id="problemElement2Power">
-			<location x="352" y="390" />
-			<text color="#000000" size="30" font="fonts/text.ttf" />
+			<location x="320" y="355" />
+			<text color="#000000" size="20" font="fonts/text.ttf" />
 		</block>
-		
-		<block type="text" id="problemSinglePower">
-			<location x="303" y="392" />
-			<text color="#FFFFFF" size="30" font="fonts/text.ttf" />
-		</block>
-			
 		<block type="text" id="problemCardTitle">
-			<location x="190" y="250" />
+			<location x="150" y="225" />
 			<text color="#FFFFFF" size="25" font="fonts/name.ttf" />
 		</block>
 		
 		<block type="text" id="problemCardKeywords">
-			<location x="110" y="290" />
-			<text color="#FFFFFF" size="14" font="fonts/traits.ttf" />
+			<location x="100" y="258" />
+			<text color="#000000" size="14" font="fonts/traits.ttf" />
 			<wordwrap height="380" width="574" />
 		</block>
 		
 		<block type="text" id="problemCardText">
-			<location x="110" y="310" />
-			<text color="#FFFFFF" size="18" font="fonts/text.ttf" />
+			<location x="100" y="272" />
+			<text color="#000000" size="18" font="fonts/text.ttf" />
 			<wordwrap height="200" width="400" />
 		</block>
 		
 	</blocks>
 	
 	<!-- Default template -->
-	<template src="proxy/proxyImages/cardTemplates/card-outline.png" default="True">
+	<template src="proxy/proxyImages/unknownCard.jpg" default="True">
 		<matches>
 			<match name="dummy" value="dummy" />
 		</matches>
@@ -497,14 +280,12 @@
 	</template>
 	
 	<!-- Event Card template -->
-	<template src="proxy/proxyImages/cardTemplates/card-outline.png" default="False">
+	<template src="proxy/proxyImages/cardTemplates/Event_Template.png" default="False">
 		<matches>
 		<match name="Type" value="Event" />
 		</matches>
 
 		<overlayblocks>
-		
-		<link block="eventBack" />
 
 		<conditional>
 			<if property="PlayRequiredElement" contains="Loyalty">
@@ -540,87 +321,12 @@
 			<if property="PlayRequiredElement" contains="Laughter">
 				<link block="requiredPowerLaughter" /> 
 			</if>
-		</conditional>	
-		
-	<!-- Event Power Number Overlays -->
-	
-		<conditional>
-			<if property="Power" value="0">
-				<link block="eventPower0" />
-			</if>
-		</conditional>
+		</conditional>		
 
-
-		<conditional>
-			<if property="Power" value="1">
-				<link block="eventPower1" />
-			</if>
-		</conditional>
-
-
-		<conditional>
-			<if property="Power" value="2">
-				<link block="eventPower2" />
-			</if>
-		</conditional>
-
-		<conditional>
-			<if property="Power" value="3">
-				<link block="eventPower3" />
-			</if>
-		</conditional>
-		
-
-		<conditional>
-			<if property="Power" value="4">
-				<link block="eventPower4" />
-			</if>
-		</conditional>
-		
-
-		<conditional>
-			<if property="Power" value="5">
-				<link block="eventPower5" />
-			</if>
-		</conditional>
-		
-
-		<conditional>
-			<if property="Power" value="6">
-				<link block="eventPower6" />
-			</if>
-		</conditional>
-		
-
-		<conditional>
-			<if property="Power" value="7">
-				<link block="eventPower7" />
-			</if>
-		</conditional>
-		
-
-		<conditional>
-			<if property="Power" value="8">
-				<link block="eventPower8" />
-			</if>
-		</conditional>
-		
-
-		<conditional>
-			<if property="Power" value="9">
-				<link block="eventPower9" />
-			</if>
-		</conditional>
-		
-		<link block="typeEvent" />
-
+		<link block="dummyOverlay" />
 		</overlayblocks>
 
 		<textblocks>
-
-		<link block="eventCardType">
-			<property name="Type" />
-		</link>
 
 		<link block="cardCost">
 			<property name="Cost" />
@@ -636,6 +342,15 @@
 				</link> 
 			</else>
 		</conditional>
+
+
+		<link block="eventCardPower">
+			<property name="Power" />
+		</link>
+
+		<link block="cardType">
+			<property name="Type" />
+		</link>
 
 		<link block="cardTraits">
 			<property name="Traits" />
@@ -649,91 +364,20 @@
 			<property name="Name" />
 		</link>
 
-		<link block="cardTextWhite">
+		<link block="cardText">
 			<property name="Text" />
 		</link>
 	</textblocks>
 	</template>
 	
 	<!-- Resource Card template -->
-	<template src="proxy/proxyImages/cardTemplates/card-outline.png" default="False">
+	<template src="proxy/proxyImages/cardTemplates/Resource_Template.png" default="False">
 	<matches>
 		<match name="Type" value="Resource" />
 	</matches>
 
 	<overlayblocks>
-	
-		<link block="resourceBack" />
-		<link block="typeResource" />
-	
-	<!-- Event Power Number Overlays -->
-		<conditional>
-			<if property="Power" value="0">
-				<link block="eventPower0" />
-			</if>
-		</conditional>
 
-		<conditional>
-			<if property="Power" value="1">
-				<link block="eventPower1" />
-			</if>
-		</conditional>
-
-
-		<conditional>
-			<if property="Power" value="2">
-				<link block="eventPower2" />
-			</if>
-		</conditional>
-
-		<conditional>
-			<if property="Power" value="3">
-				<link block="eventPower3" />
-			</if>
-		</conditional>
-
-
-		<conditional>
-			<if property="Power" value="4">
-				<link block="eventPower4" />
-			</if>
-		</conditional>
-
-
-		<conditional>
-			<if property="Power" value="5">
-				<link block="eventPower5" />
-			</if>
-		</conditional>
-
-
-		<conditional>
-			<if property="Power" value="6">
-				<link block="eventPower6" />
-			</if>
-		</conditional>
-
-
-		<conditional>
-			<if property="Power" value="7">
-				<link block="eventPower7" />
-			</if>
-		</conditional>
-
-
-		<conditional>
-			<if property="Power" value="8">
-				<link block="eventPower8" />
-			</if>
-		</conditional>
-
-
-		<conditional>
-			<if property="Power" value="9">
-				<link block="eventPower9" />
-			</if>
-		</conditional>
-						
 		<conditional>
 			<if property="PlayRequiredElement" contains="Loyalty">
 				<link block="requiredPowerLoyalty" /> 
@@ -769,10 +413,12 @@
 				<link block="requiredPowerLaughter" /> 
 			</if>
 		</conditional>		
-	
+
+		<link block="dummyOverlay" />
 	</overlayblocks>
 
 	<textblocks>
+
 		<link block="cardCost">
 			<property name="Cost" />
 		</link>
@@ -788,11 +434,16 @@
 			</else>
 		</conditional>
 
-		<link block="resourceCardType">
+
+		<link block="eventCardPower">
+			<property name="Power" />
+		</link>
+
+		<link block="cardType">
 			<property name="Type" />
 		</link>
 
-		<link block="cardTraitsBlack">
+		<link block="cardTraits">
 			<property name="Traits" />
 		</link>
 
@@ -800,7 +451,7 @@
 			<property name="Keywords" />
 		</link>
 
-		<link block="resourceCardName">
+		<link block="eventCardName">
 			<property name="Name" />
 		</link>
 
@@ -811,97 +462,74 @@
 	</template>
 	
 	<!-- Mane Character Card template -->
-	<template src="proxy/proxyImages/cardTemplates/card-outline.png" default="False">
+	<template src="proxy/proxyImages/cardTemplates/ManeCharacter_Template.png" default="False">
 		<matches>
 			<match name="Type" value="Mane Character" />
 		</matches>
 		
 		<overlayblocks>
-			
-		<!-- Element power selection -->
 		<conditional>
 			<if property="Element" contains="Generosity">
-				<link block="maneGenerosity" />
-				<link block="powerGenerosity" /> 
-				</if>
+				<link block="powerGenerosity" /> </if>
 		</conditional>
 		<conditional>
 			<if property="Element" contains="Kindness">
-				<link block="maneKindness" />
-				<link block="powerKindness" /> 
-				</if>
+				<link block="powerKindness" /> </if>
 		</conditional>
 		<conditional>
 			<if property="Element" contains="Honesty">
-				<link block="maneHonesty" />
-				<link block="powerHonesty" /> 
-				</if>
+				<link block="powerHonesty" /> </if>
 		</conditional>
 		<conditional>
 			<if property="Element" contains="Magic">
-				<link block="maneMagic" />
-				<link block="powerMagic" /> 
-				</if>
+				<link block="powerMagic" /> </if>
 		</conditional>
 		<conditional>
 			<if property="Element" contains="Laughter">
-				<link block="maneLaughter" />
-				<link block="powerLaughter" /> 
-				</if>
+				<link block="powerLaughter" /> </if>
 		</conditional>
 		<conditional>
 			<if property="Element" contains="Loyalty">
-				<link block="maneLoyalty" />
-				<link block="powerLoyalty" /> 
-				</if>
+				<link block="powerLoyalty" /> </if>
 		</conditional>
-		
-		<link block="typeMane" />
-		<link block="maneStart" />
-		
+			
 		<conditional>
 			<if property="Traits" contains="Unicorn">
 			<link block="raceUnicorn" /> </if>
 		</conditional>	
-		
 		<conditional>
 			<if property="Traits" contains="Pegasus">
 			<link block="racePegasus" /> </if>
 		</conditional>
-		
 		<conditional>
 			<if property="Traits" contains="Earth">
 			<link block="raceEarthPony" /> </if>
 		</conditional>
-		
 		<conditional>
 			<if property="Traits" contains="Critter">
 			<link block="raceCritter" /> </if>
 		</conditional>
-		
 		<conditional>
 			<if property="Traits" contains="Alicorn">
 			<link block="raceAlicorn" /> </if>
 		</conditional>		
-
-		<conditional>
-			<if property="Traits" contains="Dragon">
-			<link block="raceDragon" /> </if>
-		</conditional>	
-		
+			<link block="dummyOverlay" />
 		</overlayblocks>
 		
 		<textblocks>		
-			<link block="maneCardName">
+			<link block="cardName">
 				<property name="Name" />
 			</link>
 			
-			<link block="maneCardSubname">
+			<link block="cardSubname">
 				<property name="Subname" />
 			</link>
 			
 			<link block="cardPower">
 				<property name="Power" />
+			</link>
+			<link block="cardType">
+				<property name="Type" />
 			</link>
 						
 			<link block="cardTraits">
@@ -911,7 +539,6 @@
 			<link block="cardKeywords">
 				<property name="Keywords" />
 			</link>
-			
 			<link block="cardText">
 				<property name="Text" />
 			</link>
@@ -919,95 +546,74 @@
 	</template>
 
 	<!-- Mane Character Boosted Card template -->
-	<template src="proxy/proxyImages/cardTemplates/card-outline.png" default="False">
+	<template src="proxy/proxyImages/cardTemplates/ManeCharacterBoosted_Template.png" default="False">
 		<matches>
 			<match name="Type" value="Mane Character Boosted" />
 		</matches>
 		
 		<overlayblocks>
-		<!-- Element power selection -->
 		<conditional>
 			<if property="Element" contains="Generosity">
-				<link block="maneGenerosity" />
-				<link block="powerGenerosity" /> 
-				</if>
+				<link block="powerGenerosity" /> </if>
 		</conditional>
 		<conditional>
 			<if property="Element" contains="Kindness">
-				<link block="maneKindness" />
-				<link block="powerKindness" /> 
-				</if>
+				<link block="powerKindness" /> </if>
 		</conditional>
 		<conditional>
 			<if property="Element" contains="Honesty">
-				<link block="maneHonesty" />
-				<link block="powerHonesty" /> 
-				</if>
+				<link block="powerHonesty" /> </if>
 		</conditional>
 		<conditional>
 			<if property="Element" contains="Magic">
-				<link block="maneMagic" />
-				<link block="powerMagic" /> 
-				</if>
+				<link block="powerMagic" /> </if>
 		</conditional>
 		<conditional>
 			<if property="Element" contains="Laughter">
-				<link block="maneLaughter" />
-				<link block="powerLaughter" /> 
-				</if>
+				<link block="powerLaughter" /> </if>
 		</conditional>
 		<conditional>
 			<if property="Element" contains="Loyalty">
-				<link block="maneLoyalty" />
-				<link block="powerLoyalty" /> 
-				</if>
+				<link block="powerLoyalty" /> </if>
 		</conditional>
-		
-		<link block="typeMane" />
-		<link block="maneBoosted" />
 			
 		<conditional>
 			<if property="Traits" contains="Unicorn">
 			<link block="raceUnicorn" /> </if>
 		</conditional>	
-		
 		<conditional>
 			<if property="Traits" contains="Pegasus">
 			<link block="racePegasus" /> </if>
 		</conditional>
-		
 		<conditional>
 			<if property="Traits" contains="Earth">
 			<link block="raceEarthPony" /> </if>
 		</conditional>
-		
 		<conditional>
 			<if property="Traits" contains="Critter">
 			<link block="raceCritter" /> </if>
 		</conditional>
-		
 		<conditional>
 			<if property="Traits" contains="Alicorn">
 			<link block="raceAlicorn" /> </if>
 		</conditional>		
-
-		<conditional>
-			<if property="Traits" contains="Dragon">
-			<link block="raceDragon" /> </if>
-		</conditional>	
+			<link block="dummyOverlay" />
 		</overlayblocks>
 		
 		<textblocks>		
-			<link block="maneCardName">
+			<link block="cardName">
 				<property name="Name" />
 			</link>
 			
-			<link block="maneCardSubname">
+			<link block="cardSubname">
 				<property name="Subname" />
 			</link>
 			
 			<link block="cardPower">
 				<property name="Power" />
+			</link>
+			<link block="cardType">
+				<property name="Type" />
 			</link>
 						
 			<link block="cardTraits">
@@ -1024,55 +630,38 @@
 	</template>
 
 	<!-- Friend Card template -->
-	<template src="proxy/proxyImages/cardTemplates/card-outline.png" default="False">
+	<template src="proxy/proxyImages/cardTemplates/Friend_Template.png" default="False">
 		<matches>
 			<match name="Type" value="Friend" />
 		</matches>
 		
 		<overlayblocks>
-	
+			
 		<!-- Element power selection -->
 		<conditional>
 			<if property="Element" contains="Generosity">
-				<link block="friendGenerosity" />
-				<link block="powerGenerosity" /> 
-				</if>
+				<link block="powerGenerosity" /> </if>
 		</conditional>
 		<conditional>
 			<if property="Element" contains="Kindness">
-				<link block="friendKindness" />
-				<link block="powerKindness" /> 
-				</if>
+				<link block="powerKindness" /> </if>
 		</conditional>
 		<conditional>
 			<if property="Element" contains="Honesty">
-				<link block="friendHonesty" />
-				<link block="powerHonesty" /> 
-				</if>
+				<link block="powerHonesty" /> </if>
 		</conditional>
 		<conditional>
 			<if property="Element" contains="Magic">
-				<link block="friendMagic" />
-				<link block="powerMagic" /> 
-				</if>
+				<link block="powerMagic" /> </if>
 		</conditional>
 		<conditional>
 			<if property="Element" contains="Laughter">
-				<link block="friendLaughter" />
-				<link block="powerLaughter" /> 
-			</if>
+				<link block="powerLaughter" /> </if>
 		</conditional>
 		<conditional>
 			<if property="Element" contains="Loyalty">
-				<link block="friendLoyalty" />
-				<link block="powerLoyalty" /> 
-				</if>
+				<link block="powerLoyalty" /> </if>
 		</conditional>
-		
-		
-		<!-- Type Symbol -->
-		<link block="typeFriend" />
-	
 
 		<!-- Race icon selection -->
 		<conditional>
@@ -1095,11 +684,7 @@
 			<if property="Traits" contains="Alicorn">
 			<link block="raceAlicorn" /> </if>
 		</conditional>		
-		<conditional>
-			<if property="Traits" contains="Dragon">
-			<link block="raceDragon" /> </if>
-		</conditional>		
-		
+			
 		<!-- Required Element Selection -->
 		<conditional>
 			<if property="PlayRequiredElement" contains="Loyalty">
@@ -1136,7 +721,8 @@
 				<link block="requiredPowerLaughter" /> 
 			</if>
 		</conditional>		
-
+			
+		<link block="dummyOverlay" />
 		</overlayblocks>
 		
 		<textblocks>
@@ -1157,12 +743,17 @@
 						<property name="PlayRequiredPower" />
 					</link> 
 				</else>
-			</conditional>	
-			
+			</conditional>
+				
+		
 			<link block="cardPower">
 				<property name="Power" />
 			</link>
-	
+			
+			<link block="cardType">
+				<property name="Type" />
+			</link>
+			
 			<link block="cardTraits">
 				<property name="Traits" />
 			</link>
@@ -1185,116 +776,38 @@
 	</template>
 	
 	<!-- Troublemaker Card template -->
-	<template src="proxy/proxyImages/cardTemplates/card-outline.png" default="False">
+	<template src="proxy/proxyImages/cardTemplates/Troublemaker_Template.png" default="False">
 	<matches>
 		<match name="Type" value="Troublemaker" />
 	</matches>
 
 	<overlayblocks>
-		<link block="troublemakerBack" />
-				
-	<!-- Power Number Overlays -->
-	
-		<conditional>
-			<if property="Power" value="0">
-				<link block="eventPower0" />
-			</if>
-		</conditional>
-
-
-		<conditional>
-			<if property="Power" value="1">
-				<link block="eventPower1" />
-			</if>
-		</conditional>
-
-
-		<conditional>
-			<if property="Power" value="2">
-				<link block="eventPower2" />
-			</if>
-		</conditional>
-
-		<conditional>
-			<if property="Power" value="3">
-				<link block="eventPower3" />
-			</if>
-		</conditional>
-		
-
-		<conditional>
-			<if property="Power" value="4">
-				<link block="eventPower4" />
-			</if>
-		</conditional>
-		
-
-		<conditional>
-			<if property="Power" value="5">
-				<link block="eventPower5" />
-			</if>
-		</conditional>
-		
-
-		<conditional>
-			<if property="Power" value="6">
-				<link block="eventPower6" />
-			</if>
-		</conditional>
-		
-
-		<conditional>
-			<if property="Power" value="7">
-				<link block="eventPower7" />
-			</if>
-		</conditional>
-		
-
-		<conditional>
-			<if property="Power" value="8">
-				<link block="eventPower8" />
-			</if>
-		</conditional>
-		
-
-		<conditional>
-			<if property="Power" value="9">
-				<link block="eventPower9" />
-			</if>
-		</conditional>		
+		<link block="dummyOverlay" />
 	</overlayblocks>
 
 	<textblocks>
 
-		<link block="troublemakerCardTraits">
+		<link block="eventCardPower">
+			<property name="Power" />
+		</link>
+
+		<link block="cardType">
+			<property name="Type" />
+		</link>
+
+		<link block="cardTraits">
 			<property name="Traits" />
 		</link>
 
-		<link block="cardKeywordsWhite">
+		<link block="cardKeywords">
 			<property name="Keywords" />
 		</link>
 
-		<conditional>
-			<if property="Subname" value="">
-				<link block="troublemakerCardName">
-					<property name="Name" />
-				</link>
-			</if>
-			<else>
-				<link block="troublemakerCardNameWithSubname">
-					<property name="Name" />
-				</link>
-				<link block="troublemakerCardSubname">
-					<property name="Subname" />
-				</link>
-			</else>
-		</conditional>
+		<link block="eventCardName">
+			<property name="Name" />
+		</link>
 
-		<link block="troublemakerCardType">
-			<property name="Type" />
-		</link>	
-			
-		<link block="cardTextWhite">
+		<link block="cardText">
 			<property name="Text" />
 		</link>
 		
@@ -1305,26 +818,11 @@
 </template>
 	
 	<!--Problem Card template -->
-	<template src="proxy/proxyImages/cardTemplates/card-problem.png" default="False">
+	<template src="proxy/proxyImages/cardTemplates/Problem_Template.png" default="False">
 		<matches>
 			<match name="Type" value="Problem" />
 		</matches>
 		<overlayblocks>
-			<conditional>
-				<if property="ProblemOpponentPower" value="1">
-					<link block="problemOpponent_1" /> 
-				</if>
-			</conditional>			
-			<conditional>
-				<if property="ProblemOpponentPower" value="2">
-					<link block="problemOpponent_2" /> 
-				</if>
-			</conditional>			
-			<conditional>
-				<if property="ProblemOpponentPower" value="3">
-					<link block="problemOpponent_3" /> 
-				</if>
-			</conditional>			
 			<conditional>
 				<if property="ProblemOpponentPower" value="4">
 					<link block="problemOpponent_4" /> 
@@ -1443,13 +941,7 @@
 				<if property="ProblemPlayerElement2" contains="Not">
 					<link block="problemElement2Not" /> 
 				</if>
-			</conditional>
-			
-			<conditional>
-				<if property="ProblemPlayerElement1" contains="Wild">
-					<link block="problemElementWild" /> 
-				</if>
-			</conditional>
+			</conditional>								
 		</overlayblocks>
 		
 		<textblocks>
@@ -1457,24 +949,12 @@
 				<property name="ProblemBonus" />
 			</link> 
 			
-			<conditional>
-				<if property="ProblemPlayerElement1" value="Wild">
-					<link block="problemElement1Power" />
-					<link block="problemSinglePower">
-						<property name="ProblemPlayerElement1Power" />
-					</link>
-				</if>
-				<else>
-					<link block="problemElement1Power">
-						<property name="ProblemPlayerElement1Power" />
-					</link>
-				</else>
-			</conditional>
-
+			<link block="problemElement1Power">
+				<property name="ProblemPlayerElement1Power" />
+			</link>
 			<link block="problemElement2Power">
 				<property name="ProblemPlayerElement2Power" />
 			</link>
-			
 			<link block="problemCardTitle">
 				<property name="Name" />
 			</link>
