@@ -29,7 +29,7 @@
       <property name="Cost" value="" />
       <property name="PlayRequiredPower" value="" />
       <property name="PlayRequiredElement" value="" />
-      <property name="Traits" value="" />
+      <property name="Traits" value="Earth Pony" />
       <property name="Keywords" value="Home Limit 4." />
       <property name="Text" value="This card has +1 power for each card type in your discard pile." />
       <property name="ProblemBonus" value="" />
@@ -69,7 +69,7 @@
       <property name="Cost" value="" />
       <property name="PlayRequiredPower" value="" />
       <property name="PlayRequiredElement" value="" />
-      <property name="Traits" value="" />
+      <property name="Traits" value="Unicorn" />
       <property name="Keywords" value="Home Limit 4." />
       <property name="Text" value="Main Phase: Exhaust this card to draw a card.  At the start of your Score Phase, if this card is with at least 3 of your Friends, you may ready this card." />
       <property name="ProblemBonus" value="" />
