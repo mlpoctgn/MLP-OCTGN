@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<set name="Promos" id="37ce607f-fae7-4389-8874-50087d056abf" gameId="65656467-b709-43b2-a5c6-80c2f216adf9" gameVersion="3.1.0.0" version="3.0">
+<set name="Promos" id="37ce607f-fae7-4389-8874-50087d056abf" gameId="65656467-b709-43b2-a5c6-80c2f216adf9" gameVersion="2.2.4.3" version="3.1">
  <cards>
   <card id="9f258468-001f-4f8b-a81b-25183397fb59" name="Rainbow Dash">
    <property name="Number" value="PRpf1" />
@@ -241,10 +241,150 @@
    <property name="ProblemPlayerElement2Power" value="" />
    <property name="Rarity" value="P" />
   </card>
+  <card id="5c1195fa-b4be-59dd-2e9b-1f1db7a190e3" name="Octavia">
+   <property name="Number" value="CGpf6" />
+   <property name="Type" value="Friend" />
+   <property name="Element" value="Generosity" />
+   <property name="Subname" value="Serious Musician" />
+   <property name="Power" value="2" />
+   <property name="Cost" value="3" />
+   <property name="PlayRequiredPower" value="2" />
+   <property name="PlayRequiredElement" value="Generosity" />
+   <property name="Traits" value="Earth Pony" />
+   <property name="Keywords" value="" />
+   <property name="Text" value="While at a Problem with an opponent's DJ Pon-3, this card has +2 power.&#10;Reaction: After an opponent moves a character, put this card into your hand to send that character to its previous area. That character can't be moved again this turn." />
+   <property name="ProblemBonus" value="" />
+   <property name="ProblemOpponentPower" value="" />
+   <property name="ProblemPlayerElement1" value="" />
+   <property name="ProblemPlayerElement1Power" value="" />
+   <property name="ProblemPlayerElement2" value="" />
+   <property name="ProblemPlayerElement2Power" value="" />
+   <property name="Rarity" value="P" />
+  </card>
+  <card id="d11e22d5-1d11-9b4b-1db5-1869a8efe1ab" name="Princess Luna">
+   <property name="Number" value="CGpf8" />
+   <property name="Type" value="Friend" />
+   <property name="Element" value="Kindness" />
+   <property name="Subname" value="Dream Weaver" />
+   <property name="Power" value="2" />
+   <property name="Cost" value="4" />
+   <property name="PlayRequiredPower" value="4" />
+   <property name="PlayRequiredElement" value="Kindness" />
+   <property name="Traits" value="Alicorn, Royalty" />
+   <property name="Keywords" value="" />
+   <property name="Text" value="When this card enters play, put a Friend at its Problem into its owner's hand." />
+   <property name="ProblemBonus" value="" />
+   <property name="ProblemOpponentPower" value="" />
+   <property name="ProblemPlayerElement1" value="" />
+   <property name="ProblemPlayerElement1Power" value="" />
+   <property name="ProblemPlayerElement2" value="" />
+   <property name="ProblemPlayerElement2Power" value="" />
+   <property name="Rarity" value="P" />
+  </card>
+  <card id="816e4087-2f2a-aeb4-a730-82470fa85787" name="Princess Celestia">
+   <property name="Number" value="CGpf11" />
+   <property name="Type" value="Friend" />
+   <property name="Element" value="Magic" />
+   <property name="Subname" value="Gambit Planner" />
+   <property name="Power" value="2" />
+   <property name="Cost" value="2" />
+   <property name="PlayRequiredPower" value="2" />
+   <property name="PlayRequiredElement" value="Magic" />
+   <property name="Traits" value="Alicorn, Royalty" />
+   <property name="Keywords" value="" />
+   <property name="Text" value="Reaction: After an opponent dismisses another one of your Friends, you may retire this card to gain 4AT." />
+   <property name="ProblemBonus" value="" />
+   <property name="ProblemOpponentPower" value="" />
+   <property name="ProblemPlayerElement1" value="" />
+   <property name="ProblemPlayerElement1Power" value="" />
+   <property name="ProblemPlayerElement2" value="" />
+   <property name="ProblemPlayerElement2Power" value="" />
+   <property name="Rarity" value="P" />
+  </card>
+  <card id="ae3c3e88-7830-11f5-27b8-0837a59bf6da" name="DJ Pon-3">
+   <property name="Number" value="CGpf12" />
+   <property name="Type" value="Friend" />
+   <property name="Element" value="Laughter" />
+   <property name="Subname" value="Flippant DJ" />
+   <property name="Power" value="2" />
+   <property name="Cost" value="2" />
+   <property name="PlayRequiredPower" value="2" />
+   <property name="PlayRequiredElement" value="Laughter" />
+   <property name="Traits" value="Unicorn" />
+   <property name="Keywords" value="" />
+   <property name="Text" value="While at a Problem with an opponent's Octavia, this card has +2 power.&#10;Main Phase: Exhaust this card to choose a problem. Move a random Friend to that Problem.&#10;When one of your Friends enters play, you may ready this card." />
+   <property name="ProblemBonus" value="" />
+   <property name="ProblemOpponentPower" value="" />
+   <property name="ProblemPlayerElement1" value="" />
+   <property name="ProblemPlayerElement1Power" value="" />
+   <property name="ProblemPlayerElement2" value="" />
+   <property name="ProblemPlayerElement2Power" value="" />
+   <property name="Rarity" value="P" />
+  </card>
+  <card id="7e2709b0-d6fc-cf59-7fdf-2dc6c6f846ad" name="Maud Pie">
+   <property name="Number" value="CGpf14" />
+   <property name="Type" value="Friend" />
+   <property name="Element" value="Honesty" />
+   <property name="Subname" value="Let's Play &quot;Camouflage&quot;" />
+   <property name="Power" value="2" />
+   <property name="Cost" value="2" />
+   <property name="PlayRequiredPower" value="2" />
+   <property name="PlayRequiredElement" value="Honesty" />
+   <property name="Traits" value="Earth Pony" />
+   <property name="Keywords" value="" />
+   <property name="Text" value="If this card would ready, you may pay 1AT. If you do, this card remains exhausted instead.&#10;Main Phase: Exhaust this card to choose an opponent's Friend. While this card remains exhausted, that Friend loses and can't have abilities." />
+   <property name="ProblemBonus" value="" />
+   <property name="ProblemOpponentPower" value="" />
+   <property name="ProblemPlayerElement1" value="" />
+   <property name="ProblemPlayerElement1Power" value="" />
+   <property name="ProblemPlayerElement2" value="" />
+   <property name="ProblemPlayerElement2Power" value="" />
+   <property name="Rarity" value="P" />
+  </card>
+  <card id="15ced358-beff-32e9-7c72-ef3d072297ae" name="Rainbow Dash">
+   <property name="Number" value="GF1" />
+   <property name="Type" value="Friend" />
+   <property name="Element" value="Loyalty" />
+   <property name="Subname" value="Cutie Mark Consultant" />
+   <property name="Power" value="4" />
+   <property name="Cost" value="4" />
+   <property name="PlayRequiredPower" value="" />
+   <property name="PlayRequiredElement" value="" />
+   <property name="Traits" value="Pegasus" />
+   <property name="Keywords" value="" />
+   <property name="Text" value="" />
+   <property name="ProblemBonus" value="" />
+   <property name="ProblemOpponentPower" value="" />
+   <property name="ProblemPlayerElement1" value="" />
+   <property name="ProblemPlayerElement1Power" value="" />
+   <property name="ProblemPlayerElement2" value="" />
+   <property name="ProblemPlayerElement2Power" value="" />
+   <property name="Rarity" value="P" />
+  </card>
   <card id="8af5004f-52a7-4cec-9a9d-836a16301132" name="Twilight Sparkle">
    <property name="Number" value="GF4" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Magic" />
+   <property name="Subname" value="Cutie Mark Consultant" />
+   <property name="Power" value="4" />
+   <property name="Cost" value="4" />
+   <property name="PlayRequiredPower" value="" />
+   <property name="PlayRequiredElement" value="" />
+   <property name="Traits" value="Unicorn" />
+   <property name="Keywords" value="" />
+   <property name="Text" value="" />
+   <property name="ProblemBonus" value="" />
+   <property name="ProblemOpponentPower" value="" />
+   <property name="ProblemPlayerElement1" value="" />
+   <property name="ProblemPlayerElement1Power" value="" />
+   <property name="ProblemPlayerElement2" value="" />
+   <property name="ProblemPlayerElement2Power" value="" />
+   <property name="Rarity" value="P" />
+  </card>
+  <card id="5a5c086a-5def-df11-ef39-6b53167e1204" name="Rarity">
+   <property name="Number" value="GF5" />
+   <property name="Type" value="Friend" />
+   <property name="Element" value="Generosity" />
    <property name="Subname" value="Cutie Mark Consultant" />
    <property name="Power" value="4" />
    <property name="Cost" value="4" />
