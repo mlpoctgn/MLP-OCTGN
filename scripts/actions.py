@@ -166,8 +166,6 @@ def clearFaceoff(group, x = 0, y = 0):
 	mute()
 	global FaceoffPosition
 	global FaceoffOffset
-	global FaceoffColor1
-	global FaceoffColor2
 	
 	FaceoffPosition = 0
 	FaceoffOffset = 0
@@ -724,8 +722,6 @@ def faceoffFlipTable(group, x = 0, y = 0):
 
 def faceoffFlip(group):
 	mute()
-	global FaceoffColor1
-	global FaceoffColor2
 	global FaceoffPosition
 	global FaceoffOffset
 
