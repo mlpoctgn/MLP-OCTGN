@@ -311,6 +311,9 @@
 		<block type="overlay" id="raceDragon" src="proxy/proxyImages/raceIcons/race-dragon.png">
 			<location x="100" y="335" />
 		</block>		
+		<block type="overlay" id="raceAlly" src="proxy/proxyImages/raceIcons/race-ally.png">
+			<location x="100" y="335" />
+		</block>
 		
 		<block type="text" id="cardTraits">
 			<location x="190" y="352" />
@@ -1118,7 +1121,11 @@
 		<conditional>
 			<if property="Traits" contains="Dragon">
 			<link block="raceDragon" /> </if>
-		</conditional>		
+		</conditional>
+		<conditional>
+			<if property="Traits" contains="Ally">
+			<link block="raceAlly" /> </if>
+		</conditional>
 		
 		<!-- Required Element Selection -->
 		<conditional>
