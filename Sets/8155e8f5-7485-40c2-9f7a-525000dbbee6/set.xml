@@ -1,6 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<set name="Crystal Games" id="8155e8f5-7485-40c2-9f7a-525000dbbee6" gameId="65656467-b709-43b2-a5c6-80c2f216adf9" gameVersion="3.1.0.0" version="3.0">
+<set name="Crystal Games" id="8155e8f5-7485-40c2-9f7a-525000dbbee6" gameId="65656467-b709-43b2-a5c6-80c2f216adf9" gameVersion="2.2.4.4" version="3.1">
  <cards>
+  <card id="b4b25356-7be9-4a16-b8af-8c4cd6421f02" name="Princess Twilight Sparkle">
+   <property name="Number" value="CG00" />
+   <property name="Type" value="Friend" />
+   <property name="Element" value="Magic" />
+   <property name="Subname" value="Princess of Friendship" />
+   <property name="Power" value="3" />
+   <property name="Cost" value="5" />
+   <property name="PlayRequiredPower" value="3" />
+   <property name="PlayRequiredElement" value="Magic" />
+   <property name="Traits" value="Alicorn, Royalty" />
+   <property name="Keywords" value="Studious, Swift." />
+   <property name="Text" value="When you play this card, gain 1AT for each opposing character at this card's Problem." />
+   <property name="ProblemBonus" value="" />
+   <property name="ProblemOpponentPower" value="" />
+   <property name="ProblemPlayerElement1" value="" />
+   <property name="ProblemPlayerElement1Power" value="" />
+   <property name="ProblemPlayerElement2" value="" />
+   <property name="ProblemPlayerElement2Power" value="" />
+   <property name="Rarity" value="UR" />
+  </card>
   <card id="ee9218c3-acbb-44de-b184-6772d0024dff" name="Cutie Mark Crusaders">
    <property name="Number" value="CG1" />
    <property name="Type" value="Mane Character" />
@@ -20,26 +40,26 @@
    <property name="ProblemPlayerElement2" value="" />
    <property name="ProblemPlayerElement2Power" value="" />
    <property name="Rarity" value="F" />
-     <alternate name="Cutie Mark Crusaders" type="Mane Character Boosted">
-      <property name="Number" value="CG1" />
-      <property name="Type" value="Mane Character Boosted" />
-      <property name="Element" value="Laughter" />
-      <property name="Subname" value="Ponyville Flag Carriers" />
-      <property name="Power" value="3" />
-      <property name="Cost" value="" />
-      <property name="PlayRequiredPower" value="" />
-      <property name="PlayRequiredElement" value="" />
-      <property name="Traits" value="Earth Pony, Pegasus, Unicorn, Foal" />
-      <property name="Keywords" value="Home Limit 4." />
-      <property name="Text" value="When a Problem enters play, you may exhaust this card and pay 2 to replace it." />
-      <property name="ProblemBonus" value="" />
-      <property name="ProblemOpponentPower" value="" />
-      <property name="ProblemPlayerElement1" value="" />
-      <property name="ProblemPlayerElement1Power" value="" />
-      <property name="ProblemPlayerElement2" value="" />
-      <property name="ProblemPlayerElement2Power" value="" />
-      <property name="Rarity" value="F" />
-  </alternate>
+   <alternate name="Cutie Mark Crusaders" type="Mane Character Boosted">
+    <property name="Number" value="CG1" />
+    <property name="Type" value="Mane Character Boosted" />
+    <property name="Element" value="Laughter" />
+    <property name="Subname" value="Ponyville Flag Carriers" />
+    <property name="Power" value="3" />
+    <property name="Cost" value="" />
+    <property name="PlayRequiredPower" value="" />
+    <property name="PlayRequiredElement" value="" />
+    <property name="Traits" value="Earth Pony, Pegasus, Unicorn, Foal" />
+    <property name="Keywords" value="Home Limit 4." />
+    <property name="Text" value="When a Problem enters play, you may exhaust this card and pay 2AT to replace it." />
+    <property name="ProblemBonus" value="" />
+    <property name="ProblemOpponentPower" value="" />
+    <property name="ProblemPlayerElement1" value="" />
+    <property name="ProblemPlayerElement1Power" value="" />
+    <property name="ProblemPlayerElement2" value="" />
+    <property name="ProblemPlayerElement2Power" value="" />
+    <property name="Rarity" value="F" />
+   </alternate>
   </card>
   <card id="30a2fabe-9009-4aa4-ab2e-54950f5100ab" name="Spike">
    <property name="Number" value="CG2" />
@@ -60,28 +80,27 @@
    <property name="ProblemPlayerElement2" value="" />
    <property name="ProblemPlayerElement2Power" value="" />
    <property name="Rarity" value="F" />
-     <alternate name="Spike" type = "Mane Character Boosted">
-      <property name="Number" value="CG2" />
-      <property name="Type" value="Mane Character Boosted" />
-      <property name="Element" value="Magic" />
-      <property name="Subname" value="Crystal Hero" />
-      <property name="Power" value="3" />
-      <property name="Cost" value="" />
-      <property name="PlayRequiredPower" value="" />
-      <property name="PlayRequiredElement" value="" />
-      <property name="Traits" value="Dragon" />
-      <property name="Keywords" value="Home Limit 4." />
-      <property name="Text" value="Main Phase: Exhaust this card to turn an opponent's Troublemaker here face-down." />
-      <property name="ProblemBonus" value="" />
-      <property name="ProblemOpponentPower" value="" />
-      <property name="ProblemPlayerElement1" value="" />
-      <property name="ProblemPlayerElement1Power" value="" />
-      <property name="ProblemPlayerElement2" value="" />
-      <property name="ProblemPlayerElement2Power" value="" />
-      <property name="Rarity" value="F" />
-  </alternate>
+   <alternate name="Spike" type="Mane Character Boosted">
+    <property name="Number" value="CG2" />
+    <property name="Type" value="Mane Character Boosted" />
+    <property name="Element" value="Magic" />
+    <property name="Subname" value="Crystal Hero" />
+    <property name="Power" value="3" />
+    <property name="Cost" value="" />
+    <property name="PlayRequiredPower" value="" />
+    <property name="PlayRequiredElement" value="" />
+    <property name="Traits" value="Dragon" />
+    <property name="Keywords" value="Home Limit 4." />
+    <property name="Text" value="Main Phase: Exhaust this card to turn an opponent's Troublemaker here face-down." />
+    <property name="ProblemBonus" value="" />
+    <property name="ProblemOpponentPower" value="" />
+    <property name="ProblemPlayerElement1" value="" />
+    <property name="ProblemPlayerElement1Power" value="" />
+    <property name="ProblemPlayerElement2" value="" />
+    <property name="ProblemPlayerElement2Power" value="" />
+    <property name="Rarity" value="F" />
+   </alternate>
   </card>
-
   <card id="e93db302-6c6b-4269-b39b-1ac55d134f94" name="Princess Cadance">
    <property name="Number" value="CG3" />
    <property name="Type" value="Mane Character" />
@@ -91,7 +110,7 @@
    <property name="Cost" value="" />
    <property name="PlayRequiredPower" value="" />
    <property name="PlayRequiredElement" value="" />
-   <property name="Traits" value="Alicorn" />
+   <property name="Traits" value="Royalty, Alicorn" />
    <property name="Keywords" value="Home Limit 3." />
    <property name="Text" value="When an opponent's Friend enters play here, put a Shield counter on this card. Then, if there are at least 5 Shield counters on this card, remove them and turn it over." />
    <property name="ProblemBonus" value="" />
@@ -101,26 +120,26 @@
    <property name="ProblemPlayerElement2" value="" />
    <property name="ProblemPlayerElement2Power" value="" />
    <property name="Rarity" value="F" />
-     <alternate name="Princess Cadance" type="Mane Character Boosted">
-      <property name="Number" value="CG3" />
-      <property name="Type" value="Mane Character Boosted" />
-      <property name="Element" value="Generosity" />
-      <property name="Subname" value="Loving Ruler" />
-      <property name="Power" value="3" />
-      <property name="Cost" value="" />
-      <property name="PlayRequiredPower" value="" />
-      <property name="PlayRequiredElement" value="" />
-      <property name="Traits" value="Alicorn" />
-      <property name="Keywords" value="Home Limit 4." />
-      <property name="Text" value="Opponents pay +2 to play Friends here." />
-      <property name="ProblemBonus" value="" />
-      <property name="ProblemOpponentPower" value="" />
-      <property name="ProblemPlayerElement1" value="" />
-      <property name="ProblemPlayerElement1Power" value="" />
-      <property name="ProblemPlayerElement2" value="" />
-      <property name="ProblemPlayerElement2Power" value="" />
-      <property name="Rarity" value="F" />
-  </alternate>
+   <alternate name="Princess Cadance" type="Mane Character Boosted">
+    <property name="Number" value="CG3" />
+    <property name="Type" value="Mane Character Boosted" />
+    <property name="Element" value="Generosity" />
+    <property name="Subname" value="Loving Ruler" />
+    <property name="Power" value="3" />
+    <property name="Cost" value="" />
+    <property name="PlayRequiredPower" value="" />
+    <property name="PlayRequiredElement" value="" />
+    <property name="Traits" value="Royalty, Alicorn" />
+    <property name="Keywords" value="Home Limit 4." />
+    <property name="Text" value="Opponents pay +2AT to play Friends here." />
+    <property name="ProblemBonus" value="" />
+    <property name="ProblemOpponentPower" value="" />
+    <property name="ProblemPlayerElement1" value="" />
+    <property name="ProblemPlayerElement1Power" value="" />
+    <property name="ProblemPlayerElement2" value="" />
+    <property name="ProblemPlayerElement2Power" value="" />
+    <property name="Rarity" value="F" />
+   </alternate>
   </card>
   <card id="360e7139-9247-4c57-a65f-6a2e3561c2fb" name="Bubbly Mare">
    <property name="Number" value="CG4" />
@@ -133,7 +152,7 @@
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="Pegasus" />
    <property name="Keywords" value="Home Limit 3." />
-   <property name="Text" value="When an opponent confronts a Problem, put a Postage counter on this card. Then, if there are at least 5 Postage counters on this card, remove them and turn it over." />
+   <property name="Text" value="When you confront a Problem, put a Postage counter on this card. Then, if there are at least 5 Postage counters on this card, remove them and turn it over." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -141,26 +160,26 @@
    <property name="ProblemPlayerElement2" value="" />
    <property name="ProblemPlayerElement2Power" value="" />
    <property name="Rarity" value="F" />
-     <alternate name="Bubbly Mare" type="Mane Character Boosted">
-      <property name="Number" value="CG4" />
-      <property name="Type" value="Mane Character Boosted" />
-      <property name="Element" value="Kindness" />
-      <property name="Subname" value="Helping Hoof" />
-      <property name="Power" value="3" />
-      <property name="Cost" value="" />
-      <property name="PlayRequiredPower" value="" />
-      <property name="PlayRequiredElement" value="" />
-      <property name="Traits" value="Pegasus" />
-      <property name="Keywords" value="Home Limit 4." />
-      <property name="Text" value="Opponents can't play more than one card of each type per turn." />
-      <property name="ProblemBonus" value="" />
-      <property name="ProblemOpponentPower" value="" />
-      <property name="ProblemPlayerElement1" value="" />
-      <property name="ProblemPlayerElement1Power" value="" />
-      <property name="ProblemPlayerElement2" value="" />
-      <property name="ProblemPlayerElement2Power" value="" />
-      <property name="Rarity" value="F" />
-  </alternate>
+   <alternate name="Bubbly Mare" type="Mane Character Boosted">
+    <property name="Number" value="CG4" />
+    <property name="Type" value="Mane Character Boosted" />
+    <property name="Element" value="Kindness" />
+    <property name="Subname" value="Helping Hoof" />
+    <property name="Power" value="3" />
+    <property name="Cost" value="" />
+    <property name="PlayRequiredPower" value="" />
+    <property name="PlayRequiredElement" value="" />
+    <property name="Traits" value="Pegasus" />
+    <property name="Keywords" value="Home Limit 4." />
+    <property name="Text" value="Opponents can't play more than one card of each type per turn." />
+    <property name="ProblemBonus" value="" />
+    <property name="ProblemOpponentPower" value="" />
+    <property name="ProblemPlayerElement1" value="" />
+    <property name="ProblemPlayerElement1Power" value="" />
+    <property name="ProblemPlayerElement2" value="" />
+    <property name="ProblemPlayerElement2Power" value="" />
+    <property name="Rarity" value="F" />
+   </alternate>
   </card>
   <card id="c5482faf-89e0-4a3a-a653-66b9d6557d99" name="Bolt">
    <property name="Number" value="CG5" />
@@ -172,8 +191,8 @@
    <property name="PlayRequiredPower" value="3" />
    <property name="PlayRequiredElement" value="Loyalty" />
    <property name="Traits" value="Earth Pony" />
-   <property name="Keywords" value="Teamwork" />
-   <property name="Text" value="Main Phase: Pay 2 to ready this card." />
+   <property name="Keywords" value="Teamwork." />
+   <property name="Text" value="Main Phase: Pay 2AT to ready this card." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -192,9 +211,8 @@
    <property name="PlayRequiredPower" value="4" />
    <property name="PlayRequiredElement" value="Loyalty" />
    <property name="Traits" value="Pegasus" />
-   <property name="Keywords" value="Pumped" />
-   <property name="Text" value="This card has +1 power for each card beneath it.
-At the start of your Score Phase, if this card has at least 4 power, you may move it." />
+   <property name="Keywords" value="Pumped." />
+   <property name="Text" value="This card has +1 power for each card beneath it.&#10;At the start of the Score Phase, if this card has at least 4 power, you may move it." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -214,7 +232,7 @@ At the start of your Score Phase, if this card has at least 4 power, you may mov
    <property name="PlayRequiredElement" value="Loyalty" />
    <property name="Traits" value="Unicorn" />
    <property name="Keywords" value="" />
-   <property name="Text" value="Main Phase: Pay 1 to give this card +2 power until the end of the turn. You may move this card. At the end of the turn, retire this card." />
+   <property name="Text" value="Main Phase: Pay 1AT to give this card +2 power until the end of the turn. You may move this card. At the end of the turn, retire this card." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -234,7 +252,7 @@ At the start of your Score Phase, if this card has at least 4 power, you may mov
    <property name="PlayRequiredElement" value="Loyalty" />
    <property name="Traits" value="Crystal" />
    <property name="Keywords" value="" />
-   <property name="Text" value="When you move this card to a Problem, you may exhaust this card and pay 1 to frighten an opponent's Friend there." />
+   <property name="Text" value="When you move this card to a Problem, you may exhaust this card and pay 1AT to frighten an opponent's Friend there." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -254,7 +272,7 @@ At the start of your Score Phase, if this card has at least 4 power, you may mov
    <property name="PlayRequiredElement" value="Loyalty" />
    <property name="Traits" value="Pegasus" />
    <property name="Keywords" value="" />
-   <property name="Text" value="When this card enters play at a Problem, challenge an opponent's Troublemaker there with your charaters there." />
+   <property name="Text" value="When this card enters play at a Problem, challenge an opponent's Troublemaker there with your characters there." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -274,8 +292,7 @@ At the start of your Score Phase, if this card has at least 4 power, you may mov
    <property name="PlayRequiredElement" value="Loyalty" />
    <property name="Traits" value="Earth Pony" />
    <property name="Keywords" value="" />
-   <property name="Text" value="When this card becomes unfrightened, you may move it to a problem.
-This card has +1 power for each Dr. Hooves Friend in your discard pile." />
+   <property name="Text" value="When this card becomes unfrightened, you may move it to a Problem.&#10;This card has +1 power for each Dr. Hooves Friend in your discard pile." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -291,8 +308,8 @@ This card has +1 power for each Dr. Hooves Friend in your discard pile." />
    <property name="Subname" value="Agile Athlete" />
    <property name="Power" value="2" />
    <property name="Cost" value="3" />
-   <property name="PlayRequiredPower" value="1" />
-   <property name="PlayRequiredElement" value="Loyalty" />
+   <property name="PlayRequiredPower" value="" />
+   <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="Crystal" />
    <property name="Keywords" value="" />
    <property name="Text" value="While with another of your Crystal characters, this card has Swift." />
@@ -334,8 +351,8 @@ This card has +1 power for each Dr. Hooves Friend in your discard pile." />
    <property name="PlayRequiredPower" value="3" />
    <property name="PlayRequiredElement" value="Loyalty" />
    <property name="Traits" value="Crystal" />
-   <property name="Keywords" value="Prismatic" />
-   <property name="Text" value="Main Phase: Exhaust this card and pay 2 to move a Friend you control for each color this card this has." />
+   <property name="Keywords" value="Prismatic." />
+   <property name="Text" value="Main Phase: Exhaust this card and pay 2AT to move a Friend you control for each color this card has." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -375,7 +392,7 @@ This card has +1 power for each Dr. Hooves Friend in your discard pile." />
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="Earth Pony, Elder" />
    <property name="Keywords" value="" />
-   <property name="Text" value="While with at least one of your [Pegasus] characters, this card has Swift." />
+   <property name="Text" value="While with at least one of your Pegasus characters, this card has Swift." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -414,7 +431,7 @@ This card has +1 power for each Dr. Hooves Friend in your discard pile." />
    <property name="PlayRequiredPower" value="4" />
    <property name="PlayRequiredElement" value="Loyalty" />
    <property name="Traits" value="Pegasus" />
-   <property name="Keywords" value="Teamwork, Supportive 1" />
+   <property name="Keywords" value="Teamwork, Supportive 1." />
    <property name="Text" value="" />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
@@ -494,7 +511,7 @@ This card has +1 power for each Dr. Hooves Friend in your discard pile." />
    <property name="PlayRequiredPower" value="3" />
    <property name="PlayRequiredElement" value="Honesty" />
    <property name="Traits" value="Crystal" />
-   <property name="Keywords" value="Prismatic" />
+   <property name="Keywords" value="Prismatic." />
    <property name="Text" value="This card has +2 power for each color it has." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
@@ -514,7 +531,7 @@ This card has +1 power for each Dr. Hooves Friend in your discard pile." />
    <property name="PlayRequiredPower" value="5" />
    <property name="PlayRequiredElement" value="Honesty" />
    <property name="Traits" value="Earth Pony" />
-   <property name="Keywords" value="Teamwork, Supportive 2" />
+   <property name="Keywords" value="Teamwork, Supportive 2." />
    <property name="Text" value="" />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
@@ -634,8 +651,8 @@ This card has +1 power for each Dr. Hooves Friend in your discard pile." />
    <property name="PlayRequiredPower" value="3" />
    <property name="PlayRequiredElement" value="Honesty" />
    <property name="Traits" value="Pegasus" />
-   <property name="Keywords" value="Stubborn" />
-   <property name="Text" value="Main Phase: Exhaust one of your [Earth Pony] characters here to exhaust an opponent's Friend here." />
+   <property name="Keywords" value="Stubborn." />
+   <property name="Text" value="Main Phase: Exhaust one of your Earth Pony characters here to exhaust an opponent's Friend here." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -655,7 +672,7 @@ This card has +1 power for each Dr. Hooves Friend in your discard pile." />
    <property name="PlayRequiredElement" value="Honesty" />
    <property name="Traits" value="Dragon" />
    <property name="Keywords" value="" />
-   <property name="Text" value="When this card enters play it getrs +3 power until the end of turn." />
+   <property name="Text" value="When this card enters play, it gets +3 power until the end of turn." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -675,7 +692,7 @@ This card has +1 power for each Dr. Hooves Friend in your discard pile." />
    <property name="PlayRequiredElement" value="Honesty" />
    <property name="Traits" value="Earth Pony" />
    <property name="Keywords" value="" />
-   <property name="Text" value="You may pay 1 less to play this card to a Problem for each of your [Earth Pony] Friends there." />
+   <property name="Text" value="You may pay 1AT less to play this card to a Problem for each of your Earth Pony Friends there." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -694,7 +711,7 @@ This card has +1 power for each Dr. Hooves Friend in your discard pile." />
    <property name="PlayRequiredPower" value="4" />
    <property name="PlayRequiredElement" value="Honesty" />
    <property name="Traits" value="Pegasus" />
-   <property name="Keywords" value="Teamwork" />
+   <property name="Keywords" value="Teamwork." />
    <property name="Text" value="This card can't be frightened." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
@@ -735,7 +752,7 @@ This card has +1 power for each Dr. Hooves Friend in your discard pile." />
    <property name="PlayRequiredElement" value="Laughter" />
    <property name="Traits" value="Earth Pony" />
    <property name="Keywords" value="" />
-   <property name="Text" value="At the start of a faceoff involving this card, you may exhaust this card and pay 1 to gain control of an opponent's Friend here until the end of the faceoff." />
+   <property name="Text" value="At the start of a faceoff involving this card, you may exhaust this card and pay 1AT to gain control of an opponent's Friend here until the end of the faceoff." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -755,7 +772,7 @@ This card has +1 power for each Dr. Hooves Friend in your discard pile." />
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="Earth Pony" />
    <property name="Keywords" value="" />
-   <property name="Text" value="When you confront this card's Problem, if you have a [Unicorn] character here, you may draw a card." />
+   <property name="Text" value="When you confront this card's Problem, if you have a Unicorn character here, you may draw a card." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -794,7 +811,7 @@ This card has +1 power for each Dr. Hooves Friend in your discard pile." />
    <property name="PlayRequiredPower" value="" />
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="Griffon" />
-   <property name="Keywords" value="Pumped" />
+   <property name="Keywords" value="Pumped." />
    <property name="Text" value="Main Phase: Spend a card from beneath this card to uncover a Troublemaker." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
@@ -848,14 +865,14 @@ This card has +1 power for each Dr. Hooves Friend in your discard pile." />
    <property name="Number" value="CG39" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Laughter" />
-   <property name="Subname" value="Very Exitable" />
+   <property name="Subname" value="Very Excitable" />
    <property name="Power" value="1" />
    <property name="Cost" value="3" />
    <property name="PlayRequiredPower" value="3" />
    <property name="PlayRequiredElement" value="Laughter" />
    <property name="Traits" value="Unicorn" />
    <property name="Keywords" value="" />
-   <property name="Text" value="When you play an [Earth Pony] friend here, you may exhaust this card and pay 1 to dismiss an opponent's Friend here." />
+   <property name="Text" value="When you play an Earth Pony Friend here, you may exhaust this card and pay 1AT to dismiss an opponent's Friend here." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -875,8 +892,7 @@ This card has +1 power for each Dr. Hooves Friend in your discard pile." />
    <property name="PlayRequiredElement" value="Laughter" />
    <property name="Traits" value="Crystal" />
    <property name="Keywords" value="" />
-   <property name="Text" value="During a faceoff involving this card, if you would put any number of flipped cards on the bottom of your deck, you may banish them to beneath this card instead.
-Main Phase: Pay 1 to put a card from beneath this card to beneath a Friend with Pumped." />
+   <property name="Text" value="During a faceoff involving this card, if you would put any number of flipped cards on the bottom of your deck, you may banish them to beneath this card instead.&#10;Main Phase: Pay 1AT to put a card from beneath this card to beneath a Friend with Pumped." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -895,7 +911,7 @@ Main Phase: Pay 1 to put a card from beneath this card to beneath a Friend with 
    <property name="PlayRequiredPower" value="3" />
    <property name="PlayRequiredElement" value="Laughter" />
    <property name="Traits" value="Earth Pony" />
-   <property name="Keywords" value="Teamwork, Supportive 1" />
+   <property name="Keywords" value="Teamwork, Supportive 1." />
    <property name="Text" value="" />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
@@ -916,7 +932,7 @@ Main Phase: Pay 1 to put a card from beneath this card to beneath a Friend with 
    <property name="PlayRequiredElement" value="Laughter" />
    <property name="Traits" value="Breezie" />
    <property name="Keywords" value="" />
-   <property name="Text" value="Reaction: After the start of the Score Phase, you may retire this card. If you do, your opponent needs +2 [Any] to confront this card's Problem this turn." />
+   <property name="Text" value="Reaction: After the start of the Score Phase, you may retire this card. If you do, your opponent needs +2 power to confront this card's Problem this turn." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -935,7 +951,7 @@ Main Phase: Pay 1 to put a card from beneath this card to beneath a Friend with 
    <property name="PlayRequiredPower" value="3" />
    <property name="PlayRequiredElement" value="Laughter" />
    <property name="Traits" value="Crystal" />
-   <property name="Keywords" value="Prismatic" />
+   <property name="Keywords" value="Prismatic." />
    <property name="Text" value="During faceoffs involving this card, you may flip a number of additional cards equal to the number of colors this card has, then choose one of the cards flipped this way and ignore the rest." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
@@ -955,8 +971,8 @@ Main Phase: Pay 1 to put a card from beneath this card to beneath a Friend with 
    <property name="PlayRequiredPower" value="4" />
    <property name="PlayRequiredElement" value="Laughter" />
    <property name="Traits" value="Unicorn" />
-   <property name="Keywords" value="Teamwork" />
-   <property name="Text" value="While this card is ready, your opponent needs +1 [Any] to confront this card's Problem." />
+   <property name="Keywords" value="Teamwork." />
+   <property name="Text" value="While this card is ready, your opponent needs +1 power to confront this card's Problem." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -1016,7 +1032,7 @@ Main Phase: Pay 1 to put a card from beneath this card to beneath a Friend with 
    <property name="PlayRequiredElement" value="Magic" />
    <property name="Traits" value="Earth Pony" />
    <property name="Keywords" value="" />
-   <property name="Text" value="When an opponent plays a Friend, gain 1." />
+   <property name="Text" value="When an opponent plays a Friend, gain 1AT." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -1036,7 +1052,7 @@ Main Phase: Pay 1 to put a card from beneath this card to beneath a Friend with 
    <property name="PlayRequiredElement" value="Magic" />
    <property name="Traits" value="Pegasus" />
    <property name="Keywords" value="" />
-   <property name="Text" value="When you lose a Problem faceoff involving this card, gain 1." />
+   <property name="Text" value="When you lose a Problem faceoff involving this card, gain 1AT." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -1069,14 +1085,14 @@ Main Phase: Pay 1 to put a card from beneath this card to beneath a Friend with 
    <property name="Number" value="CG50" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Magic" />
-   <property name="Subname" value="Officous Official" />
+   <property name="Subname" value="Officious Official" />
    <property name="Power" value="2" />
    <property name="Cost" value="4" />
    <property name="PlayRequiredPower" value="4" />
    <property name="PlayRequiredElement" value="Magic" />
    <property name="Traits" value="Earth Pony" />
-   <property name="Keywords" value="Teamwork" />
-   <property name="Text" value="When you confront this card's Problem, you may exhaust this card and pay 1 to move an opposing character at this card's Problem home." />
+   <property name="Keywords" value="Teamwork." />
+   <property name="Text" value="When you confront this card's Problem, you may exhaust this card and pay 1AT to move an opposing character at this card's Problem home." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -1095,7 +1111,7 @@ Main Phase: Pay 1 to put a card from beneath this card to beneath a Friend with 
    <property name="PlayRequiredPower" value="4" />
    <property name="PlayRequiredElement" value="Magic" />
    <property name="Traits" value="Unicorn" />
-   <property name="Keywords" value="Teamwork, Supportive 1" />
+   <property name="Keywords" value="Teamwork, Supportive 1." />
    <property name="Text" value="" />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
@@ -1155,7 +1171,7 @@ Main Phase: Pay 1 to put a card from beneath this card to beneath a Friend with 
    <property name="PlayRequiredPower" value="2" />
    <property name="PlayRequiredElement" value="Magic" />
    <property name="Traits" value="Unicorn" />
-   <property name="Keywords" value="Teamwork" />
+   <property name="Keywords" value="Teamwork." />
    <property name="Text" value="When you play an Event, this card gets +1 power until the end of the turn." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
@@ -1216,7 +1232,7 @@ Main Phase: Pay 1 to put a card from beneath this card to beneath a Friend with 
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="Unicorn" />
    <property name="Keywords" value="" />
-   <property name="Text" value="Main Phase: Exhaust one of your [Earth Pony] characters here to banish a card from a discard pile." />
+   <property name="Text" value="Main Phase: Exhaust one of your Earth Pony characters here to banish a card from a discard pile." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -1295,7 +1311,7 @@ Main Phase: Pay 1 to put a card from beneath this card to beneath a Friend with 
    <property name="PlayRequiredPower" value="3" />
    <property name="PlayRequiredElement" value="Magic" />
    <property name="Traits" value="Crystal" />
-   <property name="Keywords" value="Prismatic" />
+   <property name="Keywords" value="Prismatic." />
    <property name="Text" value="At the start of a Problem faceoff involving this card, you may choose an opposing character involved in the faceoff with power less than or equal to the number of colors this card has. If you do, that character ceases to be involved in the faceoff." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
@@ -1335,7 +1351,7 @@ Main Phase: Pay 1 to put a card from beneath this card to beneath a Friend with 
    <property name="PlayRequiredPower" value="4" />
    <property name="PlayRequiredElement" value="Generosity" />
    <property name="Traits" value="Unicorn" />
-   <property name="Keywords" value="Teamwork, Supportive 1" />
+   <property name="Keywords" value="Teamwork, Supportive 1." />
    <property name="Text" value="" />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
@@ -1375,8 +1391,8 @@ Main Phase: Pay 1 to put a card from beneath this card to beneath a Friend with 
    <property name="PlayRequiredPower" value="4" />
    <property name="PlayRequiredElement" value="Generosity" />
    <property name="Traits" value="Pegasus" />
-   <property name="Keywords" value="Teamwork" />
-   <property name="Text" value="When you win a Problem faceoff involving this card, you may exhaust this card and pay 2 to banish a Friend at that problem." />
+   <property name="Keywords" value="Teamwork." />
+   <property name="Text" value="When you win a Problem faceoff involving this card, you may exhaust this card and pay 2AT to banish a Friend at that Problem." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -1476,7 +1492,7 @@ Main Phase: Pay 1 to put a card from beneath this card to beneath a Friend with 
    <property name="PlayRequiredElement" value="Generosity" />
    <property name="Traits" value="Breezie" />
    <property name="Keywords" value="" />
-   <property name="Text" value="When you win a faceoff involving this card, you amy retire it to score a point." />
+   <property name="Text" value="When you win a faceoff involving this card, you may retire it to score a point." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -1495,8 +1511,8 @@ Main Phase: Pay 1 to put a card from beneath this card to beneath a Friend with 
    <property name="PlayRequiredPower" value="3" />
    <property name="PlayRequiredElement" value="Generosity" />
    <property name="Traits" value="Crystal" />
-   <property name="Keywords" value="Prismatic" />
-   <property name="Text" value="Main Phase: Exhaust this card to choose an opponent. Look at a number of cards from the top of that player's deck equal to the number of colors thyis card has, then put any number of them back on the top of the deck in any order, and the rest on the bottom." />
+   <property name="Keywords" value="Prismatic." />
+   <property name="Text" value="Main Phase: Exhaust this card to choose an opponent. Look at a number of cards from the top of that player's deck equal to the number of colors this card has, then put any number of them back on top of the deck in any order, and the rest on the bottom." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -1516,7 +1532,7 @@ Main Phase: Pay 1 to put a card from beneath this card to beneath a Friend with 
    <property name="PlayRequiredElement" value="Generosity" />
    <property name="Traits" value="Unicorn" />
    <property name="Keywords" value="" />
-   <property name="Text" value="While this card has power higher than another other Friend here, you may pay 1 less to play Accessories." />
+   <property name="Text" value="While this card has power higher than any other Friend here, you may pay 1AT less to play Accessories." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -1556,7 +1572,7 @@ Main Phase: Pay 1 to put a card from beneath this card to beneath a Friend with 
    <property name="PlayRequiredElement" value="Generosity" />
    <property name="Traits" value="Unicorn, Foal, Performer" />
    <property name="Keywords" value="" />
-   <property name="Text" value="Main Phase: Exhaust this card and pay 1 to sing a song and have all players put a Friend from their discard piles into their hands." />
+   <property name="Text" value="Main Phase: Exhaust this card and pay 1AT to sing a song and have all players put a Friend from their discard piles into their hands." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -1575,8 +1591,8 @@ Main Phase: Pay 1 to put a card from beneath this card to beneath a Friend with 
    <property name="PlayRequiredPower" value="2" />
    <property name="PlayRequiredElement" value="Generosity" />
    <property name="Traits" value="Unicorn" />
-   <property name="Keywords" value="Teamwork" />
-   <property name="Text" value="When this card leaves play, you may pay 1 to put another card from your discard pile into your hand." />
+   <property name="Keywords" value="Teamwork." />
+   <property name="Text" value="When this card leaves play, you may pay 1AT to put another card from your discard pile into your hand." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -1596,7 +1612,7 @@ Main Phase: Pay 1 to put a card from beneath this card to beneath a Friend with 
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="Pegasus" />
    <property name="Keywords" value="" />
-   <property name="Text" value="Your [Unicorn] characters here can't be moved by opponents." />
+   <property name="Text" value="Your Unicorn characters here can't be moved by opponents." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -1615,7 +1631,7 @@ Main Phase: Pay 1 to put a card from beneath this card to beneath a Friend with 
    <property name="PlayRequiredPower" value="2" />
    <property name="PlayRequiredElement" value="Kindness" />
    <property name="Traits" value="Unicorn" />
-   <property name="Keywords" value="Teamwork" />
+   <property name="Keywords" value="Teamwork." />
    <property name="Text" value="Troublemakers here have -1 power." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
@@ -1676,8 +1692,7 @@ Main Phase: Pay 1 to put a card from beneath this card to beneath a Friend with 
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="Pegasus" />
    <property name="Keywords" value="" />
-   <property name="Text" value="When you play your first card each turn, put a Postage counter on this card.
-While this card has at least one Postage counter on it, it has +1 power." />
+   <property name="Text" value="When you play your first card each turn, put a Postage counter on this card.&#10;While this card has at least one Postage counter on it, it has +1 power." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -1696,7 +1711,7 @@ While this card has at least one Postage counter on it, it has +1 power." />
    <property name="PlayRequiredPower" value="3" />
    <property name="PlayRequiredElement" value="Kindness" />
    <property name="Traits" value="Critter" />
-   <property name="Keywords" value="Teamwork, Supportive 1" />
+   <property name="Keywords" value="Teamwork, Supportive 1." />
    <property name="Text" value="" />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
@@ -1717,7 +1732,7 @@ While this card has at least one Postage counter on it, it has +1 power." />
    <property name="PlayRequiredElement" value="Kindness" />
    <property name="Traits" value="Breezie" />
    <property name="Keywords" value="" />
-   <property name="Text" value="Main Phase: Retire this card to put one of your [Critter] Friends into its owner's hand." />
+   <property name="Text" value="Main Phase: Retire this card to put one of your Critter Friends into its owner's hand." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -1736,8 +1751,8 @@ While this card has at least one Postage counter on it, it has +1 power." />
    <property name="PlayRequiredPower" value="3" />
    <property name="PlayRequiredElement" value="Kindness" />
    <property name="Traits" value="Crystal" />
-   <property name="Keywords" value="Prismatic" />
-   <property name="Text" value="Main Phase: Exhaust this card and pay 1 to reveal a number of cards from the top of your deck equal to the number of colors this card has. Put each Friend revealed this way into your hand and the rest on the bottom of your deck." />
+   <property name="Keywords" value="Prismatic." />
+   <property name="Text" value="Main Phase: Exhaust this card and pay 1AT to reveal a number of cards from the top of your deck equal to the number of colors this card has. Put each Friend revealed this way into your hand and the rest of the cards on the bottom of your deck." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -1777,7 +1792,7 @@ While this card has at least one Postage counter on it, it has +1 power." />
    <property name="PlayRequiredElement" value="Kindness" />
    <property name="Traits" value="Earth Pony, Elder" />
    <property name="Keywords" value="" />
-   <property name="Text" value="When this card enters play at a Problem, you may choose a [Critter] Friend from your discard pile with cost 1 or less and put it into play at that Problem." />
+   <property name="Text" value="When this card enters play at a Problem, you may choose a Critter Friend from your discard pile with cost 1AT or less and put it into play at that Problem." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -1797,7 +1812,7 @@ While this card has at least one Postage counter on it, it has +1 power." />
    <property name="PlayRequiredElement" value="Kindness" />
    <property name="Traits" value="Critter" />
    <property name="Keywords" value="" />
-   <property name="Text" value="When an opponent flips a card while this card is involved in a faceoff, if that opponent has more flippe cards than you, flip a card." />
+   <property name="Text" value="When an opponent flips a card while this card is involved in a faceoff, if that opponent has more flipped cards than you, flip a card." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -1816,8 +1831,8 @@ While this card has at least one Postage counter on it, it has +1 power." />
    <property name="PlayRequiredPower" value="4" />
    <property name="PlayRequiredElement" value="Kindness" />
    <property name="Traits" value="Critter" />
-   <property name="Keywords" value="Pumped" />
-   <property name="Text" value="If you would flip a card during a faceoff involving this card, you may spend a card from beneath this card instead. If you do, add that card's printed power to your total power for that faceoff." />
+   <property name="Keywords" value="Pumped." />
+   <property name="Text" value="If you would flip a card during a faceoff involving this card, you may spend a card from beneath this card instead. If you do, add that card's printed power to your power total for that faceoff." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -1857,7 +1872,7 @@ While this card has at least one Postage counter on it, it has +1 power." />
    <property name="PlayRequiredElement" value="Kindness" />
    <property name="Traits" value="Unicorn" />
    <property name="Keywords" value="" />
-   <property name="Text" value="When you win a faceoff involving this card, if you have a [Pegasus] character here, you may exhaust this card to dismiss an opponent's Resource." />
+   <property name="Text" value="When you win a faceoff involving this card, if you have a Pegasus character here, you may exhaust this card to dismiss an opponent's Resource." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -1906,7 +1921,7 @@ While this card has at least one Postage counter on it, it has +1 power." />
    <property name="ProblemPlayerElement2Power" value="" />
    <property name="Rarity" value="F" />
   </card>
-  <card id="49636148-3f2d-40a7-ad31-78fc743ef00e" name="A Simple Mix-Up">
+  <card id="49636148-3f2d-40a7-ad31-78fc743ef00e" name="A Simple Mix-up">
    <property name="Number" value="CG92" />
    <property name="Type" value="Event" />
    <property name="Element" value="" />
@@ -1977,7 +1992,7 @@ While this card has at least one Postage counter on it, it has +1 power." />
    <property name="PlayRequiredElement" value="Loyalty" />
    <property name="Traits" value="" />
    <property name="Keywords" value="" />
-   <property name="Text" value="Faceoff: Gain 3. At the end of the faceoff, lose all of your action tokens." />
+   <property name="Text" value="Faceoff: Gain 3AT. At the end of the faceoff, lose all of your action tokens." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -2037,7 +2052,7 @@ While this card has at least one Postage counter on it, it has +1 power." />
    <property name="PlayRequiredElement" value="Magic" />
    <property name="Traits" value="Gotcha" />
    <property name="Keywords" value="" />
-   <property name="Text" value="Reaction: At the start of a Score Phase, move all chracters at a Problem home." />
+   <property name="Text" value="Reaction: After the start of a Score Phase, move all characters at a Problem home." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -2077,7 +2092,7 @@ While this card has at least one Postage counter on it, it has +1 power." />
    <property name="PlayRequiredElement" value="Generosity" />
    <property name="Traits" value="Gotcha" />
    <property name="Keywords" value="" />
-   <property name="Text" value="Reaction: After an opponent moves a character, that opponent must pay 1 if able." />
+   <property name="Text" value="Reaction: After an opponent moves a character, that opponent must pay 1AT if able." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -2233,11 +2248,11 @@ While this card has at least one Postage counter on it, it has +1 power." />
    <property name="Subname" value="" />
    <property name="Power" value="5" />
    <property name="Cost" value="2" />
-   <property name="PlayRequiredPower" value="2" />
+   <property name="PlayRequiredPower" value="3" />
    <property name="PlayRequiredElement" value="Honesty" />
    <property name="Traits" value="" />
    <property name="Keywords" value="" />
-   <property name="Text" value="Main Phase: Exhaust one of your Friends to exhaust a number of opposing Friends up to the number of colors that Friend hase." />
+   <property name="Text" value="Main Phase: Exhaust one of your Friends to exhaust a number of opposing Friends up to the number of colors that Friend has." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -2277,7 +2292,7 @@ While this card has at least one Postage counter on it, it has +1 power." />
    <property name="PlayRequiredElement" value="Loyalty" />
    <property name="Traits" value="Gotcha" />
    <property name="Keywords" value="" />
-   <property name="Text" value="Reaction: Atfter the start of a Score Phase, choose a Problem and ready any number of characters there." />
+   <property name="Text" value="Reaction: After the start of a Score Phase, choose a Problem and ready any number of characters there." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -2317,7 +2332,7 @@ While this card has at least one Postage counter on it, it has +1 power." />
    <property name="PlayRequiredElement" value="Generosity" />
    <property name="Traits" value="Showdown" />
    <property name="Keywords" value="" />
-   <property name="Text" value="Main Phase: Start a faceoff involving your characters at a Problem and an opponent's characters at that Problem. The winner of that faceoff may banish a Friend that was involved." />
+   <property name="Text" value="Main Phase: Start a faceoff involving your characters at a Problem and an opponent's characters there. The winner of that faceoff may banish a Friend that was involved." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -2337,7 +2352,7 @@ While this card has at least one Postage counter on it, it has +1 power." />
    <property name="PlayRequiredElement" value="Loyalty" />
    <property name="Traits" value="Showdown" />
    <property name="Keywords" value="" />
-   <property name="Text" value="Main Phase: Start a faceoff involving your characters at a Problem and an opponent's characters at that Problem. The winner of that faceoff may move a character they control for each of their Friends involved in the faceoff." />
+   <property name="Text" value="Main Phase: Start a faceoff involving your characters at a Problem and an opponent's characters there. The winner of that faceoff may move a character they control for each of their Friends involved in the faceoff." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -2357,7 +2372,7 @@ While this card has at least one Postage counter on it, it has +1 power." />
    <property name="PlayRequiredElement" value="Generosity" />
    <property name="Traits" value="Gotcha" />
    <property name="Keywords" value="" />
-   <property name="Text" value="Faceoff: Banish a Friend from a discard pile. Add that Friend's power to one of your friends in the faceoff until the end of the faceoff." />
+   <property name="Text" value="Faceoff: Banish a Friend from a discard pile. Add that Friend's power to one of your Friends involved in the faceoff until the end of the faceoff." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -2397,7 +2412,7 @@ While this card has at least one Postage counter on it, it has +1 power." />
    <property name="PlayRequiredElement" value="Magic" />
    <property name="Traits" value="Showdown" />
    <property name="Keywords" value="" />
-   <property name="Text" value="Main Phase: Start a faceoff involving your characters at a Problem and an opponent's characters at that Problem. The winner of that faceoff may move each opposing character involved in the faceoff home." />
+   <property name="Text" value="Main Phase: Start a faceoff involving your characters at a Problem and an opponent's characters at that Problem. The winner of the faceoff may move each opposing character involved in the faceoff home." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -2417,7 +2432,7 @@ While this card has at least one Postage counter on it, it has +1 power." />
    <property name="PlayRequiredElement" value="Kindness" />
    <property name="Traits" value="Showdown" />
    <property name="Keywords" value="" />
-   <property name="Text" value="Main Phase: Start a faceoff involving your characters at a Problem and an opponent's characters at that Problem. The winner of that faceoff reveals a number of cards from their deck equal to the number of their characters involved in the facoeff, puts each Friend revealed this way into their hand, and puts the rest of the cards on the bottom of their deck." />
+   <property name="Text" value="Main Phase: Start a faceoff involving your characters at a Problem and an opponent's characters there. The winner of that faceoff reveals a number of cards from the top of their deck equal to the number of their characters involved in the faceoff, puts each Friend revealed this way into their hand, and puts the rest of the cards on the bottom of their deck." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -2431,7 +2446,7 @@ While this card has at least one Postage counter on it, it has +1 power." />
    <property name="Type" value="Event" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
-   <property name="Power" value="2" />
+   <property name="Power" value="3" />
    <property name="Cost" value="2" />
    <property name="PlayRequiredPower" value="2" />
    <property name="PlayRequiredElement" value="Magic" />
@@ -2477,7 +2492,7 @@ While this card has at least one Postage counter on it, it has +1 power." />
    <property name="PlayRequiredElement" value="Kindness" />
    <property name="Traits" value="" />
    <property name="Keywords" value="" />
-   <property name="Text" value="Reaction: After an opponent plays a card, exhaust all opposing Friends with Resources attached to them and banish all cards in all discard piles." />
+   <property name="Text" value="Reaction: After an opponent plays a card, exhaust all opposing Friends with Resources attached to them and banish all cards in a discard pile." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -2517,7 +2532,7 @@ While this card has at least one Postage counter on it, it has +1 power." />
    <property name="PlayRequiredElement" value="Honesty" />
    <property name="Traits" value="Showdown" />
    <property name="Keywords" value="" />
-   <property name="Text" value="Main Phase: Start a faceoff involving your characters at a Problem and an opponent's characters at that Problem. The loser of that faceoff discards a card for each of their characters involved in that faceoff." />
+   <property name="Text" value="Main Phase: Start a faceoff involving your characters at a Problem and an opponent's characters there. The loser of that faceoff discards a card for each of their characters involved in that faceoff." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -2537,7 +2552,7 @@ While this card has at least one Postage counter on it, it has +1 power." />
    <property name="PlayRequiredElement" value="Loyalty" />
    <property name="Traits" value="Gotcha" />
    <property name="Keywords" value="" />
-   <property name="Text" value="Reaction: Aftera  Friend becomes unfrightened, frighten that friend." />
+   <property name="Text" value="Reaction: After a Friend becomes unfrightened, frighten that Friend." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -2576,9 +2591,8 @@ While this card has at least one Postage counter on it, it has +1 power." />
    <property name="PlayRequiredPower" value="" />
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="Asset" />
-   <property name="Keywords" value="Play to your home." />
-   <property name="Text" value="Main Phase: Retire this card and pay 1 to have all players shuffle their decks. Draw 3 cards.
-Main Phase: Retire this card to give one of your characters [Laughter] until the end of the phase." />
+   <property name="Keywords" value="" />
+   <property name="Text" value="Play to your home.&#10;Main Phase: Retire this card and pay 1AT to have all players shuffle their decks. Draw 3 cards.&#10;Main Phase: Retire this card to give one of your characters [Laughter] until the end of the phase." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -2597,8 +2611,8 @@ Main Phase: Retire this card to give one of your characters [Laughter] until the
    <property name="PlayRequiredPower" value="3" />
    <property name="PlayRequiredElement" value="Generosity" />
    <property name="Traits" value="Accessory" />
-   <property name="Keywords" value="Play on a Friend." />
-   <property name="Text" value="That friend has +2 power and is Crystal." />
+   <property name="Keywords" value="" />
+   <property name="Text" value="Play on a Friend.&#10;That Friend has +2 power and is Crystal." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -2617,9 +2631,8 @@ Main Phase: Retire this card to give one of your characters [Laughter] until the
    <property name="PlayRequiredPower" value="" />
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="Asset" />
-   <property name="Keywords" value="Play to your home." />
-   <property name="Text" value="Main Phase: Retire this card and pay 2 to put a Resource from your discard pile into your hand.
-Main Phase: Retire this card to give one of your characters [Generosity] until the end of the phase." />
+   <property name="Keywords" value="" />
+   <property name="Text" value="Play to your home.&#10;Main Phase: Retire this card and pay 2AT to put a Resource from your discard pile into your hand.&#10;Main Phase: Retire this card to give one of your characters [Generosity] until the end of the phase." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -2638,8 +2651,8 @@ Main Phase: Retire this card to give one of your characters [Generosity] until t
    <property name="PlayRequiredPower" value="4" />
    <property name="PlayRequiredElement" value="Kindness" />
    <property name="Traits" value="Condition" />
-   <property name="Keywords" value="Play on a Problem" />
-   <property name="Text" value="Opponents must pay +1 to rally Friends here." />
+   <property name="Keywords" value="" />
+   <property name="Text" value="Play on an a Problem.&#10;Opponents must pay +1AT to rally Friends here." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -2658,9 +2671,8 @@ Main Phase: Retire this card to give one of your characters [Generosity] until t
    <property name="PlayRequiredPower" value="4" />
    <property name="PlayRequiredElement" value="Magic" />
    <property name="Traits" value="Asset" />
-   <property name="Keywords" value="Play on a Problem" />
-   <property name="Text" value="That Problem can't be confronted.
-Main Phase: Pay 3 to banish this card. Any player may activate this ability." />
+   <property name="Keywords" value="" />
+   <property name="Text" value="Play on a Problem.&#10;That Problem can't be confronted.&#10;Main Phase: Pay 3AT to banish this card. Any player may activate this ability." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -2679,8 +2691,8 @@ Main Phase: Pay 3 to banish this card. Any player may activate this ability." />
    <property name="PlayRequiredPower" value="3" />
    <property name="PlayRequiredElement" value="Generosity" />
    <property name="Traits" value="Accessory" />
-   <property name="Keywords" value="Play on a Friend." />
-   <property name="Text" value="While that Friend has power higher than any other Friend here, Friends can't be moved to this card's Problem." />
+   <property name="Keywords" value="" />
+   <property name="Text" value="Play on a Friend.&#10;While that Friend has power higher than any other Friend here, Friends can't be moved to this card's Problem." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -2699,8 +2711,8 @@ Main Phase: Pay 3 to banish this card. Any player may activate this ability." />
    <property name="PlayRequiredPower" value="1" />
    <property name="PlayRequiredElement" value="Generosity" />
    <property name="Traits" value="Accessory" />
-   <property name="Keywords" value="Play on a Friend." />
-   <property name="Text" value="That Friend has +1 Power, is also [Generosity], and loses and can't gain abilities." />
+   <property name="Keywords" value="" />
+   <property name="Text" value="Play on a Friend.&#10;That Friend has +1 Power, is also White, and loses and can't gain abilities." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -2719,8 +2731,8 @@ Main Phase: Pay 3 to banish this card. Any player may activate this ability." />
    <property name="PlayRequiredPower" value="" />
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="Asset" />
-   <property name="Keywords" value="Play to your home." />
-   <property name="Text" value="Main Phase: Pay 1 to gain control of an opponent's non-attachment Resource. That opponent gains control of this card." />
+   <property name="Keywords" value="" />
+   <property name="Text" value="Play to your home.&#10;Main Phase: Pay 1AT to gain control of an opponent's nonattachment Resource. That opponent gains control of this card." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -2739,8 +2751,8 @@ Main Phase: Pay 3 to banish this card. Any player may activate this ability." />
    <property name="PlayRequiredPower" value="4" />
    <property name="PlayRequiredElement" value="Honesty" />
    <property name="Traits" value="Accessory" />
-   <property name="Keywords" value="Play on an [Honesty] Friend." />
-   <property name="Text" value="Main Phase: Discard a card to give that Friend +1 power until the end of the turn." />
+   <property name="Keywords" value="" />
+   <property name="Text" value="Play on an [Honesty] Friend.&#10;Main Phase: Discard a card to give that Friend +1 power until the end of the turn." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -2759,8 +2771,8 @@ Main Phase: Pay 3 to banish this card. Any player may activate this ability." />
    <property name="PlayRequiredPower" value="" />
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="Accessory" />
-   <property name="Keywords" value="Play on a Friend." />
-   <property name="Text" value="That Friend has [Laughter] and +1 power for each of your other [Laughter] Friends here." />
+   <property name="Keywords" value="" />
+   <property name="Text" value="Play on a Friend.&#10;That Friend has [Laughter] and +1 power for each of your other [Laughter] Friends here." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -2779,9 +2791,8 @@ Main Phase: Pay 3 to banish this card. Any player may activate this ability." />
    <property name="PlayRequiredPower" value="3" />
    <property name="PlayRequiredElement" value="Loyalty" />
    <property name="Traits" value="Accessory, Armor" />
-   <property name="Keywords" value="Play on a Friend." />
-   <property name="Text" value="While involved in a faceoff, that Friend has +1 power.
-Faceoff: Exhaust this card to move that Friend to a Problem. At the end of the faceoff, retire this card." />
+   <property name="Keywords" value="" />
+   <property name="Text" value="Play on a Friend.&#10;While involved in a faceoff, that Friend has +1 power.&#10;Faceoff: Exhaust this card to move that Friend to a Problem. At the end of the faceoff, retire this card." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -2800,8 +2811,8 @@ Faceoff: Exhaust this card to move that Friend to a Problem. At the end of the f
    <property name="PlayRequiredPower" value="3" />
    <property name="PlayRequiredElement" value="Kindness" />
    <property name="Traits" value="Mailbox" />
-   <property name="Keywords" value="Play to your home." />
-   <property name="Text" value="Main Phase: Remove a counter from one of your ready characters to draw a card. If you remove the counter from a Dragon or Pegasus, draw 2 cards instead." />
+   <property name="Keywords" value="" />
+   <property name="Text" value="Play to your home.&#10;Main Phase: Remove a counter from one of your ready characters to draw a card. If you remove the counter from a Dragon or Pegasus, draw 2 cards instead." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -2820,8 +2831,8 @@ Faceoff: Exhaust this card to move that Friend to a Problem. At the end of the f
    <property name="PlayRequiredPower" value="2" />
    <property name="PlayRequiredElement" value="Honesty" />
    <property name="Traits" value="Condition" />
-   <property name="Keywords" value="Play on a Friend." />
-   <property name="Text" value="Exhaust that Friend. That Friend does not ready during the Ready Phase." />
+   <property name="Keywords" value="" />
+   <property name="Text" value="Play on a Friend.&#10;Exhaust that Friend. That Friend does not ready during the Ready Phase." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -2840,9 +2851,8 @@ Faceoff: Exhaust this card to move that Friend to a Problem. At the end of the f
    <property name="PlayRequiredPower" value="1" />
    <property name="PlayRequiredElement" value="Laughter" />
    <property name="Traits" value="Asset" />
-   <property name="Keywords" value="Play to your home." />
-   <property name="Text" value="At the start of your turn, you may put a Party counter on this card.
-Main Phase: Pay a number of action tokens equal to the number of Party counters on this card and retire it to dismiss all Friends with printed power equal to the number of Party counters on this card." />
+   <property name="Keywords" value="" />
+   <property name="Text" value="At the start of your turn, you may put a Party counter on this card.&#10;Main Phase: Pay a number of action tokens equal to the number of Party counters on this card and retire it to dismiss all Friends with printed power equal to the number of Party counters on this card." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -2860,10 +2870,9 @@ Main Phase: Pay a number of action tokens equal to the number of Party counters 
    <property name="Cost" value="0" />
    <property name="PlayRequiredPower" value="" />
    <property name="PlayRequiredElement" value="" />
-   <property name="Traits" value="Asset, Unique" />
-   <property name="Keywords" value="Play to your home." />
-   <property name="Text" value="When an opponent draws a card during their Main Phase, if that opponent already has drawn at least 4 cards this turn, score a point.
-When an opponent draws a card during their Main Phase, you may exhaust this card and one of your Friends to draw a card." />
+   <property name="Traits" value="Resource, Asset, Unique" />
+   <property name="Keywords" value="" />
+   <property name="Text" value="Play to your home.&#10;When your opponent draws a card during their Main Phase, if that opponent has drawn at least 4 cards this turn, score a point.&#10;When an opponent draws a card during their Main Phase, you may exhaust this card and one of your Friends to draw a card." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -2882,8 +2891,8 @@ When an opponent draws a card during their Main Phase, you may exhaust this card
    <property name="PlayRequiredPower" value="5" />
    <property name="PlayRequiredElement" value="Generosity" />
    <property name="Traits" value="Condition" />
-   <property name="Keywords" value="Play on a Friend." />
-   <property name="Text" value="You control that Friend." />
+   <property name="Keywords" value="" />
+   <property name="Text" value="Play on a Friend.&#10;You control that Friend." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -2902,8 +2911,8 @@ When an opponent draws a card during their Main Phase, you may exhaust this card
    <property name="PlayRequiredPower" value="" />
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="Asset" />
-   <property name="Keywords" value="Play to your home." />
-   <property name="Text" value="Score Phase: Retire this card to choose a Problem. This turn, you meet the confront requirements of that Problem if you have at least one ready [Unicorn], [Earth Pony], and [Pegasus] character there." />
+   <property name="Keywords" value="" />
+   <property name="Text" value="Play to your home.&#10;Score Phase: Retire this card to choose a Problem. This turn, you meet the confront requirements of that Problem if you have at least one ready Unicorn, Earth Pony, and Pegasus character there." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -2922,8 +2931,8 @@ When an opponent draws a card during their Main Phase, you may exhaust this card
    <property name="PlayRequiredPower" value="2" />
    <property name="PlayRequiredElement" value="Kindness" />
    <property name="Traits" value="Mailbox" />
-   <property name="Keywords" value="Play to your home." />
-   <property name="Text" value="Main Phase: Remove a counter from one of your ready characters to give a Friend +1 Power until the end of the turn. If the counter is a Postage counter, give that Friend +2 power instead." />
+   <property name="Keywords" value="" />
+   <property name="Text" value="Play to your home.&#10;Main Phase: Remove a counter from one of your ready characters to give a Friend +1 Power until the end of the turn. If the counter is a Postage counter, give that Friend +2 Power instead." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -2942,8 +2951,8 @@ When an opponent draws a card during their Main Phase, you may exhaust this card
    <property name="PlayRequiredPower" value="" />
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="Condition" />
-   <property name="Keywords" value="Play on one of your Friends." />
-   <property name="Text" value="Main Phase: Exhaust that Friend to choose a color. That Friend has that color until the end of the phase." />
+   <property name="Keywords" value="" />
+   <property name="Text" value="Play on one of your Friends.&#10;Main Phase: Exhaust that Friend to choose a color. That Friend has that color until the end of the phase." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -2962,8 +2971,8 @@ When an opponent draws a card during their Main Phase, you may exhaust this card
    <property name="PlayRequiredPower" value="1" />
    <property name="PlayRequiredElement" value="Magic" />
    <property name="Traits" value="Asset" />
-   <property name="Keywords" value="Play to your home." />
-   <property name="Text" value="Main Phase: Exhaust this card to have an opponent reveal a random card from their hand." />
+   <property name="Keywords" value="" />
+   <property name="Text" value="Play to your home.&#10;Main Phase: Exhaust this card to have an opponent reveal a random card from their hand." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -2982,8 +2991,8 @@ When an opponent draws a card during their Main Phase, you may exhaust this card
    <property name="PlayRequiredPower" value="4" />
    <property name="PlayRequiredElement" value="Loyalty" />
    <property name="Traits" value="Accessory" />
-   <property name="Keywords" value="Play on a Foal Friend." />
-   <property name="Text" value="Any Phase: Exhaust this card to move that Friend to a Problem." />
+   <property name="Keywords" value="" />
+   <property name="Text" value="Play on a Foal Friend.&#10;Any Phase: Exhaust this card to move that Friend to a Problem." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -3002,9 +3011,8 @@ When an opponent draws a card during their Main Phase, you may exhaust this card
    <property name="PlayRequiredPower" value="" />
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="Asset" />
-   <property name="Keywords" value="Play to your home." />
-   <property name="Text" value="Main Phase: Retire this card and pay 1 to put a card from your hand on the top of your deck.
-Main Phase: Retire this card to give one of your characters [Magic] until the end of the phase." />
+   <property name="Keywords" value="" />
+   <property name="Text" value="Play to your home.&#10;Main Phase: Retire this card and pay 1AT to put a card from your hand on the top of your deck.&#10;Main Phase: Retire this card to give one of your characters [Magic] until the end of the phase." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -3023,9 +3031,8 @@ Main Phase: Retire this card to give one of your characters [Magic] until the en
    <property name="PlayRequiredPower" value="" />
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="Asset" />
-   <property name="Keywords" value="Play to your home." />
-   <property name="Text" value="Main Phase: Retire this card and pay 1 to dismiss an opponent's Resource.
-Main Phase: Retire this card to give one of your characters [Kindness] until the end of the phase." />
+   <property name="Keywords" value="" />
+   <property name="Text" value="Play to your home.&#10;Main Phase: Retire this card and pay 1AT to dismiss an opponent's Resource.&#10;Main Phase: Retire this card to give one of your characters [Kindness] until the end of the phase." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -3044,9 +3051,8 @@ Main Phase: Retire this card to give one of your characters [Kindness] until the
    <property name="PlayRequiredPower" value="" />
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="Asset" />
-   <property name="Keywords" value="Play to your home." />
-   <property name="Text" value="Main Phase: Retire this card and pay 1 to exhaust a character.
-Main Phase: Retire this card to give one of your characters [Honesty] until the end of the phase." />
+   <property name="Keywords" value="" />
+   <property name="Text" value="Play to your home.&#10;Main Phase: Retire this card and pay 1AT to exhaust a character.&#10;Main Phase: Retire this card to give one of your characters [Honesty] until the end of the phase." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -3065,8 +3071,8 @@ Main Phase: Retire this card to give one of your characters [Honesty] until the 
    <property name="PlayRequiredPower" value="3" />
    <property name="PlayRequiredElement" value="Loyalty" />
    <property name="Traits" value="Accessory" />
-   <property name="Keywords" value="Play on a Friend." />
-   <property name="Text" value="That Friend has +1 power for each Slick Shades in play." />
+   <property name="Keywords" value="" />
+   <property name="Text" value="Play on a Friend.&#10;That Friend has +1 power for each Slick Shades in play." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -3085,8 +3091,8 @@ Main Phase: Retire this card to give one of your characters [Honesty] until the 
    <property name="PlayRequiredPower" value="2" />
    <property name="PlayRequiredElement" value="Kindness" />
    <property name="Traits" value="Condition" />
-   <property name="Keywords" value="Play on a Friend." />
-   <property name="Text" value="When you play a Friend, the attached Friend gets +2 power until the end of the turn." />
+   <property name="Keywords" value="" />
+   <property name="Text" value="Play on a Friend.&#10;When you play a Friend, the attached Friend gets +2 power until the end of the turn." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -3105,9 +3111,8 @@ Main Phase: Retire this card to give one of your characters [Honesty] until the 
    <property name="PlayRequiredPower" value="" />
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="Asset" />
-   <property name="Keywords" value="Play to your home." />
-   <property name="Text" value="Main Phase: Retire this card and pay 2 to frighten an opponent's Friend.
-Main Phase: Retire this card to give one of your characters [Loyalty] until the end of the phase." />
+   <property name="Keywords" value="" />
+   <property name="Text" value="Play to your home.&#10;Main Phase: Retire this card and pay 2AT to frighten an opponent's Friend.&#10;Main Phase: Retire this card to give one of your characters [Loyalty] until the end of the phase." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -3126,8 +3131,8 @@ Main Phase: Retire this card to give one of your characters [Loyalty] until the 
    <property name="PlayRequiredPower" value="3" />
    <property name="PlayRequiredElement" value="Honesty" />
    <property name="Traits" value="Condition" />
-   <property name="Keywords" value="Play on a Friend." />
-   <property name="Text" value="That Friend can't be frightened." />
+   <property name="Keywords" value="" />
+   <property name="Text" value="Play on a Friend.&#10;That Friend can't be frightened." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -3146,8 +3151,8 @@ Main Phase: Retire this card to give one of your characters [Loyalty] until the 
    <property name="PlayRequiredPower" value="2" />
    <property name="PlayRequiredElement" value="Magic" />
    <property name="Traits" value="Asset" />
-   <property name="Keywords" value="Play to your home." />
-   <property name="Text" value="Opposing Friends enter play exhausted." />
+   <property name="Keywords" value="" />
+   <property name="Text" value="Play to your home.&#10;Opposing Friends enter play exhausted." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -3166,9 +3171,8 @@ Main Phase: Retire this card to give one of your characters [Loyalty] until the 
    <property name="PlayRequiredPower" value="" />
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="Artifact, Unique" />
-   <property name="Keywords" value="Play to your home." />
-   <property name="Text" value="When you play your first Crystal Friend each turn, put a Crystal counter on this card.
-Reaction: At the start of any phase, remove 2 Crystal counters from this card to choose a color and a Friend. That Friend has that color until the end of the phase." />
+   <property name="Keywords" value="" />
+   <property name="Text" value="Play to your home.&#10;When you play your first Crystal Friend each turn, put a Crystal counter on this card.&#10;Reaction: After the start of any phase, remove 2 Crystal counters from this card to choose a color and a Friend. That Friend has that color until the end of the phase." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -3177,7 +3181,7 @@ Reaction: At the start of any phase, remove 2 Crystal counters from this card to
    <property name="ProblemPlayerElement2Power" value="" />
    <property name="Rarity" value="R" />
   </card>
-  <card id="f1b40dad-b8f3-48e0-ab3b-9b30c7434a40" name="Wonderbolt Academy Invitation">
+  <card id="f1b40dad-b8f3-48e0-ab3b-9b30c7434a40" name="Wonderbolt Academy Invitations">
    <property name="Number" value="CG155" />
    <property name="Type" value="Resource" />
    <property name="Element" value="" />
@@ -3187,8 +3191,8 @@ Reaction: At the start of any phase, remove 2 Crystal counters from this card to
    <property name="PlayRequiredPower" value="3" />
    <property name="PlayRequiredElement" value="Loyalty" />
    <property name="Traits" value="Asset" />
-   <property name="Keywords" value="Play to your home." />
-   <property name="Text" value="Reaction: At the start of any phase, you may exhaust this card to ready one of your Friends. At the end of the phase, retire that Friend." />
+   <property name="Keywords" value="" />
+   <property name="Text" value="Play to your home.&#10;Reaction: After the start of any phase, you may exhaust this card to ready one of your Friends. At the end of the phase, retire that Friend." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -3208,8 +3212,7 @@ Reaction: At the start of any phase, remove 2 Crystal counters from this card to
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="" />
    <property name="Keywords" value="" />
-   <property name="Text" value="Mane Characters can't be involved in Troublemaker faceoffs involving this card.
-Main Phase: Retire this card and pay 2 to turn an opponent's Mane Character to its Start side." />
+   <property name="Text" value="Mane Characters can't be involved in Troublemaker faceoffs involving this card.&#10;Main Phase: Retire this card and pay 2AT to turn an opponent's Mane Character to its Start side." />
    <property name="ProblemBonus" value="2" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -3229,8 +3232,7 @@ Main Phase: Retire this card and pay 2 to turn an opponent's Mane Character to i
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="" />
    <property name="Keywords" value="" />
-   <property name="Text" value="When this card is uncovered, pay 2 or dismiss it.
-At the start of each player's Main Phase, that player frightens one of their Friends." />
+   <property name="Text" value="When this card is uncovered, pay 2AT or dismiss it.&#10;At the start of each player's Main Phase, that player frightens one of their Friends." />
    <property name="ProblemBonus" value="2" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -3250,7 +3252,7 @@ At the start of each player's Main Phase, that player frightens one of their Fri
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="" />
    <property name="Keywords" value="" />
-   <property name="Text" value="At the start of a faceoff involving this card, you may pay 1 to choose a color, then exhaust all characters involved in that faceoff that have only that color." />
+   <property name="Text" value="At the start of a faceoff involving this card, you may pay 1AT to choose a color, then exhaust all characters involved in that faceoff that have only that color." />
    <property name="ProblemBonus" value="2" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -3350,7 +3352,7 @@ At the start of each player's Main Phase, that player frightens one of their Fri
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="" />
    <property name="Keywords" value="" />
-   <property name="Text" value="Faceoff: Pay 1 to give this card +2 power until the end of the faceoff." />
+   <property name="Text" value="Faceoff: Pay 1AT to give this card +2 power until the end of the faceoff." />
    <property name="ProblemBonus" value="2" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -3369,7 +3371,7 @@ At the start of each player's Main Phase, that player frightens one of their Fri
    <property name="PlayRequiredPower" value="" />
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="" />
-   <property name="Keywords" value="Pumped" />
+   <property name="Keywords" value="Pumped." />
    <property name="Text" value="This card has +2 power for each card beneath it." />
    <property name="ProblemBonus" value="2" />
    <property name="ProblemOpponentPower" value="" />
@@ -3410,8 +3412,7 @@ At the start of each player's Main Phase, that player frightens one of their Fri
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="" />
    <property name="Keywords" value="" />
-   <property name="Text" value="At the end of your Troublemaker Phase, put a Unity counter on this card.
-This card can only be challenged by a number of characters up to the number of Unity counters on this card." />
+   <property name="Text" value="At the end of your Troublemaker Phase, put a Unity counter on this card.&#10;This card can only be challenged by a number of characters up to the number of Unity counters on this card." />
    <property name="ProblemBonus" value="1" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -3471,7 +3472,7 @@ This card can only be challenged by a number of characters up to the number of U
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="" />
    <property name="Keywords" value="" />
-   <property name="Text" value="Main Phase: Pay 1 to move one of your friends to this Problem, then retire that Friend at the end of the turn. Any player may activate this ability." />
+   <property name="Text" value="Main Phase: Pay 1AT to move one of your Friends to this Problem, then retire that Friend at the end of the turn. Any player may activate this ability." />
    <property name="ProblemBonus" value="2" />
    <property name="ProblemOpponentPower" value="9" />
    <property name="ProblemPlayerElement1" value="Loyalty" />
@@ -3510,8 +3511,8 @@ This card can only be challenged by a number of characters up to the number of U
    <property name="PlayRequiredPower" value="" />
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="" />
-   <property name="Keywords" value="Starting Problem" />
-   <property name="Text" value="During faceoffs here, the player with the most [Unicorn] characters here pays -1 to play Events." />
+   <property name="Keywords" value="Starting Problem." />
+   <property name="Text" value="During faceoffs here, the player with the most Unicorn characters here pays -1AT to play Events." />
    <property name="ProblemBonus" value="1" />
    <property name="ProblemOpponentPower" value="4" />
    <property name="ProblemPlayerElement1" value="Magic" />
@@ -3530,7 +3531,7 @@ This card can only be challenged by a number of characters up to the number of U
    <property name="PlayRequiredPower" value="" />
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="" />
-   <property name="Keywords" value="Starting Problem" />
+   <property name="Keywords" value="Starting Problem." />
    <property name="Text" value="Troublemakers can't be played here." />
    <property name="ProblemBonus" value="1" />
    <property name="ProblemOpponentPower" value="4" />
@@ -3631,7 +3632,7 @@ This card can only be challenged by a number of characters up to the number of U
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="" />
    <property name="Keywords" value="" />
-   <property name="Text" value="If the player with the most [Unicorn] characters here would draw a card during their Ready Phase, they may put a Resource into their hand from their discard pile instead." />
+   <property name="Text" value="If the player with the most Unicorn characters here would draw a card during their Ready Phase, they may put a Resource into their hand from their discard pile instead." />
    <property name="ProblemBonus" value="2" />
    <property name="ProblemOpponentPower" value="8" />
    <property name="ProblemPlayerElement1" value="Generosity" />
@@ -3650,8 +3651,8 @@ This card can only be challenged by a number of characters up to the number of U
    <property name="PlayRequiredPower" value="" />
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="" />
-   <property name="Keywords" value="Starting Problem" />
-   <property name="Text" value="During faceoffs here, the player with the most [Pegasus] characters here ets +2 power." />
+   <property name="Keywords" value="Starting Problem." />
+   <property name="Text" value="During faceoffs here, the player with the most Pegasus characters here gets +2 power." />
    <property name="ProblemBonus" value="1" />
    <property name="ProblemOpponentPower" value="4" />
    <property name="ProblemPlayerElement1" value="Loyalty" />
@@ -3670,8 +3671,8 @@ This card can only be challenged by a number of characters up to the number of U
    <property name="PlayRequiredPower" value="" />
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="" />
-   <property name="Keywords" value="Starting Problem" />
-   <property name="Text" value="The player with the most [Unicorn] characters here can draw from the bottom of their deck." />
+   <property name="Keywords" value="Starting Problem." />
+   <property name="Text" value="The player with the most Unicorn characters here can draw from the bottom of their deck." />
    <property name="ProblemBonus" value="1" />
    <property name="ProblemOpponentPower" value="4" />
    <property name="ProblemPlayerElement1" value="Generosity" />
@@ -3711,7 +3712,7 @@ This card can only be challenged by a number of characters up to the number of U
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="" />
    <property name="Keywords" value="" />
-   <property name="Text" value="Resources can't be played on this Problem or Friends here." />
+   <property name="Text" value="Resources can't be played on this Problem or on Friends here." />
    <property name="ProblemBonus" value="2" />
    <property name="ProblemOpponentPower" value="7" />
    <property name="ProblemPlayerElement1" value="Kindness" />
@@ -3750,8 +3751,8 @@ This card can only be challenged by a number of characters up to the number of U
    <property name="PlayRequiredPower" value="" />
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="" />
-   <property name="Keywords" value="Starting Problem" />
-   <property name="Text" value="Main Phase: Exhaust two of your [Pegasus] characters here to move another of your characters. Only the player with the most [Pegasus] characters here may activate this ability." />
+   <property name="Keywords" value="Starting Problem." />
+   <property name="Text" value="Main Phase: Exhaust two of your Pegasus characters here to move another one of your characters. Only the player with the most Pegasus characters here may activate this ability." />
    <property name="ProblemBonus" value="1" />
    <property name="ProblemOpponentPower" value="4" />
    <property name="ProblemPlayerElement1" value="Kindness" />
@@ -3770,8 +3771,8 @@ This card can only be challenged by a number of characters up to the number of U
    <property name="PlayRequiredPower" value="" />
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="" />
-   <property name="Keywords" value="Starting Problem" />
-   <property name="Text" value="During Faceoffs here, the player with the most [Earth Pony] characters here flips an additional card." />
+   <property name="Keywords" value="Starting Problem." />
+   <property name="Text" value="During faceoffs here, the player with the most Earth Pony characters here flips an additional card." />
    <property name="ProblemBonus" value="1" />
    <property name="ProblemOpponentPower" value="4" />
    <property name="ProblemPlayerElement1" value="Honesty" />
@@ -3811,7 +3812,7 @@ This card can only be challenged by a number of characters up to the number of U
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="" />
    <property name="Keywords" value="" />
-   <property name="Text" value="When a player confronts this Problem with characters that have at least 3 different colors among them, that player may exhaust one of their characters here to gain 1." />
+   <property name="Text" value="When a player confronts this Problem with characters that have at least 3 different colors among them, that player may exhaust one of their characters here to gain 1AT." />
    <property name="ProblemBonus" value="1" />
    <property name="ProblemOpponentPower" value="5" />
    <property name="ProblemPlayerElement1" value="Magic" />
@@ -3850,8 +3851,8 @@ This card can only be challenged by a number of characters up to the number of U
    <property name="PlayRequiredPower" value="" />
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="" />
-   <property name="Keywords" value="Starting Problem" />
-   <property name="Text" value="When a player confronts this Problem, that player may banish a card from their hand beneath one of their Friends with Pumped." />
+   <property name="Keywords" value="Starting Problem." />
+   <property name="Text" value="When a player confronts this Problem, that player may banish a card from their hand to beneath one of their Friends with Pumped." />
    <property name="ProblemBonus" value="1" />
    <property name="ProblemOpponentPower" value="5" />
    <property name="ProblemPlayerElement1" value="Wild" />
@@ -3891,7 +3892,7 @@ This card can only be challenged by a number of characters up to the number of U
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="" />
    <property name="Keywords" value="" />
-   <property name="Text" value="The first player to confront this Problem may pay 3 to score 2 points." />
+   <property name="Text" value="The first player to confront this Problem may pay 3AT to score 2 points." />
    <property name="ProblemBonus" value="0" />
    <property name="ProblemOpponentPower" value="8" />
    <property name="ProblemPlayerElement1" value="Magic" />
@@ -3911,7 +3912,7 @@ This card can only be challenged by a number of characters up to the number of U
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="Unicorn, Royalty" />
    <property name="Keywords" value="Home Limit 3." />
-   <property name="Text" value="At the start of a Problem faceoff, you may pay 1 to put a Windup counter on this card. If you do, you may turn this card over." />
+   <property name="Text" value="At the start of a Problem faceoff, you may pay 1AT to put a Windup counter on this card. If you do, you may turn this card over." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -3919,28 +3920,27 @@ This card can only be challenged by a number of characters up to the number of U
    <property name="ProblemPlayerElement2" value="" />
    <property name="ProblemPlayerElement2Power" value="" />
    <property name="Rarity" value="UR" />
-     <alternate name="Princess Cadance" type="Mane Character Boosted">
-      <property name="Number" value="CG191" />
-      <property name="Type" value="Mane Character Boosted" />
-      <property name="Element" value="Loyalty" />
-      <property name="Subname" value="Fastball Special" />
-      <property name="Power" value="3" />
-      <property name="Cost" value="" />
-      <property name="PlayRequiredPower" value="" />
-      <property name="PlayRequiredElement" value="" />
-      <property name="Traits" value="Alicorn, Royalty" />
-      <property name="Keywords" value="Home Limit 4. Swift." />
-      <property name="Text" value="When this side of the card turns face-up, you may move it to a Problem. Then, remove each Windup counter from this card and you may move a number of your Friends to this card's Problem up to the number of counters removed this way." />
-      <property name="ProblemBonus" value="" />
-      <property name="ProblemOpponentPower" value="" />
-      <property name="ProblemPlayerElement1" value="" />
-      <property name="ProblemPlayerElement1Power" value="" />
-      <property name="ProblemPlayerElement2" value="" />
-      <property name="ProblemPlayerElement2Power" value="" />
-      <property name="Rarity" value="UR" />
-  </alternate>
+   <alternate name="Princess Cadance" type="Mane Character Boosted">
+    <property name="Number" value="CG191" />
+    <property name="Type" value="Mane Character Boosted" />
+    <property name="Element" value="Loyalty" />
+    <property name="Subname" value="Fastball Special" />
+    <property name="Power" value="3" />
+    <property name="Cost" value="" />
+    <property name="PlayRequiredPower" value="" />
+    <property name="PlayRequiredElement" value="" />
+    <property name="Traits" value="Alicorn, Royalty" />
+    <property name="Keywords" value="Home Limit 4, Swift." />
+    <property name="Text" value="When this side of the card turns face-up, you may move it to a Problem. Then, remove each Windup counter from this card and you may move a number of your Friends to this card's Problem up to the number of counters removed this way." />
+    <property name="ProblemBonus" value="" />
+    <property name="ProblemOpponentPower" value="" />
+    <property name="ProblemPlayerElement1" value="" />
+    <property name="ProblemPlayerElement1Power" value="" />
+    <property name="ProblemPlayerElement2" value="" />
+    <property name="ProblemPlayerElement2Power" value="" />
+    <property name="Rarity" value="UR" />
+   </alternate>
   </card>
-
   <card id="d16b1a8b-558e-41ec-81b2-a87e17b5f525" name="Spike">
    <property name="Number" value="CG192" />
    <property name="Type" value="Mane Character" />
@@ -3951,7 +3951,7 @@ This card can only be challenged by a number of characters up to the number of U
    <property name="PlayRequiredPower" value="" />
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="Dragon" />
-   <property name="Keywords" value="Home Limit 4." />
+   <property name="Keywords" value="Home Limit 3." />
    <property name="Text" value="When you play a card, put a Dragon counter on this card. Then, if there are at least 4 Dragon counters on this card, remove them and turn it over." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
@@ -3960,26 +3960,26 @@ This card can only be challenged by a number of characters up to the number of U
    <property name="ProblemPlayerElement2" value="" />
    <property name="ProblemPlayerElement2Power" value="" />
    <property name="Rarity" value="UR" />
-     <alternate name="Spike" type="Mane Character Boosted">
-      <property name="Number" value="CG192" />
-      <property name="Type" value="Mane Character Boosted" />
-      <property name="Element" value="Honesty" />
-      <property name="Subname" value="The Brave and Glorious" />
-      <property name="Power" value="3" />
-      <property name="Cost" value="" />
-      <property name="PlayRequiredPower" value="" />
-      <property name="PlayRequiredElement" value="" />
-      <property name="Traits" value="Dragon" />
-      <property name="Keywords" value="Home Limit 4." />
-      <property name="Text" value="If one of your Friends or Resources would be dismissed, you may turn this card over instead. If you do, that card is not dismissed." />
-      <property name="ProblemBonus" value="" />
-      <property name="ProblemOpponentPower" value="" />
-      <property name="ProblemPlayerElement1" value="" />
-      <property name="ProblemPlayerElement1Power" value="" />
-      <property name="ProblemPlayerElement2" value="" />
-      <property name="ProblemPlayerElement2Power" value="" />
-      <property name="Rarity" value="UR" />
-  </alternate>
+   <alternate name="Spike" type="Mane Character Boosted">
+    <property name="Number" value="CG192" />
+    <property name="Type" value="Mane Character Boosted" />
+    <property name="Element" value="Honesty" />
+    <property name="Subname" value="The Brave and Glorious" />
+    <property name="Power" value="3" />
+    <property name="Cost" value="" />
+    <property name="PlayRequiredPower" value="" />
+    <property name="PlayRequiredElement" value="" />
+    <property name="Traits" value="Dragon" />
+    <property name="Keywords" value="Home Limit 4." />
+    <property name="Text" value="If one of your Friends or Resources would be dismissed, you may turn this card over instead. If you do, that card is not dismissed." />
+    <property name="ProblemBonus" value="" />
+    <property name="ProblemOpponentPower" value="" />
+    <property name="ProblemPlayerElement1" value="" />
+    <property name="ProblemPlayerElement1Power" value="" />
+    <property name="ProblemPlayerElement2" value="" />
+    <property name="ProblemPlayerElement2Power" value="" />
+    <property name="Rarity" value="UR" />
+   </alternate>
   </card>
   <card id="4c745074-b717-421f-af33-0e01909bd246" name="Spitfire">
    <property name="Number" value="CG193" />
@@ -3991,7 +3991,7 @@ This card can only be challenged by a number of characters up to the number of U
    <property name="PlayRequiredPower" value="2" />
    <property name="PlayRequiredElement" value="Loyalty" />
    <property name="Traits" value="Pegasus" />
-   <property name="Keywords" value="Teamwork" />
+   <property name="Keywords" value="Teamwork." />
    <property name="Text" value="During faceoffs involving this card, this card has +1 power." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
@@ -4011,7 +4011,7 @@ This card can only be challenged by a number of characters up to the number of U
    <property name="PlayRequiredPower" value="4" />
    <property name="PlayRequiredElement" value="Honesty" />
    <property name="Traits" value="Earth Pony" />
-   <property name="Keywords" value="Teamwork" />
+   <property name="Keywords" value="Teamwork." />
    <property name="Text" value="Faceoff: Exhaust this card to flip an additional card." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
@@ -4031,7 +4031,7 @@ This card can only be challenged by a number of characters up to the number of U
    <property name="PlayRequiredPower" value="3" />
    <property name="PlayRequiredElement" value="Laughter" />
    <property name="Traits" value="Unicorn" />
-   <property name="Keywords" value="Teamwork" />
+   <property name="Keywords" value="Teamwork." />
    <property name="Text" value="Main Phase: Retire this card to gain control of an opponent's Friend with power less than or equal to this card's power until the end of the Score Phase." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
@@ -4048,7 +4048,7 @@ This card can only be challenged by a number of characters up to the number of U
    <property name="Subname" value="Distracting Cheerer" />
    <property name="Power" value="3" />
    <property name="Cost" value="3" />
-   <property name="PlayRequiredPower" value="5" />
+   <property name="PlayRequiredPower" value="3" />
    <property name="PlayRequiredElement" value="Laughter" />
    <property name="Traits" value="Earth Pony" />
    <property name="Keywords" value="" />
@@ -4090,7 +4090,7 @@ This card can only be challenged by a number of characters up to the number of U
    <property name="Cost" value="4" />
    <property name="PlayRequiredPower" value="4" />
    <property name="PlayRequiredElement" value="Generosity" />
-   <property name="Traits" value="Alicorn, Crystal, Royalty" />
+   <property name="Traits" value="Alicorn, Royalty, Crystal" />
    <property name="Keywords" value="" />
    <property name="Text" value="Troublemakers can't be uncovered here." />
    <property name="ProblemBonus" value="" />
@@ -4111,7 +4111,7 @@ This card can only be challenged by a number of characters up to the number of U
    <property name="PlayRequiredPower" value="3" />
    <property name="PlayRequiredElement" value="Kindness" />
    <property name="Traits" value="Pegasus" />
-   <property name="Keywords" value="Teamwork" />
+   <property name="Keywords" value="Teamwork." />
    <property name="Text" value="When this card enters play at a Problem, you may send it home to put an opponent's Friend there with cost less than or equal to this card's cost into its owner's hand." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
@@ -4132,7 +4132,7 @@ This card can only be challenged by a number of characters up to the number of U
    <property name="PlayRequiredElement" value="Kindness" />
    <property name="Traits" value="Pegasus" />
    <property name="Keywords" value="" />
-   <property name="Text" value="During faceoffs involving this card, players flip 1 fewer card." />
+   <property name="Text" value="During faceoffs involving this card, players flip 1 fewer cards." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -4171,9 +4171,8 @@ This card can only be challenged by a number of characters up to the number of U
    <property name="PlayRequiredPower" value="5" />
    <property name="PlayRequiredElement" value="Generosity" />
    <property name="Traits" value="Location, Unique" />
-   <property name="Keywords" value="Play to your home." />
-   <property name="Text" value="At the end of your turn, put a Victory counter on this card.
-At the start of your turn, you may retire this card. If you do, each player puts a number of Friends from their discard pile into play up to the number of Victory counters on this card." />
+   <property name="Keywords" value="" />
+   <property name="Text" value="Play to your home.&#10;At the end of your turn, put a Victory counter on this card.&#10;At the start of your turn, you may retire this card. If you do, each player puts a number of Friends from their discard pile into play up to the number of Victory counters on this card." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -4192,11 +4191,8 @@ At the start of your turn, you may retire this card. If you do, each player puts
    <property name="PlayRequiredPower" value="3" />
    <property name="PlayRequiredElement" value="Honesty" />
    <property name="Traits" value="Artifact, Unique" />
-   <property name="Keywords" value="Play to your home." />
-   <property name="Text" value="You must control Applejack to play this card.
-At the start of your turn, put a Harmony count
-er on this card.
-Reaction: After one of your [Honesty] friends enters play, put a number of +1 power counters on it equal to the number of Harmony counters on this card, then remove all Harmony counters from this card." />
+   <property name="Keywords" value="" />
+   <property name="Text" value="Play to your home.&#10;You must control Applejack to play this card.&#10;At the start of your turn, put a Harmony counter on this card.&#10;Reaction: After one of your [Honesty] Friends enters play, put a number of +1 power counters on it equal to the number of Harmony counters on this card, then remove all Harmony counters from this card." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -4214,11 +4210,9 @@ Reaction: After one of your [Honesty] friends enters play, put a number of +1 po
    <property name="Cost" value="2" />
    <property name="PlayRequiredPower" value="3" />
    <property name="PlayRequiredElement" value="Generosity" />
-   <property name="Traits" value="Artifact, Unique" />
-   <property name="Keywords" value="Play to your home." />
-   <property name="Text" value="You must control Rarity to play this card.
-At the start of your turn, put a Harmony counter on this card.
-Score Phase: Remove 2 Harmony counters from this card to reduce the confront requirements of a problem by 3 [Any]." />
+   <property name="Traits" value="Unique, Artifact" />
+   <property name="Keywords" value="" />
+   <property name="Text" value="Play to your home.&#10;You must control Rarity to play this card.&#10;At the start of your turn, put a Harmony counter on this card.&#10;Score Phase: Remove 2 Harmony counters from this card to reduce the confront requirements of a problem by 3 power." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -4237,29 +4231,9 @@ Score Phase: Remove 2 Harmony counters from this card to reduce the confront req
    <property name="PlayRequiredPower" value="" />
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="Epic" />
-   <property name="Keywords" value="Villain" />
-   <property name="Text" value="When this card is uncovered, you may pay 2. If you do, dismiss each Friend here with cost 2 or less." />
+   <property name="Keywords" value="Villain." />
+   <property name="Text" value="When this card is uncovered, you may pay 2AT. If you do, dismiss each Friend here with cost 2 or less." />
    <property name="ProblemBonus" value="2" />
-   <property name="ProblemOpponentPower" value="" />
-   <property name="ProblemPlayerElement1" value="" />
-   <property name="ProblemPlayerElement1Power" value="" />
-   <property name="ProblemPlayerElement2" value="" />
-   <property name="ProblemPlayerElement2Power" value="" />
-   <property name="Rarity" value="UR" />
-  </card>
-  <card id="b4b25356-7be9-4a16-b8af-8c4cd6421f02" name="Princess Twilight Sparkle">
-   <property name="Number" value="CG0" />
-   <property name="Type" value="Friend" />
-   <property name="Element" value="Magic" />
-   <property name="Subname" value="Princess of Friendship" />
-   <property name="Power" value="3" />
-   <property name="Cost" value="5" />
-   <property name="PlayRequiredPower" value="3" />
-   <property name="PlayRequiredElement" value="Magic" />
-   <property name="Traits" value="Alicorn, Royalty" />
-   <property name="Keywords" value="Studious, Swift" />
-   <property name="Text" value="When you play this card, gain 1 for each opposing character at this card's Problem." />
-   <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
    <property name="ProblemPlayerElement1Power" value="" />

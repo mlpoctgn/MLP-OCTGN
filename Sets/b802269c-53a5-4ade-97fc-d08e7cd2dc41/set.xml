@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<set name="Celestial Solstice" id="b802269c-53a5-4ade-97fc-d08e7cd2dc41" gameId="65656467-b709-43b2-a5c6-80c2f216adf9" gameVersion="3.1.0.0" version="3.0">
+<set name="Celestial Solstice" id="b802269c-53a5-4ade-97fc-d08e7cd2dc41" gameId="65656467-b709-43b2-a5c6-80c2f216adf9" gameVersion="2.2.4.4" version="3.1">
  <cards>
   <card id="f452c955-8566-41e9-9ccc-4aaa93e4645c" name="Applejack">
-   <property name="Number" value="cs1" />
+   <property name="Number" value="CS1" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Honesty" />
    <property name="Subname" value="Summer Sun Caterer" />
@@ -12,17 +12,17 @@
    <property name="PlayRequiredElement" value="Honesty" />
    <property name="Traits" value="Earth Pony" />
    <property name="Keywords" value="" />
-   <property name="Text" value="Problem Faceoff: Discard a card to give another character +1 power until the end of the faceoff" />
+   <property name="Text" value="Problem Faceoff: Discard a card to give another character +1 power until the end of the faceoff." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
    <property name="ProblemPlayerElement1Power" value="" />
    <property name="ProblemPlayerElement2" value="" />
    <property name="ProblemPlayerElement2Power" value="" />
-   <property name="Rarity" value="P" />
+   <property name="Rarity" value="F" />
   </card>
   <card id="97648667-dbc1-46b7-965d-05e78bb365f7" name="Princess Luna">
-   <property name="Number" value="cs2" />
+   <property name="Number" value="CS2" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Magic" />
    <property name="Subname" value="The Setting Moon" />
@@ -32,17 +32,17 @@
    <property name="PlayRequiredElement" value="Magic" />
    <property name="Traits" value="Alicorn, Royalty" />
    <property name="Keywords" value="" />
-   <property name="Text" value="If you would draw a card during a Main Phase, you may exhaust one of your Friends to gain 1 instead." />
+   <property name="Text" value="If you would draw a card during a Main Phase, you may exhaust one of your Friends to gain 1AT instead." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
    <property name="ProblemPlayerElement1Power" value="" />
    <property name="ProblemPlayerElement2" value="" />
    <property name="ProblemPlayerElement2Power" value="" />
-   <property name="Rarity" value="P" />
+   <property name="Rarity" value="F" />
   </card>
   <card id="d11227ca-188c-4989-bc84-34ce2491ff7b" name="Rarity">
-   <property name="Number" value="cs3" />
+   <property name="Number" value="CS3" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Generosity" />
    <property name="Subname" value="Mare of Action" />
@@ -59,10 +59,10 @@
    <property name="ProblemPlayerElement1Power" value="" />
    <property name="ProblemPlayerElement2" value="" />
    <property name="ProblemPlayerElement2Power" value="" />
-   <property name="Rarity" value="P" />
+   <property name="Rarity" value="F" />
   </card>
   <card id="806e90c9-2cb5-4caa-9741-6c6237890fbe" name="Princess Celestia">
-   <property name="Number" value="cs4" />
+   <property name="Number" value="CS4" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Kindness" />
    <property name="Subname" value="The Rising Sun" />
@@ -72,17 +72,17 @@
    <property name="PlayRequiredElement" value="Kindness" />
    <property name="Traits" value="Alicorn, Royalty" />
    <property name="Keywords" value="" />
-   <property name="Text" value="When you play a friend, you may draw a card." />
+   <property name="Text" value="When you play a Friend, you may draw a card." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
    <property name="ProblemPlayerElement1Power" value="" />
    <property name="ProblemPlayerElement2" value="" />
    <property name="ProblemPlayerElement2Power" value="" />
-   <property name="Rarity" value="P" />
+   <property name="Rarity" value="F" />
   </card>
   <card id="fdc6880e-2374-4ecb-9289-f5e7a3e495ed" name="Ten. Seconds. Flat.">
-   <property name="Number" value="cs5" />
+   <property name="Number" value="CS5" />
    <property name="Type" value="Event" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -99,10 +99,10 @@
    <property name="ProblemPlayerElement1Power" value="" />
    <property name="ProblemPlayerElement2" value="" />
    <property name="ProblemPlayerElement2Power" value="" />
-   <property name="Rarity" value="P" />
+   <property name="Rarity" value="F" />
   </card>
   <card id="f3e99d4e-f5b5-4b7a-97b8-fc2fe5cf7272" name="Surprise Party!">
-   <property name="Number" value="cs6" />
+   <property name="Number" value="CS6" />
    <property name="Type" value="Event" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -110,19 +110,19 @@
    <property name="Cost" value="2" />
    <property name="PlayRequiredPower" value="4" />
    <property name="PlayRequiredElement" value="Laughter" />
-   <property name="Traits" value="Artifact, Unique" />
+   <property name="Traits" value="" />
    <property name="Keywords" value="" />
-   <property name="Text" value="Main Phase: All players shuffle their hands into theird decks and draw 6 cards." />
+   <property name="Text" value="Main Phase: All players shuffle their hands into their decks and draw six cards." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
    <property name="ProblemPlayerElement1Power" value="" />
    <property name="ProblemPlayerElement2" value="" />
    <property name="ProblemPlayerElement2Power" value="" />
-   <property name="Rarity" value="P" />
+   <property name="Rarity" value="F" />
   </card>
   <card id="f558b730-0ef5-4b43-9168-20411b6c8baf" name="Tree of Harmony">
-   <property name="Number" value="cs7" />
+   <property name="Number" value="CS7" />
    <property name="Type" value="Resource" />
    <property name="Element" value="" />
    <property name="Subname" value="Seeds of Friendship" />
@@ -130,21 +130,19 @@
    <property name="Cost" value="3" />
    <property name="PlayRequiredPower" value="" />
    <property name="PlayRequiredElement" value="" />
-   <property name="Traits" value="" />
+   <property name="Traits" value="Artifact, Unique" />
    <property name="Keywords" value="" />
-   <property name="Text" value="Play to your home.
-Main Phase: Exhaust this card and one of your Friends to put a Harmony counter on this card.
-Main Phase: Retire this card to gain a number of action tokens equal to the number of Harmony counters on it." />
+   <property name="Text" value="Play to your home.&#10;Main Phase: Exhaust this card and one of your Friends to put a Harmony counter on this card.&#10;Main Phase: Retire this card to gain a number of action tokens equal to the number of Harmony counters on it." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
    <property name="ProblemPlayerElement1Power" value="" />
    <property name="ProblemPlayerElement2" value="" />
    <property name="ProblemPlayerElement2Power" value="" />
-   <property name="Rarity" value="P" />
+   <property name="Rarity" value="F" />
   </card>
   <card id="0457fd69-edfd-4900-87f8-342f7788e301" name="Nightmare Moon">
-   <property name="Number" value="cs8" />
+   <property name="Number" value="CS8" />
    <property name="Type" value="Troublemaker" />
    <property name="Element" value="" />
    <property name="Subname" value="New Moon" />
@@ -154,17 +152,17 @@ Main Phase: Retire this card to gain a number of action tokens equal to the numb
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="" />
    <property name="Keywords" value="" />
-   <property name="Text" value="When this card is defeated, you may search your deck for an [Alicorn] Friend, reveal it, put it into play, and shuffle your deck." />
+   <property name="Text" value="When this card is defeated, you may search your deck for an Alicorn Friend, reveal it, put it into play, and shuffle your deck." />
    <property name="ProblemBonus" value="1" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
    <property name="ProblemPlayerElement1Power" value="" />
    <property name="ProblemPlayerElement2" value="" />
    <property name="ProblemPlayerElement2Power" value="" />
-   <property name="Rarity" value="P" />
+   <property name="Rarity" value="F" />
   </card>
   <card id="18ddad42-57a8-43e5-9036-80154e2485b4" name="Twilight Sparkle">
-   <property name="Number" value="csF1" />
+   <property name="Number" value="CSf1" />
    <property name="Type" value="Mane Character" />
    <property name="Element" value="Magic" />
    <property name="Subname" value="Friendship is Magic" />
@@ -174,37 +172,37 @@ Main Phase: Retire this card to gain a number of action tokens equal to the numb
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="Unicorn" />
    <property name="Keywords" value="Home Limit 3." />
-   <property name="Text" value="When you play a Friend that isa different color from one of your other Friends, turn this card over." />
+   <property name="Text" value="When you play a Friend that is a different color from one of your other Friends, turn this card over." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
    <property name="ProblemPlayerElement1Power" value="" />
    <property name="ProblemPlayerElement2" value="" />
    <property name="ProblemPlayerElement2Power" value="" />
-   <property name="Rarity" value="P" />
-     <alternate name="Twilight Sparkle" type="Mane Character Boosted">
-      <property name="Number" value="csF1" />
-      <property name="Type" value="Mane Character Boosted" />
-      <property name="Element" value="Magic" />
-      <property name="Subname" value="Friendship is Magic" />
-      <property name="Power" value="3" />
-      <property name="Cost" value="" />
-      <property name="PlayRequiredPower" value="" />
-      <property name="PlayRequiredElement" value="" />
-      <property name="Traits" value="Unicorn" />
-      <property name="Keywords" value="Home Limit 4." />
-      <property name="Text" value="When this side of the card is turned face up, choose a color for each of your opponents. This card gains each of those colors" />
-      <property name="ProblemBonus" value="" />
-      <property name="ProblemOpponentPower" value="" />
-      <property name="ProblemPlayerElement1" value="" />
-      <property name="ProblemPlayerElement1Power" value="" />
-      <property name="ProblemPlayerElement2" value="" />
-      <property name="ProblemPlayerElement2Power" value="" />
-      <property name="Rarity" value="P" />
-      </alternate>
+   <property name="Rarity" value="F" />
+   <alternate name="Twilight Sparkle" type="Mane Character Boosted">
+    <property name="Number" value="CSf1" />
+    <property name="Type" value="Mane Character Boosted" />
+    <property name="Element" value="Magic" />
+    <property name="Subname" value="Friendship is Magic" />
+    <property name="Power" value="3" />
+    <property name="Cost" value="" />
+    <property name="PlayRequiredPower" value="" />
+    <property name="PlayRequiredElement" value="" />
+    <property name="Traits" value="Unicorn" />
+    <property name="Keywords" value="Home Limit 4." />
+    <property name="Text" value="When this side of the card is turned face up, choose a color for each of your opponents. This card gains each of those colors." />
+    <property name="ProblemBonus" value="" />
+    <property name="ProblemOpponentPower" value="" />
+    <property name="ProblemPlayerElement1" value="" />
+    <property name="ProblemPlayerElement1Power" value="" />
+    <property name="ProblemPlayerElement2" value="" />
+    <property name="ProblemPlayerElement2Power" value="" />
+    <property name="Rarity" value="F" />
+   </alternate>
   </card>
   <card id="06cd2929-5343-4328-98da-09805fb40ce3" name="Princess Celestia">
-   <property name="Number" value="csF2" />
+   <property name="Number" value="CSf2" />
    <property name="Type" value="Mane Character" />
    <property name="Element" value="Kindness" />
    <property name="Subname" value="Solar Sister" />
@@ -214,34 +212,34 @@ Main Phase: Retire this card to gain a number of action tokens equal to the numb
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="Alicorn, Royalty" />
    <property name="Keywords" value="Home Limit 3." />
-   <property name="Text" value="When one of you [Alicorn] Friends enters play, if you have at least 1 other [Alicorn] Friend, turn this card over." />
+   <property name="Text" value="When one of your Alicorn Friends enters play, if you have at least 1 other Alicorn Friend, turn this card over." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
    <property name="ProblemPlayerElement1Power" value="" />
    <property name="ProblemPlayerElement2" value="" />
    <property name="ProblemPlayerElement2Power" value="" />
-   <property name="Rarity" value="P" />
-     <alternate name="Princess Celestia" type="Mane Character Boosted">
-      <property name="Number" value="csF2" />
-      <property name="Type" value="Mane Character Boosted" />
-      <property name="Element" value="Kindness" />
-      <property name="Subname" value="Solar Sister" />
-      <property name="Power" value="3" />
-      <property name="Cost" value="" />
-      <property name="PlayRequiredPower" value="" />
-      <property name="PlayRequiredElement" value="" />
-      <property name="Traits" value="Alicorn, Royalty" />
-      <property name="Keywords" value="Home Limit 4." />
-      <property name="Text" value="While you have Princess Luna, Princess Twilight Sparkle, or Princess Cadence, each of your [Alicorn] Friends has +1 power." />
-      <property name="ProblemBonus" value="" />
-      <property name="ProblemOpponentPower" value="" />
-      <property name="ProblemPlayerElement1" value="" />
-      <property name="ProblemPlayerElement1Power" value="" />
-      <property name="ProblemPlayerElement2" value="" />
-      <property name="ProblemPlayerElement2Power" value="" />
-      <property name="Rarity" value="P" />
-      </alternate>
+   <property name="Rarity" value="F" />
+   <alternate name="Princess Celestia" type="Mane Character Boosted">
+    <property name="Number" value="CSf2" />
+    <property name="Type" value="Mane Character Boosted" />
+    <property name="Element" value="Kindness" />
+    <property name="Subname" value="Solar Sister" />
+    <property name="Power" value="3" />
+    <property name="Cost" value="" />
+    <property name="PlayRequiredPower" value="" />
+    <property name="PlayRequiredElement" value="" />
+    <property name="Traits" value="Alicorn, Royalty" />
+    <property name="Keywords" value="Home Limit 4." />
+    <property name="Text" value="While you have Princess Luna, Princess Twilight Sparkle, or Princess Cadance, each of your Alicorn Friends has +1 power." />
+    <property name="ProblemBonus" value="" />
+    <property name="ProblemOpponentPower" value="" />
+    <property name="ProblemPlayerElement1" value="" />
+    <property name="ProblemPlayerElement1Power" value="" />
+    <property name="ProblemPlayerElement2" value="" />
+    <property name="ProblemPlayerElement2Power" value="" />
+    <property name="Rarity" value="F" />
+   </alternate>
   </card>
  </cards>
 </set>
