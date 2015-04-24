@@ -112,6 +112,10 @@
 		<block type="overlay" id="friendLaughter" src="proxy/proxyImages/cardTemplates/card-friend-pink.png">
 					<location x="0" y="0" />
 		</block>
+
+		<block type="overlay" id="friendNone" src="proxy/proxyImages/cardTemplates/card-friend-none.png">
+					<location x="0" y="0" />
+		</block>
 		
 		<!-- Element overlay for card power -->
 		
@@ -175,6 +179,11 @@
 		<block type="text" id="cardPower">
 			<location x="370" y="38" />
 			<text color="#000000" size="30" font="fonts/text.ttf" />
+		</block>
+    
+		<block type="text" id="noneCardPower">
+			<location x="390" y="38" />
+			<text color="#FFFFFF" size="30" font="fonts/text.ttf" />
 		</block>
 		
 		<block type="text" id="cardCost">
@@ -302,6 +311,9 @@
 		<block type="overlay" id="raceDragon" src="proxy/proxyImages/raceIcons/race-dragon.png">
 			<location x="100" y="335" />
 		</block>		
+		<block type="overlay" id="raceAlly" src="proxy/proxyImages/raceIcons/race-ally.png">
+			<location x="100" y="335" />
+		</block>
 		
 		<block type="text" id="cardTraits">
 			<location x="190" y="352" />
@@ -1068,11 +1080,22 @@
 				<link block="powerLoyalty" /> 
 				</if>
 		</conditional>
+		<conditional>
+			<if property="Element" contains="None">
+				<link block="friendNone" />
+				</if>
+		</conditional>
 		
 		
 		<!-- Type Symbol -->
-		<link block="typeFriend" />
-	
+		<conditional>
+			<if property="Element" value="None">
+      	<link block="dummyOverlay" />
+			</if>
+			<else>
+				<link block="typeFriend" />
+			</else>
+		</conditional>
 
 		<!-- Race icon selection -->
 		<conditional>
@@ -1098,7 +1121,11 @@
 		<conditional>
 			<if property="Traits" contains="Dragon">
 			<link block="raceDragon" /> </if>
-		</conditional>		
+		</conditional>
+		<conditional>
+			<if property="Traits" contains="Ally">
+			<link block="raceAlly" /> </if>
+		</conditional>
 		
 		<!-- Required Element Selection -->
 		<conditional>
@@ -1159,9 +1186,20 @@
 				</else>
 			</conditional>	
 			
-			<link block="cardPower">
-				<property name="Power" />
-			</link>
+			<conditional>
+				<if property="Element" value="None">
+					<link block="noneCardPower">
+						<property name="Power" />
+					</link>
+				</if>
+				<else>
+					<link block="cardPower">
+						<property name="Power" />
+					</link>
+				</else>
+			</conditional>
+      
+
 	
 			<link block="cardTraits">
 				<property name="Traits" />

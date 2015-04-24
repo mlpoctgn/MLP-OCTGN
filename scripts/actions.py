@@ -9,6 +9,7 @@ GameURL = "http://tinyurl.com/ne3sb8t"
 FaceoffColor1 = "#ff0000"
 FaceoffColor2 = "#0000ff"
 PumpedColor = "#999999"
+ChaosColor = "#fc8eac"
 #---------------------------------------------------------------------------
 # Globals
 #---------------------------------------------------------------------------
@@ -166,13 +167,11 @@ def clearFaceoff(group, x = 0, y = 0):
 	mute()
 	global FaceoffPosition
 	global FaceoffOffset
-	global FaceoffColor1
-	global FaceoffColor2
 	
 	FaceoffPosition = 0
 	FaceoffOffset = 0
 	
-	FaceoffCards = (card for card in table if card.highlight == FaceoffColor1 or card.highlight == FaceoffColor2)
+	FaceoffCards = (card for card in table if card.highlight == FaceoffColor1 or card.highlight == FaceoffColor2 or card.highlight == ChaosColor)
 	
 	count = 0
 	for card in FaceoffCards:
@@ -724,8 +723,6 @@ def faceoffFlipTable(group, x = 0, y = 0):
 
 def faceoffFlip(group):
 	mute()
-	global FaceoffColor1
-	global FaceoffColor2
 	global FaceoffPosition
 	global FaceoffOffset
 
@@ -750,6 +747,9 @@ def faceoffFlip(group):
 		color = FaceoffColor2
 	
 	card = group.top()
+
+	if re.search(r'Chaotic', card.Traits):
+		color = ChaosColor
 	
 	card.moveToTable(newXPos, newYPos)
 	
