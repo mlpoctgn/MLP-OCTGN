@@ -413,6 +413,11 @@
 		<block type="overlay" id="problemElementWild" src="proxy/proxyImages/generalIcons/Wild_Power_Icon.png">
 				<location x="275" y="388" />
 		</block>
+    
+		<!-- Player Rainbow Problem Blocks -->
+		<block type="overlay" id="problemElementRainbow" src="proxy/proxyImages/generalIcons/Rainbow_Power_Icon.png">
+				<location x="90" y="388" />
+		</block>
 		
 		
 		<!-- Opponent Problem Blocks -->
@@ -451,6 +456,10 @@
 		<block type="overlay" id="problemOpponent_9" src="proxy/proxyImages/ProblemNumbers/prob-9.png">
 				<location x="315" y="44" />
 		</block>		
+
+		<block type="overlay" id="problemOpponentElementRainbow" src="proxy/proxyImages/generalIcons/Opponent_Rainbow_Power_Icon.png">
+				<location x="90" y="36" />
+		</block>
 
 		
 		<block type="text" id="problemBonus">
@@ -1512,7 +1521,7 @@
 			<link block="problemElement2Power">
 				<property name="ProblemPlayerElement2Power" />
 			</link>
-			
+      			
 			<link block="problemCardTitle">
 				<property name="Name" />
 			</link>
@@ -1524,6 +1533,15 @@
 			</link>
 			
 		</textblocks>
+    
+		<overlayblocks>
+			<conditional>
+				<if property="ProblemPlayerElement1" contains="Rainbow">
+					<link block="problemElementRainbow" /> 
+					<link block="problemOpponentElementRainbow" />
+				</if>
+			</conditional>
+		</overlayblocks>
 	</template>
 							
 </templates>
