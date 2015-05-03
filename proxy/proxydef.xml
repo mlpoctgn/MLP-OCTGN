@@ -1358,6 +1358,12 @@
 		</matches>
 		<overlayblocks>
 			<conditional>
+				<if property="ProblemPlayerElement1" contains="Rainbow">
+					<link block="problemElementRainbow" /> 
+					<link block="problemOpponentElementRainbow" />
+				</if>
+			</conditional>
+			<conditional>
 				<if property="ProblemOpponentPower" value="1">
 					<link block="problemOpponent_1" /> 
 				</if>
@@ -1533,15 +1539,7 @@
 			</link>
 			
 		</textblocks>
-    
-		<overlayblocks>
-			<conditional>
-				<if property="ProblemPlayerElement1" contains="Rainbow">
-					<link block="problemElementRainbow" /> 
-					<link block="problemOpponentElementRainbow" />
-				</if>
-			</conditional>
-		</overlayblocks>
+
 	</template>
 							
 </templates>

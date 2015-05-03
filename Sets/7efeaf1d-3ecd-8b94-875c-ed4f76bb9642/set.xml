@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<set name="Absolute Discord" id="7efeaf1d-3ecd-8b94-875c-ed4f76bb9642" gameId="65656467-b709-43b2-a5c6-80c2f216adf9" gameVersion="2.2.4.4" version="1.0">
+<set name="Absolute Discord" id="7efeaf1d-3ecd-8b94-875c-ed4f76bb9642" gameId="65656467-b709-43b2-a5c6-80c2f216adf9" gameVersion="3.1.0.0" version="1.0">
  <cards>
   <card id="ea93dfa0-6910-7ae4-21ce-b3293983f681" name="">
    <property name="Number" value="AD-3" />
