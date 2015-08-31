@@ -1,88 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<set name="Rock and Rave" id="846578e8-dde2-4348-9477-ef545c662b7f" gameId="65656467-b709-43b2-a5c6-80c2f216adf9" gameVersion="3.1.0.0" version="3.0">
+<set name="Rock and Rave" id="846578e8-dde2-4348-9477-ef545c662b7f" gameId="65656467-b709-43b2-a5c6-80c2f216adf9" gameVersion="2.2.4.4" version="3.1">
  <cards>
-  <card id="662e8937-dffd-4c48-ae9b-a160e8cc6144" name="Maud Pie">
-   <property name="Number" value="rrF1" />
-   <property name="Type" value="Mane Character" />
-   <property name="Element" value="Honesty" />
-   <property name="Subname" value="Rockin'" />
-   <property name="Power" value="1" />
-   <property name="Cost" value="" />
-   <property name="PlayRequiredPower" value="" />
-   <property name="PlayRequiredElement" value="" />
-   <property name="Traits" value="Earth Pony" />
-   <property name="Keywords" value="Home Limit 3." />
-   <property name="Text" value="At the end of your Main Phase, if you have a Friend and a Resource, turn this card over." />
-   <property name="ProblemBonus" value="" />
-   <property name="ProblemOpponentPower" value="" />
-   <property name="ProblemPlayerElement1" value="" />
-   <property name="ProblemPlayerElement1Power" value="" />
-   <property name="ProblemPlayerElement2" value="" />
-   <property name="ProblemPlayerElement2Power" value="" />
-   <property name="Rarity" value="F" />
-     <alternate name="Maud Pie" type="Mane Character Boosted">
-      <property name="Number" value="rrF1" />
-      <property name="Type" value="Mane Character Boosted" />
-      <property name="Element" value="Honesty" />
-      <property name="Subname" value="Rockin'" />
-      <property name="Power" value="3" />
-      <property name="Cost" value="" />
-      <property name="PlayRequiredPower" value="" />
-      <property name="PlayRequiredElement" value="" />
-      <property name="Traits" value="Earth Pony" />
-      <property name="Keywords" value="Home Limit 4." />
-      <property name="Text" value="This card has +1 power for each card type in your discard pile." />
-      <property name="ProblemBonus" value="" />
-      <property name="ProblemOpponentPower" value="" />
-      <property name="ProblemPlayerElement1" value="" />
-      <property name="ProblemPlayerElement1Power" value="" />
-      <property name="ProblemPlayerElement2" value="" />
-      <property name="ProblemPlayerElement2Power" value="" />
-      <property name="Rarity" value="F" />
-      </alternate>
-  </card>
-  <card id="251abe9a-f211-4463-b7d0-c10919c8192e" name="DJ Pon-3">
-   <property name="Number" value="rrF2" />
-   <property name="Type" value="Mane Character" />
-   <property name="Element" value="Laughter" />
-   <property name="Subname" value="Party Starter" />
-   <property name="Power" value="1" />
-   <property name="Cost" value="" />
-   <property name="PlayRequiredPower" value="" />
-   <property name="PlayRequiredElement" value="" />
-   <property name="Traits" value="Unicorn" />
-   <property name="Keywords" value="Home Limit 3." />
-   <property name="Text" value="When you draw your third card during a turn, shuffle your deck and turn this card over." />
-   <property name="ProblemBonus" value="" />
-   <property name="ProblemOpponentPower" value="" />
-   <property name="ProblemPlayerElement1" value="" />
-   <property name="ProblemPlayerElement1Power" value="" />
-   <property name="ProblemPlayerElement2" value="" />
-   <property name="ProblemPlayerElement2Power" value="" />
-   <property name="Rarity" value="F" />
-     <alternate name="DJ Pon-3" type="Mane Character Boosted">
-      <property name="Number" value="rrF2" />
-      <property name="Type" value="Mane Character Boosted" />
-      <property name="Element" value="Laughter" />
-      <property name="Subname" value="Party Starter" />
-      <property name="Power" value="3" />
-      <property name="Cost" value="" />
-      <property name="PlayRequiredPower" value="" />
-      <property name="PlayRequiredElement" value="" />
-      <property name="Traits" value="Unicorn" />
-      <property name="Keywords" value="Home Limit 4." />
-      <property name="Text" value="Main Phase: Exhaust this card to draw a card.  At the start of your Score Phase, if this card is with at least 3 of your Friends, you may ready this card." />
-      <property name="ProblemBonus" value="" />
-      <property name="ProblemOpponentPower" value="" />
-      <property name="ProblemPlayerElement1" value="" />
-      <property name="ProblemPlayerElement1Power" value="" />
-      <property name="ProblemPlayerElement2" value="" />
-      <property name="ProblemPlayerElement2Power" value="" />
-      <property name="Rarity" value="F" />
-      </alternate>
-  </card>
   <card id="5ba8e10b-154a-412c-a262-a13caefe3c3c" name="Apple Strudel">
-   <property name="Number" value="rr1" />
+   <property name="Number" value="RR1" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Honesty" />
    <property name="Subname" value="Well Aged" />
@@ -92,7 +12,7 @@
    <property name="PlayRequiredElement" value="Honesty" />
    <property name="Traits" value="Earth Pony, Elder" />
    <property name="Keywords" value="" />
-   <property name="Text" value="Reaction: After an opponent moves a character to this card's Problem, you may pay 1 to exhaust that character." />
+   <property name="Text" value="Reaction: After an opponent moves a character to this card's Problem, you may pay 1AT to exhaust that character." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -102,7 +22,7 @@
    <property name="Rarity" value="F" />
   </card>
   <card id="1256f228-d3c7-4d59-bcc9-1d26ef4e6c4d" name="Berry Punch">
-   <property name="Number" value="rr2" />
+   <property name="Number" value="RR2" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Laughter" />
    <property name="Subname" value="All-Night Partier" />
@@ -112,8 +32,7 @@
    <property name="PlayRequiredElement" value="Laughter" />
    <property name="Traits" value="Earth Pony" />
    <property name="Keywords" value="" />
-   <property name="Text" value="When this card enters play, you may draw a card.
-When you confront this card's Problem, you may exhaust this card to draw a card." />
+   <property name="Text" value="When this card enters play, you may draw a card.&#10;When you confront this card's Problem, you may exhaust this card to draw a card." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -123,7 +42,7 @@ When you confront this card's Problem, you may exhaust this card to draw a card.
    <property name="Rarity" value="F" />
   </card>
   <card id="464127bc-a809-48ce-a7e6-c7f58499197c" name="Twinkleshine">
-   <property name="Number" value="rr3" />
+   <property name="Number" value="RR3" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Magic" />
    <property name="Subname" value="Overachiever" />
@@ -143,7 +62,7 @@ When you confront this card's Problem, you may exhaust this card to draw a card.
    <property name="Rarity" value="F" />
   </card>
   <card id="d9406f47-dda4-4f84-a36e-ef07f9f235ae" name="Octavia">
-   <property name="Number" value="rr4" />
+   <property name="Number" value="RR4" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Generosity" />
    <property name="Subname" value="Sweet Symphony" />
@@ -163,7 +82,7 @@ When you confront this card's Problem, you may exhaust this card to draw a card.
    <property name="Rarity" value="F" />
   </card>
   <card id="ce2c72d5-28e0-4077-b2d9-0709ac15ddf4" name="It's Elementary!">
-   <property name="Number" value="rr5" />
+   <property name="Number" value="RR5" />
    <property name="Type" value="Event" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -183,7 +102,7 @@ When you confront this card's Problem, you may exhaust this card to draw a card.
    <property name="Rarity" value="F" />
   </card>
   <card id="e0ad5a37-4089-4d10-857a-344d3a242812" name="Rock Solid Fashion">
-   <property name="Number" value="rr6" />
+   <property name="Number" value="RR6" />
    <property name="Type" value="Event" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -193,7 +112,7 @@ When you confront this card's Problem, you may exhaust this card to draw a card.
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="" />
    <property name="Keywords" value="" />
-   <property name="Text" value="Main Phase: Choose a [Generosity] or [Honesty] character.  That character gets +1 [Generosity] and +1 [Honesty] until the end of the phase." />
+   <property name="Text" value="Main Phase: Choose a [Generosity] or [Honesty] character. That character gets +1 [Generosity] and +1 [Honesty] until the end of the phase." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -203,7 +122,7 @@ When you confront this card's Problem, you may exhaust this card to draw a card.
    <property name="Rarity" value="F" />
   </card>
   <card id="32d1dd6b-b047-4555-bff1-64fadf0c5a51" name="Secret Mission">
-   <property name="Number" value="rr7" />
+   <property name="Number" value="RR7" />
    <property name="Type" value="Problem" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -213,7 +132,7 @@ When you confront this card's Problem, you may exhaust this card to draw a card.
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="" />
    <property name="Keywords" value="" />
-   <property name="Text" value="Players need +1 [Any] to confront this Problem for each of their opponent's Friends here." />
+   <property name="Text" value="Players need +1 power to confront this Problem for each of their opponent's Friends here." />
    <property name="ProblemBonus" value="2" />
    <property name="ProblemOpponentPower" value="6" />
    <property name="ProblemPlayerElement1" value="Laughter" />
@@ -223,7 +142,7 @@ When you confront this card's Problem, you may exhaust this card to draw a card.
    <property name="Rarity" value="F" />
   </card>
   <card id="e6f2fbcd-6203-47f9-af43-6859b49c67b3" name="Timber!">
-   <property name="Number" value="rr8" />
+   <property name="Number" value="RR8" />
    <property name="Type" value="Problem" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -233,7 +152,7 @@ When you confront this card's Problem, you may exhaust this card to draw a card.
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="" />
    <property name="Keywords" value="" />
-   <property name="Text" value="At the start of a Problem faceoff here, each player chooses a character involved in the faceoff.  Those characters have +2 power until the end of the faceoff." />
+   <property name="Text" value="At the start of a Problem faceoff here, each player chooses a character involved in the faceoff. Those characters have +2 power until the end of the faceoff." />
    <property name="ProblemBonus" value="2" />
    <property name="ProblemOpponentPower" value="9" />
    <property name="ProblemPlayerElement1" value="Honesty" />
@@ -243,7 +162,7 @@ When you confront this card's Problem, you may exhaust this card to draw a card.
    <property name="Rarity" value="F" />
   </card>
   <card id="d67c7284-abe9-4d9b-9563-6de84b3b1c44" name="Trade Dispute">
-   <property name="Number" value="rr9" />
+   <property name="Number" value="RR9" />
    <property name="Type" value="Problem" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -253,7 +172,7 @@ When you confront this card's Problem, you may exhaust this card to draw a card.
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="" />
    <property name="Keywords" value="" />
-   <property name="Text" value="The player with the most friends here can't move Friends to this Problem." />
+   <property name="Text" value="The player with the most Friends here can't move Friends to this Problem." />
    <property name="ProblemBonus" value="2" />
    <property name="ProblemOpponentPower" value="6" />
    <property name="ProblemPlayerElement1" value="Generosity" />
@@ -263,7 +182,7 @@ When you confront this card's Problem, you may exhaust this card to draw a card.
    <property name="Rarity" value="F" />
   </card>
   <card id="98ddb7cb-6827-4615-88cf-61e87a1c1e7b" name="Which Pinkie is Which">
-   <property name="Number" value="rr10" />
+   <property name="Number" value="RR10" />
    <property name="Type" value="Problem" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -283,7 +202,7 @@ When you confront this card's Problem, you may exhaust this card to draw a card.
    <property name="Rarity" value="F" />
   </card>
   <card id="6b766397-9f34-4f20-a1d0-22a11d92efa4" name="Diamond Dog">
-   <property name="Number" value="rr11" />
+   <property name="Number" value="RR11" />
    <property name="Type" value="Troublemaker" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -293,7 +212,7 @@ When you confront this card's Problem, you may exhaust this card to draw a card.
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="" />
    <property name="Keywords" value="" />
-   <property name="Text" value="When this card is defeated, gain 2." />
+   <property name="Text" value="When this card is defeated, gain 2AT." />
    <property name="ProblemBonus" value="1" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -303,7 +222,7 @@ When you confront this card's Problem, you may exhaust this card to draw a card.
    <property name="Rarity" value="F" />
   </card>
   <card id="469f413c-1f16-4f8f-adb4-83ea4178228f" name="Quarray Eels">
-   <property name="Number" value="rr12" />
+   <property name="Number" value="RR12" />
    <property name="Type" value="Troublemaker" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -313,7 +232,7 @@ When you confront this card's Problem, you may exhaust this card to draw a card.
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="" />
    <property name="Keywords" value="" />
-   <property name="Text" value="Opponents must pay +1 to move a character to this card's Problem." />
+   <property name="Text" value="Opponents must pay +1AT to move a character to this card's Problem." />
    <property name="ProblemBonus" value="2" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -321,6 +240,86 @@ When you confront this card's Problem, you may exhaust this card to draw a card.
    <property name="ProblemPlayerElement2" value="" />
    <property name="ProblemPlayerElement2Power" value="" />
    <property name="Rarity" value="F" />
+  </card>
+  <card id="662e8937-dffd-4c48-ae9b-a160e8cc6144" name="Maud Pie">
+   <property name="Number" value="RRf1" />
+   <property name="Type" value="Mane Character" />
+   <property name="Element" value="Honesty" />
+   <property name="Subname" value="Rockin'" />
+   <property name="Power" value="1" />
+   <property name="Cost" value="" />
+   <property name="PlayRequiredPower" value="" />
+   <property name="PlayRequiredElement" value="" />
+   <property name="Traits" value="Earth Pony" />
+   <property name="Keywords" value="Home Limit 3." />
+   <property name="Text" value="At the end of your Main Phase, if you have a Friend and a Resource, turn this card over." />
+   <property name="ProblemBonus" value="" />
+   <property name="ProblemOpponentPower" value="" />
+   <property name="ProblemPlayerElement1" value="" />
+   <property name="ProblemPlayerElement1Power" value="" />
+   <property name="ProblemPlayerElement2" value="" />
+   <property name="ProblemPlayerElement2Power" value="" />
+   <property name="Rarity" value="F" />
+   <alternate name="Maud Pie" type="Mane Character Boosted">
+    <property name="Number" value="RRf1" />
+    <property name="Type" value="Mane Character Boosted" />
+    <property name="Element" value="Honesty" />
+    <property name="Subname" value="Rockin'" />
+    <property name="Power" value="3" />
+    <property name="Cost" value="" />
+    <property name="PlayRequiredPower" value="" />
+    <property name="PlayRequiredElement" value="" />
+    <property name="Traits" value="Earth Pony" />
+    <property name="Keywords" value="Home Limit 4." />
+    <property name="Text" value="This card has +1 power for each card type in your discard pile." />
+    <property name="ProblemBonus" value="" />
+    <property name="ProblemOpponentPower" value="" />
+    <property name="ProblemPlayerElement1" value="" />
+    <property name="ProblemPlayerElement1Power" value="" />
+    <property name="ProblemPlayerElement2" value="" />
+    <property name="ProblemPlayerElement2Power" value="" />
+    <property name="Rarity" value="F" />
+   </alternate>
+  </card>
+  <card id="251abe9a-f211-4463-b7d0-c10919c8192e" name="DJ Pon-3">
+   <property name="Number" value="RRf2" />
+   <property name="Type" value="Mane Character" />
+   <property name="Element" value="Laughter" />
+   <property name="Subname" value="Party Starter" />
+   <property name="Power" value="1" />
+   <property name="Cost" value="" />
+   <property name="PlayRequiredPower" value="" />
+   <property name="PlayRequiredElement" value="" />
+   <property name="Traits" value="Unicorn" />
+   <property name="Keywords" value="Home Limit 3." />
+   <property name="Text" value="When you draw your third card during a turn, shuffle your deck and turn this card over." />
+   <property name="ProblemBonus" value="" />
+   <property name="ProblemOpponentPower" value="" />
+   <property name="ProblemPlayerElement1" value="" />
+   <property name="ProblemPlayerElement1Power" value="" />
+   <property name="ProblemPlayerElement2" value="" />
+   <property name="ProblemPlayerElement2Power" value="" />
+   <property name="Rarity" value="F" />
+   <alternate name="DJ Pon-3" type="Mane Character Boosted">
+    <property name="Number" value="RRf2" />
+    <property name="Type" value="Mane Character Boosted" />
+    <property name="Element" value="Laughter" />
+    <property name="Subname" value="Party Starter" />
+    <property name="Power" value="3" />
+    <property name="Cost" value="" />
+    <property name="PlayRequiredPower" value="" />
+    <property name="PlayRequiredElement" value="" />
+    <property name="Traits" value="Unicorn" />
+    <property name="Keywords" value="Home Limit 4." />
+    <property name="Text" value="Main Phase: Exhaust this card to draw a card.&#10;At the start of your Score Phase, if this card is with at least 3 of your Friends, you may ready this card." />
+    <property name="ProblemBonus" value="" />
+    <property name="ProblemOpponentPower" value="" />
+    <property name="ProblemPlayerElement1" value="" />
+    <property name="ProblemPlayerElement1Power" value="" />
+    <property name="ProblemPlayerElement2" value="" />
+    <property name="ProblemPlayerElement2Power" value="" />
+    <property name="Rarity" value="F" />
+   </alternate>
   </card>
  </cards>
 </set>

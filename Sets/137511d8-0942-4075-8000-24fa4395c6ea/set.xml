@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<set name="Premiere" id="137511d8-0942-4075-8000-24fa4395c6ea" gameId="65656467-b709-43b2-a5c6-80c2f216adf9" gameVersion="3.1.0.0" version="3.1">
+<set name="Premiere" id="137511d8-0942-4075-8000-24fa4395c6ea" gameId="65656467-b709-43b2-a5c6-80c2f216adf9" gameVersion="2.2.4.4" version="3.2">
  <markers>
   <marker id="ec99fdcb-ffea-4658-8e8f-5dc06e93f6fd" name="action" />
  </markers>
  <cards>
   <card id="5ff3e6bf-84fb-4387-8931-cfd18710c93c" name="Rainbow Dash">
-   <property name="Number" value="001" />
+   <property name="Number" value="PR1" />
    <property name="Type" value="Mane Character" />
    <property name="Element" value="Loyalty" />
    <property name="Subname" value="Flier Extraordinaire" />
@@ -24,28 +24,28 @@
    <property name="ProblemPlayerElement2Power" value="" />
    <property name="Rarity" value="F" />
    <alternate name="Rainbow Dash" type="Mane Character Boosted">
-	   <property name="Number" value="001" />
-	   <property name="Type" value="Mane Character Boosted" />
-	   <property name="Element" value="Loyalty" />
-	   <property name="Subname" value="Flier Extraordinaire" />
-	   <property name="Power" value="3" />
-	   <property name="Cost" value="" />
-	   <property name="PlayRequiredPower" value="" />
-	   <property name="PlayRequiredElement" value="" />
-	   <property name="Traits" value="Pegasus" />
-	   <property name="Keywords" value="Home Limit 4, Swift." />
-	   <property name="Text" value="When you move this card from home to a Problem, you may pay 1 to move another one of your Friends from home to that Problem." />
-	   <property name="ProblemBonus" value="" />
-	   <property name="ProblemOpponentPower" value="" />
-	   <property name="ProblemPlayerElement1" value="" />
-	   <property name="ProblemPlayerElement1Power" value="" />
-	   <property name="ProblemPlayerElement2" value="" />
-	   <property name="ProblemPlayerElement2Power" value="" />
-	   <property name="Rarity" value="F" />
-   </alternate>   
+    <property name="Number" value="PR1" />
+    <property name="Type" value="Mane Character Boosted" />
+    <property name="Element" value="Loyalty" />
+    <property name="Subname" value="Flier Extraordinaire" />
+    <property name="Power" value="3" />
+    <property name="Cost" value="" />
+    <property name="PlayRequiredPower" value="" />
+    <property name="PlayRequiredElement" value="" />
+    <property name="Traits" value="Pegasus" />
+    <property name="Keywords" value="Home Limit 4, Swift." />
+    <property name="Text" value="When you move this card from home to a Problem, you may pay 1AT to move another one of your Friends from home to that Problem." />
+    <property name="ProblemBonus" value="" />
+    <property name="ProblemOpponentPower" value="" />
+    <property name="ProblemPlayerElement1" value="" />
+    <property name="ProblemPlayerElement1Power" value="" />
+    <property name="ProblemPlayerElement2" value="" />
+    <property name="ProblemPlayerElement2Power" value="" />
+    <property name="Rarity" value="F" />
+   </alternate>
   </card>
   <card id="fbfe63a5-71e4-4b16-b735-9cfca17f8b45" name="Applejack">
-   <property name="Number" value="002" />
+   <property name="Number" value="PR2" />
    <property name="Type" value="Mane Character" />
    <property name="Element" value="Honesty" />
    <property name="Subname" value="Steadfast Farmpony" />
@@ -64,148 +64,28 @@
    <property name="ProblemPlayerElement2Power" value="" />
    <property name="Rarity" value="F" />
    <alternate name="Applejack" type="Mane Character Boosted">
-	   <property name="Number" value="002" />
-	   <property name="Type" value="Mane Character Boosted" />
-	   <property name="Element" value="Honesty" />
-	   <property name="Subname" value="Steadfast Farmpony" />
-	   <property name="Power" value="3" />
-	   <property name="Cost" value="" />
-	   <property name="PlayRequiredPower" value="" />
-	   <property name="PlayRequiredElement" value="" />
-	   <property name="Traits" value="Earth Pony" />
-	   <property name="Keywords" value="Home Limit 4, Stubborn." />
-	   <property name="Text" value="When one of your Friends with this card at home or a Problem is dismissed, you may put it on the top of your deck." />
-	   <property name="ProblemBonus" value="" />
-	   <property name="ProblemOpponentPower" value="" />
-	   <property name="ProblemPlayerElement1" value="" />
-	   <property name="ProblemPlayerElement1Power" value="" />
-	   <property name="ProblemPlayerElement2" value="" />
-	   <property name="ProblemPlayerElement2Power" value="" />
-	   <property name="Rarity" value="F" />
-   </alternate>   
-  </card>
-  <card id="935e02bc-b14d-4a49-ae4d-375f567fb3ac" name="Fluttershy">
-   <property name="Number" value="006" />
-   <property name="Type" value="Mane Character" />
-   <property name="Element" value="Kindness" />
-   <property name="Subname" value="Beastmaster" />
-   <property name="Power" value="1" />
-   <property name="Cost" value="" />
-   <property name="PlayRequiredPower" value="" />
-   <property name="PlayRequiredElement" value="" />
-   <property name="Traits" value="Pegasus" />
-   <property name="Keywords" value="Home Limit 3." />
-   <property name="Text" value="When you confront this card's Problem and you have a [Critter] Friend at that Problem, turn this card over." />
-   <property name="ProblemBonus" value="" />
-   <property name="ProblemOpponentPower" value="" />
-   <property name="ProblemPlayerElement1" value="" />
-   <property name="ProblemPlayerElement1Power" value="" />
-   <property name="ProblemPlayerElement2" value="" />
-   <property name="ProblemPlayerElement2Power" value="" />
-   <property name="Rarity" value="F" />
-   <alternate name="Fluttershy" type="Mane Character Boosted">
-	   <property name="Number" value="006" />
-	   <property name="Type" value="Mane Character Boosted" />
-	   <property name="Element" value="Kindness" />
-	   <property name="Subname" value="Beastmaster" />
-	   <property name="Power" value="3" />
-	   <property name="Cost" value="" />
-	   <property name="PlayRequiredPower" value="" />
-	   <property name="PlayRequiredElement" value="" />
-	   <property name="Traits" value="Pegasus" />
-	   <property name="Keywords" value="Home Limit 5, Caretaker." />
-	   <property name="Text" value="When this card is involved in a faceoff, you may move a [Critter] to this card's Problem for free." />
-	   <property name="ProblemBonus" value="" />
-	   <property name="ProblemOpponentPower" value="" />
-	   <property name="ProblemPlayerElement1" value="" />
-	   <property name="ProblemPlayerElement1Power" value="" />
-	   <property name="ProblemPlayerElement2" value="" />
-	   <property name="ProblemPlayerElement2Power" value="" />
-	   <property name="Rarity" value="F" />
-   </alternate>   
-  </card>
-  <card id="e0ded2bf-41fe-4a02-bf7a-f269c5895840" name="Twilight Sparkle">
-   <property name="Number" value="004" />
-   <property name="Type" value="Mane Character" />
-   <property name="Element" value="Magic" />
-   <property name="Subname" value="Faithful Student" />
-   <property name="Power" value="1" />
-   <property name="Cost" value="" />
-   <property name="PlayRequiredPower" value="" />
-   <property name="PlayRequiredElement" value="" />
-   <property name="Traits" value="Unicorn" />
-   <property name="Keywords" value="Home Limit 3." />
-   <property name="Text" value="When you win a faceoff involving this card, turn this card over." />
-   <property name="ProblemBonus" value="" />
-   <property name="ProblemOpponentPower" value="" />
-   <property name="ProblemPlayerElement1" value="" />
-   <property name="ProblemPlayerElement1Power" value="" />
-   <property name="ProblemPlayerElement2" value="" />
-   <property name="ProblemPlayerElement2Power" value="" />
-   <property name="Rarity" value="F" />
-   <alternate name="Twilight Sparkle" type="Mane Character Boosted">
-	   <property name="Number" value="004" />
-	   <property name="Type" value="Mane Character Boosted" />
-	   <property name="Element" value="Magic" />
-	   <property name="Subname" value="Faithful Student" />
-	   <property name="Power" value="3" />
-	   <property name="Cost" value="" />
-	   <property name="PlayRequiredPower" value="" />
-	   <property name="PlayRequiredElement" value="" />
-	   <property name="Traits" value="Unicorn" />
-	   <property name="Keywords" value="Home Limit 4, Studious." />
-	   <property name="Text" value="After a faceoff involving this card, you may put any Events you flipped into your hand instead of the bottom of your deck." />
-	   <property name="ProblemBonus" value="" />
-	   <property name="ProblemOpponentPower" value="" />
-	   <property name="ProblemPlayerElement1" value="" />
-	   <property name="ProblemPlayerElement1Power" value="" />
-	   <property name="ProblemPlayerElement2" value="" />
-	   <property name="ProblemPlayerElement2Power" value="" />
-	   <property name="Rarity" value="F" />
-   </alternate>   
-  </card>
-  <card id="10e394e3-6437-49bb-b836-ab20f49c92b7" name="Rarity">
-   <property name="Number" value="005" />
-   <property name="Type" value="Mane Character" />
-   <property name="Element" value="Generosity" />
-   <property name="Subname" value="Dazzling Fashionista" />
-   <property name="Power" value="1" />
-   <property name="Cost" value="" />
-   <property name="PlayRequiredPower" value="" />
-   <property name="PlayRequiredElement" value="" />
-   <property name="Traits" value="Unicorn" />
-   <property name="Keywords" value="Home Limit 3." />
-   <property name="Text" value="When you score at least 2 points at this card's Problem during one Score Phase, turn this card over." />
-   <property name="ProblemBonus" value="" />
-   <property name="ProblemOpponentPower" value="" />
-   <property name="ProblemPlayerElement1" value="" />
-   <property name="ProblemPlayerElement1Power" value="" />
-   <property name="ProblemPlayerElement2" value="" />
-   <property name="ProblemPlayerElement2Power" value="" />
-   <property name="Rarity" value="F" />
-   <alternate name="Rarity" type="Mane Character Boosted">
-	   <property name="Number" value="005" />
-	   <property name="Type" value="Mane Character Boosted" />
-	   <property name="Element" value="Generosity" />
-	   <property name="Subname" value="Dazzling Fashionista" />
-	   <property name="Power" value="3" />
-	   <property name="Cost" value="" />
-	   <property name="PlayRequiredPower" value="" />
-	   <property name="PlayRequiredElement" value="" />
-	   <property name="Traits" value="Unicorn" />
-	   <property name="Keywords" value="Home Limit 4, Inspired." />
-	   <property name="Text" value="Your opponet must pay +1 to move a character to this card's Problem." />
-	   <property name="ProblemBonus" value="" />
-	   <property name="ProblemOpponentPower" value="" />
-	   <property name="ProblemPlayerElement1" value="" />
-	   <property name="ProblemPlayerElement1Power" value="" />
-	   <property name="ProblemPlayerElement2" value="" />
-	   <property name="ProblemPlayerElement2Power" value="" />
-	   <property name="Rarity" value="F" />
-	   </alternate>
+    <property name="Number" value="PR2" />
+    <property name="Type" value="Mane Character Boosted" />
+    <property name="Element" value="Honesty" />
+    <property name="Subname" value="Steadfast Farmpony" />
+    <property name="Power" value="3" />
+    <property name="Cost" value="" />
+    <property name="PlayRequiredPower" value="" />
+    <property name="PlayRequiredElement" value="" />
+    <property name="Traits" value="Earth Pony" />
+    <property name="Keywords" value="Home Limit 4, Stubborn." />
+    <property name="Text" value="When one of your Friends here would be dismissed, you may put that Friend on top of your deck instead." />
+    <property name="ProblemBonus" value="" />
+    <property name="ProblemOpponentPower" value="" />
+    <property name="ProblemPlayerElement1" value="" />
+    <property name="ProblemPlayerElement1Power" value="" />
+    <property name="ProblemPlayerElement2" value="" />
+    <property name="ProblemPlayerElement2Power" value="" />
+    <property name="Rarity" value="F" />
+   </alternate>
   </card>
   <card id="7a6d06b9-e09e-4c73-930b-0b62a36b4588" name="Pinkie Pie">
-   <property name="Number" value="003" />
+   <property name="Number" value="PR3" />
    <property name="Type" value="Mane Character" />
    <property name="Element" value="Laughter" />
    <property name="Subname" value="Party Animal" />
@@ -224,28 +104,148 @@
    <property name="ProblemPlayerElement2Power" value="" />
    <property name="Rarity" value="F" />
    <alternate name="Pinkie Pie" type="Mane Character Boosted">
-      <property name="Number" value="003" />
-      <property name="Type" value="Mane Character Boosted" />
-      <property name="Element" value="Laughter" />
-      <property name="Subname" value="Party Animal" />
-      <property name="Power" value="3" />
-      <property name="Cost" value="" />
-      <property name="PlayRequiredPower" value="" />
-      <property name="PlayRequiredElement" value="" />
-      <property name="Traits" value="Earth Pony" />
-      <property name="Keywords" value="Home Limit 5, Random." />
-      <property name="Text" value="Your opponent needs +1 [Any] to confront this card's Problem." />
-      <property name="ProblemBonus" value="" />
-      <property name="ProblemOpponentPower" value="" />
-      <property name="ProblemPlayerElement1" value="" />
-      <property name="ProblemPlayerElement1Power" value="" />
-      <property name="ProblemPlayerElement2" value="" />
-      <property name="ProblemPlayerElement2Power" value="" />
-      <property name="Rarity" value="F" />
-    </alternate>
+    <property name="Number" value="PR3" />
+    <property name="Type" value="Mane Character Boosted" />
+    <property name="Element" value="Laughter" />
+    <property name="Subname" value="Party Animal" />
+    <property name="Power" value="3" />
+    <property name="Cost" value="" />
+    <property name="PlayRequiredPower" value="" />
+    <property name="PlayRequiredElement" value="" />
+    <property name="Traits" value="Earth Pony" />
+    <property name="Keywords" value="Home Limit 5, Random." />
+    <property name="Text" value="Your opponent needs +1 power to confront this card's Problem." />
+    <property name="ProblemBonus" value="" />
+    <property name="ProblemOpponentPower" value="" />
+    <property name="ProblemPlayerElement1" value="" />
+    <property name="ProblemPlayerElement1Power" value="" />
+    <property name="ProblemPlayerElement2" value="" />
+    <property name="ProblemPlayerElement2Power" value="" />
+    <property name="Rarity" value="F" />
+   </alternate>
+  </card>
+  <card id="e0ded2bf-41fe-4a02-bf7a-f269c5895840" name="Twilight Sparkle">
+   <property name="Number" value="PR4" />
+   <property name="Type" value="Mane Character" />
+   <property name="Element" value="Magic" />
+   <property name="Subname" value="Faithful Student" />
+   <property name="Power" value="1" />
+   <property name="Cost" value="" />
+   <property name="PlayRequiredPower" value="" />
+   <property name="PlayRequiredElement" value="" />
+   <property name="Traits" value="Unicorn" />
+   <property name="Keywords" value="Home Limit 3." />
+   <property name="Text" value="When you win a faceoff involving this card, turn this card over." />
+   <property name="ProblemBonus" value="" />
+   <property name="ProblemOpponentPower" value="" />
+   <property name="ProblemPlayerElement1" value="" />
+   <property name="ProblemPlayerElement1Power" value="" />
+   <property name="ProblemPlayerElement2" value="" />
+   <property name="ProblemPlayerElement2Power" value="" />
+   <property name="Rarity" value="F" />
+   <alternate name="Twilight Sparkle" type="Mane Character Boosted">
+    <property name="Number" value="PR4" />
+    <property name="Type" value="Mane Character Boosted" />
+    <property name="Element" value="Magic" />
+    <property name="Subname" value="Faithful Student" />
+    <property name="Power" value="3" />
+    <property name="Cost" value="" />
+    <property name="PlayRequiredPower" value="" />
+    <property name="PlayRequiredElement" value="" />
+    <property name="Traits" value="Unicorn" />
+    <property name="Keywords" value="Home Limit 4, Studious." />
+    <property name="Text" value="During a faceoff involving this card, if you would put a flipped Event card on the bottom of your deck, you may put it into your hand instead." />
+    <property name="ProblemBonus" value="" />
+    <property name="ProblemOpponentPower" value="" />
+    <property name="ProblemPlayerElement1" value="" />
+    <property name="ProblemPlayerElement1Power" value="" />
+    <property name="ProblemPlayerElement2" value="" />
+    <property name="ProblemPlayerElement2Power" value="" />
+    <property name="Rarity" value="F" />
+   </alternate>
+  </card>
+  <card id="10e394e3-6437-49bb-b836-ab20f49c92b7" name="Rarity">
+   <property name="Number" value="PR5" />
+   <property name="Type" value="Mane Character" />
+   <property name="Element" value="Generosity" />
+   <property name="Subname" value="Dazzling Fashionista" />
+   <property name="Power" value="1" />
+   <property name="Cost" value="" />
+   <property name="PlayRequiredPower" value="" />
+   <property name="PlayRequiredElement" value="" />
+   <property name="Traits" value="Unicorn" />
+   <property name="Keywords" value="Home Limit 3." />
+   <property name="Text" value="When you score at least 2 points with this card during one Score Phase, turn this card over." />
+   <property name="ProblemBonus" value="" />
+   <property name="ProblemOpponentPower" value="" />
+   <property name="ProblemPlayerElement1" value="" />
+   <property name="ProblemPlayerElement1Power" value="" />
+   <property name="ProblemPlayerElement2" value="" />
+   <property name="ProblemPlayerElement2Power" value="" />
+   <property name="Rarity" value="F" />
+   <alternate name="Rarity" type="Mane Character Boosted">
+    <property name="Number" value="PR5" />
+    <property name="Type" value="Mane Character Boosted" />
+    <property name="Element" value="Generosity" />
+    <property name="Subname" value="Dazzling Fashionista" />
+    <property name="Power" value="3" />
+    <property name="Cost" value="" />
+    <property name="PlayRequiredPower" value="" />
+    <property name="PlayRequiredElement" value="" />
+    <property name="Traits" value="Unicorn" />
+    <property name="Keywords" value="Home Limit 4, Inspired." />
+    <property name="Text" value="Your opponent must pay +1AT to move a character to this card's Problem." />
+    <property name="ProblemBonus" value="" />
+    <property name="ProblemOpponentPower" value="" />
+    <property name="ProblemPlayerElement1" value="" />
+    <property name="ProblemPlayerElement1Power" value="" />
+    <property name="ProblemPlayerElement2" value="" />
+    <property name="ProblemPlayerElement2Power" value="" />
+    <property name="Rarity" value="F" />
+   </alternate>
+  </card>
+  <card id="935e02bc-b14d-4a49-ae4d-375f567fb3ac" name="Fluttershy">
+   <property name="Number" value="PR6" />
+   <property name="Type" value="Mane Character" />
+   <property name="Element" value="Kindness" />
+   <property name="Subname" value="Beastmaster" />
+   <property name="Power" value="1" />
+   <property name="Cost" value="" />
+   <property name="PlayRequiredPower" value="" />
+   <property name="PlayRequiredElement" value="" />
+   <property name="Traits" value="Pegasus" />
+   <property name="Keywords" value="Home Limit 3." />
+   <property name="Text" value="When you confront this card's Problem, if you have a Critter Friend at that Problem, turn this card over." />
+   <property name="ProblemBonus" value="" />
+   <property name="ProblemOpponentPower" value="" />
+   <property name="ProblemPlayerElement1" value="" />
+   <property name="ProblemPlayerElement1Power" value="" />
+   <property name="ProblemPlayerElement2" value="" />
+   <property name="ProblemPlayerElement2Power" value="" />
+   <property name="Rarity" value="F" />
+   <alternate name="Fluttershy" type="Mane Character Boosted">
+    <property name="Number" value="PR6" />
+    <property name="Type" value="Mane Character Boosted" />
+    <property name="Element" value="Kindness" />
+    <property name="Subname" value="Beastmaster" />
+    <property name="Power" value="3" />
+    <property name="Cost" value="" />
+    <property name="PlayRequiredPower" value="" />
+    <property name="PlayRequiredElement" value="" />
+    <property name="Traits" value="Pegasus" />
+    <property name="Keywords" value="Home Limit 5, Caretaker." />
+    <property name="Text" value="At the start of a faceoff involving this card, you may move a Critter Friend to this card's Problem." />
+    <property name="ProblemBonus" value="" />
+    <property name="ProblemOpponentPower" value="" />
+    <property name="ProblemPlayerElement1" value="" />
+    <property name="ProblemPlayerElement1Power" value="" />
+    <property name="ProblemPlayerElement2" value="" />
+    <property name="ProblemPlayerElement2Power" value="" />
+    <property name="Rarity" value="F" />
+   </alternate>
   </card>
   <card id="eb8df8fc-d7a5-410c-9e3f-d914bf73e3d3" name="Jetstream">
-   <property name="Number" value="007" />
+   <property name="Number" value="PR7" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Loyalty" />
    <property name="Subname" value="All Heart" />
@@ -255,7 +255,7 @@
    <property name="PlayRequiredElement" value="Loyalty" />
    <property name="Traits" value="Pegasus" />
    <property name="Keywords" value="" />
-   <property name="Text" value="When involved in a faceoff, this card gets +2 power." />
+   <property name="Text" value="While involved in a faceoff, this card gets +2 power." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -265,7 +265,7 @@
    <property name="Rarity" value="C" />
   </card>
   <card id="ffc99132-7001-4a4f-bc31-2ef202266298" name="Cerulean Skies">
-   <property name="Number" value="008" />
+   <property name="Number" value="PR8" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Loyalty" />
    <property name="Subname" value="Skyward Soarer" />
@@ -274,8 +274,8 @@
    <property name="PlayRequiredPower" value="1" />
    <property name="PlayRequiredElement" value="Loyalty" />
    <property name="Traits" value="Pegasus" />
-   <property name="Keywords" value="Swift." />
-   <property name="Text" value="" />
+   <property name="Keywords" value="" />
+   <property name="Text" value="Swift." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -285,7 +285,7 @@
    <property name="Rarity" value="C" />
   </card>
   <card id="4a60748b-bb70-416a-979a-973f98095b44" name="Finish Line">
-   <property name="Number" value="009" />
+   <property name="Number" value="PR9" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Loyalty" />
    <property name="Subname" value="Jammer" />
@@ -294,18 +294,18 @@
    <property name="PlayRequiredPower" value="2" />
    <property name="PlayRequiredElement" value="Loyalty" />
    <property name="Traits" value="Earth Pony, Foal" />
-   <property name="Keywords" value="Swift." />
-   <property name="Text" value="" />
+   <property name="Keywords" value="" />
+   <property name="Text" value="Swift." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
    <property name="ProblemPlayerElement1Power" value="" />
    <property name="ProblemPlayerElement2" value="" />
    <property name="ProblemPlayerElement2Power" value="" />
-   <property name="Rarity" value="C" />
+   <property name="Rarity" value="U" />
   </card>
   <card id="da6afcf9-e479-4941-96cb-234d97a7a8bd" name="Wild Fire">
-   <property name="Number" value="010" />
+   <property name="Number" value="PR10" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Loyalty" />
    <property name="Subname" value="Speed Racer" />
@@ -325,7 +325,7 @@
    <property name="Rarity" value="R" />
   </card>
   <card id="a5b7c9d8-0747-4910-a6ca-aabedf7dd3dc" name="Cloudchaser">
-   <property name="Number" value="011" />
+   <property name="Number" value="PR11" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Loyalty" />
    <property name="Subname" value="Flexible Flier" />
@@ -335,7 +335,7 @@
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="Pegasus" />
    <property name="Keywords" value="" />
-   <property name="Text" value="Main Phase: Exhaust this card to reduce by 1 the cost of the next Friend you play this turn." />
+   <property name="Text" value="Main Phase: Exhaust this card to reduce by 1AT the cost of the next Friend you play this turn." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -345,10 +345,10 @@
    <property name="Rarity" value="R" />
   </card>
   <card id="3b4aa10e-9174-4ce6-a51e-b0fa46ed6d45" name="Emerald Green">
-   <property name="Number" value="012" />
+   <property name="Number" value="PR12" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Loyalty" />
-   <property name="Subname" value="Cider Afficionado" />
+   <property name="Subname" value="Cider Aficionado" />
    <property name="Power" value="2" />
    <property name="Cost" value="2" />
    <property name="PlayRequiredPower" value="" />
@@ -365,7 +365,7 @@
    <property name="Rarity" value="C" />
   </card>
   <card id="b16e88dc-676c-4ef2-9ef7-3852791ef374" name="Holly Dash">
-   <property name="Number" value="013" />
+   <property name="Number" value="PR13" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Loyalty" />
    <property name="Subname" value="Flighty Filly" />
@@ -385,7 +385,7 @@
    <property name="Rarity" value="F" />
   </card>
   <card id="2c6b5504-2d2a-4963-8785-94f950d4d030" name="Pegasus Royal Guard">
-   <property name="Number" value="014" />
+   <property name="Number" value="PR14" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Loyalty" />
    <property name="Subname" value="Elite Sentry" />
@@ -405,7 +405,7 @@
    <property name="Rarity" value="C" />
   </card>
   <card id="cd9c1d5f-9bf0-49e7-a889-30fece22eb7a" name="Rainbow Dash">
-   <property name="Number" value="015" />
+   <property name="Number" value="PR15" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Loyalty" />
    <property name="Subname" value="Weather Leader" />
@@ -425,7 +425,7 @@
    <property name="Rarity" value="U" />
   </card>
   <card id="6e8d157b-8de5-4364-b7ea-f10faabec45e" name="Rainbowshine">
-   <property name="Number" value="016" />
+   <property name="Number" value="PR16" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Loyalty" />
    <property name="Subname" value="Cloud Wrangler" />
@@ -445,7 +445,7 @@
    <property name="Rarity" value="C" />
   </card>
   <card id="ccb18ed9-0086-4630-a17e-1a9e4adfea5d" name="Scootaloo">
-   <property name="Number" value="017" />
+   <property name="Number" value="PR17" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Loyalty" />
    <property name="Subname" value="Creature Catcher" />
@@ -465,7 +465,7 @@
    <property name="Rarity" value="R" />
   </card>
   <card id="3b28c5c1-25fe-4223-bce9-7587e2d9d374" name="Spike">
-   <property name="Number" value="018" />
+   <property name="Number" value="PR18" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Loyalty" />
    <property name="Subname" value="Baby Dragon" />
@@ -474,8 +474,8 @@
    <property name="PlayRequiredPower" value="1" />
    <property name="PlayRequiredElement" value="Loyalty" />
    <property name="Traits" value="Dragon" />
-   <property name="Keywords" value="Swift" />
-   <property name="Text" value="Main Phase: Pay 1 to give this card +1 power until the end of the turn." />
+   <property name="Keywords" value="Swift." />
+   <property name="Text" value="Main Phase: Pay 1AT to give this card +1 power until the end of the turn." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -485,7 +485,7 @@
    <property name="Rarity" value="R" />
   </card>
   <card id="67dfe7c2-02a1-4ea8-a129-5ac1275b4d55" name="Solar Wind">
-   <property name="Number" value="019" />
+   <property name="Number" value="PR19" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Loyalty" />
    <property name="Subname" value="Enterprising Astronomer" />
@@ -495,7 +495,7 @@
    <property name="PlayRequiredElement" value="Loyalty" />
    <property name="Traits" value="Pegasus" />
    <property name="Keywords" value="" />
-   <property name="Text" value="When you play a [Pegasus] Friend to this card's Problem, you may exhaust this card. If you do, gain 1." />
+   <property name="Text" value="When you play a Pegasus Friend to this card's Problem, you may exhaust this card. If you do, gain 1AT." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -505,7 +505,7 @@
    <property name="Rarity" value="R" />
   </card>
   <card id="a4d82a6e-85ad-4b3f-b8c2-16a6cee6522a" name="Sweetie Sunrise">
-   <property name="Number" value="020" />
+   <property name="Number" value="PR20" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Loyalty" />
    <property name="Subname" value="Early Riser" />
@@ -525,7 +525,7 @@
    <property name="Rarity" value="C" />
   </card>
   <card id="5fce3827-1fbd-4361-b005-3d3d10817d16" name="Gala Appleby">
-   <property name="Number" value="021" />
+   <property name="Number" value="PR21" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Honesty" />
    <property name="Subname" value="Refined Farmer" />
@@ -545,7 +545,7 @@
    <property name="Rarity" value="R" />
   </card>
   <card id="ad066572-9e76-4b8e-836f-0f461b96ba0f" name="Apple Cobbler">
-   <property name="Number" value="022" />
+   <property name="Number" value="PR22" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Honesty" />
    <property name="Subname" value="Headstrong" />
@@ -554,8 +554,8 @@
    <property name="PlayRequiredPower" value="1" />
    <property name="PlayRequiredElement" value="Honesty" />
    <property name="Traits" value="Earth Pony" />
-   <property name="Keywords" value="Stubborn." />
-   <property name="Text" value="" />
+   <property name="Keywords" value="" />
+   <property name="Text" value="Stubborn." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -565,7 +565,7 @@
    <property name="Rarity" value="C" />
   </card>
   <card id="0b979623-7d40-4ca3-833c-656c4488ac49" name="Applejack">
-   <property name="Number" value="023" />
+   <property name="Number" value="PR23" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Honesty" />
    <property name="Subname" value="Plant Leader" />
@@ -585,7 +585,7 @@
    <property name="Rarity" value="C" />
   </card>
   <card id="e0146473-e864-4cc3-9464-8f1244b6b635" name="Applejack">
-   <property name="Number" value="024" />
+   <property name="Number" value="PR24" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Honesty" />
    <property name="Subname" value="Barn Raiser" />
@@ -605,7 +605,7 @@
    <property name="Rarity" value="R" />
   </card>
   <card id="733d5c75-d276-4224-b5c6-9551a4001979" name="Auntie Applesauce">
-   <property name="Number" value="025" />
+   <property name="Number" value="PR25" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Honesty" />
    <property name="Subname" value="Gum Flapper" />
@@ -625,7 +625,7 @@
    <property name="Rarity" value="U" />
   </card>
   <card id="10f58c29-07e0-41d6-b231-8a6ab96edc17" name="Cherry Jubilee">
-   <property name="Number" value="026" />
+   <property name="Number" value="PR26" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Honesty" />
    <property name="Subname" value="Queen of the Hill" />
@@ -645,7 +645,7 @@
    <property name="Rarity" value="F" />
   </card>
   <card id="67a50d37-382b-42ad-a66c-0c2bbf78a226" name="Coco Crusoe">
-   <property name="Number" value="027" />
+   <property name="Number" value="PR27" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Honesty" />
    <property name="Subname" value="Thick Skinned" />
@@ -655,7 +655,7 @@
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="Earth Pony" />
    <property name="Keywords" value="" />
-   <property name="Text" value="When you reveal a Troublemaker at this card's Problem, an opponent discards two random cards." />
+   <property name="Text" value="When you uncover a Troublemaker at this card's Problem, an opponent discards 2 random cards." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -665,7 +665,7 @@
    <property name="Rarity" value="R" />
   </card>
   <card id="12af9430-0785-4e63-8070-d16b66777c65" name="Granny Smith">
-   <property name="Number" value="028" />
+   <property name="Number" value="PR28" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Honesty" />
    <property name="Subname" value="Apple Elder" />
@@ -675,7 +675,7 @@
    <property name="PlayRequiredElement" value="Honesty" />
    <property name="Traits" value="Earth Pony, Elder" />
    <property name="Keywords" value="" />
-   <property name="Text" value="When you play this card, you may move a Resource from one Friend to another." />
+   <property name="Text" value="When you play this card, you may reattach a Resource from one Friend to another." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -685,7 +685,7 @@
    <property name="Rarity" value="C" />
   </card>
   <card id="8eb51ca3-631a-44a4-be8b-184786c27da9" name="Igneous Rock">
-   <property name="Number" value="029" />
+   <property name="Number" value="PR29" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Honesty" />
    <property name="Subname" value="Pebble Pusher" />
@@ -705,7 +705,7 @@
    <property name="Rarity" value="C" />
   </card>
   <card id="0b47601c-cd7e-46d4-b8c5-041d1539d7b5" name="Drill Bit">
-   <property name="Number" value="030" />
+   <property name="Number" value="PR30" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Honesty" />
    <property name="Subname" value="Destruction Worker" />
@@ -725,7 +725,7 @@
    <property name="Rarity" value="C" />
   </card>
   <card id="f5448e80-549b-433b-9e75-ec0563e1025e" name="Full Steam">
-   <property name="Number" value="031" />
+   <property name="Number" value="PR31" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Honesty" />
    <property name="Subname" value="Smoke Stacked" />
@@ -745,7 +745,7 @@
    <property name="Rarity" value="R" />
   </card>
   <card id="35226b49-62af-43a7-8cc0-51b6d547dfb1" name="Silver Spanner">
-   <property name="Number" value="032" />
+   <property name="Number" value="PR32" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Honesty" />
    <property name="Subname" value="Nuts for Bolts" />
@@ -755,7 +755,7 @@
    <property name="PlayRequiredElement" value="Honesty" />
    <property name="Traits" value="Unicorn" />
    <property name="Keywords" value="" />
-   <property name="Text" value="Reaction: When one of your Resources is dismissed, you may dismiss this card to play that Resource from your discard pile for free." />
+   <property name="Text" value="Reaction: When one of your Resources is dismissed, you may dismiss this card. If you do, play that Resource from your discard pile for free." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -765,7 +765,7 @@
    <property name="Rarity" value="R" />
   </card>
   <card id="892c1777-8992-4c37-ad29-11aac71565ea" name="Red Gala">
-   <property name="Number" value="033" />
+   <property name="Number" value="PR33" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Honesty" />
    <property name="Subname" value="Favorite Cousin" />
@@ -785,7 +785,7 @@
    <property name="Rarity" value="C" />
   </card>
   <card id="ae3aba09-6025-4ea2-8bf4-6605c2ad7ff4" name="Sunny Smiles">
-   <property name="Number" value="034" />
+   <property name="Number" value="PR34" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Honesty" />
    <property name="Subname" value="Iconic Friend" />
@@ -805,7 +805,7 @@
    <property name="Rarity" value="R" />
   </card>
   <card id="db3198c7-0fc3-46a0-974d-895161782c42" name="Night Watch">
-   <property name="Number" value="035" />
+   <property name="Number" value="PR35" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Honesty" />
    <property name="Subname" value="Vigilant Patrol" />
@@ -825,7 +825,7 @@
    <property name="Rarity" value="R" />
   </card>
   <card id="ed4b8833-5d8e-4434-8d4b-def5837e5fee" name="Apple Brown Betty">
-   <property name="Number" value="036" />
+   <property name="Number" value="PR36" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Laughter" />
    <property name="Subname" value="Pastry Chef" />
@@ -845,7 +845,7 @@
    <property name="Rarity" value="C" />
   </card>
   <card id="c11de2e1-d83b-45b5-9d14-555ec552e6e6" name="Berry Dreams">
-   <property name="Number" value="037" />
+   <property name="Number" value="PR37" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Laughter" />
    <property name="Subname" value="Pom-Pom Pony" />
@@ -865,7 +865,7 @@
    <property name="Rarity" value="C" />
   </card>
   <card id="7b846d4a-b904-481a-9e51-2a321cf9a097" name="Big Top">
-   <property name="Number" value="038" />
+   <property name="Number" value="PR38" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Laughter" />
    <property name="Subname" value="Silly Pony" />
@@ -882,10 +882,10 @@
    <property name="ProblemPlayerElement1Power" value="" />
    <property name="ProblemPlayerElement2" value="" />
    <property name="ProblemPlayerElement2Power" value="" />
-   <property name="Rarity" value="C" />
+   <property name="Rarity" value="F" />
   </card>
   <card id="94de3f47-ba94-489a-9296-fa52e62c4f19" name="Charged Up">
-   <property name="Number" value="039" />
+   <property name="Number" value="PR39" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Laughter" />
    <property name="Subname" value="Energizer Pony" />
@@ -895,7 +895,7 @@
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="Earth Pony" />
    <property name="Keywords" value="" />
-   <property name="Text" value="When you move this card to a Problem, you may look at the top 2 cards of that Problem's deckand put them back in any order." />
+   <property name="Text" value="When you move this card to a Problem, you may look at the top 2 cards of that Problem's deck and put them back in any order." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -905,7 +905,7 @@
    <property name="Rarity" value="R" />
   </card>
   <card id="62237676-b22e-4b14-8ebb-2f6fa3ce46df" name="Dance Fever">
-   <property name="Number" value="040" />
+   <property name="Number" value="PR40" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Laughter" />
    <property name="Subname" value="Disco King" />
@@ -914,8 +914,8 @@
    <property name="PlayRequiredPower" value="2" />
    <property name="PlayRequiredElement" value="Laughter" />
    <property name="Traits" value="Earth Pony" />
-   <property name="Keywords" value="Random" />
-   <property name="Text" value="" />
+   <property name="Keywords" value="" />
+   <property name="Text" value="Random." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -925,7 +925,7 @@
    <property name="Rarity" value="C" />
   </card>
   <card id="75c78bef-8f7b-4261-a8d0-a79db82b585f" name="Lucky Streak">
-   <property name="Number" value="041" />
+   <property name="Number" value="PR41" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Laughter" />
    <property name="Subname" value="One in a Million" />
@@ -935,7 +935,7 @@
    <property name="PlayRequiredElement" value="Laughter" />
    <property name="Traits" value="Earth Pony" />
    <property name="Keywords" value="" />
-   <property name="Text" value="When you play this card, you may uncover a face-down Troublemaker.  Main Phase: Exhaust this card to look at a face-down Troublemaker." />
+   <property name="Text" value="When you play this card, you may uncover a face-down Troublemaker.&#10;Main Phase: Exhaust this card to look at a face-down Troublemaker." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -945,7 +945,7 @@
    <property name="Rarity" value="R" />
   </card>
   <card id="c470fd94-4e06-4508-aa07-3e42d3b194f9" name="Flitter">
-   <property name="Number" value="042" />
+   <property name="Number" value="PR42" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Laughter" />
    <property name="Subname" value="Ribbon Wielder" />
@@ -955,7 +955,7 @@
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="Pegasus" />
    <property name="Keywords" value="" />
-   <property name="Text" value="When involved in a Troublemaker faceoff, this card gets +1 power." />
+   <property name="Text" value="While involved in a Troublemaker faceoff, this card gets +1 power." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -965,7 +965,7 @@
    <property name="Rarity" value="C" />
   </card>
   <card id="58c52f1a-0263-4415-81cb-77544343de7a" name="Goldengrape">
-   <property name="Number" value="043" />
+   <property name="Number" value="PR43" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Laughter" />
    <property name="Subname" value="Popular Punster" />
@@ -975,7 +975,7 @@
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="Earth Pony" />
    <property name="Keywords" value="" />
-   <property name="Text" value="When you win a Problem faceoff involving this card, you may search your deck for a Friend. Reveal it, put it into your hand, and shuffle your deck." />
+   <property name="Text" value="When you win a Problem faceoff involving this card, you may search your deck for a Friend, reveal it, put it into your hand, and shuffle your deck." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -985,7 +985,7 @@
    <property name="Rarity" value="R" />
   </card>
   <card id="d1d1e799-c57b-4da7-8154-81b0b82edb16" name="High Spirits">
-   <property name="Number" value="044" />
+   <property name="Number" value="PR44" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Laughter" />
    <property name="Subname" value="Life Enthusiast" />
@@ -1005,10 +1005,10 @@
    <property name="Rarity" value="C" />
   </card>
   <card id="565034aa-2540-4a36-9056-3189fb14209d" name="Pinkie Pie">
-   <property name="Number" value="045" />
+   <property name="Number" value="PR45" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Laughter" />
-   <property name="Subname" value="Pinkie 'Responsibility' Pie" />
+   <property name="Subname" value='Pinkie "Responsibility" Pie' />
    <property name="Power" value="2" />
    <property name="Cost" value="4" />
    <property name="PlayRequiredPower" value="2" />
@@ -1025,7 +1025,7 @@
    <property name="Rarity" value="R" />
   </card>
   <card id="94a6378d-a98a-47c2-bedd-c7f43bcd5881" name="Pinkie Pie">
-   <property name="Number" value="046" />
+   <property name="Number" value="PR46" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Laughter" />
    <property name="Subname" value="Ice Cutter" />
@@ -1034,7 +1034,7 @@
    <property name="PlayRequiredPower" value="1" />
    <property name="PlayRequiredElement" value="Laughter" />
    <property name="Traits" value="Earth Pony" />
-   <property name="Keywords" value="Random" />
+   <property name="Keywords" value="Random." />
    <property name="Text" value="When your opponent confronts this card's Problem, draw a card." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
@@ -1045,7 +1045,7 @@
    <property name="Rarity" value="C" />
   </card>
   <card id="81252740-83ac-4fd3-a30a-ffda0c359cbe" name="Pinprick">
-   <property name="Number" value="047" />
+   <property name="Number" value="PR47" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Laughter" />
    <property name="Subname" value="Pop Star" />
@@ -1065,7 +1065,7 @@
    <property name="Rarity" value="R" />
   </card>
   <card id="870fafc3-f161-4dd6-b5d1-0c145f724837" name="Ol' Salt">
-   <property name="Number" value="048" />
+   <property name="Number" value="PR48" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Laughter" />
    <property name="Subname" value="Salt Blocked" />
@@ -1075,7 +1075,7 @@
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="Earth Pony, Elder" />
    <property name="Keywords" value="" />
-   <property name="Text" value="Your opponent needs +1 [Any] to confront this card's Problem." />
+   <property name="Text" value="Your opponent needs +1 power to confront this card's Problem." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -1084,8 +1084,8 @@
    <property name="ProblemPlayerElement2Power" value="" />
    <property name="Rarity" value="U" />
   </card>
-  <card id="96f0920d-42a1-403c-a75c-b48087353b33" name="Snips and Snails">
-   <property name="Number" value="049" />
+  <card id="96f0920d-42a1-403c-a75c-b48087353b33" name="Snips &amp; Snails">
+   <property name="Number" value="PR49" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Laughter" />
    <property name="Subname" value="Dynamic Duo" />
@@ -1095,7 +1095,7 @@
    <property name="PlayRequiredElement" value="Laughter" />
    <property name="Traits" value="Unicorn, Foal" />
    <property name="Keywords" value="" />
-   <property name="Text" value="Your opponent needs +1 [Any] to confront this card's Problem." />
+   <property name="Text" value="Your opponent needs +1 power to confront this card's Problem." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -1105,7 +1105,7 @@
    <property name="Rarity" value="R" />
   </card>
   <card id="8295c638-635c-4272-8bcf-58e901ca898c" name="Surprise">
-   <property name="Number" value="050" />
+   <property name="Number" value="PR50" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Laughter" />
    <property name="Subname" value="Party Pegasus" />
@@ -1125,7 +1125,7 @@
    <property name="Rarity" value="R" />
   </card>
   <card id="04e39fe7-8a12-42b9-b891-65e133e6f515" name="Apple Stars">
-   <property name="Number" value="051" />
+   <property name="Number" value="PR51" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Magic" />
    <property name="Subname" value="Fruit Prodigy" />
@@ -1134,8 +1134,8 @@
    <property name="PlayRequiredPower" value="2" />
    <property name="PlayRequiredElement" value="Magic" />
    <property name="Traits" value="Unicorn" />
-   <property name="Keywords" value="Studious." />
-   <property name="Text" value="" />
+   <property name="Keywords" value="" />
+   <property name="Text" value="Studious." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -1145,7 +1145,7 @@
    <property name="Rarity" value="R" />
   </card>
   <card id="619c1a9c-9048-438d-b610-60bd93a60587" name="Professor Neigh">
-   <property name="Number" value="052" />
+   <property name="Number" value="PR52" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Magic" />
    <property name="Subname" value="Algebraic!" />
@@ -1155,7 +1155,7 @@
    <property name="PlayRequiredElement" value="Magic" />
    <property name="Traits" value="Earth Pony" />
    <property name="Keywords" value="" />
-   <property name="Text" value="While at a problem with a Report Resource, this card gets +1 power." />
+   <property name="Text" value="While at a Problem with a Report Resource, this card gets +1 power." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -1165,7 +1165,7 @@
    <property name="Rarity" value="C" />
   </card>
   <card id="21c57a8f-bb39-4588-989e-8540ba2f5120" name="Bright Bulb">
-   <property name="Number" value="053" />
+   <property name="Number" value="PR53" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Magic" />
    <property name="Subname" value="Seasoned Strategist" />
@@ -1175,7 +1175,7 @@
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="Unicorn" />
    <property name="Keywords" value="" />
-   <property name="Text" value="Reaction: When an opponent's character is played to this card's Problem, you may exhaust this card.  If you do, move that character." />
+   <property name="Text" value="Reaction: When an opponent's character is played to this card's Problem, you may exhaust this card. If you do, move that character." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -1185,7 +1185,7 @@
    <property name="Rarity" value="R" />
   </card>
   <card id="7e24094f-ffbc-447d-a68d-59920b6e870f" name="Comet Tail">
-   <property name="Number" value="054" />
+   <property name="Number" value="PR54" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Magic" />
    <property name="Subname" value="Hale Bopper" />
@@ -1205,7 +1205,7 @@
    <property name="Rarity" value="C" />
   </card>
   <card id="648ac353-332d-45e4-9e3f-0503da86f030" name="Mint Jewelup">
-   <property name="Number" value="055" />
+   <property name="Number" value="PR55" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Magic" />
    <property name="Subname" value="A Cut Above" />
@@ -1214,8 +1214,8 @@
    <property name="PlayRequiredPower" value="2" />
    <property name="PlayRequiredElement" value="Magic" />
    <property name="Traits" value="Unicorn" />
-   <property name="Keywords" value="Studious" />
-   <property name="Text" value="" />
+   <property name="Keywords" value="" />
+   <property name="Text" value="Studious." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -1225,7 +1225,7 @@
    <property name="Rarity" value="C" />
   </card>
   <card id="5bef172e-2803-4400-bfe7-67c0c666980d" name="Gyro">
-   <property name="Number" value="056" />
+   <property name="Number" value="PR56" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Magic" />
    <property name="Subname" value="Poindexter" />
@@ -1235,7 +1235,7 @@
    <property name="PlayRequiredElement" value="Magic" />
    <property name="Traits" value="Earth Pony" />
    <property name="Keywords" value="" />
-   <property name="Text" value="When you play this card, search your deck for an Event. Reveal it, put it into your hand, and shuffle your deck." />
+   <property name="Text" value="When you play this card, you may search your deck for an Event, reveal it, put it into your hand, and shuffle your deck." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -1245,7 +1245,7 @@
    <property name="Rarity" value="R" />
   </card>
   <card id="20ad51f7-3ce6-4085-8eba-ef8643d6ae1e" name="Lemony Gem">
-   <property name="Number" value="057" />
+   <property name="Number" value="PR57" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Magic" />
    <property name="Subname" value="Sour Grapes" />
@@ -1255,7 +1255,7 @@
    <property name="PlayRequiredElement" value="Magic" />
    <property name="Traits" value="Unicorn" />
    <property name="Keywords" value="" />
-   <property name="Text" value="When you move this card to a Problem you may move an opponent's character at that Problem to another Problem." />
+   <property name="Text" value="When you move this card to a Problem, you may move an opponent's character at that Problem to another Problem." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -1265,7 +1265,7 @@
    <property name="Rarity" value="R" />
   </card>
   <card id="2a3eb827-36a0-48de-b336-ef31d2a12b0d" name="Mayor Mare">
-   <property name="Number" value="058" />
+   <property name="Number" value="PR58" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Magic" />
    <property name="Subname" value="Elected Official" />
@@ -1275,7 +1275,7 @@
    <property name="PlayRequiredElement" value="Magic" />
    <property name="Traits" value="Earth Pony" />
    <property name="Keywords" value="" />
-   <property name="Text" value="Main Phase: Pay 3 to move an opponent's character." />
+   <property name="Text" value="Main Phase: Pay 3AT to move an opponent's character." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -1285,7 +1285,7 @@
    <property name="Rarity" value="C" />
   </card>
   <card id="720c5688-a66b-4b71-9bce-4551b94a39c3" name="Rare Find">
-   <property name="Number" value="059" />
+   <property name="Number" value="PR59" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Magic" />
    <property name="Subname" value="A Real Gem" />
@@ -1305,7 +1305,7 @@
    <property name="Rarity" value="R" />
   </card>
   <card id="0814999a-9f07-4227-bb73-49b245826b07" name="Blue Moon">
-   <property name="Number" value="060" />
+   <property name="Number" value="PR60" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Magic" />
    <property name="Subname" value="Ol' Blue Eyes" />
@@ -1325,10 +1325,10 @@
    <property name="Rarity" value="C" />
   </card>
   <card id="10eaedc2-7bbf-4508-b79c-6aafb10d8ad6" name="Spring Forward">
-   <property name="Number" value="061" />
+   <property name="Number" value="PR61" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Magic" />
-   <property name="Subname" value="Companionable FIlly" />
+   <property name="Subname" value="Companionable Filly" />
    <property name="Power" value="2" />
    <property name="Cost" value="3" />
    <property name="PlayRequiredPower" value="3" />
@@ -1345,7 +1345,7 @@
    <property name="Rarity" value="R" />
   </card>
   <card id="25a26431-521b-4b3f-b865-479dc86c4083" name="Sunny Rays">
-   <property name="Number" value="062" />
+   <property name="Number" value="PR62" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Magic" />
    <property name="Subname" value="One Bright Mare" />
@@ -1355,7 +1355,7 @@
    <property name="PlayRequiredElement" value="Magic" />
    <property name="Traits" value="Pegasus" />
    <property name="Keywords" value="" />
-   <property name="Text" value="When you play this card, look at the top 2 cards of your deck and put them back in any order" />
+   <property name="Text" value="When you play this card, you may look at the top 2 cards of your deck and put them back in any order." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -1365,10 +1365,10 @@
    <property name="Rarity" value="R" />
   </card>
   <card id="931e27f3-02a9-44d6-941c-64662e1290a8" name="Lady Justice">
-   <property name="Number" value="063" />
+   <property name="Number" value="PR63" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Magic" />
-   <property name="Subname" value="Judge and Jury" />
+   <property name="Subname" value="Judge &amp; Jury" />
    <property name="Power" value="3" />
    <property name="Cost" value="4" />
    <property name="PlayRequiredPower" value="" />
@@ -1385,7 +1385,7 @@
    <property name="Rarity" value="F" />
   </card>
   <card id="13f34928-2ea5-4e76-9e8a-bde67b7d3fb3" name="Twilight Sparkle">
-   <property name="Number" value="064" />
+   <property name="Number" value="PR64" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Magic" />
    <property name="Subname" value="All-Team Organizer" />
@@ -1395,7 +1395,7 @@
    <property name="PlayRequiredElement" value="Magic" />
    <property name="Traits" value="Unicorn" />
    <property name="Keywords" value="" />
-   <property name="Text" value="Main Phase: Exhaust this card to gain 1 until end of the phase." />
+   <property name="Text" value="Main Phase: Exhaust this card to gain 1AT until the end of the phase." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -1405,7 +1405,7 @@
    <property name="Rarity" value="C" />
   </card>
   <card id="de169691-ed6b-4356-a7c7-7e6cfd85e8ab" name="Action Shot">
-   <property name="Number" value="065" />
+   <property name="Number" value="PR65" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Generosity" />
    <property name="Subname" value="Shutterbug" />
@@ -1425,7 +1425,7 @@
    <property name="Rarity" value="R" />
   </card>
   <card id="f3172f7a-e7ee-472d-bd77-b464c047aeb8" name="Big Shot">
-   <property name="Number" value="066" />
+   <property name="Number" value="PR66" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Generosity" />
    <property name="Subname" value="Wildlife Photographer" />
@@ -1435,7 +1435,7 @@
    <property name="PlayRequiredElement" value="Generosity" />
    <property name="Traits" value="Pegasus" />
    <property name="Keywords" value="" />
-   <property name="Text" value="When a Troublemaker at this card's Problem is revealed, you may exhaust this card to score a point." />
+   <property name="Text" value="When a Troublemaker at this card's Problem is uncovered, you may exhaust this card to score a point." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -1445,7 +1445,7 @@
    <property name="Rarity" value="R" />
   </card>
   <card id="48c30760-383e-47bf-b5db-95833d0ad967" name="Featherweight">
-   <property name="Number" value="067" />
+   <property name="Number" value="PR67" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Generosity" />
    <property name="Subname" value="Editor-in-Chief" />
@@ -1455,7 +1455,7 @@
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="Pegasus, Foal" />
    <property name="Keywords" value="" />
-   <property name="Text" value="During Problem faceoffs involving this card, you opponent flips an additional card but ignores one of the flipped cards with the highest power." />
+   <property name="Text" value="During Problem faceoffs involving this card, your opponent flips an additional card.&#10;During Problem faceoffs involving this card, your opponent ignores one of their flipped cards with the highest power." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -1465,7 +1465,7 @@
    <property name="Rarity" value="R" />
   </card>
   <card id="4798fa26-96e0-4665-840c-d66ffe6b4c1c" name="Fiddly Faddle">
-   <property name="Number" value="068" />
+   <property name="Number" value="PR68" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Generosity" />
    <property name="Subname" value="Country Twang" />
@@ -1475,7 +1475,7 @@
    <property name="PlayRequiredElement" value="Generosity" />
    <property name="Traits" value="Earth Pony" />
    <property name="Keywords" value="" />
-   <property name="Text" value="When you play this card, look at the top two cards of your deck and put them back in any order." />
+   <property name="Text" value="When you play this card, you may look at the top 2 cards of your opponent's deck and put them back in any order." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -1485,7 +1485,7 @@
    <property name="Rarity" value="R" />
   </card>
   <card id="4c342179-be44-45a9-94ad-c77f3c2e6b47" name="Eff Stop">
-   <property name="Number" value="069" />
+   <property name="Number" value="PR69" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Generosity" />
    <property name="Subname" value="Muckraker" />
@@ -1495,7 +1495,7 @@
    <property name="PlayRequiredElement" value="Generosity" />
    <property name="Traits" value="Pegasus" />
    <property name="Keywords" value="" />
-   <property name="Text" value="Main Phase: Exhaust this card and pay 1 to search your discard pile for an Event and put it into your hand." />
+   <property name="Text" value="Main Phase: Exhaust this card and pay 1AT to search your discard pile for an Event and put it into your hand." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -1505,7 +1505,7 @@
    <property name="Rarity" value="R" />
   </card>
   <card id="6b0dac67-8fe0-441d-b4cf-02700addcf9f" name="Vidala Swoon">
-   <property name="Number" value="070" />
+   <property name="Number" value="PR70" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Generosity" />
    <property name="Subname" value="Mane Manager" />
@@ -1515,7 +1515,7 @@
    <property name="PlayRequiredElement" value="Generosity" />
    <property name="Traits" value="Earth Pony" />
    <property name="Keywords" value="" />
-   <property name="Text" value="Main Phase: Exhaust this card and pay 1 to search your discard pile for a Friend and put it into your hand." />
+   <property name="Text" value="Main Phase: Exhaust this card and pay 1AT to search your discard pile for a Friend and put it into your hand." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -1525,7 +1525,7 @@
    <property name="Rarity" value="F" />
   </card>
   <card id="4c00ffdb-29fb-4fa2-8e04-301f8f5b8e70" name="Hoity Toity">
-   <property name="Number" value="071" />
+   <property name="Number" value="PR71" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Generosity" />
    <property name="Subname" value="Vogue Authority" />
@@ -1534,8 +1534,8 @@
    <property name="PlayRequiredPower" value="2" />
    <property name="PlayRequiredElement" value="Generosity" />
    <property name="Traits" value="Earth Pony" />
-   <property name="Keywords" value="Inspired." />
-   <property name="Text" value="" />
+   <property name="Keywords" value="" />
+   <property name="Text" value="Inspired." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -1545,7 +1545,7 @@
    <property name="Rarity" value="C" />
   </card>
   <card id="003dfc53-90d4-4935-95ae-362225f4bb1d" name="Savoir Fare">
-   <property name="Number" value="072" />
+   <property name="Number" value="PR72" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Generosity" />
    <property name="Subname" value="Snooty Server" />
@@ -1565,7 +1565,7 @@
    <property name="Rarity" value="R" />
   </card>
   <card id="77d5d1db-da82-4284-82ef-246392b44044" name="Pearly Stitch">
-   <property name="Number" value="073" />
+   <property name="Number" value="PR73" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Generosity" />
    <property name="Subname" value="Crotchety Crocheter" />
@@ -1575,7 +1575,7 @@
    <property name="PlayRequiredElement" value="Generosity" />
    <property name="Traits" value="Earth Pony, Elder" />
    <property name="Keywords" value="" />
-   <property name="Text" value="Your opponent's cards can't move this card." />
+   <property name="Text" value="Your opponents can't move this card." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -1585,7 +1585,7 @@
    <property name="Rarity" value="C" />
   </card>
   <card id="d9e6bacb-388f-4323-873c-e16e9bef6ad8" name="Lotus Blossom">
-   <property name="Number" value="074" />
+   <property name="Number" value="PR74" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Generosity" />
    <property name="Subname" value="Sauna Expert" />
@@ -1605,7 +1605,7 @@
    <property name="Rarity" value="R" />
   </card>
   <card id="9cebb3dc-54af-4dde-a792-61f1a95c2ed2" name="Rising Star">
-   <property name="Number" value="075" />
+   <property name="Number" value="PR75" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Generosity" />
    <property name="Subname" value="In the Spotlight" />
@@ -1615,7 +1615,7 @@
    <property name="PlayRequiredElement" value="Generosity" />
    <property name="Traits" value="Unicorn" />
    <property name="Keywords" value="" />
-   <property name="Text" value="Main Phase: Exhaust this card to reveal a Troublemaker at its Problem." />
+   <property name="Text" value="Main Phase: Exhaust this card to uncover a Troublemaker at its Problem." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -1625,7 +1625,7 @@
    <property name="Rarity" value="C" />
   </card>
   <card id="28fe67de-d8d6-47de-8f41-b4a8f772fe71" name="Noteworthy">
-   <property name="Number" value="076" />
+   <property name="Number" value="PR76" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Generosity" />
    <property name="Subname" value="Humdinger" />
@@ -1645,7 +1645,7 @@
    <property name="Rarity" value="C" />
   </card>
   <card id="349c9be3-873b-4193-8359-53dad26ed6e2" name="Rarity">
-   <property name="Number" value="077" />
+   <property name="Number" value="PR77" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Generosity" />
    <property name="Subname" value="Nest Weaver" />
@@ -1665,7 +1665,7 @@
    <property name="Rarity" value="U" />
   </card>
   <card id="2dfb36bc-a296-42b2-ba23-c9bb32a3c24b" name="Royal Riff">
-   <property name="Number" value="078" />
+   <property name="Number" value="PR78" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Generosity" />
    <property name="Subname" value="Songster" />
@@ -1674,8 +1674,8 @@
    <property name="PlayRequiredPower" value="3" />
    <property name="PlayRequiredElement" value="Generosity" />
    <property name="Traits" value="Earth Pony" />
-   <property name="Keywords" value="Inspired." />
-   <property name="Text" value="" />
+   <property name="Keywords" value="" />
+   <property name="Text" value="Inspired." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -1685,7 +1685,7 @@
    <property name="Rarity" value="C" />
   </card>
   <card id="ea6d0440-e9de-4889-a578-3f094b136e3d" name="Sugar Twist">
-   <property name="Number" value="079" />
+   <property name="Number" value="PR79" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Generosity" />
    <property name="Subname" value="Twister Sister" />
@@ -1705,7 +1705,7 @@
    <property name="Rarity" value="C" />
   </card>
   <card id="ca44c784-bac3-42af-aad0-5036fd83a2d5" name="Amethyst Star">
-   <property name="Number" value="080" />
+   <property name="Number" value="PR80" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Kindness" />
    <property name="Subname" value="Animal Leader" />
@@ -1714,8 +1714,8 @@
    <property name="PlayRequiredPower" value="2" />
    <property name="PlayRequiredElement" value="Kindness" />
    <property name="Traits" value="Unicorn" />
-   <property name="Keywords" value="Caretaker" />
-   <property name="Text" value="" />
+   <property name="Keywords" value="" />
+   <property name="Text" value="Caretaker." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -1725,7 +1725,7 @@
    <property name="Rarity" value="C" />
   </card>
   <card id="1c0a77ea-95dc-4ab1-90d1-9a182930df23" name="Blue Jay">
-   <property name="Number" value="081" />
+   <property name="Number" value="PR81" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Kindness" />
    <property name="Subname" value="Warbler" />
@@ -1745,17 +1745,17 @@
    <property name="Rarity" value="C" />
   </card>
   <card id="52c3da72-778b-43ff-90f0-63a59b6fae88" name="Falcon">
-   <property name="Number" value="082" />
+   <property name="Number" value="PR82" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Kindness" />
-   <property name="Subname" value="Fast and Furious" />
+   <property name="Subname" value="Fast &amp; Furious" />
    <property name="Power" value="1" />
    <property name="Cost" value="1" />
    <property name="PlayRequiredPower" value="1" />
    <property name="PlayRequiredElement" value="Kindness" />
    <property name="Traits" value="Critter" />
    <property name="Keywords" value="" />
-   <property name="Text" value="When you move this card to a Problem, you may move one of your [Critter] Friends to that Problem for free." />
+   <property name="Text" value="When you move this card to a Problem, you may move one of your Critter Friends to that Problem for free." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -1765,17 +1765,17 @@
    <property name="Rarity" value="R" />
   </card>
   <card id="68fc8e5f-4273-464d-8653-56076fc790d1" name="Fluttershy">
-   <property name="Number" value="083" />
+   <property name="Number" value="PR83" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Kindness" />
-   <property name="Subname" value="Guidance Councilor" />
+   <property name="Subname" value="Guidance Counselor" />
    <property name="Power" value="3" />
    <property name="Cost" value="3" />
    <property name="PlayRequiredPower" value="3" />
    <property name="PlayRequiredElement" value="Kindness" />
    <property name="Traits" value="Pegasus" />
    <property name="Keywords" value="" />
-   <property name="Text" value="Reaction: When an opponent receives at least 1, you may exhaust this card. If you do, that opponent loses 1." />
+   <property name="Text" value="Reaction: When an opponent receives at least 1AT, you may exhaust this card. If you do, that opponent loses 1AT." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -1785,7 +1785,7 @@
    <property name="Rarity" value="R" />
   </card>
   <card id="53d8fd18-6407-4dee-94b1-61a00cf8de68" name="Fluttershy">
-   <property name="Number" value="084" />
+   <property name="Number" value="PR84" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Kindness" />
    <property name="Subname" value="Animal Team" />
@@ -1794,8 +1794,8 @@
    <property name="PlayRequiredPower" value="2" />
    <property name="PlayRequiredElement" value="Kindness" />
    <property name="Traits" value="Pegasus" />
-   <property name="Keywords" value="Caretaker" />
-   <property name="Text" value="When you play this card, the cost of your next [Kindness] Friend is reduced by 1." />
+   <property name="Keywords" value="Caretaker." />
+   <property name="Text" value="When you play this card, the cost of your next [Kindness] Friend this turn is reduced by 1AT." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -1805,7 +1805,7 @@
    <property name="Rarity" value="U" />
   </card>
   <card id="6003a6a8-f078-464b-a80b-ee65c3b128a4" name="Forest Owl">
-   <property name="Number" value="085" />
+   <property name="Number" value="PR85" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Kindness" />
    <property name="Subname" value="Novice Assistant" />
@@ -1825,7 +1825,7 @@
    <property name="Rarity" value="C" />
   </card>
   <card id="b8a568c7-b045-4322-a484-3802ebdfffab" name="House Mouse">
-   <property name="Number" value="086" />
+   <property name="Number" value="PR86" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Kindness" />
    <property name="Subname" value="Little Pipsqueak" />
@@ -1845,7 +1845,7 @@
    <property name="Rarity" value="C" />
   </card>
   <card id="b9ae30a0-7ed0-439e-8e59-a1c6be28ef8b" name="Hummingway">
-   <property name="Number" value="087" />
+   <property name="Number" value="PR87" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Kindness" />
    <property name="Subname" value="Fine Feathered Friend" />
@@ -1855,7 +1855,7 @@
    <property name="PlayRequiredElement" value="Kindness" />
    <property name="Traits" value="Critter" />
    <property name="Keywords" value="" />
-   <property name="Text" value="During Troublemaker faceoffs involving this card and at least two of your other [Critter] Friends, flip an additional card." />
+   <property name="Text" value="During Troublemaker faceoffs involving this card and at least 2 of your other Critter Friends, flip an additional card." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -1865,7 +1865,7 @@
    <property name="Rarity" value="F" />
   </card>
   <card id="b2190c97-7ba2-4568-9f1b-35fe56b32d8e" name="Lilac Links">
-   <property name="Number" value="088" />
+   <property name="Number" value="PR88" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Kindness" />
    <property name="Subname" value="Superstitious" />
@@ -1875,7 +1875,7 @@
    <property name="PlayRequiredElement" value="Kindness" />
    <property name="Traits" value="Earth Pony" />
    <property name="Keywords" value="" />
-   <property name="Text" value="Problem Faceoff: Exhaust this card to choose a Friend with a Resource on it involved in the faceoff. That Friend gets -5 power until the end of the faceoff." />
+   <property name="Text" value="Problem Faceoff: Exhaust this card and choose a Friend involved in the faceoff with a Resource attached to it to give that Friend -5 power until the end of the faceoff." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -1885,7 +1885,7 @@
    <property name="Rarity" value="R" />
   </card>
   <card id="4172fe65-9df7-4d73-99c2-46ecdab6eb50" name="Mane Cureall">
-   <property name="Number" value="089" />
+   <property name="Number" value="PR89" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Kindness" />
    <property name="Subname" value="Veteran Vet" />
@@ -1894,8 +1894,8 @@
    <property name="PlayRequiredPower" value="3" />
    <property name="PlayRequiredElement" value="Kindness" />
    <property name="Traits" value="Earth Pony" />
-   <property name="Keywords" value="Caretaker" />
-   <property name="Text" value="When you play this card to a Problem, you may move one of your [Critter] Friends to the same Problem for free." />
+   <property name="Keywords" value="Caretaker." />
+   <property name="Text" value="When you play this card to a Problem, you may move one of your Critter Friends to the same Problem for free." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -1905,7 +1905,7 @@
    <property name="Rarity" value="R" />
   </card>
   <card id="36b888bb-6e12-4e61-aa43-c43a95aa8c9f" name="Mr. Beaverton Beaverteeth">
-   <property name="Number" value="090" />
+   <property name="Number" value="PR90" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Kindness" />
    <property name="Subname" value="Dam Builder" />
@@ -1925,7 +1925,7 @@
    <property name="Rarity" value="R" />
   </card>
   <card id="b18bd2cc-5f12-4c0e-89a5-07b97b41ea1c" name="Mr. Breezy">
-   <property name="Number" value="091" />
+   <property name="Number" value="PR91" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Kindness" />
    <property name="Subname" value="Fan Fan" />
@@ -1935,7 +1935,7 @@
    <property name="PlayRequiredElement" value="Kindness" />
    <property name="Traits" value="Earth Pony" />
    <property name="Keywords" value="" />
-   <property name="Text" value="When you play this card, an opponent loses 1." />
+   <property name="Text" value="When you play this card, an opponent loses 1AT." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -1945,7 +1945,7 @@
    <property name="Rarity" value="R" />
   </card>
   <card id="398e0a29-722f-4258-9173-87264a59de2b" name="Opalescence">
-   <property name="Number" value="092" />
+   <property name="Number" value="PR92" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Kindness" />
    <property name="Subname" value="Curtain Shredder" />
@@ -1965,7 +1965,7 @@
    <property name="Rarity" value="C" />
   </card>
   <card id="df0bc647-30c6-40a3-9d4c-b3c4d108ff9b" name="Sea Swirl">
-   <property name="Number" value="093" />
+   <property name="Number" value="PR93" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Kindness" />
    <property name="Subname" value="Porpoiseful" />
@@ -1975,7 +1975,7 @@
    <property name="PlayRequiredElement" value="Kindness" />
    <property name="Traits" value="Unicorn" />
    <property name="Keywords" value="" />
-   <property name="Text" value="Main Phase: Exhaust this card at a Problem to move up to three of your [Critter] Friends to that Problem." />
+   <property name="Text" value="Main Phase: Exhaust this card at a Problem to move up to 3 of your Critter Friends to that Problem." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -1985,7 +1985,7 @@
    <property name="Rarity" value="R" />
   </card>
   <card id="da738623-5739-43c8-beeb-3014d7b835a6" name="Winona">
-   <property name="Number" value="094" />
+   <property name="Number" value="PR94" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Kindness" />
    <property name="Subname" value="On the Scent" />
@@ -1995,7 +1995,7 @@
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="Critter" />
    <property name="Keywords" value="" />
-   <property name="Text" value="Main Phase: Exhaust this card to look at a face-down troublemaker at its Problem." />
+   <property name="Text" value="Main Phase: Exhaust this card to look at a face-down Troublemaker at its Problem." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -2005,7 +2005,7 @@
    <property name="Rarity" value="C" />
   </card>
   <card id="e085f06d-becd-4268-8065-8d6af9633cdd" name="Spread Your Wings">
-   <property name="Number" value="095" />
+   <property name="Number" value="PR95" />
    <property name="Type" value="Event" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -2025,7 +2025,7 @@
    <property name="Rarity" value="C" />
   </card>
   <card id="d919632e-5123-4aef-a624-fe2adf7b6367" name="Getting Hooves Dirty">
-   <property name="Number" value="096" />
+   <property name="Number" value="PR96" />
    <property name="Type" value="Event" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -2042,10 +2042,10 @@
    <property name="ProblemPlayerElement1Power" value="" />
    <property name="ProblemPlayerElement2" value="" />
    <property name="ProblemPlayerElement2Power" value="" />
-   <property name="Rarity" value="C" />
+   <property name="Rarity" value="F" />
   </card>
   <card id="9d065d26-842b-4c8f-80ff-809b350f84ae" name="Dig Deep">
-   <property name="Number" value="097" />
+   <property name="Number" value="PR97" />
    <property name="Type" value="Event" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -2055,17 +2055,17 @@
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="" />
    <property name="Keywords" value="" />
-   <property name="Text" value="Main Phase: Choose a [Generosity] or [Loyalty] character. That character gets +1 [Generosity] and +1 [Loyalty] until the end of the phase." />
+   <property name="Text" value="Main Phase: Choose a [Loyalty] or [Generosity] character. That character gets +1 [Loyalty] and +1 [Generosity] until the end of the phase." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
    <property name="ProblemPlayerElement1Power" value="" />
    <property name="ProblemPlayerElement2" value="" />
    <property name="ProblemPlayerElement2Power" value="" />
-   <property name="Rarity" value="C" />
+   <property name="Rarity" value="F" />
   </card>
   <card id="32de64d0-4da4-4abd-a860-8db3f621c790" name="Apples and Oranges">
-   <property name="Number" value="098" />
+   <property name="Number" value="PR98" />
    <property name="Type" value="Event" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -2085,7 +2085,7 @@
    <property name="Rarity" value="F" />
   </card>
   <card id="7280bcab-240b-4039-bba6-41d2dbabe054" name="Royal Guidance">
-   <property name="Number" value="099" />
+   <property name="Number" value="PR99" />
    <property name="Type" value="Event" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -2105,7 +2105,7 @@
    <property name="Rarity" value="C" />
   </card>
   <card id="8a98e8f9-f337-4c61-8131-7eabd1939486" name="Sweet and Kind">
-   <property name="Number" value="100" />
+   <property name="Number" value="PR100" />
    <property name="Type" value="Event" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -2115,17 +2115,17 @@
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="" />
    <property name="Keywords" value="" />
-   <property name="Text" value="Main Phase: Choose a [Kindness] or [Honesty] character. That character gets +1 [Kindness] and +1 [Honesty] until the end of the phase." />
+   <property name="Text" value="Main Phase: Choose a [Honesty] or [Kindness] character. That character gets +1 [Honesty] and +1 [Kindness] until the end of the phase." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
    <property name="ProblemPlayerElement1Power" value="" />
    <property name="ProblemPlayerElement2" value="" />
    <property name="ProblemPlayerElement2Power" value="" />
-   <property name="Rarity" value="C" />
+   <property name="Rarity" value="F" />
   </card>
   <card id="83696652-dad4-4459-a44a-b9b8bee11ebe" name="Good Hustle">
-   <property name="Number" value="101" />
+   <property name="Number" value="PR101" />
    <property name="Type" value="Event" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -2135,7 +2135,7 @@
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="" />
    <property name="Keywords" value="" />
-   <property name="Text" value="Faceoff: Choose a [Pegasus] character. That character gets +2 power until the end of the faceoff." />
+   <property name="Text" value="Faceoff: Choose a Pegasus character. That character gets +2 power until the end of the faceoff." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -2145,7 +2145,7 @@
    <property name="Rarity" value="R" />
   </card>
   <card id="771cfb89-5312-4d2f-9231-a723c1a93bc4" name="A Bully and a Beast">
-   <property name="Number" value="102" />
+   <property name="Number" value="PR102" />
    <property name="Type" value="Event" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -2155,7 +2155,7 @@
    <property name="PlayRequiredElement" value="Honesty" />
    <property name="Traits" value="Gotcha" />
    <property name="Keywords" value="" />
-   <property name="Text" value="Troublemaker Faceoff Reaction: Play after you flip a card for the Troublemaker. Ignore that card's power and flip a new card." />
+   <property name="Text" value="Reaction: After you flip a card during a Troublemaker faceoff while your opponent is challenging a Troublemaker, ignore that card and flip another card." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -2165,7 +2165,7 @@
    <property name="Rarity" value="U" />
   </card>
   <card id="85fa9221-a2cf-4c3c-8de1-87ec17e96f19" name="A Touch of Refinement">
-   <property name="Number" value="103" />
+   <property name="Number" value="PR103" />
    <property name="Type" value="Event" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -2185,7 +2185,7 @@
    <property name="Rarity" value="U" />
   </card>
   <card id="4f64676b-f4b0-4486-a425-db9c29b6a300" name="A Vision of the Future">
-   <property name="Number" value="104" />
+   <property name="Number" value="PR104" />
    <property name="Type" value="Event" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -2205,7 +2205,7 @@
    <property name="Rarity" value="U" />
   </card>
   <card id="7bcb195e-973c-4752-9b8e-a5dde6d91a86" name="Assertiveness Training">
-   <property name="Number" value="105" />
+   <property name="Number" value="PR105" />
    <property name="Type" value="Event" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -2215,7 +2215,7 @@
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="" />
    <property name="Keywords" value="" />
-   <property name="Text" value="Faceoff: If you have Rarity or Pinkie Pie involved in this faceoff, flip an additional card. If you have Rarity and Pinkie Pie involved in this faceoff, flip two additional cards instead." />
+   <property name="Text" value="Faceoff: If you have Rarity or Pinkie Pie involved in this faceoff, flip an additional card. If you have Rarity and Pinkie Pie involved in this faceoff, flip 2 additional cards instead." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -2225,7 +2225,7 @@
    <property name="Rarity" value="R" />
   </card>
   <card id="2f58dace-f575-41fd-a34d-a2c6cb980c86" name="Back Where You Began">
-   <property name="Number" value="106" />
+   <property name="Number" value="PR106" />
    <property name="Type" value="Event" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -2244,8 +2244,8 @@
    <property name="ProblemPlayerElement2Power" value="" />
    <property name="Rarity" value="R" />
   </card>
-  <card id="4a6b51eb-9301-4423-87a3-8d99cedc7589" name="Creme de la Creme">
-   <property name="Number" value="107" />
+  <card id="4a6b51eb-9301-4423-87a3-8d99cedc7589" name="Crème de la Crème">
+   <property name="Number" value="PR107" />
    <property name="Type" value="Event" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -2255,7 +2255,7 @@
    <property name="PlayRequiredElement" value="Generosity" />
    <property name="Traits" value="Gotcha" />
    <property name="Keywords" value="" />
-   <property name="Text" value="Problem Faceoff Reaction: Play when you win a Problem faceoff by at least five power. Score an additional point." />
+   <property name="Text" value="Problem Faceoff Reaction: Play when you win a Problem faceoff by at least 5 power. Score an additional point." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -2265,7 +2265,7 @@
    <property name="Rarity" value="U" />
   </card>
   <card id="230b4174-38f5-485b-b34a-8bb23bbeaafe" name="Critter Cavalry">
-   <property name="Number" value="108" />
+   <property name="Number" value="PR108" />
    <property name="Type" value="Event" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -2285,7 +2285,7 @@
    <property name="Rarity" value="U" />
   </card>
   <card id="64ba211b-fd3d-4da5-b2d0-bf006cae5ce6" name="Double-check the Checklist">
-   <property name="Number" value="109" />
+   <property name="Number" value="PR109" />
    <property name="Type" value="Event" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -2305,7 +2305,7 @@
    <property name="Rarity" value="U" />
   </card>
   <card id="7ecd8cef-96a3-446f-bcd5-bfc0e5dc4eb2" name="Downright Dangerous">
-   <property name="Number" value="110" />
+   <property name="Number" value="PR110" />
    <property name="Type" value="Event" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -2315,7 +2315,7 @@
    <property name="PlayRequiredElement" value="Laughter" />
    <property name="Traits" value="" />
    <property name="Keywords" value="" />
-   <property name="Text" value="Main Phase: Choose an opponent's Friend to get -2 power until the end of the turn. If it has zero power or less, dismiss it." />
+   <property name="Text" value="Main Phase: Choose an opponent's Friend to get -2 power until the end of the turn. If it has 0 power or less, dismiss it." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -2325,7 +2325,7 @@
    <property name="Rarity" value="U" />
   </card>
   <card id="c86d6b85-1f6a-4bfe-8858-e10b55e475b7" name="Duck and Cover">
-   <property name="Number" value="111" />
+   <property name="Number" value="PR111" />
    <property name="Type" value="Event" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -2335,7 +2335,7 @@
    <property name="PlayRequiredElement" value="Honesty" />
    <property name="Traits" value="" />
    <property name="Keywords" value="" />
-   <property name="Text" value="Faceoff Reaction: Play when you flip a card. Ignore that card's power and flip a new card." />
+   <property name="Text" value="Reaction: After you flip a card during a faceoff, ignore that card and flip a new card." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -2345,7 +2345,7 @@
    <property name="Rarity" value="U" />
   </card>
   <card id="65a7fadb-ab50-4409-9238-5898bd9f26ca" name="Eeyup">
-   <property name="Number" value="112" />
+   <property name="Number" value="PR112" />
    <property name="Type" value="Event" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -2365,7 +2365,7 @@
    <property name="Rarity" value="R" />
   </card>
   <card id="b9ca3f45-6db8-431a-9b7b-63e04a9b0f63" name="Here's Your Invitation!">
-   <property name="Number" value="113" />
+   <property name="Number" value="PR113" />
    <property name="Type" value="Event" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -2375,7 +2375,7 @@
    <property name="PlayRequiredElement" value="Laughter" />
    <property name="Traits" value="" />
    <property name="Keywords" value="" />
-   <property name="Text" value="Main Phase: Dismiss an opponent's Friend with one power or less." />
+   <property name="Text" value="Main Phase: Dismiss an opponent's Friend with 1 power or less." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -2385,7 +2385,7 @@
    <property name="Rarity" value="U" />
   </card>
   <card id="20260ea9-509e-4512-a181-7baf3b8f262e" name="Let's Get This Party Started">
-   <property name="Number" value="114" />
+   <property name="Number" value="PR114" />
    <property name="Type" value="Event" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -2395,7 +2395,7 @@
    <property name="PlayRequiredElement" value="Laughter" />
    <property name="Traits" value="" />
    <property name="Keywords" value="" />
-   <property name="Text" value="Main Phase: Draw three cards." />
+   <property name="Text" value="Main Phase: Draw 3 cards." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -2405,7 +2405,7 @@
    <property name="Rarity" value="U" />
   </card>
   <card id="98b1e589-267a-40b2-ba66-d0b3fa6f4edb" name="Fears Must be Faced">
-   <property name="Number" value="115" />
+   <property name="Number" value="PR115" />
    <property name="Type" value="Event" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -2415,7 +2415,7 @@
    <property name="PlayRequiredElement" value="Loyalty" />
    <property name="Traits" value="" />
    <property name="Keywords" value="" />
-   <property name="Text" value="Troublemaker Phase: Choose up to two of your characters at home. Move each of them to a different Problem." />
+   <property name="Text" value="Troublemaker Phase: Choose up to 2 of your characters at home. Move each of them to a different Problem." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -2425,7 +2425,7 @@
    <property name="Rarity" value="U" />
   </card>
   <card id="79cb7097-33b9-4dfe-841e-f6c87e3d6787" name="Nurture With Knowledge">
-   <property name="Number" value="116" />
+   <property name="Number" value="PR116" />
    <property name="Type" value="Event" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -2445,7 +2445,7 @@
    <property name="Rarity" value="U" />
   </card>
   <card id="0268b4ff-18f4-4c31-a691-45ee238869ca" name="Gotta Go Fast">
-   <property name="Number" value="117" />
+   <property name="Number" value="PR117" />
    <property name="Type" value="Event" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -2465,7 +2465,7 @@
    <property name="Rarity" value="R" />
   </card>
   <card id="913c1c74-25b4-442f-ae59-c71a7e3f76e6" name="Stand Still!">
-   <property name="Number" value="118" />
+   <property name="Number" value="PR118" />
    <property name="Type" value="Event" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -2475,7 +2475,7 @@
    <property name="PlayRequiredElement" value="Generosity" />
    <property name="Traits" value="Gotcha" />
    <property name="Keywords" value="" />
-   <property name="Text" value="Reaction: Play after an opponent's character has just been moved. Return that character to its original location." />
+   <property name="Text" value="Reaction: Play after an opponent's character has just been moved. Send that character to its previous area." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -2484,8 +2484,8 @@
    <property name="ProblemPlayerElement2Power" value="" />
    <property name="Rarity" value="R" />
   </card>
-  <card id="23b6ee73-a9a5-4210-9cf3-7f7c81f0dac8" name="Straighten Up and Fly Right">
-   <property name="Number" value="119" />
+  <card id="23b6ee73-a9a5-4210-9cf3-7f7c81f0dac8" name="Straighten Up &amp; Fly Right">
+   <property name="Number" value="PR119" />
    <property name="Type" value="Event" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -2495,7 +2495,7 @@
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="" />
    <property name="Keywords" value="" />
-   <property name="Text" value="Faceoff: If you have Twilight Sparkle or Fluttershy involved in this faceoff, flip an additional card. If you have Twilight Sparkle and Fluttershy involved in this faceoff, flip two additional cards instead." />
+   <property name="Text" value="Faceoff: If you have Twilight Sparkle or Fluttershy involved in this faceoff, flip an additional card. If you have Twilight Sparkle and Fluttershy involved in this faceoff, flip 2 additional cards instead." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -2504,8 +2504,8 @@
    <property name="ProblemPlayerElement2Power" value="" />
    <property name="Rarity" value="R" />
   </card>
-  <card id="033dae42-a23c-437e-9d7f-21394360303b" name="Swing into Action">
-   <property name="Number" value="120" />
+  <card id="033dae42-a23c-437e-9d7f-21394360303b" name="Swing Into Action">
+   <property name="Number" value="PR120" />
    <property name="Type" value="Event" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -2525,7 +2525,7 @@
    <property name="Rarity" value="U" />
   </card>
   <card id="698e9148-f964-4662-8050-7a84257f55a3" name="Team Effort">
-   <property name="Number" value="121" />
+   <property name="Number" value="PR121" />
    <property name="Type" value="Event" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -2535,7 +2535,7 @@
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="" />
    <property name="Keywords" value="" />
-   <property name="Text" value="Faceoff: If you have Twilight Sparkle or Applejack involved in this faceoff, flip an additional card. If you have Twilight Sparkle and Applejack involved in this faceoff, flip two additional cards instead." />
+   <property name="Text" value="Faceoff: If you have Applejack or Twilight Sparkle involved in this faceoff, flip an additional card. If you have Applejack and Twilight Sparkle involved in this faceoff, flip 2 additional cards instead." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -2545,7 +2545,7 @@
    <property name="Rarity" value="R" />
   </card>
   <card id="7e842891-a6ec-473d-8d91-0939f89d7b59" name="The Big Guns">
-   <property name="Number" value="122" />
+   <property name="Number" value="PR122" />
    <property name="Type" value="Event" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -2555,7 +2555,7 @@
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="" />
    <property name="Keywords" value="" />
-   <property name="Text" value="Faceoff: If you have Rainbow Dash or Pinkie Pie involved in this faceoff, flip an additional card. If you have Rainbow Dash and Pinkie Pie involved in this faceoff, flip two additional cards instead." />
+   <property name="Text" value="Faceoff: If you have Rainbow Dash or Pinkie Pie involved in this faceoff, flip an additional card. If you have Rainbow Dash and Pinkie Pie involved in this faceoff, flip 2 additional cards instead." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -2565,7 +2565,7 @@
    <property name="Rarity" value="R" />
   </card>
   <card id="cf5187b9-e5ff-4ee1-bebc-74c31d441df1" name="The Horror! The Horror!">
-   <property name="Number" value="123" />
+   <property name="Number" value="PR123" />
    <property name="Type" value="Event" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -2585,7 +2585,7 @@
    <property name="Rarity" value="U" />
   </card>
   <card id="cf2d8b0e-98b7-4a2e-914c-076dd4e4d723" name="Spike, Take a Letter">
-   <property name="Number" value="124" />
+   <property name="Number" value="PR124" />
    <property name="Type" value="Event" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -2595,7 +2595,7 @@
    <property name="PlayRequiredElement" value="Magic" />
    <property name="Traits" value="Gotcha" />
    <property name="Keywords" value="" />
-   <property name="Text" value="Troublemaker Faceoff Reaction: Play when you defeat a Troublemaker, Gain 2." />
+   <property name="Text" value="Troublemaker Faceoff Reaction: Play when you defeat a Troublemaker. Gain 2AT." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -2605,7 +2605,7 @@
    <property name="Rarity" value="U" />
   </card>
   <card id="c68b2848-34a4-4c7c-8a5e-bada2c8db2a4" name="Undercover Adventure">
-   <property name="Number" value="125" />
+   <property name="Number" value="PR125" />
    <property name="Type" value="Event" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -2615,7 +2615,7 @@
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="" />
    <property name="Keywords" value="" />
-   <property name="Text" value="Faceoff: If you have Rainbow Dash or Rarity involved in this faceoff, flip an additional card. If you have Rainbow Dash and Rarity involved in this faceoff, flip two additional cards instead." />
+   <property name="Text" value="Faceoff: If you have Rainbow Dash or Rarity involved in this faceoff, flip an additional card. If you have Rainbow Dash and Rarity involved in this faceoff, flip 2 additional cards instead." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -2625,7 +2625,7 @@
    <property name="Rarity" value="R" />
   </card>
   <card id="56cbe593-79e4-4171-843d-84a9d7f8e589" name="Watch in Awe">
-   <property name="Number" value="126" />
+   <property name="Number" value="PR126" />
    <property name="Type" value="Event" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -2645,7 +2645,7 @@
    <property name="Rarity" value="U" />
   </card>
   <card id="8b61579e-d4eb-4f23-a04d-74b751c4b6b7" name="What Went Wrong?">
-   <property name="Number" value="127" />
+   <property name="Number" value="PR127" />
    <property name="Type" value="Event" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -2655,7 +2655,7 @@
    <property name="PlayRequiredElement" value="Loyalty" />
    <property name="Traits" value="Gotcha" />
    <property name="Keywords" value="" />
-   <property name="Text" value="Faceoff Reaction: Play after your opponent flips a card. Your opponent ignores that card's power and flips a new card." />
+   <property name="Text" value="Reaction: After your opponent flips a card during a faceoff, your opponent ignores that card and flips another card." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -2665,7 +2665,7 @@
    <property name="Rarity" value="U" />
   </card>
   <card id="a3fd7f53-2818-4836-aa14-2c1b28effca4" name="Whoa There Nelly!">
-   <property name="Number" value="128" />
+   <property name="Number" value="PR128" />
    <property name="Type" value="Event" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -2685,7 +2685,7 @@
    <property name="Rarity" value="R" />
   </card>
   <card id="d241019a-7f8f-43c2-8d5d-efbe8dea19f1" name="Working Together">
-   <property name="Number" value="129" />
+   <property name="Number" value="PR129" />
    <property name="Type" value="Event" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -2695,7 +2695,7 @@
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="" />
    <property name="Keywords" value="" />
-   <property name="Text" value="Faceoff: If you have Applejack or Fluttershy involved in this faceoff, flip an additional card. If you have Applejack and Fluttershy involved in this faceoff, flip two additional cards instead." />
+   <property name="Text" value="Faceoff: If you have Applejack or Fluttershy involved in this faceoff, flip an additional card. If you have Applejack and Fluttershy involved in this faceoff, flip 2 additional cards instead." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -2705,7 +2705,7 @@
    <property name="Rarity" value="R" />
   </card>
   <card id="a7607786-d6cc-4bad-9df1-70161b888fe2" name="Yay!">
-   <property name="Number" value="130" />
+   <property name="Number" value="PR130" />
    <property name="Type" value="Event" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -2725,7 +2725,7 @@
    <property name="Rarity" value="U" />
   </card>
   <card id="7b9701fe-167b-42a3-b316-787902fe3c1b" name="Assault Cake">
-   <property name="Number" value="131" />
+   <property name="Number" value="PR131" />
    <property name="Type" value="Resource" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -2733,9 +2733,9 @@
    <property name="Cost" value="2" />
    <property name="PlayRequiredPower" value="3" />
    <property name="PlayRequiredElement" value="Laughter" />
-   <property name="Traits" value="" />
-   <property name="Keywords" value="Play to your home." />
-   <property name="Text" value="Faceoff Reaction: When a faceoff begins, you may put this card on the top of your deck." />
+   <property name="Traits" value="Asset" />
+   <property name="Keywords" value="" />
+   <property name="Text" value="Play to your home.&#10;Faceoff Reaction: When a faceoff begins, you may put this card on the top of your deck." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -2745,7 +2745,7 @@
    <property name="Rarity" value="R" />
   </card>
   <card id="24f1c008-fa29-4abb-bc07-394207b4843f" name="Carousel Boutique">
-   <property name="Number" value="132" />
+   <property name="Number" value="PR132" />
    <property name="Type" value="Resource" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -2754,8 +2754,8 @@
    <property name="PlayRequiredPower" value="2" />
    <property name="PlayRequiredElement" value="Generosity" />
    <property name="Traits" value="Location" />
-   <property name="Keywords" value="Play to your home." />
-   <property name="Text" value="Main Phase: Dismiss this card to search your discard pile for a card and put it into your hand." />
+   <property name="Keywords" value="" />
+   <property name="Text" value="Play to your home.&#10;Main Phase: Dismiss this card to search your discard pile for a card and put it into your hand." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -2765,7 +2765,7 @@
    <property name="Rarity" value="R" />
   </card>
   <card id="e9cdf5cd-af69-44d8-b352-efb81842820d" name="Tangled Coiffure">
-   <property name="Number" value="133" />
+   <property name="Number" value="PR133" />
    <property name="Type" value="Resource" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -2774,8 +2774,8 @@
    <property name="PlayRequiredPower" value="4" />
    <property name="PlayRequiredElement" value="Generosity" />
    <property name="Traits" value="Condition" />
-   <property name="Keywords" value="Play on an opponent's Friend." />
-   <property name="Text" value="Your opponent can't move this Friend." />
+   <property name="Keywords" value="" />
+   <property name="Text" value="Play on an opponent's Friend.&#10;Your opponent can't move this Friend." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -2785,7 +2785,7 @@
    <property name="Rarity" value="U" />
   </card>
   <card id="b305a0b7-0f18-4595-9f43-0154414492ff" name="Critter Cuisine">
-   <property name="Number" value="134" />
+   <property name="Number" value="PR134" />
    <property name="Type" value="Resource" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -2794,8 +2794,8 @@
    <property name="PlayRequiredPower" value="2" />
    <property name="PlayRequiredElement" value="Kindness" />
    <property name="Traits" value="Asset" />
-   <property name="Keywords" value="Play to your home." />
-   <property name="Text" value="Main Phase: Exhaust this card and pay 1 to give each of your [Critter] Friends +1 [Kindness] until the start of your next turn." />
+   <property name="Keywords" value="" />
+   <property name="Text" value="Play to your home.&#10;Main Phase: Exhaust this card and pay 1AT to give each of your Critter Friends +1 [Kindness] until the start of your next turn." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -2805,7 +2805,7 @@
    <property name="Rarity" value="U" />
   </card>
   <card id="54ab53a2-6050-40f9-9bcb-37471d06c911" name="Fighting for Friendship">
-   <property name="Number" value="135" />
+   <property name="Number" value="PR135" />
    <property name="Type" value="Resource" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -2814,8 +2814,8 @@
    <property name="PlayRequiredPower" value="2" />
    <property name="PlayRequiredElement" value="Magic" />
    <property name="Traits" value="Report" />
-   <property name="Keywords" value="Play on a Problem." />
-   <property name="Text" value="Your characters at this Problem each get +1 power during faceoffs." />
+   <property name="Keywords" value="" />
+   <property name="Text" value="Play on a Problem.&#10;Your characters at this Problem each get +1 power during faceoffs." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -2825,7 +2825,7 @@
    <property name="Rarity" value="C" />
   </card>
   <card id="32242ea3-7e2e-44ca-9e88-f2b9bd9f191d" name="Foal Free Press">
-   <property name="Number" value="136" />
+   <property name="Number" value="PR136" />
    <property name="Type" value="Resource" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -2834,8 +2834,8 @@
    <property name="PlayRequiredPower" value="2" />
    <property name="PlayRequiredElement" value="Loyalty" />
    <property name="Traits" value="Asset" />
-   <property name="Keywords" value="Play to your home." />
-   <property name="Text" value="When you uncover a Troublemaker, the next card you play that turn has its cost reduced by 1." />
+   <property name="Keywords" value="" />
+   <property name="Text" value="Play to your home.&#10;When you uncover a Troublemaker, the next card you play that turn has its cost reduced by 1AT." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -2845,7 +2845,7 @@
    <property name="Rarity" value="C" />
   </card>
   <card id="fd94188b-ec9c-4f7a-b78f-7cf3f2da7ef5" name="Focused Study">
-   <property name="Number" value="137" />
+   <property name="Number" value="PR137" />
    <property name="Type" value="Resource" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -2854,8 +2854,8 @@
    <property name="PlayRequiredPower" value="3" />
    <property name="PlayRequiredElement" value="Magic" />
    <property name="Traits" value="Report" />
-   <property name="Keywords" value="Play on a Problem." />
-   <property name="Text" value="Your opponent may not play Friends with 2 power or less to this Problem." />
+   <property name="Keywords" value="" />
+   <property name="Text" value="Play on a Problem.&#10;Your opponent may not play Friends with 2 power or less to this Problem." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -2865,7 +2865,7 @@
    <property name="Rarity" value="U" />
   </card>
   <card id="cbb3ac77-c6bf-4c84-9628-2063f49a09aa" name="Golden Oak Library">
-   <property name="Number" value="138" />
+   <property name="Number" value="PR138" />
    <property name="Type" value="Resource" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -2874,8 +2874,8 @@
    <property name="PlayRequiredPower" value="3" />
    <property name="PlayRequiredElement" value="Magic" />
    <property name="Traits" value="Location" />
-   <property name="Keywords" value="Play to your home." />
-   <property name="Text" value="Main Phase: Exhaust this card and pay 1 to reveal the top three cards of your deck. You may put one revealed Event into your hand and all remaining cards on the top of your deck in any order." />
+   <property name="Keywords" value="" />
+   <property name="Text" value="Play to your home.&#10;Main Phase: Exhaust this card and pay 1AT to reveal the top 3 cards of your deck. You may put 1 revealed Event into into your hand and all remaining cards on the top of your deck in any order." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -2885,7 +2885,7 @@
    <property name="Rarity" value="R" />
   </card>
   <card id="054beabb-9a23-4ad9-bbf9-46691397fa03" name="Hard Hat">
-   <property name="Number" value="139" />
+   <property name="Number" value="PR139" />
    <property name="Type" value="Resource" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -2894,8 +2894,8 @@
    <property name="PlayRequiredPower" value="2" />
    <property name="PlayRequiredElement" value="Honesty" />
    <property name="Traits" value="Accessory" />
-   <property name="Keywords" value="Play on a Friend." />
-   <property name="Text" value="The Friend has Stubborn." />
+   <property name="Keywords" value="" />
+   <property name="Text" value="Play on a Friend.&#10;This Friend has Stubborn." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -2905,7 +2905,7 @@
    <property name="Rarity" value="U" />
   </card>
   <card id="01612a10-b8ee-40c6-829a-e4d1aac25f08" name="Lead Pony Badge">
-   <property name="Number" value="140" />
+   <property name="Number" value="PR140" />
    <property name="Type" value="Resource" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -2914,8 +2914,8 @@
    <property name="PlayRequiredPower" value="2" />
    <property name="PlayRequiredElement" value="Loyalty" />
    <property name="Traits" value="Asset" />
-   <property name="Keywords" value="Play to your home." />
-   <property name="Text" value="Main Phase: choose one of your ready cards. Exhasut this card and that card to ready an exhausted character." />
+   <property name="Keywords" value="" />
+   <property name="Text" value="Play to your home.&#10;Main Phase: Choose one of your ready cards. Exhaust this card and that card to ready an exhausted character." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -2925,7 +2925,7 @@
    <property name="Rarity" value="U" />
   </card>
   <card id="89490f6f-6eaf-45b4-916b-01d800d20ff4" name="Marvelous Chapeau">
-   <property name="Number" value="141" />
+   <property name="Number" value="PR141" />
    <property name="Type" value="Resource" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -2934,8 +2934,8 @@
    <property name="PlayRequiredPower" value="2" />
    <property name="PlayRequiredElement" value="Generosity" />
    <property name="Traits" value="Accessory" />
-   <property name="Keywords" value="Play on a Friend." />
-   <property name="Text" value="While this Friend is at an opponent's Problem, if you have at least 3 [Generosity] in play, you need one less [Any] to confront that Problem." />
+   <property name="Keywords" value="" />
+   <property name="Text" value="Play on a Friend.&#10;While this Friend is at an opponent's Problem, if you have at least 3 [Generosity] in play, you need -1 power to confront that Problem." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -2945,7 +2945,7 @@
    <property name="Rarity" value="U" />
   </card>
   <card id="0a5b3003-20ad-4376-b8a6-90cdd34064ad" name="Outshine Them All">
-   <property name="Number" value="142" />
+   <property name="Number" value="PR142" />
    <property name="Type" value="Resource" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -2954,8 +2954,8 @@
    <property name="PlayRequiredPower" value="2" />
    <property name="PlayRequiredElement" value="Magic" />
    <property name="Traits" value="Report" />
-   <property name="Keywords" value="Play on a Problem." />
-   <property name="Text" value="When you win a faceoff at this Problem, gain 1." />
+   <property name="Keywords" value="" />
+   <property name="Text" value="Play on a Problem.&#10;When you win a faceoff at this Problem, gain 1AT." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -2965,7 +2965,7 @@
    <property name="Rarity" value="U" />
   </card>
   <card id="848903c9-c9d0-4dad-91cb-33ac881ed06a" name="Ridiculous Outfit">
-   <property name="Number" value="143" />
+   <property name="Number" value="PR143" />
    <property name="Type" value="Resource" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -2974,8 +2974,8 @@
    <property name="PlayRequiredPower" value="3" />
    <property name="PlayRequiredElement" value="Laughter" />
    <property name="Traits" value="Accessory" />
-   <property name="Keywords" value="Play on a Friend." />
-   <property name="Text" value="While this Friend is at a Problem, your opponent's characters at that Problem each get -1 power during the Score Phase." />
+   <property name="Keywords" value="" />
+   <property name="Text" value="Play on a Friend.&#10;While this Friend is at a Problem, your opponent's characters at that Problem each get -1 power during the Score Phase." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -2985,7 +2985,7 @@
    <property name="Rarity" value="U" />
   </card>
   <card id="14a57245-9d28-494d-aac1-9bfdd4087088" name="Rubber Chicken">
-   <property name="Number" value="144" />
+   <property name="Number" value="PR144" />
    <property name="Type" value="Resource" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -2994,8 +2994,8 @@
    <property name="PlayRequiredPower" value="1" />
    <property name="PlayRequiredElement" value="Laughter" />
    <property name="Traits" value="Accessory" />
-   <property name="Keywords" value="Play on a Friend." />
-   <property name="Text" value="While this Friend is involved in a Troublemake faceoff, it gets +2 [Laughter]." />
+   <property name="Keywords" value="" />
+   <property name="Text" value="Play on a Friend.&#10;While this Friend is involved in a Troublemaker faceoff, it gets +2 Pink." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -3005,7 +3005,7 @@
    <property name="Rarity" value="C" />
   </card>
   <card id="ee3d4cab-fbc4-419d-bc8b-755ad532597a" name="Sweet Apple Acres">
-   <property name="Number" value="145" />
+   <property name="Number" value="PR145" />
    <property name="Type" value="Resource" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -3014,8 +3014,8 @@
    <property name="PlayRequiredPower" value="4" />
    <property name="PlayRequiredElement" value="Honesty" />
    <property name="Traits" value="Location" />
-   <property name="Keywords" value="Play to your home." />
-   <property name="Text" value="Main Phase: Exhaust this card and pay 1 to force your opponent to choose and discard a card." />
+   <property name="Keywords" value="" />
+   <property name="Text" value="Play to your home.&#10;Main Phase: Exhaust this card and pay 1AT to force your opponent to choose and discard a card." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -3025,7 +3025,7 @@
    <property name="Rarity" value="R" />
   </card>
   <card id="9415f572-c704-4cb3-82af-f3be63d91304" name="Picnic Lunch">
-   <property name="Number" value="146" />
+   <property name="Number" value="PR146" />
    <property name="Type" value="Resource" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -3034,8 +3034,8 @@
    <property name="PlayRequiredPower" value="2" />
    <property name="PlayRequiredElement" value="Kindness" />
    <property name="Traits" value="Asset" />
-   <property name="Keywords" value="Play to your home." />
-   <property name="Text" value="While at least 3 of your [Kindness] Friends are at one Problem, flip an additional card during faceoffs at that Problem." />
+   <property name="Keywords" value="" />
+   <property name="Text" value="Play to your home.&#10;While at least 3 of your [Kindness] Friends are at one Problem, flip an additional card during faceoffs at that Problem." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -3045,7 +3045,7 @@
    <property name="Rarity" value="R" />
   </card>
   <card id="fcacdfb0-159b-4e5f-8ada-d6938710fb5c" name="The Ponyville Express">
-   <property name="Number" value="147" />
+   <property name="Number" value="PR147" />
    <property name="Type" value="Resource" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -3054,8 +3054,8 @@
    <property name="PlayRequiredPower" value="1" />
    <property name="PlayRequiredElement" value="Generosity" />
    <property name="Traits" value="Asset" />
-   <property name="Keywords" value="Play to your home." />
-   <property name="Text" value="Reaction: When you defeat a Troublemaker using only [Generosity] characters, dismiss this card to score an additional point." />
+   <property name="Keywords" value="" />
+   <property name="Text" value="Play to your home.&#10;Reaction: When you defeat a Troublemaker using only [Generosity] characters, dismiss this card to score an additional point." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -3065,7 +3065,7 @@
    <property name="Rarity" value="U" />
   </card>
   <card id="1fa2d8be-1d5e-4bf0-ab97-7b559b395266" name="Too Many Bandages">
-   <property name="Number" value="148" />
+   <property name="Number" value="PR148" />
    <property name="Type" value="Resource" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -3074,8 +3074,8 @@
    <property name="PlayRequiredPower" value="2" />
    <property name="PlayRequiredElement" value="Kindness" />
    <property name="Traits" value="Condition" />
-   <property name="Keywords" value="Play on a Friend." />
-   <property name="Text" value="This Friend gets -2 power." />
+   <property name="Keywords" value="" />
+   <property name="Text" value="Play on a Friend.&#10;This Friend gets -2 power." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -3085,7 +3085,7 @@
    <property name="Rarity" value="U" />
   </card>
   <card id="02ca992e-9e58-4127-a94e-eb838bc0a7c1" name="Too Much Pie">
-   <property name="Number" value="149" />
+   <property name="Number" value="PR149" />
    <property name="Type" value="Resource" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -3094,8 +3094,8 @@
    <property name="PlayRequiredPower" value="2" />
    <property name="PlayRequiredElement" value="Honesty" />
    <property name="Traits" value="Condition" />
-   <property name="Keywords" value="Play on a Friend." />
-   <property name="Text" value="This Friend gets -5 power during the Score Phase." />
+   <property name="Keywords" value="" />
+   <property name="Text" value="Play on a Friend.&#10;This Friend gets -5 power during the Score Phase." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -3105,7 +3105,7 @@
    <property name="Rarity" value="U" />
   </card>
   <card id="94420450-73a9-4ed2-820a-083e410eed1a" name="Tricksy Hat">
-   <property name="Number" value="150" />
+   <property name="Number" value="PR150" />
    <property name="Type" value="Resource" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -3114,8 +3114,8 @@
    <property name="PlayRequiredPower" value="3" />
    <property name="PlayRequiredElement" value="Magic" />
    <property name="Traits" value="Asset" />
-   <property name="Keywords" value="Play to your home." />
-   <property name="Text" value="Main Phase: Exhaust this card and pay 1 to choose an opponent's character at a problem. Move it home." />
+   <property name="Keywords" value="" />
+   <property name="Text" value="Play to your home.&#10;Main Phase: Exhaust this card and pay 1AT to choose an opponent's character at a Problem. Move it home." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -3125,7 +3125,7 @@
    <property name="Rarity" value="U" />
   </card>
   <card id="c0624277-9e0e-40a7-84f2-c2ef3982c931" name="Two Bits">
-   <property name="Number" value="151" />
+   <property name="Number" value="PR151" />
    <property name="Type" value="Resource" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -3134,8 +3134,8 @@
    <property name="PlayRequiredPower" value="2" />
    <property name="PlayRequiredElement" value="Loyalty" />
    <property name="Traits" value="Asset" />
-   <property name="Keywords" value="Play to your home." />
-   <property name="Text" value="Main Phase: Dismiss this card to reduce the cost of the next card you play this turn by 2." />
+   <property name="Keywords" value="" />
+   <property name="Text" value="Play to your home.&#10;Main Phase: Dismiss this card to reduce the cost of the next card you play this turn by 2AT." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -3145,7 +3145,7 @@
    <property name="Rarity" value="R" />
   </card>
   <card id="d156045a-d153-483d-8da1-6cefc6f3d47e" name="Ahuizotl">
-   <property name="Number" value="152" />
+   <property name="Number" value="PR152" />
    <property name="Type" value="Troublemaker" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -3153,7 +3153,7 @@
    <property name="Cost" value="" />
    <property name="PlayRequiredPower" value="" />
    <property name="PlayRequiredElement" value="" />
-   <property name="Traits" value="" />
+   <property name="Traits" value="Epic" />
    <property name="Keywords" value="Villain." />
    <property name="Text" value="At the end of each player's Troublemaker Phase, that player moves one of their characters home from this card's Problem." />
    <property name="ProblemBonus" value="2" />
@@ -3165,7 +3165,7 @@
    <property name="Rarity" value="R" />
   </card>
   <card id="652f6fac-3c72-46ad-9b3a-0000a8637755" name="Brown Parasprite">
-   <property name="Number" value="153" />
+   <property name="Number" value="PR153" />
    <property name="Type" value="Troublemaker" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -3175,7 +3175,7 @@
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="" />
    <property name="Keywords" value="" />
-   <property name="Text" value="At the start of your opponent's Troublemaker Phase, they discard a card from the top of their deck." />
+   <property name="Text" value="At the start of your opponent's Troublemaker Phase, they put the top card of their deck into their discard pile." />
    <property name="ProblemBonus" value="1" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -3185,7 +3185,7 @@
    <property name="Rarity" value="C" />
   </card>
   <card id="24da7159-c33d-4fd0-89e4-eb757421819f" name="Flam">
-   <property name="Number" value="154" />
+   <property name="Number" value="PR154" />
    <property name="Type" value="Troublemaker" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -3205,7 +3205,7 @@
    <property name="Rarity" value="U" />
   </card>
   <card id="cdfb213b-40b8-477e-b34f-fcfa41b6fc70" name="Flim">
-   <property name="Number" value="155" />
+   <property name="Number" value="PR155" />
    <property name="Type" value="Troublemaker" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -3225,7 +3225,7 @@
    <property name="Rarity" value="U" />
   </card>
   <card id="679f6dc4-35ae-4fb8-b91c-11e67bb4582b" name="Parasprite Swarm">
-   <property name="Number" value="156" />
+   <property name="Number" value="PR156" />
    <property name="Type" value="Troublemaker" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -3235,7 +3235,7 @@
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="" />
    <property name="Keywords" value="" />
-   <property name="Text" value="At the start of your oppoent's Troublemaker Phase, this card permanently gets +1 power. When this card has eight power, frighten all your opponent's Friends at its Problem and dismiss this card." />
+   <property name="Text" value="At the start of your opponent's Troublemaker Phase, this card permanently gets +1 power. When this card has 8 power, frighten all your opponent's Friends at its Problem and dismiss this card." />
    <property name="ProblemBonus" value="1" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -3245,7 +3245,7 @@
    <property name="Rarity" value="R" />
   </card>
   <card id="ac0753a2-f8f8-45f4-b8fb-86cdd394ed8e" name="Purple Parasprite">
-   <property name="Number" value="157" />
+   <property name="Number" value="PR157" />
    <property name="Type" value="Troublemaker" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -3265,7 +3265,7 @@
    <property name="Rarity" value="C" />
   </card>
   <card id="3f5daace-d085-41fd-b2fa-1a1dff8bbd51" name="Timberwolf">
-   <property name="Number" value="158" />
+   <property name="Number" value="PR158" />
    <property name="Type" value="Troublemaker" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -3275,7 +3275,7 @@
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="" />
    <property name="Keywords" value="" />
-   <property name="Text" value="When you uncover this card, pay 2 or dismiss it. Your opponent must pay +2 to play a Friend to this card's Problem." />
+   <property name="Text" value="When this card is uncovered, its owner must pay 2AT or dismiss it.&#10;Your opponent must pay +2AT to play a Friend to this card's Problem." />
    <property name="ProblemBonus" value="3" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -3285,7 +3285,7 @@
    <property name="Rarity" value="U" />
   </card>
   <card id="89739781-96a8-4d21-a765-6225bd611248" name="Wild Manticore">
-   <property name="Number" value="159" />
+   <property name="Number" value="PR159" />
    <property name="Type" value="Troublemaker" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -3295,7 +3295,7 @@
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="" />
    <property name="Keywords" value="" />
-   <property name="Text" value="During faceoffs against this card, the challenger's opponent flips an additional card." />
+   <property name="Text" value="During faceoffs involving this card, flip an additional card." />
    <property name="ProblemBonus" value="2" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -3305,7 +3305,7 @@
    <property name="Rarity" value="U" />
   </card>
   <card id="31b24d0c-564a-4b5c-90a4-723177ac123f" name="Yellow Parasprite">
-   <property name="Number" value="160" />
+   <property name="Number" value="PR160" />
    <property name="Type" value="Troublemaker" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -3325,7 +3325,7 @@
    <property name="Rarity" value="C" />
   </card>
   <card id="3d2872f9-bb34-45bd-92d7-a6100d9ebe34" name="A Thorn in His Paw">
-   <property name="Number" value="161" />
+   <property name="Number" value="PR161" />
    <property name="Type" value="Problem" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -3335,7 +3335,7 @@
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="" />
    <property name="Keywords" value="Starting Problem." />
-   <property name="Text" value="While a player has at least three [Kindness] Friends at this Problem, that player's opponent must pay +1 to play a Friend here." />
+   <property name="Text" value="While a player has at least 3 [Kindness] Friends at this Problem, that player's opponent must pay +1AT to play a Friend here." />
    <property name="ProblemBonus" value="3" />
    <property name="ProblemOpponentPower" value="8" />
    <property name="ProblemPlayerElement1" value="Kindness" />
@@ -3345,7 +3345,7 @@
    <property name="Rarity" value="C" />
   </card>
   <card id="0760b742-8342-45fa-9e9b-d8f59a462a65" name="Avalanche!">
-   <property name="Number" value="162" />
+   <property name="Number" value="PR162" />
    <property name="Type" value="Problem" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -3364,8 +3364,8 @@
    <property name="ProblemPlayerElement2Power" value="2" />
    <property name="Rarity" value="C" />
   </card>
-  <card id="28dcd7e2-73fd-4abc-a48f-d01639ec6d96" name="Kitchen au Flambe">
-   <property name="Number" value="163" />
+  <card id="28dcd7e2-73fd-4abc-a48f-d01639ec6d96" name="Kitchen au Flambé">
+   <property name="Number" value="PR163" />
    <property name="Type" value="Problem" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -3375,7 +3375,7 @@
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="" />
    <property name="Keywords" value="" />
-   <property name="Text" value="The first player to confront this Problem may take a Friend with one power from their discard pile and put it in their hand." />
+   <property name="Text" value="The first player to confront this Problem may put a Friend with 1 power from their discard pile into their hand." />
    <property name="ProblemBonus" value="2" />
    <property name="ProblemOpponentPower" value="5" />
    <property name="ProblemPlayerElement1" value="Generosity" />
@@ -3385,7 +3385,7 @@
    <property name="Rarity" value="C" />
   </card>
   <card id="1b6d137a-5bfe-4a2d-9ab8-29bc48d8c8a6" name="Bunny Breakout">
-   <property name="Number" value="164" />
+   <property name="Number" value="PR164" />
    <property name="Type" value="Problem" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -3405,7 +3405,7 @@
    <property name="Rarity" value="U" />
   </card>
   <card id="0327df62-c120-4899-b185-1562f0beca9e" name="Bunny Stampede">
-   <property name="Number" value="165" />
+   <property name="Number" value="PR165" />
    <property name="Type" value="Problem" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -3424,8 +3424,8 @@
    <property name="ProblemPlayerElement2Power" value="2" />
    <property name="Rarity" value="C" />
   </card>
-  <card id="7a85252b-0287-47e2-a9b5-81c752d555b2" name="The Problem with Parasprites">
-   <property name="Number" value="166" />
+  <card id="7a85252b-0287-47e2-a9b5-81c752d555b2" name="The Problem With Parasprites">
+   <property name="Number" value="PR166" />
    <property name="Type" value="Problem" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -3445,7 +3445,7 @@
    <property name="Rarity" value="C" />
   </card>
   <card id="8c840c09-2570-4f22-890c-5223f55beb42" name="Clearing Gloomy Skies">
-   <property name="Number" value="167" />
+   <property name="Number" value="PR167" />
    <property name="Type" value="Problem" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -3455,7 +3455,7 @@
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="" />
    <property name="Keywords" value="" />
-   <property name="Text" value="Players with at least two [Pegasus] characters at this Problem get +1 total power during faceoffs here." />
+   <property name="Text" value="Players with at least 2 Pegasus characters at this Problem get +1 total power during faceoffs here." />
    <property name="ProblemBonus" value="3" />
    <property name="ProblemOpponentPower" value="9" />
    <property name="ProblemPlayerElement1" value="Loyalty" />
@@ -3465,7 +3465,7 @@
    <property name="Rarity" value="U" />
   </card>
   <card id="5b1ca583-1239-4b31-93f2-2546b9c8c810" name="Cloudbursting">
-   <property name="Number" value="168" />
+   <property name="Number" value="PR168" />
    <property name="Type" value="Problem" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -3485,7 +3485,7 @@
    <property name="Rarity" value="U" />
   </card>
   <card id="7d20e6f5-9bb5-45a9-b9a4-add7e1046080" name="Adventures in Foalsitting">
-   <property name="Number" value="169" />
+   <property name="Number" value="PR169" />
    <property name="Type" value="Problem" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -3505,7 +3505,7 @@
    <property name="Rarity" value="C" />
   </card>
   <card id="94e8ffa0-badc-4546-a8ba-300ab8145748" name="Emergency Dress Order">
-   <property name="Number" value="170" />
+   <property name="Number" value="PR170" />
    <property name="Type" value="Problem" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -3525,7 +3525,7 @@
    <property name="Rarity" value="U" />
   </card>
   <card id="3c3f280b-372c-406b-a0c6-ecea87d803d8" name="795 Wing Power">
-   <property name="Number" value="171" />
+   <property name="Number" value="PR171" />
    <property name="Type" value="Problem" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -3535,7 +3535,7 @@
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="" />
    <property name="Keywords" value="" />
-   <property name="Text" value="Resources played on characters here have their costs reduced by 1." />
+   <property name="Text" value="Resources played on characters here have their costs reduced by 1AT." />
    <property name="ProblemBonus" value="2" />
    <property name="ProblemOpponentPower" value="5" />
    <property name="ProblemPlayerElement1" value="Loyalty" />
@@ -3545,7 +3545,7 @@
    <property name="Rarity" value="U" />
   </card>
   <card id="a4a9a5fc-1843-4a30-85aa-04b7ce9d557d" name="Mean Meanie Pants">
-   <property name="Number" value="172" />
+   <property name="Number" value="PR172" />
    <property name="Type" value="Problem" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -3565,7 +3565,7 @@
    <property name="Rarity" value="C" />
   </card>
   <card id="d4e04055-1a0b-41c3-b539-19c21e9eaeef" name="Hungry Hungry Caterpillars">
-   <property name="Number" value="173" />
+   <property name="Number" value="PR173" />
    <property name="Type" value="Problem" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -3584,8 +3584,8 @@
    <property name="ProblemPlayerElement2Power" value="2" />
    <property name="Rarity" value="C" />
   </card>
-  <card id="bb32975a-83f3-48fa-9414-829e0a137ae6" name="I Can Fix it!">
-   <property name="Number" value="174" />
+  <card id="bb32975a-83f3-48fa-9414-829e0a137ae6" name="I Can Fix It!">
+   <property name="Number" value="PR174" />
    <property name="Type" value="Problem" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -3595,7 +3595,7 @@
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="" />
    <property name="Keywords" value="Starting Problem." />
-   <property name="Text" value="When a player wins a faceoff here by exactly one power, that player scores and additional point." />
+   <property name="Text" value="When a player wins a faceoff here by exactly 1 power, that player scores an additional point." />
    <property name="ProblemBonus" value="1" />
    <property name="ProblemOpponentPower" value="4" />
    <property name="ProblemPlayerElement1" value="Generosity" />
@@ -3605,7 +3605,7 @@
    <property name="Rarity" value="C" />
   </card>
   <card id="3f36b4eb-93c7-4171-b224-6c9c2b8bf294" name="I Need Answers">
-   <property name="Number" value="175" />
+   <property name="Number" value="PR175" />
    <property name="Type" value="Problem" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -3615,7 +3615,7 @@
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="" />
    <property name="Keywords" value="" />
-   <property name="Text" value="During their Main Phase, players may dismiss one of their Friends here to gain 1." />
+   <property name="Text" value="Main Phase: Dismiss one of your Friends here to gain 1AT. Any player may activate this ability." />
    <property name="ProblemBonus" value="2" />
    <property name="ProblemOpponentPower" value="6" />
    <property name="ProblemPlayerElement1" value="Magic" />
@@ -3625,7 +3625,7 @@
    <property name="Rarity" value="U" />
   </card>
   <card id="e8378695-b62d-4789-9ed1-29c5d1ecce1f" name="It's a Twister!">
-   <property name="Number" value="176" />
+   <property name="Number" value="PR176" />
    <property name="Type" value="Problem" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -3635,7 +3635,7 @@
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="" />
    <property name="Keywords" value="" />
-   <property name="Text" value="Score Phase: At the beginning of a player's Score Phase, if that player has at least two [Loyalty] characters, that player may ready a card at home." />
+   <property name="Text" value="At the beginning of a player's Score Phase, if that player has at least 2 [Loyalty] characters, that player may ready a card at home." />
    <property name="ProblemBonus" value="2" />
    <property name="ProblemOpponentPower" value="5" />
    <property name="ProblemPlayerElement1" value="Loyalty" />
@@ -3644,8 +3644,8 @@
    <property name="ProblemPlayerElement2Power" value="2" />
    <property name="Rarity" value="U" />
   </card>
-  <card id="73e86ebf-7b32-4376-9a56-e915c7551506" name="It's Alive">
-   <property name="Number" value="177" />
+  <card id="73e86ebf-7b32-4376-9a56-e915c7551506" name="It's Alive!">
+   <property name="Number" value="PR177" />
    <property name="Type" value="Problem" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -3664,8 +3664,8 @@
    <property name="ProblemPlayerElement2Power" value="1" />
    <property name="Rarity" value="U" />
   </card>
-  <card id="7e3e3677-02b1-4717-9207-01a6f3e2dc4e" name="Looking for Trouble">
-   <property name="Number" value="178" />
+  <card id="7e3e3677-02b1-4717-9207-01a6f3e2dc4e" name="Looking For Trouble">
+   <property name="Number" value="PR178" />
    <property name="Type" value="Problem" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -3685,7 +3685,7 @@
    <property name="Rarity" value="C" />
   </card>
   <card id="15f2f0d4-44e8-462d-a70c-0afecf8f5078" name="May the Best Pet Win">
-   <property name="Number" value="179" />
+   <property name="Number" value="PR179" />
    <property name="Type" value="Problem" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -3695,7 +3695,7 @@
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="" />
    <property name="Keywords" value="" />
-   <property name="Text" value="When this problem is played, its owner may search their deck for a [Critter] Friend, reveal it, put it into their hand, and shuffle theird deck." />
+   <property name="Text" value="When this Problem is played, its owner may search their deck for a Critter Friend, reveal it, put it into their hand, and shuffle their deck." />
    <property name="ProblemBonus" value="3" />
    <property name="ProblemOpponentPower" value="8" />
    <property name="ProblemPlayerElement1" value="Kindness" />
@@ -3705,7 +3705,7 @@
    <property name="Rarity" value="U" />
   </card>
   <card id="1209a4e5-860f-4b37-8786-12abb00c5e6d" name="Who is Gabby Gums?">
-   <property name="Number" value="180" />
+   <property name="Number" value="PR180" />
    <property name="Type" value="Problem" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -3715,7 +3715,7 @@
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="" />
    <property name="Keywords" value="" />
-   <property name="Text" value="If there at least three [Generosity] characters at this Problem, characters without [Generosity] can't move away from this Problem." />
+   <property name="Text" value="If there are at least 3 [Generosity] characters at this Problem, characters without [Generosity] can't move away from this Problem." />
    <property name="ProblemBonus" value="3" />
    <property name="ProblemOpponentPower" value="8" />
    <property name="ProblemPlayerElement1" value="Generosity" />
@@ -3725,7 +3725,7 @@
    <property name="Rarity" value="C" />
   </card>
   <card id="18b8cc26-9a15-48d6-8d75-73fab59ad10c" name="Not Enough Pinkie Pies">
-   <property name="Number" value="181" />
+   <property name="Number" value="PR181" />
    <property name="Type" value="Problem" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -3745,7 +3745,7 @@
    <property name="Rarity" value="C" />
   </card>
   <card id="f8a0c1aa-3ed1-4b08-8dcf-2fad1648ddcf" name="Monitor EVERYTHING!">
-   <property name="Number" value="182" />
+   <property name="Number" value="PR182" />
    <property name="Type" value="Problem" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -3755,7 +3755,7 @@
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="" />
    <property name="Keywords" value="Starting Problem." />
-   <property name="Text" value="Report Resources played on this Problem have their costs reduced by 1." />
+   <property name="Text" value="Report Resources played on this Problem have their costs reduced by 1AT." />
    <property name="ProblemBonus" value="3" />
    <property name="ProblemOpponentPower" value="8" />
    <property name="ProblemPlayerElement1" value="Magic" />
@@ -3765,7 +3765,7 @@
    <property name="Rarity" value="C" />
   </card>
   <card id="66a13ad4-c7e1-40ab-9d08-4e1d288467d0" name="Monster of a Minotaur">
-   <property name="Number" value="183" />
+   <property name="Number" value="PR183" />
    <property name="Type" value="Problem" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -3785,7 +3785,7 @@
    <property name="Rarity" value="C" />
   </card>
   <card id="5d7b0bfd-7c07-45ba-a0a0-a96234597054" name="My Pinkie Sense is Tingling">
-   <property name="Number" value="184" />
+   <property name="Number" value="PR184" />
    <property name="Type" value="Problem" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -3795,7 +3795,7 @@
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="" />
    <property name="Keywords" value="" />
-   <property name="Text" value="The winner of a Problem faceoff here may look at the top three cards of this Problem dekc and put them back in any order." />
+   <property name="Text" value="When a player wins a Problem faceoff here, they may look at the top 3 cards of this Problem's deck and put them back in any order." />
    <property name="ProblemBonus" value="2" />
    <property name="ProblemOpponentPower" value="6" />
    <property name="ProblemPlayerElement1" value="Laughter" />
@@ -3805,7 +3805,7 @@
    <property name="Rarity" value="U" />
   </card>
   <card id="9cc29e98-4536-4faf-a8a9-571ec8fce754" name="Maybes are for Babies">
-   <property name="Number" value="185" />
+   <property name="Number" value="PR185" />
    <property name="Type" value="Problem" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -3815,7 +3815,7 @@
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="" />
    <property name="Keywords" value="" />
-   <property name="Text" value="When a player confonts this Problem, that player may draw a card." />
+   <property name="Text" value="When a player confronts this Problem, that player may draw a card." />
    <property name="ProblemBonus" value="3" />
    <property name="ProblemOpponentPower" value="9" />
    <property name="ProblemPlayerElement1" value="Laughter" />
@@ -3825,7 +3825,7 @@
    <property name="Rarity" value="U" />
   </card>
   <card id="c685434d-42f1-42d4-9b41-38e9195c9b1d" name="Fashion Feast">
-   <property name="Number" value="186" />
+   <property name="Number" value="PR186" />
    <property name="Type" value="Problem" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -3835,7 +3835,7 @@
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="" />
    <property name="Keywords" value="" />
-   <property name="Text" value="Cards flipped for Problem faceoffs at this Problem are not put at the bottom of their players' decks, but discarded instead." />
+   <property name="Text" value="If a card flipped for a Problem faceoff here would be put on the bottom of its owner's deck, it is put into its owner's discard pile instead." />
    <property name="ProblemBonus" value="2" />
    <property name="ProblemOpponentPower" value="6" />
    <property name="ProblemPlayerElement1" value="Generosity" />
@@ -3845,7 +3845,7 @@
    <property name="Rarity" value="U" />
   </card>
   <card id="5248ceb5-e93c-49bf-af4f-986e7d3bd3e5" name="Parasprite Pandemic">
-   <property name="Number" value="187" />
+   <property name="Number" value="PR187" />
    <property name="Type" value="Problem" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -3865,7 +3865,7 @@
    <property name="Rarity" value="C" />
   </card>
   <card id="a1bf6f5e-24aa-4859-be65-c6c71b3a4b7e" name="Ponyville in a Bottle">
-   <property name="Number" value="188" />
+   <property name="Number" value="PR188" />
    <property name="Type" value="Problem" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -3875,7 +3875,7 @@
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="" />
    <property name="Keywords" value="" />
-   <property name="Text" value="Friends with less than two power can't be played to this Problem." />
+   <property name="Text" value="Friends with less than 2 power can't be played to this Problem." />
    <property name="ProblemBonus" value="2" />
    <property name="ProblemOpponentPower" value="5" />
    <property name="ProblemPlayerElement1" value="Magic" />
@@ -3885,7 +3885,7 @@
    <property name="Rarity" value="C" />
   </card>
   <card id="cb7fc8ed-22ce-4c85-88e2-de647b7df061" name="Raze This Barn">
-   <property name="Number" value="189" />
+   <property name="Number" value="PR189" />
    <property name="Type" value="Problem" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -3905,7 +3905,7 @@
    <property name="Rarity" value="U" />
   </card>
   <card id="3fb34bed-b5c2-463e-9712-dc53045e4aa3" name="Runaway Cart">
-   <property name="Number" value="190" />
+   <property name="Number" value="PR190" />
    <property name="Type" value="Problem" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -3925,7 +3925,7 @@
    <property name="Rarity" value="U" />
   </card>
   <card id="ee137bc6-c5af-498e-9366-306ac7aecec6" name="Save Sweet Apple Acres">
-   <property name="Number" value="191" />
+   <property name="Number" value="PR191" />
    <property name="Type" value="Problem" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -3945,7 +3945,7 @@
    <property name="Rarity" value="U" />
   </card>
   <card id="faacdbeb-fb15-4466-a24b-68059d3cfa26" name="Special Delivery!">
-   <property name="Number" value="192" />
+   <property name="Number" value="PR192" />
    <property name="Type" value="Problem" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -3965,7 +3965,7 @@
    <property name="Rarity" value="U" />
   </card>
   <card id="17ac19c6-8b24-489c-9d2c-68de7876b135" name="Ponynapped!">
-   <property name="Number" value="193" />
+   <property name="Number" value="PR193" />
    <property name="Type" value="Problem" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -3985,7 +3985,7 @@
    <property name="Rarity" value="U" />
   </card>
   <card id="ef908e82-b9be-4ee5-9ace-0f4fad5ae2a7" name="This Way, Little Ones">
-   <property name="Number" value="194" />
+   <property name="Number" value="PR194" />
    <property name="Type" value="Problem" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -3995,7 +3995,7 @@
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="" />
    <property name="Keywords" value="" />
-   <property name="Text" value="When this Problem is played, its owner may move one of their [Critter] Friends here from home for free." />
+   <property name="Text" value="When this Problem is played, its owner may move one of their Critter Friends here from home for free." />
    <property name="ProblemBonus" value="2" />
    <property name="ProblemOpponentPower" value="6" />
    <property name="ProblemPlayerElement1" value="Kindness" />
@@ -4005,7 +4005,7 @@
    <property name="Rarity" value="U" />
   </card>
   <card id="7a19cf83-2018-4f01-bf34-73c2dac0c6f9" name="Want it, Need it!">
-   <property name="Number" value="195" />
+   <property name="Number" value="PR195" />
    <property name="Type" value="Problem" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -4015,7 +4015,7 @@
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="" />
    <property name="Keywords" value="" />
-   <property name="Text" value="The first player to confront this Problem with a [Honesty] character with at least three power scores an additional point." />
+   <property name="Text" value="The first player to confront this Problem with a [Honesty] character with at least 3 power scores an additional point." />
    <property name="ProblemBonus" value="2" />
    <property name="ProblemOpponentPower" value="6" />
    <property name="ProblemPlayerElement1" value="Honesty" />
@@ -4025,7 +4025,7 @@
    <property name="Rarity" value="U" />
   </card>
   <card id="bd147b30-8dcb-47ce-9323-5b8f97f61554" name="Wrapping Up Winter">
-   <property name="Number" value="196" />
+   <property name="Number" value="PR196" />
    <property name="Type" value="Problem" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -4035,7 +4035,7 @@
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="" />
    <property name="Keywords" value="" />
-   <property name="Text" value="The first player to play a Friend to this Problem gains 2" />
+   <property name="Text" value="The first player to play a Friend to this Problem gains 2AT." />
    <property name="ProblemBonus" value="3" />
    <property name="ProblemOpponentPower" value="8" />
    <property name="ProblemPlayerElement1" value="Magic" />
@@ -4045,7 +4045,7 @@
    <property name="Rarity" value="U" />
   </card>
   <card id="28b9716e-8d59-4ac7-a7f3-66f930379b1b" name="Dr. Hooves">
-   <property name="Number" value="197" />
+   <property name="Number" value="PR197" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Loyalty" />
    <property name="Subname" value="Unblinking" />
@@ -4055,7 +4055,7 @@
    <property name="PlayRequiredElement" value="Loyalty" />
    <property name="Traits" value="Earth Pony" />
    <property name="Keywords" value="" />
-   <property name="Text" value="When this card is placed in the discard pile, you may search you deck for a Dr. Hooves Friend. Play it to you home frightened, and shuffle your deck." />
+   <property name="Text" value="When this card is put into the discard pile from anywhere, you may search your deck for Dr. Hooves, play it to your home frightened for free, and shuffle your deck." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -4065,7 +4065,7 @@
    <property name="Rarity" value="UR" />
   </card>
   <card id="7c6d7a2d-1455-4f5b-8e75-1ab9e4e47679" name="Rainbow Dash">
-   <property name="Number" value="198" />
+   <property name="Number" value="PR198" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Loyalty" />
    <property name="Subname" value="Winged Wonder" />
@@ -4074,8 +4074,8 @@
    <property name="PlayRequiredPower" value="2" />
    <property name="PlayRequiredElement" value="Loyalty" />
    <property name="Traits" value="Pegasus" />
-   <property name="Keywords" value="Swift" />
-   <property name="Text" value="When you play this card to a Problem, you may move up to three of your Friends to that Problem for free." />
+   <property name="Keywords" value="Swift." />
+   <property name="Text" value="When you play this card to a Problem, you may move up to 3 of your Friends to that Problem for free." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -4085,7 +4085,7 @@
    <property name="Rarity" value="UR" />
   </card>
   <card id="40d18b76-148f-4c6c-8910-2332e93a7eb0" name="Big Mac">
-   <property name="Number" value="199" />
+   <property name="Number" value="PR199" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Honesty" />
    <property name="Subname" value="Immense Apple" />
@@ -4105,7 +4105,7 @@
    <property name="Rarity" value="UR" />
   </card>
   <card id="15cd2bd3-e9d5-4207-92b3-41f16846c06d" name="Ship Shape">
-   <property name="Number" value="200" />
+   <property name="Number" value="PR200" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Honesty" />
    <property name="Subname" value="Heavy Lifter" />
@@ -4115,7 +4115,7 @@
    <property name="PlayRequiredElement" value="Honesty" />
    <property name="Traits" value="Pegasus" />
    <property name="Keywords" value="" />
-   <property name="Text" value="Faceoff Reaction: When you flip a card, exhaust this card to ignore that card's power and flip a new card." />
+   <property name="Text" value="Reaction: When you flip a card, exhaust this card to ignore that card and flip another card." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -4125,7 +4125,7 @@
    <property name="Rarity" value="UR" />
   </card>
   <card id="5ea49898-c749-4ed2-9b47-5bf813f32812" name="Lyra Heartstrings">
-   <property name="Number" value="201" />
+   <property name="Number" value="PR201" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Laughter" />
    <property name="Subname" value="Bonafide" />
@@ -4145,7 +4145,7 @@
    <property name="Rarity" value="UR" />
   </card>
   <card id="7735f2cf-e494-4f2f-b2f9-581cc79172a8" name="Screwy">
-   <property name="Number" value="202" />
+   <property name="Number" value="PR202" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Laughter" />
    <property name="Subname" value="Barking Mad" />
@@ -4155,7 +4155,7 @@
    <property name="PlayRequiredElement" value="Laughter" />
    <property name="Traits" value="Critter, Earth Pony" />
    <property name="Keywords" value="" />
-   <property name="Text" value="Your opponent needs at least three characters to confront this card's Problem." />
+   <property name="Text" value="Your opponents can't confront this card's Problem unless they have at least 3 characters at that Problem." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -4165,7 +4165,7 @@
    <property name="Rarity" value="UR" />
   </card>
   <card id="9fe3cf12-43b0-46cd-8557-4f5d3eaa1f3b" name="Twilight Sparkle">
-   <property name="Number" value="203" />
+   <property name="Number" value="PR203" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Magic" />
    <property name="Subname" value="Ursa Vanquisher" />
@@ -4174,8 +4174,8 @@
    <property name="PlayRequiredPower" value="3" />
    <property name="PlayRequiredElement" value="Magic" />
    <property name="Traits" value="Unicorn" />
-   <property name="Keywords" value="Studious" />
-   <property name="Text" value="Main Phase: While this card is at a Problem, you may exhaust and put it into your hand. If you do, move up to 2 of your opponent's characters home." />
+   <property name="Keywords" value="Studious." />
+   <property name="Text" value="Main Phase: While this card is at a Problem, you may exhaust this card and put it into your hand. If you do, move up to 2 of your opponent's characters home." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -4185,7 +4185,7 @@
    <property name="Rarity" value="UR" />
   </card>
   <card id="1c158a21-cc05-46e2-b2f1-9887b87e426e" name="Zecora">
-   <property name="Number" value="204" />
+   <property name="Number" value="PR204" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Magic" />
    <property name="Subname" value="Everfree Guru" />
@@ -4205,7 +4205,7 @@
    <property name="Rarity" value="UR" />
   </card>
   <card id="8b01aa2d-7c77-4060-8a85-debf75db770f" name="Octavia">
-   <property name="Number" value="205" />
+   <property name="Number" value="PR205" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Generosity" />
    <property name="Subname" value="Virtuoso" />
@@ -4215,7 +4215,7 @@
    <property name="PlayRequiredElement" value="Generosity" />
    <property name="Traits" value="Earth Pony" />
    <property name="Keywords" value="" />
-   <property name="Text" value="Your opponent must pay +2 to move a character to this card's Problem." />
+   <property name="Text" value="Your opponent must pay +2AT to move a character to or from this card's Problem." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -4225,7 +4225,7 @@
    <property name="Rarity" value="UR" />
   </card>
   <card id="98ac364f-a67f-45b3-aab9-c2f69f676f26" name="Rarity">
-   <property name="Number" value="206" />
+   <property name="Number" value="PR206" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Generosity" />
    <property name="Subname" value="Truly Outrageous" />
@@ -4245,7 +4245,7 @@
    <property name="Rarity" value="UR" />
   </card>
   <card id="2bc8f5b7-4667-4ace-96ad-4c0993b0bd05" name="Philomena">
-   <property name="Number" value="207" />
+   <property name="Number" value="PR207" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Kindness" />
    <property name="Subname" value="Bird of a Feather" />
@@ -4255,7 +4255,7 @@
    <property name="PlayRequiredElement" value="Kindness" />
    <property name="Traits" value="Critter" />
    <property name="Keywords" value="" />
-   <property name="Text" value="While this card is at a Problem, your other Friends at that Problem get the Critter trait during any Score Phase." />
+   <property name="Text" value="Whille this card is at a Problem, your other Friends at that Problem get the Critter trait during any Score Phase." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -4265,7 +4265,7 @@
    <property name="Rarity" value="UR" />
   </card>
   <card id="daf8974b-8784-4bff-b1f7-2052a5090181" name="Princess Celestia">
-   <property name="Number" value="208" />
+   <property name="Number" value="PR208" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Kindness" />
    <property name="Subname" value="Ray of Sunshine" />
@@ -4285,7 +4285,7 @@
    <property name="Rarity" value="UR" />
   </card>
   <card id="f0a24546-85a2-4f46-9d94-fe88bdb904a1" name="Heart's Desire">
-   <property name="Number" value="209" />
+   <property name="Number" value="PR209" />
    <property name="Type" value="Resource" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -4294,8 +4294,8 @@
    <property name="PlayRequiredPower" value="" />
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="Asset" />
-   <property name="Keywords" value="Play to your home." />
-   <property name="Text" value="Faceoff Reaction: When you win a faceoff, you may dismiss this card to gain 4." />
+   <property name="Keywords" value="" />
+   <property name="Text" value="Play to your home.&#10;Faceoff Reaction: When you win a faceoff, you may dismiss this card to gain 4AT." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -4305,7 +4305,7 @@
    <property name="Rarity" value="UR" />
   </card>
   <card id="cf031f16-4e96-436a-a846-4701f8307ce0" name="Nightmare Moon">
-   <property name="Number" value="210" />
+   <property name="Number" value="PR210" />
    <property name="Type" value="Troublemaker" />
    <property name="Element" value="" />
    <property name="Subname" value="" />
@@ -4313,9 +4313,9 @@
    <property name="Cost" value="" />
    <property name="PlayRequiredPower" value="" />
    <property name="PlayRequiredElement" value="" />
-   <property name="Traits" value="" />
+   <property name="Traits" value="Epic" />
    <property name="Keywords" value="Villain." />
-   <property name="Text" value="When you uncover this card, all players discard their hands and draw three cards. At the start of each player's Troublemaker Phase, that player discards a random card." />
+   <property name="Text" value="When this card is uncovered, all players discard their hands and draw 3 cards.&#10;At the start of each player's Troublemaker Phase, that player discards a random card." />
    <property name="ProblemBonus" value="3" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
@@ -4325,7 +4325,7 @@
    <property name="Rarity" value="UR" />
   </card>
   <card id="fd01e8a2-b683-4fba-a905-5cda0c1fd567" name="Fluttershy">
-   <property name="Number" value="211" />
+   <property name="Number" value="PR211" />
    <property name="Type" value="Friend" />
    <property name="Element" value="Kindness" />
    <property name="Subname" value="Monster Tamer" />
@@ -4335,7 +4335,7 @@
    <property name="PlayRequiredElement" value="Kindness" />
    <property name="Traits" value="Pegasus" />
    <property name="Keywords" value="" />
-   <property name="Text" value="When you play this card to a Problem, you may banish a Troublemaker at that Problem. When this card is moved from that Problem, dismissed, or banished, play that banished Troublemaker to a Problem and reveal it." />
+   <property name="Text" value="When you play this card to a Problem, you may banish a Troublemaker there. When this card leaves that Problem, put that banished Troublemaker into play at a Problem and uncover it." />
    <property name="ProblemBonus" value="" />
    <property name="ProblemOpponentPower" value="" />
    <property name="ProblemPlayerElement1" value="" />
